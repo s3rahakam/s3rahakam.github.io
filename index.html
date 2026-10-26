@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="قارن أسعار أجهزة وألعاب وإكسسوارات البلايستيشن في المتاجر المصرية.">
+<style>*,*::before,*::after{box-sizing:border-box}body{margin:0}[hidden]{display:none!important}</style>
+<title>سعرها كام</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: sticky search bar on top, product grid below; each card lists every store's price, cheapest first */
+:root{
+  --bg:#f3f4f8; --surface:#ffffff; --fg:#151a2e; --muted:#5d6480; --line:#dfe2ec;
+  --accent:#2f4bd8; --accent-soft:#e6eaff; --good:#0f8a5f; --good-soft:#e2f5ec; --warn:#a15c00;
+  --display:"Readex Pro","IBM Plex Sans Arabic",system-ui,sans-serif;
+  --body:"IBM Plex Sans Arabic",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1120; --surface:#171b2f; --fg:#e8eaf4; --muted:#9aa1bf; --line:#2a3050;
+  --accent:#7d93ff; --accent-soft:#232c55; --good:#4fd39b; --good-soft:#163428; --warn:#f0b35a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e1120; --surface:#171b2f; --fg:#e8eaf4; --muted:#9aa1bf; --line:#2a3050;
+  --accent:#7d93ff; --accent-soft:#232c55; --good:#4fd39b; --good-soft:#163428; --warn:#f0b35a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.6;direction:rtl}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:1120px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{padding-block:28px 8px}
+.brand{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h1{font-family:var(--display);font-size:clamp(28px,5vw,40px);margin:0;letter-spacing:-.01em}
+h1 span{color:var(--accent)}
+.tag{color:var(--muted);margin:4px 0 0;text-wrap:balance}
+.note{margin-top:14px;display:flex;gap:8px;align-items:flex-start;background:var(--accent-soft);border-radius:10px;padding:10px 14px;font-size:13.5px}
+.note b{white-space:nowrap}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border-bottom:1px solid var(--line);margin-top:16px}
+.bar .wrap{padding-block:12px;display:flex;flex-direction:column;gap:10px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#q{flex:1 1 240px;min-width:0;font:inherit;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+select{font:inherit;padding:9px 10px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--fg)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font:inherit;font-size:13.5px;padding:5px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--fg);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.owner{display:flex;gap:6px;align-items:center;font-size:13.5px;color:var(--muted);cursor:pointer;margin-inline-start:auto}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main{padding-block:20px 40px}
+.count{color:var(--muted);font-size:13.5px;margin:0 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.cat{font-size:12px;color:var(--muted);letter-spacing:.02em}
+.card h2{font-family:var(--display);font-size:17px;margin:2px 0 0;line-height:1.4;text-wrap:balance}
+.save{font-size:13px;color:var(--good)}
+.offers{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.offer{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:10px;padding:8px 10px;border-radius:10px;border:1px solid var(--line)}
+.offer.best{border-color:var(--good);background:var(--good-soft)}
+.store{font-weight:600;font-size:14px;display:flex;gap:6px;align-items:center;flex-wrap:wrap;min-width:0}
+.pill{font-size:11px;font-weight:500;padding:1px 8px;border-radius:999px}
+.pill.best{background:var(--good);color:var(--surface)}
+.pill.aff{border:1px solid var(--accent);color:var(--accent)}
+.pill.noaff{border:1px solid var(--warn);color:var(--warn)}
+.price{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:14px;white-space:nowrap}
+.buy{font-size:13px;font-weight:600;text-decoration:none;color:var(--accent);padding:4px 10px;border-radius:8px;border:1px solid var(--accent);white-space:nowrap}
+.buy:hover{background:var(--accent);color:#fff}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--muted);font-size:13px}
+@media (max-width:420px){.offer{grid-template-columns:1fr auto}.buy{grid-column:1/-1;text-align:center}}
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <div class="brand"><h1>سعرها <span>كام</span>؟</h1></div>
+  <p class="tag">قارن أسعار أجهزة وألعاب وإكسسوارات البلايستيشن في أشهر المتاجر المصرية، واشتري من الأرخص.</p>
+  <div class="note"><b>نسخة تجريبية:</b><span>الأسعار المعروضة أمثلة للتجربة وليست أسعارًا حقيقية. أزرار الشراء بتفتح صفحة البحث في المتجر.</span></div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="row">
+      <input id="q" type="search" placeholder="دوّر على منتج… مثلاً: دراع، FC، سماعة" aria-label="بحث">
+      <select id="sort" aria-label="ترتيب">
+        <option value="save">الأكبر توفيرًا</option>
+        <option value="low">الأرخص أولًا</option>
+        <option value="high">الأغلى أولًا</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="chips" id="chips"></div>
+      <label class="owner"><input type="checkbox" id="owner"> وضع صاحب الموقع</label>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <p class="count" id="count"></p>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer class="wrap">آخر تحديث للأسعار: <span id="upd"></span> · الموقع ممكن ياخد عمولة من بعض المتاجر من غير ما السعر يزيد عليك.</footer>
+
+<script>
+document.documentElement.dir="rtl";document.documentElement.lang="ar";
+const STORES={
+  amazon:{name:"أمازون مصر",aff:true,url:q=>"https://www.amazon.eg/s?k="+encodeURIComponent(q)},
+  noon:{name:"نون",aff:true,url:q=>"https://www.noon.com/egypt-ar/search/?q="+encodeURIComponent(q)},
+  jumia:{name:"جوميا",aff:true,url:q=>"https://www.jumia.com.eg/catalog/?q="+encodeURIComponent(q)},
+  local:{name:"متجر محلي",aff:false,url:q=>"https://www.google.com/search?q="+encodeURIComponent(q+" سعر مصر")}
+};
+// أمثلة أسعار للتجربة فقط
+const PRODUCTS=[
+  {n:"جهاز PS5 Slim نسخة الديسك",c:"أجهزة",q:"PS5 Slim Disc",p:{amazon:31999,noon:32499,jumia:31750,local:33000}},
+  {n:"جهاز PS5 Slim النسخة الرقمية",c:"أجهزة",q:"PS5 Slim Digital",p:{amazon:27499,noon:26990,jumia:27800}},
+  {n:"دراع DualSense أبيض",c:"إكسسوارات",q:"DualSense controller white",p:{amazon:3899,noon:3750,jumia:3999,local:3600}},
+  {n:"دراع DualSense أسود",c:"إكسسوارات",q:"DualSense controller black",p:{amazon:4050,noon:3999,jumia:4100}},
+  {n:"قاعدة شحن لدراعين",c:"إكسسوارات",q:"PS5 charging station",p:{amazon:1450,noon:1299,jumia:1380,local:1200}},
+  {n:"سماعة Pulse 3D",c:"إكسسوارات",q:"Pulse 3D headset",p:{amazon:5499,noon:5650,jumia:5399}},
+  {n:"لعبة EA Sports FC 26",c:"ألعاب",q:"EA FC 26 PS5",p:{amazon:2799,noon:2650,jumia:2899,local:2500}},
+  {n:"لعبة Gran Turismo 7",c:"ألعاب",q:"Gran Turismo 7 PS5",p:{amazon:1899,noon:1950,jumia:1799}},
+  {n:"لعبة Ghost of Yōtei",c:"ألعاب",q:"Ghost of Yotei PS5",p:{amazon:3299,noon:3199,jumia:3350}},
+  {n:"اشتراك PS Plus Essential ‏3 شهور",c:"اشتراكات وكروت",q:"PS Plus Essential 3 months",p:{amazon:1150,noon:1099,local:1050}},
+  {n:"كارت PSN ‏20 دولار",c:"اشتراكات وكروت",q:"PSN card 20 USD",p:{amazon:1190,noon:1150,jumia:1210,local:1120}},
+  {n:"حافظة سفر للجهاز",c:"إكسسوارات",q:"PS5 carrying case",p:{amazon:1699,noon:1590,jumia:1750}}
+];
+const fmt=n=>n.toLocaleString("ar-EG")+" ج.م";
+const cats=["الكل",...new Set(PRODUCTS.map(p=>p.c))];
+let cat="الكل";
+const $=id=>document.getElementById(id);
+$("upd").textContent=new Date().toLocaleDateString("ar-EG",{day:"numeric",month:"long",year:"numeric"});
+let saved={};try{saved=JSON.parse(localStorage.getItem("skam")||"{}")}catch(e){}
+if(saved.cat&&cats.includes(saved.cat))cat=saved.cat;
+if(saved.sort)$("sort").value=saved.sort;
+$("owner").checked=!!saved.owner;
+function persist(){try{localStorage.setItem("skam",JSON.stringify({cat,sort:$("sort").value,owner:$("owner").checked}))}catch(e){}}
+function chips(){
+  $("chips").innerHTML="";
+  cats.forEach(c=>{const b=document.createElement("button");b.className="chip";b.textContent=c;b.setAttribute("aria-pressed",c===cat);
+    b.onclick=()=>{cat=c;persist();chips();render()};$("chips").appendChild(b)});
+}
+function stats(p){const v=Object.values(p.p);return{min:Math.min(...v),max:Math.max(...v)}}
+function render(){
+  const q=$("q").value.trim().toLowerCase(), owner=$("owner").checked, sort=$("sort").value;
+  let list=PRODUCTS.filter(p=>(cat==="الكل"||p.c===cat)&&(!q||(p.n+" "+p.q).toLowerCase().includes(q)));
+  list.sort((a,b)=>{const A=stats(a),B=stats(b);
+    return sort==="low"?A.min-B.min:sort==="high"?B.min-A.min:(B.max-B.min)-(A.max-A.min)});
+  $("count").textContent=list.length+" منتج";
+  const g=$("grid");g.innerHTML="";
+  if(!list.length){g.innerHTML='<p class="empty">مفيش نتايج. جرّب كلمة تانية أو اختار "الكل".</p>';return}
+  list.forEach(p=>{
+    const {min,max}=stats(p);
+    const offers=Object.entries(p.p).sort((a,b)=>a[1]-b[1]);
+    const card=document.createElement("article");card.className="card";
+    card.innerHTML=`<div><div class="cat">${p.c}</div><h2>${p.n}</h2>
+      ${max>min?`<div class="save">توفّر لحد ${fmt(max-min)} لو اشتريت من الأرخص</div>`:""}</div>
+      <ul class="offers">${offers.map(([k,v])=>{const s=STORES[k];const best=v===min;
+        return `<li class="offer${best?" best":""}"><span class="store">${s.name}
+          ${best?'<span class="pill best">الأرخص</span>':""}
+          ${owner?(s.aff?'<span class="pill aff">بعمولة</span>':'<span class="pill noaff">بدون عمولة</span>'):""}</span>
+          <span class="price">${fmt(v)}</span>
+          <a class="buy" href="${s.url(p.q)}" target="_blank" rel="noopener sponsored">اشتري</a></li>`}).join("")}</ul>`;
+    g.appendChild(card);
+  });
+}
+$("q").addEventListener("input",render);
+$("sort").addEventListener("change",()=>{persist();render()});
+$("owner").addEventListener("change",()=>{persist();render()});
+chips();render();
+</script>
+
+</body>
+</html>
