@@ -70,7 +70,7 @@ footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--mute
 <header class="wrap">
   <div class="brand"><h1>سعرها <span>كام</span>؟</h1></div>
   <p class="tag">قارن أسعار أجهزة وألعاب وإكسسوارات البلايستيشن في أشهر المتاجر المصرية، واشتري من الأرخص.</p>
-  <div class="note"><b>نسخة تجريبية:</b><span>الأسعار المعروضة أمثلة للتجربة وليست أسعارًا حقيقية. أزرار الشراء بتفتح صفحة البحث في المتجر.</span></div>
+  <div class="note" id="demo"><b>نسخة تجريبية:</b><span>الأسعار المعروضة أمثلة للتجربة وليست أسعارًا حقيقية. أزرار الشراء بتفتح صفحة البحث في المتجر.</span></div>
 </header>
 
 <div class="bar">
@@ -99,46 +99,28 @@ footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--mute
 
 <script>
 document.documentElement.dir="rtl";document.documentElement.lang="ar";
-const STORES={
-  amazon:{name:"أمازون مصر",aff:true,url:q=>"https://www.amazon.eg/s?k="+encodeURIComponent(q)},
-  noon:{name:"نون",aff:true,url:q=>"https://www.noon.com/egypt-ar/search/?q="+encodeURIComponent(q)},
-  jumia:{name:"جوميا",aff:true,url:q=>"https://www.jumia.com.eg/catalog/?q="+encodeURIComponent(q)},
-  local:{name:"متجر محلي",aff:false,url:q=>"https://www.google.com/search?q="+encodeURIComponent(q+" سعر مصر")}
-};
-// أمثلة أسعار للتجربة فقط
-const PRODUCTS=[
-  {n:"جهاز PS5 Slim نسخة الديسك",c:"أجهزة",q:"PS5 Slim Disc",p:{amazon:31999,noon:32499,jumia:31750,local:33000}},
-  {n:"جهاز PS5 Slim النسخة الرقمية",c:"أجهزة",q:"PS5 Slim Digital",p:{amazon:27499,noon:26990,jumia:27800}},
-  {n:"دراع DualSense أبيض",c:"إكسسوارات",q:"DualSense controller white",p:{amazon:3899,noon:3750,jumia:3999,local:3600}},
-  {n:"دراع DualSense أسود",c:"إكسسوارات",q:"DualSense controller black",p:{amazon:4050,noon:3999,jumia:4100}},
-  {n:"قاعدة شحن لدراعين",c:"إكسسوارات",q:"PS5 charging station",p:{amazon:1450,noon:1299,jumia:1380,local:1200}},
-  {n:"سماعة Pulse 3D",c:"إكسسوارات",q:"Pulse 3D headset",p:{amazon:5499,noon:5650,jumia:5399}},
-  {n:"لعبة EA Sports FC 26",c:"ألعاب",q:"EA FC 26 PS5",p:{amazon:2799,noon:2650,jumia:2899,local:2500}},
-  {n:"لعبة Gran Turismo 7",c:"ألعاب",q:"Gran Turismo 7 PS5",p:{amazon:1899,noon:1950,jumia:1799}},
-  {n:"لعبة Ghost of Yōtei",c:"ألعاب",q:"Ghost of Yotei PS5",p:{amazon:3299,noon:3199,jumia:3350}},
-  {n:"اشتراك PS Plus Essential ‏3 شهور",c:"اشتراكات وكروت",q:"PS Plus Essential 3 months",p:{amazon:1150,noon:1099,local:1050}},
-  {n:"كارت PSN ‏20 دولار",c:"اشتراكات وكروت",q:"PSN card 20 USD",p:{amazon:1190,noon:1150,jumia:1210,local:1120}},
-  {n:"حافظة سفر للجهاز",c:"إكسسوارات",q:"PS5 carrying case",p:{amazon:1699,noon:1590,jumia:1750}}
-];
-const fmt=n=>n.toLocaleString("ar-EG")+" ج.م";
-const cats=["الكل",...new Set(PRODUCTS.map(p=>p.c))];
-let cat="الكل";
 const $=id=>document.getElementById(id);
-$("upd").textContent=new Date().toLocaleDateString("ar-EG",{day:"numeric",month:"long",year:"numeric"});
+const fmt=n=>Number(n).toLocaleString("ar-EG")+" ج.م";
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let DATA=null,cat="الكل",cats=["الكل"];
 let saved={};try{saved=JSON.parse(localStorage.getItem("skam")||"{}")}catch(e){}
-if(saved.cat&&cats.includes(saved.cat))cat=saved.cat;
 if(saved.sort)$("sort").value=saved.sort;
 $("owner").checked=!!saved.owner;
 function persist(){try{localStorage.setItem("skam",JSON.stringify({cat,sort:$("sort").value,owner:$("owner").checked}))}catch(e){}}
+function offerUrl(p,o){const s=DATA.stores[o.store]||{};
+  if(o.url)return o.url;
+  const q=o.store==="local"?p.search+" سعر مصر":p.search;
+  return (s.search||"https://www.google.com/search?q=")+encodeURIComponent(q)}
 function chips(){
   $("chips").innerHTML="";
   cats.forEach(c=>{const b=document.createElement("button");b.className="chip";b.textContent=c;b.setAttribute("aria-pressed",c===cat);
     b.onclick=()=>{cat=c;persist();chips();render()};$("chips").appendChild(b)});
 }
-function stats(p){const v=Object.values(p.p);return{min:Math.min(...v),max:Math.max(...v)}}
+function live(p){return p.offers.filter(o=>o.price>0)}
+function stats(p){const v=live(p).map(o=>o.price);return v.length?{min:Math.min(...v),max:Math.max(...v)}:{min:Infinity,max:Infinity}}
 function render(){
   const q=$("q").value.trim().toLowerCase(), owner=$("owner").checked, sort=$("sort").value;
-  let list=PRODUCTS.filter(p=>(cat==="الكل"||p.c===cat)&&(!q||(p.n+" "+p.q).toLowerCase().includes(q)));
+  let list=DATA.products.filter(p=>live(p).length&&(cat==="الكل"||p.category===cat)&&(!q||(p.name+" "+p.search).toLowerCase().includes(q)));
   list.sort((a,b)=>{const A=stats(a),B=stats(b);
     return sort==="low"?A.min-B.min:sort==="high"?B.min-A.min:(B.max-B.min)-(A.max-A.min)});
   $("count").textContent=list.length+" منتج";
@@ -146,23 +128,30 @@ function render(){
   if(!list.length){g.innerHTML='<p class="empty">مفيش نتايج. جرّب كلمة تانية أو اختار "الكل".</p>';return}
   list.forEach(p=>{
     const {min,max}=stats(p);
-    const offers=Object.entries(p.p).sort((a,b)=>a[1]-b[1]);
+    const offers=live(p).sort((a,b)=>a.price-b.price);
     const card=document.createElement("article");card.className="card";
-    card.innerHTML=`<div><div class="cat">${p.c}</div><h2>${p.n}</h2>
+    card.innerHTML=`<div><div class="cat">${esc(p.category)}</div><h2>${esc(p.name)}</h2>
       ${max>min?`<div class="save">توفّر لحد ${fmt(max-min)} لو اشتريت من الأرخص</div>`:""}</div>
-      <ul class="offers">${offers.map(([k,v])=>{const s=STORES[k];const best=v===min;
-        return `<li class="offer${best?" best":""}"><span class="store">${s.name}
+      <ul class="offers">${offers.map(o=>{const s=DATA.stores[o.store]||{name:o.store};const best=o.price===min;
+        return `<li class="offer${best?" best":""}"><span class="store">${esc(s.name)}
           ${best?'<span class="pill best">الأرخص</span>':""}
-          ${owner?(s.aff?'<span class="pill aff">بعمولة</span>':'<span class="pill noaff">بدون عمولة</span>'):""}</span>
-          <span class="price">${fmt(v)}</span>
-          <a class="buy" href="${s.url(p.q)}" target="_blank" rel="noopener sponsored">اشتري</a></li>`}).join("")}</ul>`;
+          ${owner?(s.affiliate&&o.url?'<span class="pill aff">بعمولة</span>':'<span class="pill noaff">بدون عمولة</span>'):""}</span>
+          <span class="price">${fmt(o.price)}</span>
+          <a class="buy" href="${esc(offerUrl(p,o))}" target="_blank" rel="noopener sponsored">اشتري</a></li>`}).join("")}</ul>`;
     g.appendChild(card);
   });
 }
-$("q").addEventListener("input",render);
-$("sort").addEventListener("change",()=>{persist();render()});
-$("owner").addEventListener("change",()=>{persist();render()});
-chips();render();
+fetch("products.json?t="+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).then(d=>{
+  DATA=d;
+  cats=["الكل",...new Set(d.products.map(p=>p.category))];
+  if(saved.cat&&cats.includes(saved.cat))cat=saved.cat;
+  $("demo").hidden=!d.demo;
+  $("upd").textContent=new Date(d.updated).toLocaleDateString("ar-EG",{day:"numeric",month:"long",year:"numeric"});
+  chips();render();
+}).catch(()=>{$("grid").innerHTML='<p class="empty">الأسعار مش بتحمّل دلوقتي. جرّب تعمل تحديث للصفحة بعد شوية.</p>'});
+$("q").addEventListener("input",()=>DATA&&render());
+$("sort").addEventListener("change",()=>{persist();DATA&&render()});
+$("owner").addEventListener("change",()=>{persist();DATA&&render()});
 </script>
 
 </body>

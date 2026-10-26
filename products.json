@@ -1,0 +1,329 @@
+{
+  "demo": true,
+  "updated": "2026-10-27",
+  "stores": {
+    "amazon": {
+      "name": "أمازون مصر",
+      "affiliate": false,
+      "search": "https://www.amazon.eg/s?k="
+    },
+    "noon": {
+      "name": "نون",
+      "affiliate": false,
+      "search": "https://www.noon.com/egypt-ar/search/?q="
+    },
+    "jumia": {
+      "name": "جوميا",
+      "affiliate": false,
+      "search": "https://www.jumia.com.eg/catalog/?q="
+    },
+    "local": {
+      "name": "متجر محلي",
+      "affiliate": false,
+      "search": "https://www.google.com/search?q="
+    }
+  },
+  "products": [
+    {
+      "id": "ps5-slim-disc",
+      "name": "جهاز PS5 Slim نسخة الديسك",
+      "category": "أجهزة",
+      "search": "PS5 Slim Disc",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 31999,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 32499,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 31750,
+          "url": ""
+        },
+        {
+          "store": "local",
+          "price": 33000,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "ps5-slim-digital",
+      "name": "جهاز PS5 Slim النسخة الرقمية",
+      "category": "أجهزة",
+      "search": "PS5 Slim Digital",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 27499,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 26990,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 27800,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "dualsense-white",
+      "name": "دراع DualSense أبيض",
+      "category": "إكسسوارات",
+      "search": "DualSense controller white",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 3899,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 3750,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 3999,
+          "url": ""
+        },
+        {
+          "store": "local",
+          "price": 3600,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "dualsense-black",
+      "name": "دراع DualSense أسود",
+      "category": "إكسسوارات",
+      "search": "DualSense controller black",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4050,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 3999,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 4100,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "charging-station",
+      "name": "قاعدة شحن لدراعين",
+      "category": "إكسسوارات",
+      "search": "PS5 charging station",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1450,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 1299,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 1380,
+          "url": ""
+        },
+        {
+          "store": "local",
+          "price": 1200,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "pulse-3d",
+      "name": "سماعة Pulse 3D",
+      "category": "إكسسوارات",
+      "search": "Pulse 3D headset",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 5499,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 5650,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 5399,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "fc-26",
+      "name": "لعبة EA Sports FC 26",
+      "category": "ألعاب",
+      "search": "EA FC 26 PS5",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2799,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 2650,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 2899,
+          "url": ""
+        },
+        {
+          "store": "local",
+          "price": 2500,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "gt7",
+      "name": "لعبة Gran Turismo 7",
+      "category": "ألعاب",
+      "search": "Gran Turismo 7 PS5",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1899,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 1950,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 1799,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "ghost-yotei",
+      "name": "لعبة Ghost of Yōtei",
+      "category": "ألعاب",
+      "search": "Ghost of Yotei PS5",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 3299,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 3199,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 3350,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "ps-plus-3m",
+      "name": "اشتراك PS Plus Essential ‏3 شهور",
+      "category": "اشتراكات وكروت",
+      "search": "PS Plus Essential 3 months",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1150,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 1099,
+          "url": ""
+        },
+        {
+          "store": "local",
+          "price": 1050,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "psn-20",
+      "name": "كارت PSN ‏20 دولار",
+      "category": "اشتراكات وكروت",
+      "search": "PSN card 20 USD",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1190,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 1150,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 1210,
+          "url": ""
+        },
+        {
+          "store": "local",
+          "price": 1120,
+          "url": ""
+        }
+      ]
+    },
+    {
+      "id": "travel-case",
+      "name": "حافظة سفر للجهاز",
+      "category": "إكسسوارات",
+      "search": "PS5 carrying case",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1699,
+          "url": ""
+        },
+        {
+          "store": "noon",
+          "price": 1590,
+          "url": ""
+        },
+        {
+          "store": "jumia",
+          "price": 1750,
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
