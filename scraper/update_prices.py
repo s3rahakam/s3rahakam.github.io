@@ -29,6 +29,9 @@ PER_STORE = 8  # كام نتيجة من كل متجر لكل كلمة
 STORES = {
     "noon":   {"name": "نون",        "affiliate": False, "search": "https://www.noon.com/egypt-en/search/?q="},
     "amazon": {"name": "أمازون مصر", "affiliate": False, "search": "https://www.amazon.eg/s?k="},
+    "btech":  {"name": "B.TECH",     "affiliate": False, "search": "https://btech.com/en/s?q="},
+    "2b":     {"name": "2B",         "affiliate": False, "search": "https://2b.com.eg/en/catalogsearch/result/?q="},
+    "carrefour": {"name": "كارفور",  "affiliate": False, "search": "https://www.carrefouregypt.com/mafegy/en/search?keyword="},
     "jumia":  {"name": "جوميا",      "affiliate": False, "search": "https://www.jumia.com.eg/catalog/?q="},
 }
 
@@ -133,7 +136,101 @@ def search_amazon(q):
     return out
 
 
-SEARCHERS = {"noon": search_noon, "amazon": search_amazon}
+# ---------- B.TECH ----------
+
+def search_btech(q):
+    page = fetch("https://btech.com/en/s?q=" + quote_plus(q))
+    data = page.replace('\\"', '"')
+    out, seen = [], set()
+    for m in re.finditer(r'\{"variant_id":"[^"]+","product_id":"[^"]+"', data):
+        c = data[m.start():m.start() + 3000]
+        name = re.search(r'"name":"((?:[^"\\]|\\.)*)"', c)
+        brand = re.search(r'"brand":"((?:[^"\\]|\\.)*)"', c)
+        price = re.search(r'"final_price":([\d.]+)', c)
+        base = re.search(r'"base_price":([\d.]+)', c)
+        stock = re.search(r'"is_in_stock":(true|false)', c)
+        thumb = re.search(r'"thumbnail_url":"([^"]+)"', c)
+        slug = re.search(r'"slug":"([^"]+)"', c[c.find('"color_options"') if '"color_options"' in c else 0:]) \
+            or re.search(r'"product_slug":"([^"]+)"', c)
+        sku = re.search(r'"sku":"([^"]+)"', c)
+        if not (name and price and sku) or sku.group(1) in seen:
+            continue
+        seen.add(sku.group(1))
+        out.append({
+            "store": "btech",
+            "brand": brand.group(1) if brand else "",
+            "name": name.group(1),
+            "price": money(price.group(1)),
+            "old_price": money(base.group(1)) if base else None,
+            "image": "https://media.btech.com/" + thumb.group(1) if thumb else "",
+            "url": f"https://btech.com/en/p/{slug.group(1)}" if slug else "https://btech.com/en/s?q=" + quote_plus(q),
+            "in_stock": not stock or stock.group(1) == "true",
+            "key": "btech:" + sku.group(1),
+        })
+        if len(out) >= PER_STORE:
+            break
+    if not out and "is_in_stock" not in data:
+        raise RuntimeError("شكل صفحة B.TECH اتغير")
+    return out
+
+
+# ---------- 2B ----------
+
+def search_2b(q):
+    page = fetch("https://2b.com.eg/en/catalogsearch/result/?q=" + quote_plus(q))
+    out = []
+    for c in page.split('class="product-item-link"')[1:]:
+        c = c[:6000]
+        link = re.search(r'href="([^"]+)"[^>]*>\s*([^<]+?)\s*</a>', c)
+        price = re.search(r'data-price-amount="([\d.]+)"[^>]*data-price-type="finalPrice"', c) or \
+            re.search(r'data-price-type="finalPrice"[^>]*data-price-amount="([\d.]+)"', c)
+        old = re.search(r'data-price-amount="([\d.]+)"[^>]*data-price-type="oldPrice"', c)
+        if not (link and price):
+            continue
+        out.append({
+            "store": "2b",
+            "name": htmllib.unescape(link.group(2)),
+            "price": money(price.group(1)),
+            "old_price": money(old.group(1)) if old else None,
+            "image": "",
+            "url": link.group(1),
+            "in_stock": "out-of-stock" not in c[:3000] and "unavailable" not in c[:3000],
+            "key": "2b:" + link.group(1).rstrip("/").rsplit("/", 1)[-1][:80],
+        })
+        if len(out) >= PER_STORE:
+            break
+    return out
+
+
+# ---------- كارفور ----------
+
+def search_carrefour(q):
+    page = fetch("https://www.carrefouregypt.com/mafegy/en/search?keyword=" + quote_plus(q))
+    out = []
+    for m in re.finditer(r'<a[^>]+href="(/mafegy/en/[^"]+/p/(\d+)[^"]*)"[^>]*><span[^>]*>([^<]+)</span></a>'
+                         r'<div[^>]*>(.{0,600}?)</div>', page):
+        prices = re.findall(r'>([\d,]+(?:\.\d+)?)</span>', m.group(4))
+        if not prices:
+            continue
+        vals = [money(p) for p in prices if money(p)]
+        img = re.findall(r'<img[^>]+src="(https://cdn[^"]+/(?:pim|product)[^"]+)"', page[max(0, m.start() - 4000):m.start()])
+        out.append({
+            "store": "carrefour",
+            "name": htmllib.unescape(m.group(3)),
+            "price": min(vals),
+            "old_price": max(vals) if len(vals) > 1 else None,
+            "image": img[-1] if img else "",
+            "url": "https://www.carrefouregypt.com" + htmllib.unescape(m.group(1)),
+            "in_stock": True,
+            "key": "carrefour:" + m.group(2),
+        })
+        if len(out) >= PER_STORE:
+            break
+    return out
+
+
+SEARCHERS = {"noon": search_noon, "amazon": search_amazon, "btech": search_btech,
+             "2b": search_2b, "carrefour": search_carrefour}
 
 
 # ---------- المطابقة بين المتاجر ----------
