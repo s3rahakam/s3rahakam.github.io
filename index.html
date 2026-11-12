@@ -60,6 +60,8 @@ main{padding-block:20px 40px}
 .price{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:14px;white-space:nowrap}
 .buy{font-size:13px;font-weight:600;text-decoration:none;color:var(--accent);padding:4px 10px;border-radius:8px;border:1px solid var(--accent);white-space:nowrap}
 .buy:hover{background:var(--accent);color:#fff}
+.offer.out{opacity:.6}.offer.out .price{text-decoration:line-through}
+.pill.outp{border:1px solid var(--muted);color:var(--muted)}
 .empty{padding:40px 0;text-align:center;color:var(--muted)}
 footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--muted);font-size:13px}
 @media (max-width:420px){.offer{grid-template-columns:1fr auto}.buy{grid-column:1/-1;text-align:center}}
@@ -116,8 +118,9 @@ function chips(){
   cats.forEach(c=>{const b=document.createElement("button");b.className="chip";b.textContent=c;b.setAttribute("aria-pressed",c===cat);
     b.onclick=()=>{cat=c;persist();chips();render()};$("chips").appendChild(b)});
 }
+const avail=o=>o.price>0&&o.in_stock!==false;
 function live(p){return p.offers.filter(o=>o.price>0)}
-function stats(p){const v=live(p).map(o=>o.price);return v.length?{min:Math.min(...v),max:Math.max(...v)}:{min:Infinity,max:Infinity}}
+function stats(p){const v=(p.offers.filter(avail).length?p.offers.filter(avail):live(p)).map(o=>o.price);return v.length?{min:Math.min(...v),max:Math.max(...v)}:{min:Infinity,max:Infinity}}
 function render(){
   const q=$("q").value.trim().toLowerCase(), owner=$("owner").checked, sort=$("sort").value;
   let list=DATA.products.filter(p=>live(p).length&&(cat==="الكل"||p.category===cat)&&(!q||(p.name+" "+p.search).toLowerCase().includes(q)));
@@ -128,13 +131,13 @@ function render(){
   if(!list.length){g.innerHTML='<p class="empty">مفيش نتايج. جرّب كلمة تانية أو اختار "الكل".</p>';return}
   list.forEach(p=>{
     const {min,max}=stats(p);
-    const offers=live(p).sort((a,b)=>a.price-b.price);
+    const offers=live(p).sort((a,b)=>(avail(b)-avail(a))||(a.price-b.price));
     const card=document.createElement("article");card.className="card";
     card.innerHTML=`<div><div class="cat">${esc(p.category)}</div><h2>${esc(p.name)}</h2>
       ${max>min?`<div class="save">توفّر لحد ${fmt(max-min)} لو اشتريت من الأرخص</div>`:""}</div>
-      <ul class="offers">${offers.map(o=>{const s=DATA.stores[o.store]||{name:o.store};const best=o.price===min;
-        return `<li class="offer${best?" best":""}"><span class="store">${esc(s.name)}
-          ${best?'<span class="pill best">الأرخص</span>':""}
+      <ul class="offers">${offers.map(o=>{const s=DATA.stores[o.store]||{name:o.store};const out=!avail(o);const best=!out&&o.price===min;
+        return `<li class="offer${best?" best":""}${out?" out":""}"><span class="store">${esc(s.name)}
+          ${best?'<span class="pill best">الأرخص</span>':""}${out?'<span class="pill outp">غير متوفر</span>':""}${o.stale?'<span class="pill noaff" title="آخر سعر معروف">قديم</span>':""}
           ${owner?(s.affiliate&&o.url?'<span class="pill aff">بعمولة</span>':'<span class="pill noaff">بدون عمولة</span>'):""}</span>
           <span class="price">${fmt(o.price)}</span>
           <a class="buy" href="${esc(offerUrl(p,o))}" target="_blank" rel="noopener sponsored">اشتري</a></li>`}).join("")}</ul>`;
@@ -146,7 +149,7 @@ fetch("products.json?t="+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()})
   cats=["الكل",...new Set(d.products.map(p=>p.category))];
   if(saved.cat&&cats.includes(saved.cat))cat=saved.cat;
   $("demo").hidden=!d.demo;
-  $("upd").textContent=new Date(d.updated).toLocaleDateString("ar-EG",{day:"numeric",month:"long",year:"numeric"});
+  $("upd").textContent=new Date(d.updated).toLocaleString("ar-EG",{day:"numeric",month:"long",hour:"numeric",minute:"2-digit"});
   chips();render();
 }).catch(()=>{$("grid").innerHTML='<p class="empty">الأسعار مش بتحمّل دلوقتي. جرّب تعمل تحديث للصفحة بعد شوية.</p>'});
 $("q").addEventListener("input",()=>DATA&&render());
