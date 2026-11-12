@@ -150,8 +150,10 @@ def search_btech(q):
         base = re.search(r'"base_price":([\d.]+)', c)
         stock = re.search(r'"is_in_stock":(true|false)', c)
         thumb = re.search(r'"thumbnail_url":"([^"]+)"', c)
-        slug = re.search(r'"slug":"([^"]+)"', c[c.find('"color_options"') if '"color_options"' in c else 0:]) \
-            or re.search(r'"product_slug":"([^"]+)"', c)
+        vid = re.search(r'"variant_id":"([^"]+)"', c).group(1)
+        slug = re.search(r'"variant_id":"' + re.escape(vid) + r'","slug":"([^"]+)"', c) or \
+            re.search(r'"slug":"([^"]+)","variant_id":"' + re.escape(vid) + '"', c) or \
+            re.search(r'"product_slug":"([^"]+)"', c)
         sku = re.search(r'"sku":"([^"]+)"', c)
         if not (name and price and sku) or sku.group(1) in seen:
             continue
@@ -179,8 +181,10 @@ def search_btech(q):
 def search_2b(q):
     page = fetch("https://2b.com.eg/en/catalogsearch/result/?q=" + quote_plus(q))
     out = []
-    for c in page.split('class="product-item-link"')[1:]:
+    parts = page.split('class="product-item-link"')
+    for i, c in enumerate(parts[1:], 1):
         c = c[:6000]
+        img = re.findall(r'class="product-image-photo[^"]*"\s+src="([^"]+)"', parts[i - 1][-4000:])
         link = re.search(r'href="([^"]+)"[^>]*>\s*([^<]+?)\s*</a>', c)
         price = re.search(r'data-price-amount="([\d.]+)"[^>]*data-price-type="finalPrice"', c) or \
             re.search(r'data-price-type="finalPrice"[^>]*data-price-amount="([\d.]+)"', c)
@@ -192,7 +196,7 @@ def search_2b(q):
             "name": htmllib.unescape(link.group(2)),
             "price": money(price.group(1)),
             "old_price": money(old.group(1)) if old else None,
-            "image": "",
+            "image": img[-1] if img else "",
             "url": link.group(1),
             "in_stock": "out-of-stock" not in c[:3000] and "unavailable" not in c[:3000],
             "key": "2b:" + link.group(1).rstrip("/").rsplit("/", 1)[-1][:80],

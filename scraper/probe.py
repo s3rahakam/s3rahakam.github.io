@@ -1,18 +1,18 @@
-"""تجربة: كل متجر بيرجع إيه لكلمة واحدة."""
-import sys, pathlib, re
+import sys, pathlib, re, time
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import update_prices as u
-for q in ["DualSense controller", "iPhone 16"]:
-    for store, fn in u.SEARCHERS.items():
-        if store in ("noon", "amazon"): continue
+from curl_cffi import requests as http
+url = "https://www.carrefouregypt.com/mafegy/en/search?keyword=dualsense"
+for imp in ["chrome", "chrome120", "safari17_0", "firefox133", "chrome131_android", "edge101"]:
+    for hv in [None, "v1"]:
         try:
-            r = fn(q); print(f"== {q} / {store}: {len(r)}")
-            for x in r[:4]: print("   ", x["price"], x["old_price"], x["in_stock"], x["name"][:70], "|", x["url"][:90], "|", x["image"][:60])
+            kw = {"http_version": hv} if hv else {}
+            r = http.get(url, impersonate=imp, timeout=40, headers={"Accept-Language": "en-US,en;q=0.9"}, **kw)
+            print(imp, hv, r.status_code, len(r.text), r.text.count("/p/"))
         except Exception as e:
-            print(f"== {q} / {store}: ERROR {e}")
-# B.TECH: شكل لينك المنتج
-t = u.fetch("https://btech.com/en/s?q=dualsense")
-print("btech hrefs:", list(dict.fromkeys(re.findall(r'href="(/en/[^"?#]+)"', t)))[:25])
-print("btech img:", re.findall(r'https://[a-z.]*btech[a-z.]*/[^"\\ ]+\.(?:jpg|png|webp)', t)[:3])
-t = u.fetch("https://2b.com.eg/en/catalogsearch/result/?q=dualsense")
-i = t.find('product-item-link'); print("2b ctx:", re.sub(r"\s+"," ",t[i-1500:i+1500]))
+            print(imp, hv, "ERR", str(e)[:90])
+        time.sleep(3)
+for q in ["DualSense controller"]:
+    for store in ["btech", "2b"]:
+        r = u.SEARCHERS[store](q)
+        for x in r[:3]: print(store, x["price"], x["name"][:50], "|", x["url"][:80], "|", x["image"][:70])
