@@ -33,12 +33,18 @@ STORES = {
 }
 
 
-def fetch(url):
-    r = http.get(url, impersonate="chrome", timeout=40,
-                 headers={"Accept-Language": "en-US,en;q=0.9,ar;q=0.8"})
-    if r.status_code != 200:
+def fetch(url, tries=3):
+    for attempt in range(tries):
+        r = http.get(url, impersonate="chrome", timeout=40,
+                     headers={"Accept-Language": "en-US,en;q=0.9,ar;q=0.8"})
+        if r.status_code == 200:
+            return r.text
+        if r.status_code in (429, 503) and attempt < tries - 1:
+            wait = 20 * (attempt + 1) + random.uniform(0, 10)
+            print(f"  … HTTP {r.status_code}، هستنى {wait:.0f} ثانية وأجرب تاني")
+            time.sleep(wait)
+            continue
         raise RuntimeError(f"HTTP {r.status_code}")
-    return r.text
 
 
 def money(s):
@@ -73,8 +79,10 @@ def search_noon(q):
         if not (name and sku and slug and price):
             continue
         buy = field("is_buyable", r"(!0|!1|true|false)")
+        brand = field("brand")
         out.append({
             "store": "noon",
+            "brand": json.loads(f'"{brand}"') if brand else "Generic",
             "name": json.loads(f'"{name}"'),
             "price": price,
             "old_price": money(field("price", r"([\d.]+)")),
@@ -141,27 +149,53 @@ COLORS = set("black white red blue green grey gray silver gold pink purple yello
 VARIANTS = set("pro max plus ultra mini edge lite fe slim digital disc air se neo prime".split())
 
 
-def tokens(name):
-    n = re.sub(r"(\d+)\s+(gb|tb|mah|w|mm|inch|hz)\b", r"\1\2", name.lower())
-    return set(re.findall(r"[a-z0-9]+", n))
+BRANDS = set("sony apple samsung xiaomi redmi anker jbl logitech lenovo hp dell huawei oppo realme "
+             "honor infinix tecno nokia havit baseus ugreen oraimo joyroom lg razer hyperx redragon "
+             "corsair steelseries soundcore beats bose marshall amazfit garmin generic".split())
+GENERIC_NUM = {"ps5", "ps4", "5g", "4g", "usb", "3a", "2", "1"}
+
+
+def keywords(name):
+    """الكلمات المهمة بالترتيب (أول الاسم هو اللي فيه الموديل عادةً)."""
+    n = name.lower()
+    n = re.sub(r"play\s*station\s*5|\bps\s*5\b", " ps5 ", n)
+    n = re.sub(r"(\d+)\s+(gb|tb|mah|w|mm|inch|hz|k)\b", r"\1\2", n)
+    n = re.sub(r"\bdual\s+sense\b", "dualsense", n)
+    n = re.sub(r"\blight\s+sync\b", "lightsync", n)
+    return re.findall(r"[a-z0-9]+", n)
 
 
 def similar(a, b):
-    ta, tb = tokens(a), tokens(b)
-    # لو فيه ألوان مختلفة أو أرقام مختلفة، يبقوا منتجين مختلفين
+    wa, wb = keywords(a), keywords(b)
+    ta, tb = set(wa), set(wb)
     if ta & VARIANTS != tb & VARIANTS:  # iPhone 16 غير iPhone 16 Pro
         return 0
-    ca, cb = ta & COLORS, tb & COLORS
-    if ca and cb and not (ca & cb):
-        return 0
-    na = {t for t in ta if any(ch.isdigit() for ch in t)}
-    nb = {t for t in tb if any(ch.isdigit() for ch in t)}
-    if na and nb and not (na <= nb or nb <= na):
-        return 0
-    ka, kb = ta - STOP, tb - STOP
+    ka = [w for w in wa if w not in STOP][:8]
+    kb = [w for w in wb if w not in STOP][:8]
     if not ka or not kb:
         return 0
-    return len(ka & kb) / len(ka | kb)
+    sa, sb = set(ka), set(kb)
+    # أول لون مذكور هو لون المنتج نفسه (اللي بعده غالبًا لون الحزام أو العلبة)
+    ca = next((w for w in wa if w in COLORS), None)
+    cb = next((w for w in wb if w in COLORS), None)
+    if ca and cb and ca != cb and {ca, cb} != {"grey", "gray"}:
+        return 0
+    if ("wired" in ta) != ("wired" in tb) and ("wireless" in ta or "wireless" in tb):
+        return 0
+    # ماركات مختلفة = منتجات مختلفة
+    head = lambda w: set(w[:next((i for i, x in enumerate(w) if x in ("for", "compatible", "with")), len(w))])
+    ba, bb = head(wa) & BRANDS, head(wb) & BRANDS
+    if ba and bb and not (ba & bb):
+        return 0
+    # أرقام مختلفة (مقاس، مساحة، سنة الموديل) = منتجات مختلفة
+    na = {w for w in sa if any(c.isdigit() for c in w)} - GENERIC_NUM
+    nb = {w for w in sb if any(c.isdigit() for c in w)} - GENERIC_NUM
+    if na and nb and not (na <= nb or nb <= na):
+        return 0
+    score = len(sa & sb) / len(sa | sb)
+    if na & nb and any(c.isalpha() for w in na & nb for c in w):
+        score += 0.3  # كود موديل مشترك زي G102 أو A56
+    return score
 
 
 def merge(results, category, query):
@@ -172,15 +206,16 @@ def merge(results, category, query):
         for p in products:
             if any(o["store"] == r["store"] for o in p["offers"]):
                 continue
-            s = similar(p["name"], r["name"])
+            s = similar(p.get("brand", "") + " " + p["name"], r.get("brand", "") + " " + r["name"])
             if s > score:
                 best, score = p, s
         offer = {k: r[k] for k in ("store", "price", "old_price", "url", "in_stock")}
-        if best and score >= 0.6:
+        if best and score >= 0.5:
             best["offers"].append(offer)
             best["image"] = best["image"] or r["image"]
         else:
             products.append({
+                "brand": r.get("brand", ""),
                 "id": r["key"].replace(":", "-"),
                 "name": r["name"],
                 "category": category,
