@@ -38,8 +38,14 @@ STORES = {
 
 def fetch(url, tries=3):
     for attempt in range(tries):
-        r = http.get(url, impersonate="chrome", timeout=40,
-                     headers={"Accept-Language": "en-US,en;q=0.9,ar;q=0.8"})
+        try:
+            r = http.get(url, impersonate="chrome" if attempt == 0 else "safari17_0", timeout=40,
+                         headers={"Accept-Language": "en-US,en;q=0.9,ar;q=0.8"})
+        except Exception as e:  # الاتصال اتقطع
+            if attempt == tries - 1:
+                raise RuntimeError(f"الاتصال اتقطع: {str(e)[:60]}")
+            time.sleep(10 + random.uniform(0, 5))
+            continue
         if r.status_code == 200:
             return r.text
         if r.status_code in (429, 503) and attempt < tries - 1:
@@ -329,6 +335,21 @@ def merge(results, category, query):
 
 # ---------- التشغيل ----------
 
+ANCHORS = 5          # كام منتج من كل كلمة ندوّر عليه بالاسم في باقي المتاجر
+MAX_FAILS = 4        # متجر فشل كذا مرة في التشغيل ده؟ نوقفه لحد التشغيل الجاي
+
+
+def targeted_query(p):
+    """اسم قصير ودقيق للبحث بيه في متجر تاني: الماركة + أول كلمات الاسم."""
+    name = re.sub(r"\(.*?\)|\[.*?\]|\|.*$", " ", p["name"])
+    name = re.split(r"\s[-–,]\s|,", name)[0] if len(name) > 60 else name
+    words = re.findall(r"[A-Za-z0-9][A-Za-z0-9+.]*", name)[:7]
+    brand = (p.get("brand") or "").strip()
+    if brand and brand.lower() != "generic" and brand.lower() not in [w.lower() for w in words]:
+        words.insert(0, brand)
+    return " ".join(words)
+
+
 def main():
     try:
         old = json.loads(OUTPUT.read_text(encoding="utf-8"))
@@ -338,23 +359,55 @@ def main():
 
     rows = [r for r in csv.DictReader(SEARCHES.open(encoding="utf-8-sig")) if (r.get("search") or "").strip()]
     products, seen, ok, failed = [], set(), 0, []
+    fails = {s: 0 for s in SEARCHERS}
+
+    def run(store, query):
+        nonlocal ok
+        if fails[store] >= MAX_FAILS:
+            return None
+        try:
+            found = SEARCHERS[store](query)
+            ok += 1
+            return found
+        except Exception as e:  # noqa: BLE001
+            fails[store] += 1
+            failed.append(f"{query} / {store}: {e}")
+            print(f"✗ {query} / {store}: {e}", file=sys.stderr)
+            return None
+        finally:
+            time.sleep(random.uniform(3, 6))
 
     for row in rows:
         q, cat = row["search"].strip(), (row.get("category") or "أخرى").strip()
         results, dead = [], []
-        for store, fn in SEARCHERS.items():
-            try:
-                found = fn(q)
-                results += found
-                ok += 1
-                print(f"✓ {q} / {store}: {len(found)} منتج")
-            except Exception as e:  # noqa: BLE001
-                failed.append(f"{q} / {store}: {e}")
+        for store in SEARCHERS:
+            found = run(store, q)
+            if found is None:
                 dead.append(store)
-                print(f"✗ {q} / {store}: {e}", file=sys.stderr)
-            time.sleep(random.uniform(4, 8))
+            else:
+                results += found
+                print(f"✓ {q} / {store}: {len(found)} منتج")
 
         merged = merge(results, cat, q)
+
+        # البحث الموجّه: أهم المنتجات ندوّر عليها بالاسم في المتاجر اللي ملقيناهاش فيها
+        live = [s for s in SEARCHERS if fails[s] < MAX_FAILS]
+        anchors = sorted(merged, key=lambda p: -len(p["offers"]))[:ANCHORS]
+        for p in anchors:
+            missing = [s for s in live if not any(o["store"] == s for o in p["offers"])]
+            if not missing:
+                continue
+            tq = targeted_query(p)
+            for store in missing:
+                found = run(store, tq) or []
+                best = max(found, key=lambda r: similar(p.get("brand", "") + " " + p["name"],
+                                                         r.get("brand", "") + " " + r["name"]), default=None)
+                if best and similar(p.get("brand", "") + " " + p["name"],
+                                    best.get("brand", "") + " " + best["name"]) >= 0.5:
+                    p["offers"].append({k: best[k] for k in ("store", "price", "old_price", "url", "in_stock")})
+                    p["image"] = p.get("image") or best.get("image", "")
+                    print(f"  ↳ {store}: لقيت «{p['name'][:45]}» بـ {best['price']:,}")
+
         # متجر فشل؟ رجّع آخر أسعاره المعروفة لنفس الكلمة
         for p in old:
             if p.get("search") != q:
