@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
 
       - name: تسطيب المكتبات
-        run: pip install curl_cffi requests
+        run: pip install curl_cffi
 
       - name: سحب الأسعار
         run: python scraper/update_prices.py

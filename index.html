@@ -47,7 +47,11 @@ main{padding-block:20px 40px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
 .cat{font-size:12px;color:var(--muted);letter-spacing:.02em}
-.card h2{font-family:var(--display);font-size:17px;margin:2px 0 0;line-height:1.4;text-wrap:balance}
+.card h2{font-family:var(--display);font-size:15.5px;margin:2px 0 0;line-height:1.45;text-wrap:balance;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.head{display:flex;gap:12px;align-items:flex-start}.ht{min-width:0;flex:1}
+.thumb{width:76px;height:76px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid var(--line);flex:none}
+.was{color:var(--muted);font-size:12px;margin-inline-end:6px}
+.more{font-size:13px;color:var(--muted)}.more a{color:var(--accent)}
 .save{font-size:13px;color:var(--good)}
 .offers{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
 .offer{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:10px;padding:8px 10px;border-radius:10px;border:1px solid var(--line)}
@@ -71,14 +75,14 @@ footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--mute
 
 <header class="wrap">
   <div class="brand"><h1>سعرها <span>كام</span>؟</h1></div>
-  <p class="tag">قارن أسعار أجهزة وألعاب وإكسسوارات البلايستيشن في أشهر المتاجر المصرية، واشتري من الأرخص.</p>
+  <p class="tag">قارن أسعار البلايستيشن والموبايلات والسماعات والإكسسوارات في نون وأمازون مصر، واشتري من الأرخص. الأسعار بتتحدث أوتوماتيك كل 6 ساعات.</p>
   <div class="note" id="demo"><b>نسخة تجريبية:</b><span>الأسعار المعروضة أمثلة للتجربة وليست أسعارًا حقيقية. أزرار الشراء بتفتح صفحة البحث في المتجر.</span></div>
 </header>
 
 <div class="bar">
   <div class="wrap">
     <div class="row">
-      <input id="q" type="search" placeholder="دوّر على منتج… مثلاً: دراع، FC، سماعة" aria-label="بحث">
+      <input id="q" type="search" placeholder="دوّر على منتج… مثلاً: DualSense، iPhone، AirPods" aria-label="بحث">
       <select id="sort" aria-label="ترتيب">
         <option value="save">الأكبر توفيرًا</option>
         <option value="low">الأرخص أولًا</option>
@@ -133,14 +137,15 @@ function render(){
     const {min,max}=stats(p);
     const offers=live(p).sort((a,b)=>(avail(b)-avail(a))||(a.price-b.price));
     const card=document.createElement("article");card.className="card";
-    card.innerHTML=`<div><div class="cat">${esc(p.category)}</div><h2>${esc(p.name)}</h2>
-      ${max>min?`<div class="save">توفّر لحد ${fmt(max-min)} لو اشتريت من الأرخص</div>`:""}</div>
+    card.innerHTML=`<div class="head">${p.image?`<img class="thumb" src="${esc(p.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:""}<div class="ht"><div class="cat">${esc(p.category)}</div><h2>${esc(p.name)}</h2>
+      ${max>min?`<div class="save">توفّر لحد ${fmt(max-min)} لو اشتريت من الأرخص</div>`:""}</div></div>
       <ul class="offers">${offers.map(o=>{const s=DATA.stores[o.store]||{name:o.store};const out=!avail(o);const best=!out&&o.price===min;
         return `<li class="offer${best?" best":""}${out?" out":""}"><span class="store">${esc(s.name)}
           ${best?'<span class="pill best">الأرخص</span>':""}${out?'<span class="pill outp">غير متوفر</span>':""}${o.stale?'<span class="pill noaff" title="آخر سعر معروف">قديم</span>':""}
           ${owner?(s.affiliate&&o.url?'<span class="pill aff">بعمولة</span>':'<span class="pill noaff">بدون عمولة</span>'):""}</span>
-          <span class="price">${fmt(o.price)}</span>
-          <a class="buy" href="${esc(offerUrl(p,o))}" target="_blank" rel="noopener sponsored">اشتري</a></li>`}).join("")}</ul>`;
+          <span class="price">${o.old_price>o.price?`<s class="was">${fmt(o.old_price)}</s>`:""}${fmt(o.price)}</span>
+          <a class="buy" href="${esc(offerUrl(p,o))}" target="_blank" rel="noopener sponsored">اشتري</a></li>`}).join("")}</ul>
+      <div class="more">دوّر عليه كمان في <a href="${esc(DATA.stores.jumia?DATA.stores.jumia.search+encodeURIComponent(p.search||p.name):"#")}" target="_blank" rel="noopener">جوميا</a></div>`;
     g.appendChild(card);
   });
 }

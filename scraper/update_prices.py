@@ -1,12 +1,15 @@
 """
-يحدّث products.json من صفحات المنتجات اللي في tracked.csv.
+بيحدّث products.json لوحده.
 
-لكل منتج، بيفتح لينك كل متجر (جوميا / نون / أمازون)، ويطلع السعر والتوفر،
-ويكتب النتيجة في products.json اللي الموقع بيقرا منه.
+لكل كلمة بحث في searches.csv:
+  1. يبحث في نون وأمازون مصر ويجيب أول نتايج (الاسم، السعر، الصورة، التوفر، اللينك).
+  2. يطابق المنتج الواحد بين المتجرين بالاسم.
+  3. يكتب النتيجة في products.json اللي الموقع بيقرا منه.
 
-لو صفحة فشلت، بيحتفظ بآخر سعر معروف بدل ما يمسحه.
+لو متجر فشل، بيحتفظ بآخر أسعار معروفة ليه ويعلّم عليها "قديم".
 """
 import csv
+import html as htmllib
 import json
 import random
 import re
@@ -14,199 +17,220 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import quote_plus
 
-try:
-    from curl_cffi import requests as http  # بيقلّد متصفح Chrome، فبيتقفل أقل
-
-    def fetch(url):
-        return http.get(url, impersonate="chrome", timeout=30,
-                        headers={"Accept-Language": "ar-EG,ar;q=0.9,en;q=0.8"})
-except ImportError:  # احتياطي
-    import requests as http
-
-    def fetch(url):
-        return http.get(url, timeout=30, headers={
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-                          "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-            "Accept-Language": "ar-EG,ar;q=0.9,en;q=0.8"})
+from curl_cffi import requests as http
 
 ROOT = Path(__file__).resolve().parent.parent
-TRACKED = ROOT / "tracked.csv"
+SEARCHES = ROOT / "searches.csv"
 OUTPUT = ROOT / "products.json"
+PER_STORE = 8  # كام نتيجة من كل متجر لكل كلمة
 
 STORES = {
+    "noon":   {"name": "نون",        "affiliate": False, "search": "https://www.noon.com/egypt-en/search/?q="},
     "amazon": {"name": "أمازون مصر", "affiliate": False, "search": "https://www.amazon.eg/s?k="},
-    "noon":   {"name": "نون",        "affiliate": False, "search": "https://www.noon.com/egypt-ar/search/?q="},
     "jumia":  {"name": "جوميا",      "affiliate": False, "search": "https://www.jumia.com.eg/catalog/?q="},
 }
-STORE_ORDER = ["jumia", "noon", "amazon"]
 
 
-# ---------- استخراج السعر ----------
+def fetch(url):
+    r = http.get(url, impersonate="chrome", timeout=40,
+                 headers={"Accept-Language": "en-US,en;q=0.9,ar;q=0.8"})
+    if r.status_code != 200:
+        raise RuntimeError(f"HTTP {r.status_code}")
+    return r.text
 
-def to_number(value):
-    """'EGP 3,899.00' أو '٣٬٨٩٩' -> 3899.0"""
-    if value is None:
+
+def money(s):
+    if s is None:
         return None
-    if isinstance(value, (int, float)):
-        return float(value) if value > 0 else None
-    s = str(value).translate(str.maketrans("٠١٢٣٤٥٦٧٨٩٬٫", "0123456789,."))
-    m = re.search(r"\d[\d,]*(?:\.\d+)?", s)
+    m = re.search(r"\d[\d,]*(?:\.\d+)?", str(s))
     if not m:
         return None
     n = float(m.group(0).replace(",", ""))
-    return n if n > 0 else None
+    return round(n) if n > 0 else None
 
 
-def walk(obj):
-    """يلف على كل القواميس جوه JSON متداخل."""
-    if isinstance(obj, dict):
-        yield obj
-        for v in obj.values():
-            yield from walk(v)
-    elif isinstance(obj, list):
-        for v in obj:
-            yield from walk(v)
+# ---------- نون ----------
 
-
-def from_json_ld(html):
-    """أغلب المتاجر بتحط بيانات المنتج في <script type="application/ld+json">."""
-    for block in re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html, re.S | re.I):
-        try:
-            data = json.loads(block.strip())
-        except ValueError:
+def search_noon(q):
+    page = fetch(STORES["noon"]["search"] + quote_plus(q))
+    start = page.find("hits:")
+    if start < 0:
+        raise RuntimeError("شكل صفحة نون اتغير (ملقتش النتايج)")
+    chunks = page[start:].split('{offer_code:"')[1:]
+    out = []
+    for c in chunks:
+        c = c[:4000]
+        code = c.split('"', 1)[0]
+        def field(name, pat=r'"((?:[^"\\]|\\.)*)"'):
+            m = re.search(r'[{,]' + name + r':' + pat, "," + c)
+            return m.group(1) if m else None
+        name = field("name")
+        sku = field("sku")
+        slug = field("url")
+        price = money(field("sale_price", r"([\d.]+)")) or money(field("price", r"([\d.]+)"))
+        if not (name and sku and slug and price):
             continue
-        for node in walk(data):
-            t = node.get("@type")
-            types = t if isinstance(t, list) else [t]
-            if "Product" not in types:
+        buy = field("is_buyable", r"(!0|!1|true|false)")
+        out.append({
+            "store": "noon",
+            "name": json.loads(f'"{name}"'),
+            "price": price,
+            "old_price": money(field("price", r"([\d.]+)")),
+            "image": json.loads(f'"{field("image_url") or ""}"'),
+            "url": f"https://www.noon.com/egypt-en/{slug}/{sku}/p/?o={code}",
+            "in_stock": buy not in ("!1", "false"),
+            "key": "noon:" + sku,
+        })
+        if len(out) >= PER_STORE:
+            break
+    return out
+
+
+# ---------- أمازون ----------
+
+def search_amazon(q):
+    page = fetch(STORES["amazon"]["search"] + quote_plus(q) + "&language=en_AE")
+    if "triggerInterstitialChallenge" in page or re.search(r"captcha", page[:5000], re.I):
+        raise RuntimeError("أمازون طلب تحقق (اتقفل)")
+    blocks = re.split(r'(?=<div[^>]*data-component-type="s-search-result")', page)[1:]
+    out = []
+    for b in blocks:
+        b = b[:30000]
+        asin = re.search(r'data-asin="([A-Z0-9]{10})"', b)
+        if not asin or "AdHolder" in b[:600] or ">Sponsored<" in b:
+            continue
+        title = re.search(r'<h2[^>]*aria-label="([^"]+)"', b) or \
+            re.search(r'<h2[^>]*>.*?<span[^>]*>([^<]+)</span>', b, re.S)
+        price = re.search(r'<span class="a-price"[^>]*>\s*<span class="a-offscreen">([^<]+)<', b)
+        old = re.search(r'<span class="a-price a-text-price"[^>]*>\s*<span class="a-offscreen">([^<]+)<', b)
+        img = re.search(r'<img[^>]+class="s-image"[^>]+src="([^"]+)"', b)
+        if not (title and price):
+            continue
+        name = htmllib.unescape(title.group(1)).strip()
+        name = re.sub(r"^Sponsored Ad - ", "", name)
+        out.append({
+            "store": "amazon",
+            "name": name,
+            "price": money(price.group(1)),
+            "old_price": money(old.group(1)) if old else None,
+            "image": img.group(1) if img else "",
+            "url": f"https://www.amazon.eg/dp/{asin.group(1)}",
+            "in_stock": True,  # أمازون مش بيعرض سعر لغير المتوفر
+            "key": "amazon:" + asin.group(1),
+        })
+        if len(out) >= PER_STORE:
+            break
+    return out
+
+
+SEARCHERS = {"noon": search_noon, "amazon": search_amazon}
+
+
+# ---------- المطابقة بين المتاجر ----------
+
+STOP = set("for with the and of to in by new original official version edition wireless "
+           "gaming console controller ps5 ps playstation 5 pack bundle egypt uae ksa "
+           "warranty international black white sony apple samsung xiaomi anker jbl logitech "
+           "lenovo hp dell huawei oppo realme honor infinix tecno nokia electronic arts ea sports".split())
+COLORS = set("black white red blue green grey gray silver gold pink purple yellow orange "
+             "camouflage camo midnight cosmic starlight volcanic chroma sterling indigo teal".split())
+
+
+VARIANTS = set("pro max plus ultra mini edge lite fe slim digital disc air se neo prime".split())
+
+
+def tokens(name):
+    n = re.sub(r"(\d+)\s+(gb|tb|mah|w|mm|inch|hz)\b", r"\1\2", name.lower())
+    return set(re.findall(r"[a-z0-9]+", n))
+
+
+def similar(a, b):
+    ta, tb = tokens(a), tokens(b)
+    # لو فيه ألوان مختلفة أو أرقام مختلفة، يبقوا منتجين مختلفين
+    if ta & VARIANTS != tb & VARIANTS:  # iPhone 16 غير iPhone 16 Pro
+        return 0
+    ca, cb = ta & COLORS, tb & COLORS
+    if ca and cb and not (ca & cb):
+        return 0
+    na = {t for t in ta if any(ch.isdigit() for ch in t)}
+    nb = {t for t in tb if any(ch.isdigit() for ch in t)}
+    if na and nb and not (na <= nb or nb <= na):
+        return 0
+    ka, kb = ta - STOP, tb - STOP
+    if not ka or not kb:
+        return 0
+    return len(ka & kb) / len(ka | kb)
+
+
+def merge(results, category, query):
+    """يحوّل نتايج المتاجر لمنتجات، وكل منتج فيه عروض من أكتر من متجر."""
+    products = []
+    for r in sorted(results, key=lambda x: x["store"] != "noon"):
+        best, score = None, 0
+        for p in products:
+            if any(o["store"] == r["store"] for o in p["offers"]):
                 continue
-            offers = node.get("offers")
-            for offer in ([offers] if isinstance(offers, dict) else offers or []):
-                if not isinstance(offer, dict):
-                    continue
-                price = to_number(offer.get("price") or offer.get("lowPrice"))
-                if price:
-                    avail = str(offer.get("availability", ""))
-                    in_stock = None
-                    if avail:
-                        in_stock = not re.search(r"OutOfStock|SoldOut|Discontinued", avail, re.I)
-                    return price, in_stock
-    return None, None
-
-
-def from_meta(html):
-    for pat in [
-        r'<meta[^>]+(?:property|itemprop|name)=["\'](?:product:price:amount|og:price:amount|price)["\'][^>]+content=["\']([^"\']+)',
-        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+(?:property|itemprop|name)=["\'](?:product:price:amount|og:price:amount|price)["\']',
-    ]:
-        m = re.search(pat, html, re.I)
-        if m and to_number(m.group(1)):
-            return to_number(m.group(1)), None
-    return None, None
-
-
-def parse_jumia(html):
-    price, stock = from_json_ld(html)
-    if not price:
-        # جوميا: <span class="-b -ubpt -tal -fs24 -prxs">EGP 3,899</span>
-        m = re.search(r'data-price=["\']([\d.,]+)', html) or \
-            re.search(r'class="-b -ubpt[^"]*"[^>]*>\s*(?:EGP|جنيه)?\s*([\d.,]+)', html)
-        price = to_number(m.group(1)) if m else None
-    if stock is None:
-        stock = not re.search(r"out of stock|نفذت الكمية|غير متوفر", html, re.I)
-    return price, stock
-
-
-def parse_noon(html):
-    price, stock = from_json_ld(html)
-    if not price:
-        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-        if m:
-            try:
-                for node in walk(json.loads(m.group(1))):
-                    p = node.get("sale_price") or node.get("salePrice") or node.get("price")
-                    if to_number(p) and ("sku" in node or "offer_code" in node or "offerCode" in node):
-                        price = to_number(p)
-                        if "is_buyable" in node:
-                            stock = bool(node["is_buyable"])
-                        break
-            except ValueError:
-                pass
-    if stock is None and price:
-        stock = not re.search(r"out of stock|غير متوفر حاليا", html, re.I)
-    return price, stock
-
-
-def parse_amazon(html):
-    if re.search(r"captcha|Robot Check", html, re.I):
-        raise RuntimeError("أمازون طلب كابتشا (اتقفل)")
-    m = re.search(r'class="a-price[^"]*"[^>]*>\s*<span class="a-offscreen">([^<]+)<', html) or \
-        re.search(r'id="priceblock_(?:our|deal)price"[^>]*>([^<]+)<', html)
-    price = to_number(m.group(1)) if m else None
-    if not price:
-        price, _ = from_json_ld(html)
-    stock = not re.search(r'id="outOfStock"|Currently unavailable|غير متوفر حالياً', html, re.I)
-    return price, stock
-
-
-PARSERS = {"jumia": parse_jumia, "noon": parse_noon, "amazon": parse_amazon}
+            s = similar(p["name"], r["name"])
+            if s > score:
+                best, score = p, s
+        offer = {k: r[k] for k in ("store", "price", "old_price", "url", "in_stock")}
+        if best and score >= 0.6:
+            best["offers"].append(offer)
+            best["image"] = best["image"] or r["image"]
+        else:
+            products.append({
+                "id": r["key"].replace(":", "-"),
+                "name": r["name"],
+                "category": category,
+                "search": query,
+                "image": r["image"],
+                "offers": [offer],
+            })
+    return products
 
 
 # ---------- التشغيل ----------
 
-def load_previous():
+def main():
     try:
         old = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        old = [] if old.get("demo") else old.get("products", [])
     except (OSError, ValueError):
-        return {}
-    if old.get("demo"):
-        return {}  # أسعار الأمثلة مش أسعار حقيقية، منحتفظش بيها
-    return {(p["id"], o["store"]): o for p in old.get("products", []) for o in p.get("offers", [])}
+        old = []
 
-
-def main():
-    previous = load_previous()
-    rows = list(csv.DictReader(TRACKED.open(encoding="utf-8-sig")))
-    products, ok, failed = [], 0, []
+    rows = [r for r in csv.DictReader(SEARCHES.open(encoding="utf-8-sig")) if (r.get("search") or "").strip()]
+    products, seen, ok, failed = [], set(), 0, []
 
     for row in rows:
-        pid = (row.get("id") or "").strip()
-        if not pid:
-            continue
-        offers = []
-        for store in STORE_ORDER:
-            url = (row.get(store) or "").strip()
-            if not url:
-                continue
-            offer = {"store": store, "url": url, "price": 0, "in_stock": None, "checked": None}
+        q, cat = row["search"].strip(), (row.get("category") or "أخرى").strip()
+        results, dead = [], []
+        for store, fn in SEARCHERS.items():
             try:
-                r = fetch(url)
-                if r.status_code != 200:
-                    raise RuntimeError(f"HTTP {r.status_code}")
-                price, in_stock = PARSERS[store](r.text)
-                if not price:
-                    raise RuntimeError("ملقتش السعر في الصفحة")
-                offer.update(price=round(price), in_stock=in_stock,
-                             checked=datetime.now(timezone.utc).isoformat(timespec="minutes"))
+                found = fn(q)
+                results += found
                 ok += 1
-                print(f"✓ {pid} / {store}: {price:,.0f} ج.م {'متوفر' if in_stock else 'غير متوفر'}")
+                print(f"✓ {q} / {store}: {len(found)} منتج")
             except Exception as e:  # noqa: BLE001
-                failed.append(f"{pid} / {store}: {e}")
-                print(f"✗ {pid} / {store}: {e}", file=sys.stderr)
-                old = previous.get((pid, store))
-                if old:  # احتفظ بآخر سعر معروف
-                    offer.update(price=old.get("price", 0), in_stock=old.get("in_stock"),
-                                 checked=old.get("checked"), stale=True)
-            offers.append(offer)
-            time.sleep(random.uniform(3, 7))  # متضغطش على المتجر
-        products.append({
-            "id": pid,
-            "name": row.get("name", pid).strip(),
-            "category": (row.get("category") or "أخرى").strip(),
-            "search": (row.get("search") or row.get("name") or "").strip(),
-            "offers": offers,
-        })
+                failed.append(f"{q} / {store}: {e}")
+                dead.append(store)
+                print(f"✗ {q} / {store}: {e}", file=sys.stderr)
+            time.sleep(random.uniform(4, 8))
+
+        merged = merge(results, cat, q)
+        # متجر فشل؟ رجّع آخر أسعاره المعروفة لنفس الكلمة
+        for p in old:
+            if p.get("search") != q:
+                continue
+            for o in p.get("offers", []):
+                if o["store"] in dead and not any(m["id"] == p["id"] for m in merged):
+                    merged.append({**p, "offers": [{**o, "stale": True}]})
+
+        for p in merged:
+            if p["id"] not in seen:
+                seen.add(p["id"])
+                products.append(p)
 
     data = {
         "demo": False,
@@ -214,10 +238,12 @@ def main():
         "stores": STORES,
         "products": products,
     }
+    multi = sum(1 for p in products if len(p["offers"]) > 1)
+    print(f"\nتم: {len(products)} منتج ({multi} منهم متقارن في أكتر من متجر). "
+          f"{ok} بحث نجح، {len(failed)} فشل.")
+    if not products:
+        sys.exit("ولا منتج اتجاب. مش هغيّر الموقع.")
     OUTPUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nتم: {ok} سعر اتحدث، {len(failed)} فشل.")
-    if ok == 0 and failed:
-        sys.exit("ولا سعر اتحدث. غالبًا المتاجر قافلة السكربت، أو اللينكات غلط.")
 
 
 if __name__ == "__main__":
