@@ -1,327 +1,2467 @@
 {
-  "demo": true,
-  "updated": "2026-10-27",
+  "demo": false,
+  "updated": "2026-11-12T23:24+00:00",
   "stores": {
+    "noon": {
+      "name": "نون",
+      "affiliate": false,
+      "search": "https://www.noon.com/egypt-en/search/?q="
+    },
     "amazon": {
       "name": "أمازون مصر",
       "affiliate": false,
       "search": "https://www.amazon.eg/s?k="
     },
-    "noon": {
-      "name": "نون",
-      "affiliate": false,
-      "search": "https://www.noon.com/egypt-ar/search/?q="
-    },
     "jumia": {
       "name": "جوميا",
       "affiliate": false,
       "search": "https://www.jumia.com.eg/catalog/?q="
-    },
-    "local": {
-      "name": "متجر محلي",
-      "affiliate": false,
-      "search": "https://www.google.com/search?q="
     }
   },
   "products": [
     {
-      "id": "ps5-slim-disc",
-      "name": "جهاز PS5 Slim نسخة الديسك",
-      "category": "أجهزة",
-      "search": "PS5 Slim Disc",
+      "id": "noon-N70022609V",
+      "name": "PlayStation 5 Slim Console (International Version) Disc Version With Controller - New Model 2023",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 31999,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 32499,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 31750,
-          "url": ""
-        },
-        {
-          "store": "local",
-          "price": 33000,
-          "url": ""
+          "price": 45695,
+          "old_price": 49000,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/?o=ce355e2b102e16db",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "ps5-slim-digital",
-      "name": "جهاز PS5 Slim النسخة الرقمية",
-      "category": "أجهزة",
-      "search": "PS5 Slim Digital",
+      "id": "noon-N70023443V",
+      "name": "PlayStation 5 (UAE Version) Console Digital Version With Controller - New Model 2023",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/ZDD017CE798E657838B0AZ/45/_/1780467353/beb024fa-6b15-4202-9ad3-be919286ea44.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 27499,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 26990,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 27800,
-          "url": ""
+          "price": 49000,
+          "old_price": 49000,
+          "url": "https://www.noon.com/egypt-en/playstation-5-uae-version-console-digital-version-with-controller-new-model-2023/N70023443V/p/?o=ea6685094de8412f",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "dualsense-white",
-      "name": "دراع DualSense أبيض",
-      "category": "إكسسوارات",
-      "search": "DualSense controller white",
+      "id": "noon-N70127751V",
+      "name": "Portal Remote Player For PlayStation 5 (Official Version)  - Midnight Black",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/Z21CC3D6559B9F86D92D2Z/45/_/1780467252/c167f158-4f16-4f16-a9a6-9357ed333391.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 3899,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 3750,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 3999,
-          "url": ""
-        },
-        {
-          "store": "local",
-          "price": 3600,
-          "url": ""
+          "price": 17799,
+          "old_price": 17799,
+          "url": "https://www.noon.com/egypt-en/portal-remote-player-for-playstation-5-official-version-midnight-black/N70127751V/p/?o=c2aa36c880d1520c",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "dualsense-black",
-      "name": "دراع DualSense أسود",
-      "category": "إكسسوارات",
-      "search": "DualSense controller black",
+      "id": "noon-N70109593V",
+      "name": "PlayStation 5 Pro (UAE Version) Console with Controller",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/Z5151DC66CC6D817EABEBZ/45/_/1780466877/c11ef393-03fb-4ca5-8a46-25df7edd87d6.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 4050,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 3999,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 4100,
-          "url": ""
+          "price": 120000,
+          "old_price": 120000,
+          "url": "https://www.noon.com/egypt-en/playstation-5-pro-uae-version-console-with-controller/N70109593V/p/?o=be3b71032fcf62dc",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "charging-station",
-      "name": "قاعدة شحن لدراعين",
-      "category": "إكسسوارات",
-      "search": "PS5 charging station",
+      "id": "noon-N70025611V",
+      "name": "PlayStation Portal™ Remote Player for PS5® console",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/Z32B4E49A8F4BC02B7167Z/45/_/1780467064/8cbd41ef-6255-4fb4-94cd-57a43b62efff.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 1450,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 1299,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 1380,
-          "url": ""
-        },
-        {
-          "store": "local",
-          "price": 1200,
-          "url": ""
+          "price": 16999,
+          "old_price": 16999,
+          "url": "https://www.noon.com/egypt-en/playstation-portal-remote-player-for-ps5-console/N70025611V/p/?o=b13134796c713b3c",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "pulse-3d",
-      "name": "سماعة Pulse 3D",
-      "category": "إكسسوارات",
-      "search": "Pulse 3D headset",
+      "id": "noon-N70027754V",
+      "name": "PlayStation Portal Remote Player - PlayStation 5",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/Z381955D66A549CCEA1FDZ/45/_/1780466894/94e3dd0c-de21-4c04-855e-b66367a0a5c3.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 5499,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 5650,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 5399,
-          "url": ""
+          "price": 15299,
+          "old_price": 15299,
+          "url": "https://www.noon.com/egypt-en/playstation-portal-remote-player-playstation-5/N70027754V/p/?o=dc2154d59fda066a",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "fc-26",
-      "name": "لعبة EA Sports FC 26",
-      "category": "ألعاب",
-      "search": "EA FC 26 PS5",
+      "id": "noon-N70001593V",
+      "name": "LEGO Drive PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/Z573A19B454147ECE621AZ/45/_/1787188056/1962a7b8-b54a-48ce-89d3-4f3d3fbb1df1.jpg",
       "offers": [
+        {
+          "store": "noon",
+          "price": 1599,
+          "old_price": 1599,
+          "url": "https://www.noon.com/egypt-en/lego-drive-ps5/N70001593V/p/?o=aa02c3217d63578f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70431701V",
+      "name": "Lost Soul Aside - PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://f.nooncdn.com/p/pzsku/Z9DEE5309A6D97E3D4A1CZ/45/_/1788830009/df690575-8e59-46ea-ac5f-97fde474bda8.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2255,
+          "old_price": 2255,
+          "url": "https://www.noon.com/egypt-en/lost-soul-aside-ps5/N70431701V/p/?o=a110a4c0e1a4c16b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N40633049A",
+      "name": "DualSense Wireless Controller For PlayStation 5 - White",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/Z9ABAD5D803041004E9CFZ/45/_/1780467519/7a4bce63-7931-4f54-85ac-df5a85a91f78.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3049,
+          "old_price": 4565,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-white/N40633049A/p/?o=ae1603b6a8de4f9e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N47557169A",
+      "name": "DualSense Wireless Controller For PlayStation 5 - Midnight Black",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pnsku/N47557169A/45/_/1764242438/c096fc1a-c3ac-441d-a38c-741524f1e7de.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3496,
+          "old_price": 4461,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-midnight-black/N47557169A/p/?o=fbdd30853e9f88ee",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53429223A",
+      "name": "DualSense Wireless PS5 Controller - Grey Camouflage",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/Z832D975B79C9FFA49422Z/45/_/1780466856/e83432b6-65f5-4ba1-a9d1-065762296200.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 4300,
+          "old_price": 4300,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-ps5-controller-grey-camouflage/N53429223A/p/?o=c5fc8fbaf82d64cf",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N50649559A",
+      "name": "Officially Licensed Twin Charging Station for DualSense Controller PS5- wireless",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/Z37832C323F7A5CBAA325Z/45/_/1780306482/6b7ccfc9-1606-4b58-a690-f1d70d62984b.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 500,
+          "old_price": 582,
+          "url": "https://www.noon.com/egypt-en/officially-licensed-twin-charging-station-for-dualsense-controller-ps5-wireless/N50649559A/p/?o=f35a7ade258b560b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-Z489C96741AA913024B76Z",
+      "name": "Matrix Silicone Protective Case with 2 Thumb Grip Caps for PS5 DualSense Controller – Anti-Slip Soft Cover – Red",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/Z489C96741AA913024B76Z/45/_/1786162791/49a02eac-c6c8-44f7-9a44-99f8a4f30dc9.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 245,
+          "old_price": 400,
+          "url": "https://www.noon.com/egypt-en/matrix-silicone-protective-case-with-2-thumb-grip-caps-for-ps5-dualsense-controller-anti-slip-soft-cover-red/Z489C96741AA913024B76Z/p/?o=aba3f70e657aa6cd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70126153V",
+      "name": "DualSense Wireless Controller For PlayStation 5 (Official Version) - Chroma Indigo",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/Z9178163540B5FC32E6BBZ/45/_/1780466894/98af483b-82c2-4a22-8264-b379514bf863.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 5209,
+          "old_price": 5209,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-official-version-chroma-indigo/N70126153V/p/?o=d8f1d53e1ccefc3a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70038784V",
+      "name": "PlayStation 5 DualSense Wireless Controller - Sterling Silver (UAE Version)",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/Z80C65393482F858626A1Z/45/_/1780467071/c5f21b6b-28bb-4bcb-a0aa-bf4a23e12ad3.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 4193,
+          "old_price": 4193,
+          "url": "https://www.noon.com/egypt-en/playstation-5-dualsense-wireless-controller-sterling-silver-uae-version/N70038784V/p/?o=cae75ec7b040329b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70021815V",
+      "name": "DualSense Wireless PS5 Controller (Official Version) - Cobalt Blue",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC6AE8750F7AD39A6602FZ/45/_/1780467007/ffd6b0d3-c1ff-421a-9a79-a491b786e316.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 4200,
+          "old_price": 6600,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-ps5-controller-official-version-cobalt-blue/N70021815V/p/?o=e7a23c1e8919ab2c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0CQKLS4RP",
+      "name": "PlayStation DualSense Wireless Gaming Controller for PS5 - White",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/51PmeLGEkML._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4099,
+          "old_price": 4643,
+          "url": "https://www.amazon.eg/dp/B0CQKLS4RP",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B09NLJCVGB",
+      "name": "PlayStation Sony 5 Dualsense Controller Galactic Purple",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/51uPppmAZXL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4000,
+          "old_price": 4500,
+          "url": "https://www.amazon.eg/dp/B09NLJCVGB",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B08HKCM222",
+      "name": "Sony DualSense wireless controller for PS5 White | 1 Year Warranty",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61j9RyHsPCL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4599,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B08HKCM222",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0FY6Y9WZT",
+      "name": "PlayStation DualSense Wireless Gaming Controller for PS5 - Midnight Black",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61GNEp3auhL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4577,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FY6Y9WZT",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B094WL86N5",
+      "name": "PlayStation Sony Computer entertaiment CFI-ZCT1W Dual Sense Wireless Controller Black PS5",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61m0Fnpx4wL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4439,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B094WL86N5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0CJT9WCRD",
+      "name": "PlayStation DualSense Wireless Gaming Controller for PS5 - Volcanic Red",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61yKb5y7U5L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4400,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0CJT9WCRD",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0D1RBDDVH",
+      "name": "Sony DualSense Charging Station for PS5 Controllers - Charging Station - Black - 2 Controllers - USB - Fast Charging",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/41IOIUI-IOL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 834,
+          "old_price": 927,
+          "url": "https://www.amazon.eg/dp/B0D1RBDDVH",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0BKQLX36P",
+      "name": "PlayStation 5 DualSense Edge Wireless Controller",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61a8L+k4XXL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 12550,
+          "old_price": 13810,
+          "url": "https://www.amazon.eg/dp/B0BKQLX36P",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70371376V",
+      "name": "Red Dead Redemption HD PS5 - playstation_5_ps5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://f.nooncdn.com/p/pzsku/Z8483779585854927896EZ/45/_/1778760105/9a71f3fb-6b25-44b8-8a52-1771ca11e2bf.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2499,
+          "old_price": 2499,
+          "url": "https://www.noon.com/egypt-en/red-dead-redemption-hd-ps5-playstation-5-ps5/N70371376V/p/?o=dcb92ed18e35863b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53336851A",
+      "name": "PS5 GOW STD EDT RAGNAROK - playstation_5_ps5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://f.nooncdn.com/p/pzsku/ZE1221079114EFFCEABDFZ/45/_/1775567644/3cb49cf0-dd67-4fee-8ec0-ee71f94162a6.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2499,
+          "old_price": 2499,
+          "url": "https://www.noon.com/egypt-en/ps5-gow-std-edt-ragnarok-playstation-5-ps5/N53336851A/p/?o=ea28b3301480f90b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53339207A",
+      "name": "God of War Ragnarok - (English/Arabic) (PS5) (UAE Version) - Action & Shooter - playstation_5_ps5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://f.nooncdn.com/p/pzsku/ZB81B96118D19BE293373Z/45/_/1780466720/83d6c56c-4235-4cb6-b7a3-07cdbea84834.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1947,
+          "old_price": 1947,
+          "url": "https://www.noon.com/egypt-en/god-of-war-ragnarok-english-arabic-ps5-uae-version-action-shooter-playstation-5-ps5/N53339207A/p/?o=f28081048cb7904d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70015201V",
+      "name": "FC 24 - Arabic Edition (PlayStation 5)",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://f.nooncdn.com/p/pzsku/ZD3CD3AF11286CDF7B14CZ/45/_/1778748104/c4b62a55-253b-432f-aff5-71225dd2df10.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2400,
+          "old_price": 2400,
+          "url": "https://www.noon.com/egypt-en/fc-24-arabic-edition-playstation-5/N70015201V/p/?o=dd600feb3826b16c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70068796V",
+      "name": "GTA 5: Grand Theft Auto V - playstation_5_ps5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://f.nooncdn.com/p/pzsku/Z910C00D964F7361B2E92Z/45/_/1777376443/705eefd2-3283-48f5-8bd9-c624dda38725.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1419,
+          "old_price": 1509,
+          "url": "https://www.noon.com/egypt-en/gta-5-grand-theft-auto-v-playstation-5-ps5/N70068796V/p/?o=a09ddadd1ec0207f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53418830A",
+      "name": "God of War Ragnarok - (English/Arabic) (PS5) (International Version) - playstation_5_ps5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://f.nooncdn.com/p/pzsku/ZFBF4B31695502276C73DZ/45/_/1780467198/b48960cf-3d1b-4c8f-9b83-61f012460dcd.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2499,
+          "old_price": 2499,
+          "url": "https://www.noon.com/egypt-en/god-of-war-ragnarok-english-arabic-ps5-international-version-playstation-5-ps5/N53418830A/p/?o=c0c7f71838d7975b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B098418HB4",
+      "name": "Insomniac Marvels Spider Man Miles Morales Arabic PS5 Game",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71HCAvaOc2S._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1739,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B098418HB4",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0B6H242C4",
+      "name": "Gran Turismo 7 PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71XeaQDhrHL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2145,
+          "old_price": 4980,
+          "url": "https://www.amazon.eg/dp/B0B6H242C4",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0F1TFS4W5",
+      "name": "Split Fiction for PS5 - PlayStation 5 - New Original",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71Ydo1iYPLL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2755,
+          "old_price": 2991,
+          "url": "https://www.amazon.eg/dp/B0F1TFS4W5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B09RHJZ54T",
+      "name": "Uncharted Legacy of Thieves Collection PS5 Arabic",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71jpx5idrPL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1838,
+          "old_price": 2153,
+          "url": "https://www.amazon.eg/dp/B09RHJZ54T",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0DCPC2N86",
+      "name": "Mojang Studios Minecraft - PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/81MhO7hb8PL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1865,
+          "old_price": 1915,
+          "url": "https://www.amazon.eg/dp/B0DCPC2N86",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0GL2G8V6W",
+      "name": "WWE 2K26 Standard Edition PlayStation 5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/91+sGEa68rL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2911,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0GL2G8V6W",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B09QT7CPYV",
+      "name": "Ghost of Tsushima Director's Cut PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71SzYRZG1xS._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2999,
+          "old_price": 4999,
+          "url": "https://www.amazon.eg/dp/B09QT7CPYV",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0GYZFF1K5",
+      "name": "Grandi Theft Auto V - PS 5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71vI2+6uB+L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1589,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0GYZFF1K5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-Z2DEC5C462FBDCE00ABB5Z",
+      "name": "Gift Card PSN $20 Card USA",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "https://f.nooncdn.com/p/pzsku/Z2DEC5C462FBDCE00ABB5Z/45/_/1792710541/e4d8dd08-16f9-4d97-84e7-de0fc8dff468.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 4140,
+          "old_price": 4140,
+          "url": "https://www.noon.com/egypt-en/gift-card-psn-20-card-usa/Z2DEC5C462FBDCE00ABB5Z/p/?o=eba7cd07ee5cfd4b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-ZF75CC61475F11A1E6598Z",
+      "name": "Playstation Store Card PSN 1000 Lira Turkey",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "https://f.nooncdn.com/p/pzsku/ZF75CC61475F11A1E6598Z/45/1749646089/9ee4facc-88fd-4d52-8464-cf6c16b899e8.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1500,
+          "old_price": 1500,
+          "url": "https://www.noon.com/egypt-en/playstation-store-card-psn-1000-lira-turkey/ZF75CC61475F11A1E6598Z/p/?o=zf75cc61475f11a1e6598z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-ZBA51B3618D6EDA0E02DFZ",
+      "name": "PlayStation Network Gift Card 25 USD - PSN USA",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBA51B3618D6EDA0E02DFZ/45/_/1780933839/d3690768-08f5-4dce-b82a-68029ad1f67f.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1660,
+          "old_price": 1660,
+          "url": "https://www.noon.com/egypt-en/playstation-network-gift-card-25-usd-psn-usa/ZBA51B3618D6EDA0E02DFZ/p/?o=f56de50a3fd4cf5c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-ZD264725ABB03B054A969Z",
+      "name": "PlayStation Network Gift Card 75 USD - PSN USA",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "https://f.nooncdn.com/p/pzsku/ZD264725ABB03B054A969Z/45/1760617822/7244acf8-38ab-42f1-9788-d4589c12c67e.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 4880,
+          "old_price": 4880,
+          "url": "https://www.noon.com/egypt-en/playstation-network-gift-card-75-usd-psn-usa/ZD264725ABB03B054A969Z/p/?o=cc8779def5b7642d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70105548V",
+      "name": "iPhone 16 128GB Black 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/Z42D1FD9CD4DCB95D188DZ/45/_/1779094932/c0f21dbc-1307-40fe-87e3-5ac5964d80a0.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 63660,
+          "old_price": 63660,
+          "url": "https://www.noon.com/egypt-en/iphone-16-128gb-black-5g-middle-east-version/N70105548V/p/?o=e9c00dc31271a3fd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70105549V",
+      "name": "iPhone 16 128GB Ultramarine 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA265C544AB2D6635F7F1Z/45/_/1779094576/27c94a34-2484-45b4-8863-d4150a678ad0.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 63000,
+          "old_price": 73000,
+          "url": "https://www.noon.com/egypt-en/iphone-16-128gb-ultramarine-5g-middle-east-version/N70105549V/p/?o=f4e4681258c36afc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70105551V",
+      "name": "iPhone 16 128GB White 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA34A5D553AD648A36B11Z/45/_/1779095094/5663fcfb-2906-4399-8695-5b352e10c2d5.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 60512,
+          "old_price": 60512,
+          "url": "https://www.noon.com/egypt-en/iphone-16-128gb-white-5g-middle-east-version/N70105551V/p/?o=ac233a7e3ce7243e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70105550V",
+      "name": "iPhone 16 128GB Teal 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/Z2B498EB4316905F427B2Z/45/_/1779094434/3ffc56d9-b28e-438a-a122-5eddf2647e66.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 60512,
+          "old_price": 60512,
+          "url": "https://www.noon.com/egypt-en/iphone-16-128gb-teal-5g-middle-east-version/N70105550V/p/?o=c9ab0bc2bebb6c7a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70105547V",
+      "name": "iPhone 16 128GB Pink 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/Z64E29DBAB1784EEC638DZ/45/_/1779094466/20b814ea-26e3-4a87-91c9-160357a67d4f.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 63000,
+          "old_price": 71100,
+          "url": "https://www.noon.com/egypt-en/iphone-16-128gb-pink-5g-middle-east-version/N70105547V/p/?o=aa0a3d50c834535c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70106134V",
+      "name": "iPhone 16 128GB White 5G With FaceTime - International Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/Z5FD5C77B43E3DAB1AAA7Z/45/_/1779199500/4cf7d5a2-ec2e-4d55-ad82-929f5f70d172.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 63500,
+          "old_price": 63500,
+          "url": "https://www.noon.com/egypt-en/iphone-16-128gb-white-5g-with-facetime-international-version/N70106134V/p/?o=d51d4ee58a9e3a4a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70154965V",
+      "name": "iPhone 16e 128GB White 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/ZCD289D42DAD9A61B1983Z/45/_/1779093925/8c3855a5-50b1-46f7-9677-9b72b666a706.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 49500,
+          "old_price": 49500,
+          "url": "https://www.noon.com/egypt-en/iphone-16e-128gb-white-5g-middle-east-version/N70154965V/p/?o=f1b82dfe994c7b3e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70105539V",
+      "name": "iPhone 16 Plus 256GB Black 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC6D95FC4ED19B5DAF925Z/45/_/1779094901/a2afe378-6b13-45b2-9a62-7ac17d3c4a24.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 68448,
+          "old_price": 73000,
+          "url": "https://www.noon.com/egypt-en/iphone-16-plus-256gb-black-5g-middle-east-version/N70105539V/p/?o=f206e3ebefface5b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70158930V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Graphite 8GB RAM 256GB - Middle East Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/ZCF3C79F1A725B8790F53Z/45/_/1772091250/a96530d6-a004-411b-a566-f1715ddd57b8.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 24780,
+          "old_price": 26666,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-graphite-8gb-ram-256gb-middle-east-version/N70158930V/p/?o=b50686c5b00953de",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N72207442V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Graphite 8GB RAM 256GB - Middle East Version Original  Free Samsung Adapter 25w",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/ZB035469B187D60B88851Z/45/_/1792326155/fea9fbf8-eaff-47f4-999f-144913f36c1a.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 25275,
+          "old_price": 25275,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-graphite-8gb-ram-256gb-middle-east-version-original-free-samsung-adapter-25w/N72207442V/p/?o=d7798ba27424a54e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70165221V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Graphite 8GB RAM 256GB - International Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/Z1B35DE80037BC76D5A8AZ/45/_/1790066542/cab6bf39-7a55-445a-9014-0033ce4f4b7d.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 25233,
+          "old_price": 27000,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-graphite-8gb-ram-256gb-international-version/N70165221V/p/?o=b63f144fb19db6fc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70158929V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Olive 8GB RAM 256GB - Middle East Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/Z1F1436CF74A0CAE90766Z/45/_/1772090889/608c49fc-ac46-411d-8b91-f647fcd3a63a.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 27554,
+          "old_price": 27554,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-olive-8gb-ram-256gb-middle-east-version/N70158929V/p/?o=dafb1764454d861d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70158928V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Light Gray 8GB RAM 256GB - Middle East Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEFCCF2CA7E03A500BC47Z/45/_/1772091265/bf057696-f7d0-4b75-9362-2a9dad781f74.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 29000,
+          "old_price": 29000,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-light-gray-8gb-ram-256gb-middle-east-version/N70158928V/p/?o=b07384938cba34fc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70161151V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Pink 12GB RAM 256GB - International Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/Z005952F2D8C0188EAADDZ/45/_/1772091220/a5e4dba4-e8f3-4837-ae0c-677e99971a50.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 31400,
+          "old_price": 31400,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-pink-12gb-ram-256gb-international-version/N70161151V/p/?o=c594c0200c68ee0a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70158923V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Pink 8GB RAM 128GB - Middle East Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC65ACE51519B6CA10780Z/45/_/1772091118/7865b8af-e642-462f-88f1-ad9dc0208031.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 24800,
+          "old_price": 24800,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-pink-8gb-ram-128gb-middle-east-version/N70158923V/p/?o=cd997802b950d10a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70160458V",
+      "name": "Galaxy A56 5G Dual SIM Awesome Graphite 12GB RAM 256GB - Middle East Version",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://f.nooncdn.com/p/pzsku/Z92638465C41A27C8871BZ/45/_/1772090979/32f0207a-b2b2-491d-bc70-9f26481a5557.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 28918,
+          "old_price": 28918,
+          "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-graphite-12gb-ram-256gb-middle-east-version/N70160458V/p/?o=ba161204f9a5093a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70286265V",
+      "name": "Redmi Note 15 Dual SIM Black 8GB RAM 256GB 4G - Middle East Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/ZD0BD8E01B3814DE1BED0Z/45/_/1780466938/1a401454-b59a-4446-87da-796f5769dcf3.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 17746,
+          "old_price": 17746,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-black-8gb-ram-256gb-4g-middle-east-version/N70286265V/p/?o=ca60eb36d534a9cf",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70275518V",
+      "name": "Redmi Note 15 4G Dual SIM Black 8GB RAM 256GB  - Global Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEF4B33476A0E4F64375FZ/45/_/1780466669/1ed7c935-1c76-4ecc-ae6e-ad172734a9f9.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 17888,
+          "old_price": 17888,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-4g-dual-sim-black-8gb-ram-256gb-global-version/N70275518V/p/?o=d729475dbe68f2be",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70286269V",
+      "name": "Redmi Note 15 Dual SIM Blue 8GB RAM 256GB 4G - Middle East Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/Z0C7821529894EF3DDB1EZ/45/_/1780467265/a5a52422-9897-4064-b127-0bdd7fdd2a7d.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 17899,
+          "old_price": 17899,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-blue-8gb-ram-256gb-4g-middle-east-version/N70286269V/p/?o=e5ff7899e3e17e3c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70243999V",
+      "name": "Redmi 15 4G Midnight Black Dual SIM 8GB RAM 256GB - Global Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC9E17795C81DE66D072EZ/45/_/1780467402/1103fe09-b5c0-42cc-be77-fc0aa894a655.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 15162,
+          "old_price": 15162,
+          "url": "https://www.noon.com/egypt-en/redmi-15-4g-midnight-black-dual-sim-8gb-ram-256gb-global-version/N70243999V/p/?o=f310b8406d0b514a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70286284V",
+      "name": "Redmi Note 15 Dual SIM Purple 8GB RAM 256GB 5G - Middle East Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/ZAE0F5974CCD1B6431BBFZ/45/_/1780466851/b515cc01-80ee-4824-99fd-9fb240770dd0.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 19999,
+          "old_price": 19999,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-purple-8gb-ram-256gb-5g-middle-east-version/N70286284V/p/?o=e86e371a29d8223c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70275519V",
+      "name": "Redmi Note 15 4G Dual SIM Blue 8GB RAM 256GB - Global Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/Z719982F1379825E8D78EZ/45/_/1780466896/ae44ecf8-0d8f-4629-812a-81db598718f9.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 17888,
+          "old_price": 17888,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-4g-dual-sim-blue-8gb-ram-256gb-global-version/N70275519V/p/?o=bedc986426dbeebb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70286272V",
+      "name": "Redmi Note 15 Dual SIM Forest Green 8GB RAM 256GB 4G - Middle East Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/ZB2CBB4C6DB0CB0BBF700Z/45/_/1780467273/0f1c0956-aeb0-4bbb-a25b-433dd9cf2b5b.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 17622,
+          "old_price": 17622,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-forest-green-8gb-ram-256gb-4g-middle-east-version/N70286272V/p/?o=f7d6b9c45968ddab",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70286283V",
+      "name": "Redmi Note 15 Dual SIM Purple 8GB RAM 256GB 4G - Middle East Version",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://f.nooncdn.com/p/pzsku/ZF292EDB5CE8ADC5B2D4EZ/45/_/1780466633/285f15ee-fb56-41fc-8808-f19d10f634b4.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 17888,
+          "old_price": 17888,
+          "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-purple-8gb-ram-256gb-4g-middle-east-version/N70286283V/p/?o=da9478a25a70bddd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70106566V",
+      "name": "Soundcore K20i by Anker, Semi-in-Ear Earbuds, Bluetooth Wireless, 36H Playtime, Fast Charge, Clear Sound, Comfortable Fit, ENC 2-Mic Clear Calls, Custom EQ, IPX5, Bluetooth 5.3, App Control Black",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEECF9D971A1B4224749EZ/45/_/1780466865/30c3d973-d473-427c-af2d-2d242f7380f9.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 750,
+          "old_price": 899,
+          "url": "https://www.noon.com/egypt-en/soundcore-k20i-by-anker-semi-in-ear-earbuds-bluetooth-wireless-36h-playtime-fast-charge-clear-sound-comfortable-fit-enc-2-mic-clear-calls-custom-eq-ipx5-bluetooth-5-3-app-control-black/N70106566V/p/?o=ce3cf1d0dfd9835e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70082559V",
+      "name": "R50i NC by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4, App Control Black",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/ZD0498A49AAEF6A7FBF0CZ/45/_/1780467399/87335ceb-3522-438e-b34e-9acb7e36417a.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1226,
+          "old_price": 1499,
+          "url": "https://www.noon.com/egypt-en/r50i-nc-by-anker-noise-cancelling-earbuds-strong-and-smart-noise-cancelling-powerful-bass-45h-playtime-2-in-1-case-and-phone-stand-ip54-wireless-earbuds-bluetooth-5-4-app-control-black/N70082559V/p/?o=a64477aaaf31781f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70083252V",
+      "name": "R50i NC by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4, App Control White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/Z603DEB56F4BC455B4336Z/45/_/1780466757/8dc45965-c955-4afa-894d-acb4acf38d84.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1630,
+          "old_price": 1630,
+          "url": "https://www.noon.com/egypt-en/r50i-nc-by-anker-noise-cancelling-earbuds-strong-and-smart-noise-cancelling-powerful-bass-45h-playtime-2-in-1-case-and-phone-stand-ip54-wireless-earbuds-bluetooth-5-4-app-control-white/N70083252V/p/?o=f13f92d5f371603c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53419901A",
+      "name": "FreePods 3C ENC Calling Noise Cancellation , powerful bass 4 mics , Long Playtime True Wireless Earbuds IPX5-Water Resistant, Via App Black",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/Z3084BA1E30DECCB4DD25Z/45/_/1778748264/5d5f3cfb-ec0e-46d7-be0b-f8db0057b665.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 869,
+          "old_price": 1399,
+          "url": "https://www.noon.com/egypt-en/freepods-3c-enc-calling-noise-cancellation-powerful-bass-4-mics-long-playtime-true-wireless-earbuds-ipx5-water-resistant-via-app-black/N53419901A/p/?o=a20a895b649bbb7f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70210650V",
+      "name": "FreeBuds 7i Wireless Bluetooth Earbuds, Intelligent Active Noise Cancellation 4.0, Unlimited Spatial Audio,  iOS and Android, Stable Clear Calls, Fast Charging, Black",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC51C218892A7C479881FZ/45/_/1780572465/35960f71-619b-43d2-96ac-7f05716f1204.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3655,
+          "old_price": 3655,
+          "url": "https://www.noon.com/egypt-en/freebuds-7i-wireless-bluetooth-earbuds-intelligent-active-noise-cancellation-4-0-unlimited-spatial-audio-ios-and-android-stable-clear-calls-fast-charging-black/N70210650V/p/?o=ec1e1e4f72f8be9d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N52600818A",
+      "name": "Generic Pro Air Pods Compatible With Android - iPhone White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pnsku/N52600818A/45/_/1717492748/7ab506d6-3b2a-423a-a114-6378ae06af3b.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 390,
+          "old_price": 750,
+          "url": "https://www.noon.com/egypt-en/generic-pro-air-pods-compatible-with-android-iphone-white/N52600818A/p/?o=bad520e7e1b657cc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70058104V",
+      "name": "Soundcore Liberty 4 NC",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/Z96C72B853C79FCCBB5F1Z/45/1759222717/6c134cf5-d3a9-4aae-967a-0f2ace845a4d.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2629,
+          "old_price": 2629,
+          "url": "https://www.noon.com/egypt-en/soundcore-liberty-4-nc/N70058104V/p/?o=bc82f5770bffe06c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53409767A",
+      "name": "Soundcore By Anker R50i True Wireless Black",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/ZE8D1AAA80A94B28DA83FZ/45/_/1780467455/8b5e5839-10fd-47f6-ba92-ebb1ec712843.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 914,
+          "old_price": 1332,
+          "url": "https://www.noon.com/egypt-en/soundcore-by-anker-r50i-true-wireless-black/N53409767A/p/?o=cafe7eddb4c58c4d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70278460V",
+      "name": "JBL Tune 530BT Wireless On-Ear Bluetooth Headphones with Pure Bass Sound, 76H Battery Life, Dual Beamforming Mics, Multi-Point Bluetooth 6.0, Foldable & Lightweight Black",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/Z6AD817CF76D249F2B3F9Z/45/_/1779712685/daf9c3af-46a9-46b7-a7e2-52def665d5f1.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2499,
+          "old_price": 3300,
+          "url": "https://www.noon.com/egypt-en/jbl-tune-530bt-wireless-on-ear-bluetooth-headphones-with-pure-bass-sound-76h-battery-life-dual-beamforming-mics-multi-point-bluetooth-6-0-foldable-lightweight-black/N70278460V/p/?o=d6ca4aee1c96315a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53401778A",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Blue",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/Z28A58B4B25CF6EB0AFA8Z/45/_/1779704739/e10b4ea7-9245-4144-b0f9-b7a61feb3a77.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2030,
+          "old_price": 2030,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-blue/N53401778A/p/?o=bbbb6b0a03df988a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53401777A",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Black",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/Z42F73A00888E893CFFD3Z/45/_/1779720520/e5239d62-80f7-4b68-8cc1-5c87c9268758.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2188,
+          "old_price": 2188,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-black/N53401777A/p/?o=da29943d6e69d5fb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70140656V",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Blue",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC9AA07CD9353B8E152F0Z/45/_/1779705954/35f98eb2-b3c0-4195-9e27-23509fbd50a7.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2499,
+          "old_price": 2499,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-blue/N70140656V/p/?o=c1f100e3d81f63ae",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70278461V",
+      "name": "JBL Tune 530BT Wireless On-Ear Bluetooth Headphones with Pure Bass Sound, 76H Battery Life, Dual Beamforming Mics, Multi-Point Bluetooth 6.0, Foldable & Lightweight Blue",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/Z51840783D6710FEAFA26Z/45/_/1779705657/c5bc27a7-1944-418c-bae2-b76950e2f75f.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2695,
+          "old_price": 2695,
+          "url": "https://www.noon.com/egypt-en/jbl-tune-530bt-wireless-on-ear-bluetooth-headphones-with-pure-bass-sound-76h-battery-life-dual-beamforming-mics-multi-point-bluetooth-6-0-foldable-lightweight-blue/N70278461V/p/?o=ef0fdb03e4eb228f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N53401779A",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable White",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/Z68F6EE12DB5C01644870Z/45/_/1779705821/4ad7d9b8-83d2-469c-8a33-ff0d64f54360.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1949,
+          "old_price": 2295,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-white/N53401779A/p/?o=f77c64de17be7b2e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70278474V",
+      "name": "JBL Tune 730BT Wireless Over-Ear Bluetooth Headphones with Pure Bass Sound, 76H Battery Life, Dual Beamforming Mics, Multi-Point Bluetooth 6.0, Foldable & Comfortable Blue",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/ZE2E00D8EE41C86C723D5Z/45/_/1779704735/b7cfbd12-47cf-47e4-804d-f04cd699579d.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3256,
+          "old_price": 3453,
+          "url": "https://www.noon.com/egypt-en/jbl-tune-730bt-wireless-over-ear-bluetooth-headphones-with-pure-bass-sound-76h-battery-life-dual-beamforming-mics-multi-point-bluetooth-6-0-foldable-comfortable-blue/N70278474V/p/?o=ae55da865ff8954c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70267388V",
+      "name": "Tune 530Bt Wireless On Ear Headphones Pure Bass Sound 76H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Black",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://f.nooncdn.com/p/pzsku/Z360C0B5B03F46BD2A98BZ/45/_/1779707181/b5fa49ef-f19d-482d-8a5e-f558bb4de71c.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2322,
+          "old_price": 2322,
+          "url": "https://www.noon.com/egypt-en/tune-530bt-wireless-on-ear-headphones-pure-bass-sound-76h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-black/N70267388V/p/?o=b69b2e28c816cb2d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70154049V",
+      "name": "25000 mAh Power Bank, 165W Ultra-Fast Portable Charger For Dual Laptops, Fast Charging Battery Pack With Built-In And Retractable Cables, For iPhone 16/15 Series, Samsung, And More Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/Z5E39BA2896BBE3B869C2Z/45/1759223380/cbd464a2-d3b0-4655-8bcf-debf666759b7.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3333,
+          "old_price": 3899,
+          "url": "https://www.noon.com/egypt-en/25000-mah-power-bank-165w-ultra-fast-portable-charger-for-dual-laptops-fast-charging-battery-pack-with-built-in-and-retractable-cables-for-iphone-16-15-series-samsung-and-more-black/N70154049V/p/?o=ad1f0902d2ec86df",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70249570V",
+      "name": "20000 mAh Zolo Power Bank, 20,000mAh 22.5W Max Portable Charger, USB-C In and Out Fast Charging Battery Pack, Slim Travel Essential Phone Power Bank, For iPhone 17/16/15 Series, iPad, MacBook Air, Galaxy, and More black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/Z8C7054D6ED281E92135EZ/45/_/1793791050/9a3d3442-c4fe-4317-a234-3f0c4c7a23ef.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1285,
+          "old_price": 1435,
+          "url": "https://www.noon.com/egypt-en/20000-mah-zolo-power-bank-20-000mah-22-5w-max-portable-charger-usb-c-in-and-out-fast-charging-battery-pack-slim-travel-essential-phone-power-bank-for-iphone-17-16-15-series-ipad-macbook-air-galaxy-and-more-black/N70249570V/p/?o=c2c1fbcba20ab58b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70111970V",
+      "name": "20000 mAh Anker Zolo Power Bank, 20,000mAh 30W Max Fast Portable Charger with Built-in USB-C and MFi Certified Lightning Cables, 1 USB-C, 1 USB-A, Battery Pack for iPhone 17/16/15/14/13 Series, Galaxy, and more (Black) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/ZFC0733B70EE5B7DE6818Z/45/_/1771422384/3133476a-4e7a-41cb-939b-e1607f9b71b6.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1849,
+          "old_price": 2399,
+          "url": "https://www.noon.com/egypt-en/20000-mah-anker-zolo-power-bank-20-000mah-30w-max-fast-portable-charger-with-built-in-usb-c-and-mfi-certified-lightning-cables-1-usb-c-1-usb-a-battery-pack-for-iphone-17-16-15-14-13-series-galaxy-and-more-black-black/N70111970V/p/?o=a282bbb68804c74d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70185226V",
+      "name": "25000 mAh Power Bank, 25,000mAh 165W Ultra-Fast Portable Charger for Dual Laptops, Fast Charging Battery Pack with Built-In and Retractable Cables, For iPhone 17/16 Series, Samsung, and More Silver",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/ZEA0B3E28858E97232D98Z/45/_/1771422381/2aca4266-98bb-4a43-af8d-eac79f4391ca.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3333,
+          "old_price": 3899,
+          "url": "https://www.noon.com/egypt-en/25000-mah-power-bank-25-000mah-165w-ultra-fast-portable-charger-for-dual-laptops-fast-charging-battery-pack-with-built-in-and-retractable-cables-for-iphone-17-16-series-samsung-and-more-silver/N70185226V/p/?o=b28970f67e6a3e9a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70098969V",
+      "name": "20000 mAh Power Bank 20,000 mAh, 87W Total Output with Built-in USB-C Cable & 1 USB-C and 1 USB-A Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/Z9C5AE19788D203A31794Z/45/1759222920/8728e29c-cdc9-448b-ba08-bfe91f5b8906.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1799,
+          "old_price": 2099,
+          "url": "https://www.noon.com/egypt-en/20000-mah-power-bank-20-000-mah-87w-total-output-with-built-in-usb-c-cable-1-usb-c-and-1-usb-a-black/N70098969V/p/?o=f05640b78c0016ce",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70257504V",
+      "name": "10000 mAh Anker Zolo Power Bank, 10,000mAh 22.5W Max Portable Charger,USB-C In and Out Fast Charging Battery Pack, Slim Travel Essential Phone Power Bank, For iPhone 17/16/15 Series, iPad, MacBook Air, Galaxy, and More black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/Z7D7B8C0F265CFA7D74FAZ/45/_/1793791052/80430045-1242-4736-a8fa-923d06a6b619.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 940,
+          "old_price": 1199,
+          "url": "https://www.noon.com/egypt-en/10000-mah-anker-zolo-power-bank-10-000mah-22-5w-max-portable-charger-usb-c-in-and-out-fast-charging-battery-pack-slim-travel-essential-phone-power-bank-for-iphone-17-16-15-series-ipad-macbook-air-galaxy-and-more-black/N70257504V/p/?o=b0aa76a07c22fb4b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70278864V",
+      "name": "Anker Zolo Power Bank (2025 Upgraded Version), 45W Max Fast Charging, 20,000mAh Battery Pack, Dual Built-in USB-C Cables, USB-C&A Port, for iPhone 17/16 Series, Galaxy, MacBook, and More black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/8054b9752d6a558ca3a03eec3b0c7ae0|pzsku/ZED8AFC2A5EAA3F2DA83FZ/45/1768748908/25cf8c16-3793-4531-a25f-82198e7d7faf.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2088,
+          "old_price": 2999,
+          "url": "https://www.noon.com/egypt-en/anker-zolo-power-bank-2025-upgraded-version-45w-max-fast-charging-20-000mah-battery-pack-dual-built-in-usb-c-cables-usb-c-a-port-for-iphone-17-16-series-galaxy-macbook-and-more-black/N70278864V/p/?o=b1f43ee9e27f26bf",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70119646V",
+      "name": "25000 mAh Anker Power Bank, 25,000mAh 165W Ultra-Fast Portable Charger for Dual Laptops, Fast Charging Battery Pack with Built-In and Retractable Cables, For iPhone 17/17 & More Series, Samsung, and More (Black) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://f.nooncdn.com/p/pzsku/Z47BFA7D20DBBC578F76EZ/45/_/1793791055/1c40a28f-402b-4ef7-8842-6e39e877fa20.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3847,
+          "old_price": 3847,
+          "url": "https://www.noon.com/egypt-en/25000-mah-anker-power-bank-25-000mah-165w-ultra-fast-portable-charger-for-dual-laptops-fast-charging-battery-pack-with-built-in-and-retractable-cables-for-iphone-17-17-more-series-samsung-and-more-black-black/N70119646V/p/?o=b14f6228b4e61e1b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70052822V",
+      "name": "25W Adapter USB-C Super Fast Charging Travel Adapter (EU Plug) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC6CA55ECDB6B28546C52Z/45/_/1772091335/54016d75-f512-432f-b532-6aca03b2a8d1.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 175,
+          "old_price": 275,
+          "url": "https://www.noon.com/egypt-en/25w-adapter-usb-c-super-fast-charging-travel-adapter-eu-plug-black/N70052822V/p/?o=b74e5a66375679ad",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70135300V",
+      "name": "25W PD USB-C Super Fast Charger - Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/ZCD3338B17EEFB1FC40A8Z/45/_/1772091268/83abfca7-d3d2-42d8-9a0e-4acd5886ceca.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 189,
+          "old_price": 189,
+          "url": "https://www.noon.com/egypt-en/25w-pd-usb-c-super-fast-charger-black/N70135300V/p/?o=b5edbef0b6b9c5eb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70202891V",
+      "name": "Nano 45W Type C Charger Fast Charging, Compact and Foldable Plug USB C Charger Block for Samsung Galaxy S25 Ultra/S24 Series, iPhone 16 Series, MacBook, Pixel 9, iPad",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/ZE80587F112BFA82B67B7Z/45/1759223467/6ba15ded-db26-48a2-adb6-2214adf051a2.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 599,
+          "old_price": 699,
+          "url": "https://www.noon.com/egypt-en/nano-45w-type-c-charger-fast-charging-compact-and-foldable-plug-usb-c-charger-block-for-samsung-galaxy-s25-ultra-s24-series-iphone-16-series-macbook-pixel-9-ipad/N70202891V/p/?o=d43afd0cb835db3b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N51193933A",
+      "name": "25W PD USB-C Super Fast Charging Travel Adapter (EU Plug) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/Z7BCE9A68C99D4BB040DEZ/45/_/1772090658/3e1b6b40-a724-4977-a490-f3d07fa2b0a9.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 261,
+          "old_price": 261,
+          "url": "https://www.noon.com/egypt-en/25w-pd-usb-c-super-fast-charging-travel-adapter-eu-plug-black/N51193933A/p/?o=b65d357b8ff557ae",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N51193935A",
+      "name": "25W Adapter USB-C Super Fast Charging Travel Adapter (EU Plug) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/Z1E5B25B16F418C9F04E7Z/45/_/1772090945/0a8bbdca-36bb-4bc7-a850-b6e02cbc94bb.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 173,
+          "old_price": 799,
+          "url": "https://www.noon.com/egypt-en/25w-adapter-usb-c-super-fast-charging-travel-adapter-eu-plug-black/N51193935A/p/?o=f4190c800a215b8f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-Z1F069BB5554E4CE03243Z",
+      "name": "Super Fast 25W PD Charger with (3A) USB-C Cable for Samsung Devices",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/Z1F069BB5554E4CE03243Z/45/1746827643/5aa9cb8b-ceeb-4126-9e50-486e51ab4f6f.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 347,
+          "old_price": 550,
+          "url": "https://www.noon.com/egypt-en/super-fast-25w-pd-charger-with-3a-usb-c-cable-for-samsung-devices/Z1F069BB5554E4CE03243Z/p/?o=z1f069bb5554e4ce03243z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-Z31B973B9645931AA106CZ",
+      "name": "25W Super Fast Charging Type-C Charger – USB-C PD Fast Wall Adapter Compatible with Samsung Devices",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/Z31B973B9645931AA106CZ/45/_/1774569589/671d691f-224f-4fc3-830e-d514192fc19c.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 168,
+          "old_price": 230,
+          "url": "https://www.noon.com/egypt-en/25w-super-fast-charging-type-c-charger-usb-c-pd-fast-wall-adapter-compatible-with-samsung-devices/Z31B973B9645931AA106CZ/p/?o=z31b973b9645931aa106cz-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70161975V",
+      "name": "25W USB-C Adapter Super Fast Charging Wall Adapter - White White",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC87CD95C1E076CCC0B6EZ/45/_/1772091268/2adc0df8-269e-465c-848a-fa5913ec80c2.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 440,
+          "old_price": 440,
+          "url": "https://www.noon.com/egypt-en/25w-usb-c-adapter-super-fast-charging-wall-adapter-white-white/N70161975V/p/?o=e05658baf5474f1f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0DZ6ZLMY1",
+      "name": "Samsung 25W USB-C Fast Charger Block with Type-C Cable, Official Super Fast Charging Wall Adapter for Galaxy S20, S21, S22, S23, S24 Series, Note 20, A54, A55, iPhones & Tablets, Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/51kUJ-rl-sL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 480,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0DZ6ZLMY1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0C9QT2J6W",
+      "name": "Samsung Type-C 25 Watt Fast Charge Adapter, Black, EP-T2510NBEGWW",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/611VUBX5iZL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 305,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0C9QT2J6W",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0DZ6VV4FS",
+      "name": "Samsung USB C Charger, 25W Ultra Fast Power Adapter, Fast Charging, Original Samsung Charger, No Cable, White",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/61Zj87k2eqL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 345,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0DZ6VV4FS",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0CBDVYJLV",
+      "name": "Samsung EP-T2510N Mobile Phone Charger with Quick Charge Function USB-C® White",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/41IPuXbPvIL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 289,
+          "old_price": 300,
+          "url": "https://www.amazon.eg/dp/B0CBDVYJLV",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0D1D8FBJR",
+      "name": "Havit UC25 High-Speed 25W USB-C Charger for Samsung, Multi-Port, GaN Technology, Over Voltage & Temperature Protection,1 year warranty",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/412ty+RmXtL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 300,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0D1D8FBJR",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0DXLHNCD7",
+      "name": "Anker Wall Charger Type-C 25W Fast Charging, Improved Temperature Control, Small Design, Compatible with iPhone, iPad, Samsung, Pixel and more - Black -18 Months Warranty",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/41lnA0LruYL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 544,
+          "old_price": 722,
+          "url": "https://www.amazon.eg/dp/B0DXLHNCD7",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0HFD2R155",
+      "name": "Next Store DS41 Magnetic Wireless Charger 25W Ultra Slim 5mm Qi2.2 Compatible for iPhone, Samsung Galaxy (White)",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/41OOjAOqP6L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1110,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0HFD2R155",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0C9QT84J5",
+      "name": "Samsung Type-C 25 Watt Fast Charge Adapter, White, EP-T2510NWEGWW",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://m.media-amazon.com/images/I/51rRwvvr1YL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 369,
+          "old_price": 440,
+          "url": "https://www.amazon.eg/dp/B0C9QT84J5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70437063V",
+      "name": "Watch Series 12 GPS 46mm (International Version) Black Aluminium Case With Black Sport Band - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC316B2BD7AA390FA7514Z/45/_/1790750713/a2de19db-b005-465a-9f12-970d8f4e21d5.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 29747,
+          "old_price": 29747,
+          "url": "https://www.noon.com/egypt-en/watch-series-12-gps-46mm-international-version-black-aluminium-case-with-black-sport-band-m-l/N70437063V/p/?o=d48684a001ddf4ee",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70223205V",
+      "name": "Watch Series 11 GPS 42mm (International Version) Jet Black Aluminium Case With Black Sport Band - S/M",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBE816F1900E9D1CE175CZ/45/_/1779094340/ac6229d7-3760-4931-a24f-39d0edae6076.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 20998,
+          "old_price": 20998,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-42mm-international-version-jet-black-aluminium-case-with-black-sport-band-s-m/N70223205V/p/?o=c794717953b17b7b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70213893V",
+      "name": "Watch Series 11 GPS 46mm (Middle East Version) Space Grey Aluminium Case With Black Sport Band SG Case - S/M",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/Z839CD0CAE243A04D9C52Z/45/_/1779095030/43a658f2-ba74-4a72-b5e5-c7704b5dd643.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 22935,
+          "old_price": 22935,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-middle-east-version-space-grey-aluminium-case-with-black-sport-band-sg-case-s-m/N70213893V/p/?o=d6ca71ae081ab28a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70213963V",
+      "name": "Watch Series 11 GPS 46mm (Middle East Version) Space Grey Aluminium Case With Black Sport Band SG Case - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA42E46A366E21FAA32FBZ/45/_/1779094947/cb0b2846-aced-46d8-b1b4-8b8dd62c21ba.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 23499,
+          "old_price": 23499,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-middle-east-version-space-grey-aluminium-case-with-black-sport-band-sg-case-m-l/N70213963V/p/?o=aa81ec74927b017d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70223204V",
+      "name": "Watch Series 11 GPS 42mm (International Version) Space Grey Aluminium Case With Black Sport Band - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/Z82DC7D2E6A8A8D5F189DZ/45/_/1779094558/71333355-12f8-47b2-bfb2-e7e9fece5a2f.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 21499,
+          "old_price": 23000,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-42mm-international-version-space-grey-aluminium-case-with-black-sport-band-m-l/N70223204V/p/?o=fba01d1307a8463e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70223229V",
+      "name": "Apple Watch Series 11 GPS 46mm (International Version) Rose Gold Aluminium Case With Light Blush Sport Band - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/Z14E389397407F5A9555AZ/45/_/1779094511/f4891ddb-af60-47a1-8525-931dfdd68665.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 21999,
+          "old_price": 21999,
+          "url": "https://www.noon.com/egypt-en/apple-watch-series-11-gps-46mm-international-version-rose-gold-aluminium-case-with-light-blush-sport-band-m-l/N70223229V/p/?o=bef2d2fa23bdbd2e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70213871V",
+      "name": "Watch Series 11 GPS 46mm (Middle East Version) Silver Aluminium Case With Purple Fog Sport Band - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/Z68BFB5EAF8EFE49FC0C5Z/45/_/1779094659/a2493112-0a03-4827-99cc-4407a4e95d08.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 22400,
+          "old_price": 26000,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-middle-east-version-silver-aluminium-case-with-purple-fog-sport-band-m-l/N70213871V/p/?o=d8d8140d4a43396f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70223244V",
+      "name": "Watch Series 11 GPS 46mm (International Version) Rose Gold Aluminium Case With Light Blush Sport Band - S/M",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/Z0C0096449F574A385A37Z/45/_/1779094161/f481f19e-e948-482d-ae67-69fe218ace83.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 24000,
+          "old_price": 24000,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-international-version-rose-gold-aluminium-case-with-light-blush-sport-band-s-m/N70223244V/p/?o=a0986e7afdc25e3a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0HJ9YR12V",
+      "name": "Watch Series 12 GPS 46mm",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/61+dTfXPeGL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 31061,
+          "old_price": 33300,
+          "url": "https://www.amazon.eg/dp/B0HJ9YR12V",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0FQF33NRK",
+      "name": "Watch Series 11 GPS 46mm Smartwatch with Jet Black Aluminium Case with Black Sport Band M/L. Sleep Score, Fitness Tracker, Health Monitoring, Always-On Display, Water Resistant",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/71FwYuL1FDL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 24000,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FQF33NRK",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0FQFQP6D5",
+      "name": "Watch Series 11 GPS 42mm Smartwatch with Jet Black Aluminium Case with Black Sport Band S/M. Sleep Score, Fitness Tracker, Health Monitoring, Always-On Display, Water Resistant",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/71FwYuL1FDL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 23000,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FQFQP6D5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0HJB6TD47",
+      "name": "Watch Series 12 GPS 46mm",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/61Zd-TDlNCL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 30444,
+          "old_price": 33300,
+          "url": "https://www.amazon.eg/dp/B0HJB6TD47",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0FQFQCW1K",
+      "name": "Watch Series 11 GPS 42mm Smartwatch with Rose Gold Aluminium Case with Light Blush Sport Band S/M. Sleep Score, Fitness Tracker, Health Monitoring, Always-On Display, Water Resistant",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/61CKe02e2yL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 23000,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FQFQCW1K",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0FQFBBD58",
+      "name": "Watch SE 3 GPS 40mm Smartwatch with Starlight Aluminium Case with Starlight Sport Band S/M. Fitness and Sleep Trackers, Heart Rate Monitor, Always-On Display, Water Resistant",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/61xFIhSW-dL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 17500,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FQFBBD58",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0FQF9ZX7P",
+      "name": "Watch Series 11 [GPS 42mm] Smartwatch with Rose Gold Aluminum Case with Light Blush Sport Band - S/M. Sleep Score, Fitness Tracker, Health Monitoring, Always-On Display, Water Resistant",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/61T8W7-25IL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 23000,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FQF9ZX7P",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0BDHVMTPD",
+      "name": "Watch SE 44MM GPS (2nd Gen - 2022) Midnight Aluminum Case with Midnight Sport Band - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://m.media-amazon.com/images/I/71lG7br7k1L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 17000,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0BDHVMTPD",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70151076V",
+      "name": "Band 10 Smartwatch, Compatible with iOS Android, Emotional Wellbeing Assistant, Fast Charging And Robust Battery Life, Comfortable Wearing, Pro-Level Sleep Analysis, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/ZBB29B18737D3ACAD760EZ/45/_/1785747313/6fd6ccbb-2bdf-48dd-8cd9-110c80232704.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1750,
+          "old_price": 1750,
+          "url": "https://www.noon.com/egypt-en/band-10-smartwatch-compatible-with-ios-android-emotional-wellbeing-assistant-fast-charging-and-robust-battery-life-comfortable-wearing-pro-level-sleep-analysis-black/N70151076V/p/?o=fa3cad09a079433e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70285078V",
+      "name": "Band 11 Pro Smart Watch, Enhanced Sleep Tracking, Health & GNSS Position Fitness Tracker, Up to 14-day Battery Life, Ultra-Slim & Comfort Wear, Compatible with iOS & Android, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/Z918342DFB2063A5E0A23Z/45/_/1780572409/aa1e9a0c-ea7b-43a4-aebf-2e6a5eff758b.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3390,
+          "old_price": 3999,
+          "url": "https://www.noon.com/egypt-en/band-11-pro-smart-watch-enhanced-sleep-tracking-health-gnss-position-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-compatible-with-ios-android-black/N70285078V/p/?o=bbae925fdcd93def",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70151075V",
+      "name": "Band 10 Smartwatch, Compatible with iOS Android, Emotional Wellbeing Assistant, Fast Charging And Robust Battery Life, Comfortable Wearing, Pro-Level Sleep Analysis, Pink",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC5C5FA696A7204EF95ECZ/45/_/1785747680/121d7187-7777-4b86-b548-6690c78dfc1b.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1699,
+          "old_price": 1899,
+          "url": "https://www.noon.com/egypt-en/band-10-smartwatch-compatible-with-ios-android-emotional-wellbeing-assistant-fast-charging-and-robust-battery-life-comfortable-wearing-pro-level-sleep-analysis-pink/N70151075V/p/?o=e238a4fe7d85d2ed",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70285075V",
+      "name": "Band 11 Smart Watch, Enhanced Sleep Tracking, Health & Fitness Tracker, Up to 14-day Battery Life, Ultra-Slim & Comfort Wear, iOS & Android Compatible, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/Z708384AACF2A6A997F62Z/45/_/1780572176/a0d5a931-10b8-4bab-bcd3-a7bd5ce2daf2.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2732,
+          "old_price": 2732,
+          "url": "https://www.noon.com/egypt-en/band-11-smart-watch-enhanced-sleep-tracking-health-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-ios-android-compatible-black/N70285075V/p/?o=aec98f2fcaadbc9f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70125808V",
+      "name": "Smart Band 9 Pro Obsidian Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/Z5BFC3AE13FC87C507B14Z/45/_/1780466798/d5731d90-3d87-43a5-ac14-96e8aa2ea88a.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 5999,
+          "old_price": 5999,
+          "url": "https://www.noon.com/egypt-en/smart-band-9-pro-obsidian-black/N70125808V/p/?o=ef6cb951f9514a2b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70285070V",
+      "name": "Band 11 Smart Watch, Enhanced Sleep Tracking, Health & Fitness Tracker, Up to 14-day Battery Life, Ultra-Slim & Comfort Wear, iOS & Android Compatible, Online Exclusive, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/Z4B0C4DB7AEC44971E628Z/45/_/1780572419/c38ac872-e827-49a9-9fe5-943caa5f0ae3.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2599,
+          "old_price": 2599,
+          "url": "https://www.noon.com/egypt-en/band-11-smart-watch-enhanced-sleep-tracking-health-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-ios-android-compatible-online-exclusive-black/N70285070V/p/?o=e9c3c6ee8b12b94a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70125810V",
+      "name": "Smart Band 9 Pro Moonlight Silver",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/Z5B8DBDB6C3B1594AC891Z/45/_/1780466554/3573ef0b-8e64-4ecf-b2f8-91c932e40d34.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 5480,
+          "old_price": 5480,
+          "url": "https://www.noon.com/egypt-en/smart-band-9-pro-moonlight-silver/N70125810V/p/?o=e1e08848d9305eea",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70151078V",
+      "name": "Band 10 Smartwatch, Metallic Design, iOS Android, Pro-Level Sleep Analysis, Fast Charging And Robust Battery Life, Sleek Aluminum Alloy Case Matte Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC2391AACF48CD81143A1Z/45/_/1785747649/2595ee43-e683-46ae-917d-eb5129dd5d66.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2099,
+          "old_price": 2499,
+          "url": "https://www.noon.com/egypt-en/band-10-smartwatch-metallic-design-ios-android-pro-level-sleep-analysis-fast-charging-and-robust-battery-life-sleek-aluminum-alloy-case-matte-black/N70151078V/p/?o=b98e0b7934eb42dd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N21961435A",
+      "name": "G502 Hero High Performance Wired Gaming Mouse, Hero 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC And Mac",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC828F28BBB2158AD1155Z/45/_/1779704343/7ad6add4-8892-4182-829f-97d019bebfde.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1799,
+          "old_price": 3300,
+          "url": "https://www.noon.com/egypt-en/g502-hero-high-performance-wired-gaming-mouse-hero-25k-sensor-25-600-dpi-rgb-adjustable-weights-11-programmable-buttons-on-board-memory-pc-and-mac/N21961435A/p/?o=fd7a42d52d48209a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N28863701A",
+      "name": "Logitech G102 Light Sync Gaming Mouse with Customizable RGB Lighting, 6 Programmable Buttons Light Weight Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/Z2534B95CA04C8ADB5A6BZ/45/_/1779704907/5119a76f-6c0b-47c8-accf-0c713043f892.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 839,
+          "old_price": 1018,
+          "url": "https://www.noon.com/egypt-en/logitech-g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-light-weight-black/N28863701A/p/?o=fd3bc87290ac0eab",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70178176V",
+      "name": "G309 LIGHTSPEED Wireless/Bluetooth Gaming Mouse, Lightweight, LIGHTFORCE Hybrid Switches, HERO 25K Sensor, 86g & 300+ hr battery life with AA battery, 6 Programmable Buttons, PC & Mac - Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/Z059E7D99B0A2B01E3FF5Z/45/_/1779705385/3cb476f9-7fea-46b1-b8dd-8a45c6e47f64.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2899,
+          "old_price": 4500,
+          "url": "https://www.noon.com/egypt-en/g309-lightspeed-wireless-bluetooth-gaming-mouse-lightweight-lightforce-hybrid-switches-hero-25k-sensor-86g-300-hr-battery-life-with-aa-battery-6-programmable-buttons-pc-mac-black/N70178176V/p/?o=e17c1f24ebfcb4bd",
+          "in_stock": true
+        },
         {
           "store": "amazon",
           "price": 2799,
-          "url": ""
-        },
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0D3GVCP93",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N28548671A",
+      "name": "Logitech G102 Light Sync Gaming Mouse with Customizable RGB Lighting, 6 Programmable Buttons, Gaming Grade Sensor, 8 k dpi Tracking,16.8mn Color, Light Weight (White)",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/ZACF0AFD99ED749310A3AZ/45/_/1779704453/40f4e019-b872-49b9-a4f8-87fec23c586f.jpg",
+      "offers": [
         {
           "store": "noon",
-          "price": 2650,
-          "url": ""
+          "price": 799,
+          "old_price": 1099,
+          "url": "https://www.noon.com/egypt-en/logitech-g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-gaming-grade-sensor-8-k-dpi-tracking-16-8mn-color-light-weight-white/N28548671A/p/?o=dde616c72bd965ea",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N16549206A",
+      "name": "Logitech G305 Lightspeed Wireless Gaming Mouse, HERO Sensor, 12,000 DPI, Lightweight, 6 Programmable Buttons, 250h Battery Life, On-Board Memory, Compatible with PC / Mac Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/Z57387B2F4D82B4BAAF96Z/45/_/1779705937/f085bba6-b11e-41a8-be4c-a6eaab92f9a9.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1849,
+          "old_price": 2299,
+          "url": "https://www.noon.com/egypt-en/logitech-g305-lightspeed-wireless-gaming-mouse-hero-sensor-12-000-dpi-lightweight-6-programmable-buttons-250h-battery-life-on-board-memory-compatible-with-pc-mac-black/N16549206A/p/?o=eb7d3255ae0aa50a",
+          "in_stock": true
         },
         {
-          "store": "jumia",
+          "store": "amazon",
+          "price": 2042,
+          "old_price": 2149,
+          "url": "https://www.amazon.eg/dp/B07CGNDZR3",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70086972V",
+      "name": "G102 Light Sync Gaming Mouse with Customizable RGB Lighting, 6 Programmable Buttons Light Weight Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC4720D43F399D26C79F8Z/45/_/1779705944/eb3370ad-2974-4eeb-914f-d7911504da78.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 799,
+          "old_price": 1200,
+          "url": "https://www.noon.com/egypt-en/g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-light-weight-black/N70086972V/p/?o=dcd57e784baccc6d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70086310V",
+      "name": "Logitech G G640 Gaming Fabric Mouse Pad, Optimized for Gaming Sensors, Moderate Friction, Non-Slip, Gaming Accessories for Mac and PC, 460 x 400 x 3 mm",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/Z02892D62C7342B52FBA4Z/45/_/1779706085/99659c04-2cb0-4184-9495-884e07fe2682.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1871,
+          "old_price": 1871,
+          "url": "https://www.noon.com/egypt-en/logitech-g-g640-gaming-fabric-mouse-pad-optimized-for-gaming-sensors-moderate-friction-non-slip-gaming-accessories-for-mac-and-pc-460-x-400-x-3-mm/N70086310V/p/?o=fb320248101432fd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N16549207A",
+      "name": "Logitech G305 Lightspeed Wireless Gaming Mouse, HERO Sensor, 12,000 DPI, Lightweight, 6 Programmable Buttons, 250h Battery Life, On-Board Memory, Compatible with PC / Mac - White I 910-005292",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://f.nooncdn.com/p/pzsku/Z00E4D930168517B375F1Z/45/_/1779704927/f2aa426e-c809-4636-a617-67024c52dfff.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1849,
+          "old_price": 2199,
+          "url": "https://www.noon.com/egypt-en/logitech-g305-lightspeed-wireless-gaming-mouse-hero-sensor-12-000-dpi-lightweight-6-programmable-buttons-250h-battery-life-on-board-memory-compatible-with-pc-mac-white-i-910-005292/N16549207A/p/?o=feadf87de7bf350a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B07GS6ZS8J",
+      "name": "Logitech G502 Hero High Performance Wired Gaming Mouse, Hero 16K Sensor, 16,000 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC/Mac - Black (German Packaging)",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://m.media-amazon.com/images/I/51jWEFaiZFL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1849,
+          "old_price": 1899,
+          "url": "https://www.amazon.eg/dp/B07GS6ZS8J",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B07L4BM851",
+      "name": "Logitech G502 Lightspeed Wireless Gaming Mouse with Hero 25K Sensor, PowerPlay Compatible, Tunable Weights and Lightsync RGB - Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://m.media-amazon.com/images/I/715BOo6P-BL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 5099,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B07L4BM851",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B07W7MJ46M",
+      "name": "Logitech G502 X PLUS LIGHTSPEED Wireless RGB Gaming Mouse - Optical mouse with LIGHTFORCE hybrid switches, LIGHTSYNC RGB, HERO 25K gaming sensor, compatible with PC - macOS/Windows - Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://m.media-amazon.com/images/I/51Jh6MAK8TL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 7299,
+          "old_price": 8964,
+          "url": "https://www.amazon.eg/dp/B07W7MJ46M",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B07W5JKFDQ",
+      "name": "Logitech G102 LIGHTSYNC Gaming Mouse with Customizable RGB Lighting, 6 Programmable Buttons, Gaming Grade Sensor, 8K DPI Tracking, Lightweight – Blue | HighEnd",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://m.media-amazon.com/images/I/51ZaVqiw3QL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 839,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B07W5JKFDQ",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B07NSSPV9S",
+      "name": "Logitech G703 Lightspeed Wireless Gaming Mouse W/Hero 25K Sensor, PowerPlay Compatible, Lightsync RGB, Lightweight 95G+10G Optional, 100-25, 600 DPI, Rubber Side Grips - Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://m.media-amazon.com/images/I/61-jAartdjL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 3499,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B07NSSPV9S",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-B0C84ZD7L6",
+      "name": "Logitech G309 LIGHTSPEED Wireless Gaming Mouse, Lightweight, LIGHTFORCE Hybrid Switches, HERO 25K Sensor, 86g & 300+ hr battery life with AA battery, 6 Programmable Buttons, PC & Mac - Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://m.media-amazon.com/images/I/61m9VKC3t4L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
           "price": 2899,
-          "url": ""
-        },
-        {
-          "store": "local",
-          "price": 2500,
-          "url": ""
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0C84ZD7L6",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "gt7",
-      "name": "لعبة Gran Turismo 7",
-      "category": "ألعاب",
-      "search": "Gran Turismo 7 PS5",
+      "id": "noon-Z6D5E19F0C1D8439BF9E6Z",
+      "name": "Wireless Mechanical Keyboard K530W RGB PRO 60% , Tri-Mode 2.4GHz/Bluetooth/USB-C, Hot-Swappable Red Switches, RGB Backlit, Compact 61 Keys Gaming Keyboard- White",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/Z6D5E19F0C1D8439BF9E6Z/45/_/1774693032/f4d7c98a-ae61-400d-8fda-a0f7ac0ee371.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 1899,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 1950,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 1799,
-          "url": ""
+          "price": 1495,
+          "old_price": 2600,
+          "url": "https://www.noon.com/egypt-en/wireless-mechanical-keyboard-k530w-rgb-pro-60-tri-mode-2-4ghz-bluetooth-usb-c-hot-swappable-red-switches-rgb-backlit-compact-61-keys-gaming-keyboard-white/Z6D5E19F0C1D8439BF9E6Z/p/?o=e9585d3a8af6b7de",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "ghost-yotei",
-      "name": "لعبة Ghost of Yōtei",
-      "category": "ألعاب",
-      "search": "Ghost of Yotei PS5",
+      "id": "noon-Z97079FA914833076B0CCZ",
+      "name": "80% TKL Tri-Mode Wireless Mechanical Gaming Keyboard With Control Knob Hot-Swappable Switches RGB Backlit South-Facing LEDs Gasket Mounted Design PBT Keycaps USB-C BT 5.0 2.4GHz Wireless Keyboard For PC Gaming And Productivity",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/Z97079FA914833076B0CCZ/45/_/1780825339/2878dc11-411d-4d6c-9fb1-43eda9263a26.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 3299,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 3199,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 3350,
-          "url": ""
+          "price": 3750,
+          "old_price": 5500,
+          "url": "https://www.noon.com/egypt-en/80-tkl-tri-mode-wireless-mechanical-gaming-keyboard-with-control-knob-hot-swappable-switches-rgb-backlit-south-facing-leds-gasket-mounted-design-pbt-keycaps-usb-c-bt-5-0-2-4ghz-wireless-keyboard-for-pc-gaming-and-productivity/Z97079FA914833076B0CCZ/p/?o=fc224f00677aed1a",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "ps-plus-3m",
-      "name": "اشتراك PS Plus Essential ‏3 شهور",
-      "category": "اشتراكات وكروت",
-      "search": "PS Plus Essential 3 months",
+      "id": "noon-ZC46E291F4C85A0447EB0Z",
+      "name": "Gaming Keyboard K631 CASTOR PRO 60% 3-Mode Wireless RGB , 68 Keys Hot-Swappable Compact Mechanical Keyboard w/Hot-Swap Free-Mod PCB Socket & Translucent Board, Custom Panda Switch",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/ZC46E291F4C85A0447EB0Z/45/1764421308/09d3214a-ace8-4186-ba29-1c27ddf52a9d.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 1150,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 1099,
-          "url": ""
-        },
-        {
-          "store": "local",
-          "price": 1050,
-          "url": ""
+          "price": 1299,
+          "old_price": 3450,
+          "url": "https://www.noon.com/egypt-en/gaming-keyboard-k631-castor-pro-60-3-mode-wireless-rgb-68-keys-hot-swappable-compact-mechanical-keyboard-w-hot-swap-free-mod-pcb-socket-translucent-board-custom-panda-switch/ZC46E291F4C85A0447EB0Z/p/?o=ecf791c9122c0f9a",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "psn-20",
-      "name": "كارت PSN ‏20 دولار",
-      "category": "اشتراكات وكروت",
-      "search": "PSN card 20 USD",
+      "id": "noon-N70035814V",
+      "name": "K649 78% Wired Gasket RGB Gaming Keyboard, 82 Keys Layout Hot-Swap Compact Mechanical Keyboard w/Hot-Swappable Socket, Sound Absorbing Foam, Quiet Custom Linear Switch",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/Z210DF69E3757A783B76DZ/45/_/1778748048/a36bc00a-e8d8-42bd-bece-abc1f8074ee9.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 1190,
-          "url": ""
-        },
-        {
           "store": "noon",
-          "price": 1150,
-          "url": ""
-        },
-        {
-          "store": "jumia",
-          "price": 1210,
-          "url": ""
-        },
-        {
-          "store": "local",
-          "price": 1120,
-          "url": ""
+          "price": 2799,
+          "old_price": 4999,
+          "url": "https://www.noon.com/egypt-en/k649-78-wired-gasket-rgb-gaming-keyboard-82-keys-layout-hot-swap-compact-mechanical-keyboard-w-hot-swappable-socket-sound-absorbing-foam-quiet-custom-linear-switch/N70035814V/p/?o=c3f31f582b60f7ef",
+          "in_stock": true
         }
       ]
     },
     {
-      "id": "travel-case",
-      "name": "حافظة سفر للجهاز",
-      "category": "إكسسوارات",
-      "search": "PS5 carrying case",
+      "id": "noon-ZA8F03E85381D78C5E4E7Z",
+      "name": "Wireless Mechanical Keyboard, K530W-RGB PRO Backlit  60% , Tri-Mode 2.4GHz/Bluetooth/USB-C, Hot-Swappable Bullet R Switches, , Compact 61 Keys Gaming Keyboard , Dust Proof",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA8F03E85381D78C5E4E7Z/45/_/1774712098/d40fb4a5-e33a-4adf-8cd0-549f03b34b98.jpg",
       "offers": [
         {
-          "store": "amazon",
-          "price": 1699,
-          "url": ""
-        },
+          "store": "noon",
+          "price": 1625,
+          "old_price": 2900,
+          "url": "https://www.noon.com/egypt-en/wireless-mechanical-keyboard-k530w-rgb-pro-backlit-60-tri-mode-2-4ghz-bluetooth-usb-c-hot-swappable-bullet-r-switches-compact-61-keys-gaming-keyboard-dust-proof/ZA8F03E85381D78C5E4E7Z/p/?o=e8289873ef7ebfca",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-Z60190922076E0332FC15Z",
+      "name": "Arena TGK321 60% Mechanical Gaming Keyboard , Rainbow Backlit, Compact Wired Keyboard with USB Type-C, Red Switch",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/Z60190922076E0332FC15Z/45/_/1776867384/261a73bc-ea2e-4586-958e-021d0167480d.jpg",
+      "offers": [
         {
           "store": "noon",
-          "price": 1590,
-          "url": ""
-        },
+          "price": 595,
+          "old_price": 1100,
+          "url": "https://www.noon.com/egypt-en/arena-tgk321-60-mechanical-gaming-keyboard-rainbow-backlit-compact-wired-keyboard-with-usb-type-c-red-switch/Z60190922076E0332FC15Z/p/?o=a19e8e29aaad09dc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70093949V",
+      "name": "K608 Valheim Mechanical Gaming Keyboard, Tactile and Clicky Blue Switch, 104 Keys, LED Rainbow Backlit, Wired Keyboard, Full-Key Rollover, Ergonomic Keyboard, for Office and Gaming, US QWERTY",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/Z660DC7C568C08CC301E8Z/45/_/1778748234/c7360319-14bd-4ea4-88bd-33d4f4e4c265.jpg",
+      "offers": [
         {
-          "store": "jumia",
-          "price": 1750,
-          "url": ""
+          "store": "noon",
+          "price": 1449,
+          "old_price": 2000,
+          "url": "https://www.noon.com/egypt-en/k608-valheim-mechanical-gaming-keyboard-tactile-and-clicky-blue-switch-104-keys-led-rainbow-backlit-wired-keyboard-full-key-rollover-ergonomic-keyboard-for-office-and-gaming-us-qwerty/N70093949V/p/?o=d51100d9415d508d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "id": "noon-N70180076V",
+      "name": "K649 YP edition ,Wired RGB Gaming Keyboard 75% hot-swappable mechanical keyboard with Gasket mount and smooth 42g melt-gold switches OEM profile PBT keycaps , Compact Mechanical Keyboard Dedicated Arrow Keys, for PC and laptop use in home and office",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://f.nooncdn.com/p/pzsku/Z001904ADFD8C4886A338Z/45/_/1778748268/49f22485-2a1d-448f-bc1f-d9701f140014.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3149,
+          "old_price": 4200,
+          "url": "https://www.noon.com/egypt-en/k649-yp-edition-wired-rgb-gaming-keyboard-75-hot-swappable-mechanical-keyboard-with-gasket-mount-and-smooth-42g-melt-gold-switches-oem-profile-pbt-keycaps-compact-mechanical-keyboard-dedicated-arrow-keys-for-pc-and-laptop-use-in-home-and-office/N70180076V/p/?o=f824c2448b42ddeb",
+          "in_stock": true
         }
       ]
     }
