@@ -1,35 +1,18 @@
 import re, json
 from curl_cffi import requests as http
-def get(u): return http.get(u, impersonate="chrome", timeout=40, headers={"Accept-Language": "en-US,en;q=0.9"})
-def title(t):
-    m = re.search(r"<title[^>]*>(.*?)</title>", t, re.S | re.I); return m.group(1).strip()[:70] if m else "-"
-def ctx(t, needle, before=300, after=900):
-    i = t.find(needle); return re.sub(r"\s+", " ", t[max(0, i-before):i+after]) if i >= 0 else "NONE"
-
+def get(u, **k): return http.get(u, impersonate="chrome", timeout=40, headers={"Accept-Language": "en-US,en;q=0.9"}, **k)
+def sq(s): return re.sub(r"\s+", " ", s)
 print("##### 2B")
 t = get("https://2b.com.eg/en/catalogsearch/result/?q=dualsense").text
-print(ctx(t, 'product-item-info', 0, 1800))
-
-print("##### CARREFOUR")
-t = get("https://www.carrefouregypt.com/mafegy/en/search?keyword=dualsense").text
-for n in ["__NEXT_DATA__", "self.__next_f", "applicableOffer", "originalPrice", '"price"']:
-    print(n, t.count(n))
-print(ctx(t, "DualSense", 600, 1200))
-
-for name, urls in {
-  "btech": ["https://btech.com/en/search?q=dualsense", "https://btech.com/en/catalogsearch/result/?q=dualsense", "https://btech.com/en/"],
-  "dream2000": ["https://dream2000.com/search?q=dualsense&type=product", "https://dream2000.com/search/suggest.json?q=dualsense&resources[type]=product&resources[limit]=5"],
-  "games2egypt": ["https://www.games2egypt.com/en/catalogsearch/result/?q=dualsense", "https://www.games2egypt.com/catalogsearch/result/?q=dualsense"],
-  "raya": ["https://www.rayashop.com/en/catalogsearch/result?q=dualsense"],
-}.items():
-    print("#####", name)
-    for u in urls:
-        try:
-            r = get(u); t = r.text
-            print(r.status_code, u[8:70], "->", r.url[8:70], len(t), title(t), "dualsense:", t.lower().count("dualsense"))
-            if "suggest.json" in u and r.status_code == 200:
-                print(t[:900])
-            elif r.status_code == 200 and t.lower().count("dualsense") > 3:
-                print("  ", ctx(t, "ualSense", 400, 700)[:1100])
-        except Exception as e:
-            print("ERR", u, str(e)[:100])
+i = t.find('<li class="item product product-item'); print(sq(t[i:i+3500]) if i >= 0 else "no li")
+print("##### BTECH search")
+t = get("https://btech.com/en").text
+print(set(re.findall(r'(?:action|href)="(/en/[^"]*(?:search|q=)[^"]*)"', t)))
+print(set(re.findall(r'"(/en/[a-z-]*search[^"]{0,40})"', t)))
+for u in ["https://btech.com/en/search-results?q=dualsense", "https://btech.com/en/products?search=dualsense", "https://btech.com/en/s?q=dualsense", "https://btech.com/en/search/dualsense"]:
+    r = get(u); print(r.status_code, u, len(r.text), r.text.lower().count("dualsense"))
+print("##### DREAM2000")
+r = get("https://dream2000.com/products.json?limit=3"); print("products.json", r.status_code, sq(r.text[:600]))
+r = get("https://dream2000.com/search/suggest.json?q=dualsense&resources%5Btype%5D=product&resources%5Blimit%5D=5"); print("suggest", r.status_code, sq(r.text[:900]))
+t = get("https://dream2000.com/search?q=dualsense&type=product").text
+i = t.lower().find("dualsense", t.find("<main")); print(sq(t[i-1500:i+800]))
