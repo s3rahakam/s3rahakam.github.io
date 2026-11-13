@@ -427,6 +427,7 @@ def targeted_query(p):
 
 
 def main():
+    global PER_STORE
     try:
         old = json.loads(OUTPUT.read_text(encoding="utf-8"))
         old = [] if old.get("demo") else old.get("products", [])
@@ -521,30 +522,50 @@ def main():
                 seen.add(p["id"])
                 products.append(p)
 
-    # الأقسام المرجعية: ناخد منتجات نون في القسم، وكل منتج ندوّر عليه في باقي المتاجر
+    # الأقسام المرجعية: ناخد منتجات متجر مرجعي (نون، ولو قافل: كارفور ثم B.TECH ثم 2B)،
+    # وكل منتج ندوّر عليه بالاسم في باقي المتاجر
+    REF_ORDER = ["noon", "carrefour", "btech", "2b"]
     browse = [r for r in csv.DictReader(BROWSE.open(encoding="utf-8-sig"))] if BROWSE.exists() else []
+    noon_fails, noon_skipped = 0, 0
     for row in browse:
         q, cat = row["search"].strip(), row["category"].strip()
         limit, pages = int(row.get("limit") or 40), int(row.get("pages") or 2)
-        refs, noon_down = [], False
-        for pg in range(1, pages + 1):
-            try:
-                found = search_noon(q, limit=200, page_no=pg)
-                ok += 1
-            except Exception as e:  # noqa: BLE001
-                failed.append(f"{q} p{pg} / noon: {e}")
-                print(f"✗ {q} صفحة {pg} / noon: {e}", file=sys.stderr)
-                noon_down = pg == 1
+        strict = (row.get("filter") or "yes").strip().lower() != "no"
+        refs, ref_store = [], None
+        for store in REF_ORDER:
+            if store == "noon":
+                if noon_fails >= 3 and noon_skipped < 5:  # نون قافل؟ نجربه تاني كل 5 أقسام
+                    noon_skipped += 1
+                    continue
+                noon_skipped = 0
+                try:
+                    for pg in range(1, pages + 1):
+                        found = search_noon(q, limit=200, page_no=pg)
+                        ok += 1
+                        refs += [r for r in found if r["key"] not in {x["key"] for x in refs}]
+                        time.sleep(random.uniform(3, 6))
+                    noon_fails = 0
+                except Exception as e:  # noqa: BLE001
+                    noon_fails += 1
+                    failed.append(f"{q} / noon: {e}")
+                    print(f"✗ {q} / noon: {e}", file=sys.stderr)
+            elif fails[store] < MAX_FAILS:
+                PER_STORE, saved = max(limit, 8), PER_STORE
+                try:
+                    refs = run(store, q) or []
+                finally:
+                    PER_STORE = saved
+            if strict:  # شيل النتايج الدخيلة والإكسسوارات
+                refs = [r for r in refs if relevant(q, r["name"])]
+            if refs:
+                ref_store = store
                 break
-            refs += [r for r in found if r["key"] not in {x["key"] for x in refs}]
-            time.sleep(random.uniform(3, 6))
-        if (row.get("filter") or "yes").strip().lower() != "no":  # شيل النتايج الدخيلة والإكسسوارات
-            refs = [r for r in refs if relevant(q, r["name"])]
         refs = refs[:limit]
-        print(f"✓ قسم «{q}» من نون: {len(refs)} منتج مرجعي")
+        print(f"✓ قسم «{q}»: {len(refs)} منتج مرجعي من {ref_store or '—'}")
         merged = merge(refs, cat, q)
-        fill(merged, [s for s in SEARCHERS if s != "noon" and fails[s] < MAX_FAILS])
-        if noon_down:  # نون قفل؟ رجّع آخر نسخة من القسم
+        fill(merged, [s for s in SEARCHERS if s != ref_store and fails[s] < MAX_FAILS
+                      and not (s == "noon" and noon_fails >= 3)])
+        if not refs:  # كل المتاجر المرجعية قافلة؟ رجّع آخر نسخة من القسم
             merged = [{**p, "offers": [{**o, "stale": True} for o in p["offers"]]}
                       for p in old if p.get("search") == q]
         for p in merged:
