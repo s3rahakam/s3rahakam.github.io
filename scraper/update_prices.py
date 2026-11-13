@@ -15,6 +15,7 @@ import random
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus
@@ -432,8 +433,10 @@ def main():
     for row in rows:
         q, cat = row["search"].strip(), (row.get("category") or "أخرى").strip()
         results, dead = [], []
+        with ThreadPoolExecutor(len(SEARCHERS)) as pool:  # كل متجر في خيط لوحده
+            base = dict(zip(SEARCHERS, pool.map(lambda st: run(st, q), SEARCHERS)))
         for store in SEARCHERS:
-            found = run(store, q)
+            found = base[store]
             if found is None:
                 dead.append(store)
             else:
@@ -446,13 +449,19 @@ def main():
         # البحث الموجّه: أهم المنتجات ندوّر عليها بالاسم في المتاجر اللي ملقيناهاش فيها
         live = [s for s in SEARCHERS if fails[s] < MAX_FAILS]
         anchors = sorted(merged, key=lambda p: -len(p["offers"]))[:ANCHORS]
+        jobs = {}  # لكل متجر: المنتجات اللي ناقصاه
         for p in anchors:
-            missing = [s for s in live if not any(o["store"] == s for o in p["offers"])]
-            if not missing:
-                continue
-            tq = targeted_query(p)
-            for store in missing:
-                found = run(store, tq) or []
+            for store in live:
+                if not any(o["store"] == store for o in p["offers"]):
+                    jobs.setdefault(store, []).append(p)
+
+        def targeted(store):
+            return [(p, run(store, targeted_query(p)) or []) for p in jobs[store]]
+
+        with ThreadPoolExecutor(max(1, len(jobs))) as pool:
+            hits = list(pool.map(targeted, jobs))
+        for store, pairs in zip(jobs, hits):
+            for p, found in pairs:
                 best = max(found, key=lambda r: similar(p.get("brand", "") + " " + p["name"],
                                                          r.get("brand", "") + " " + r["name"]), default=None)
                 if best and similar(p.get("brand", "") + " " + p["name"],
