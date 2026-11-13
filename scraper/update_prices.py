@@ -24,6 +24,7 @@ from curl_cffi import requests as http
 
 ROOT = Path(__file__).resolve().parent.parent
 SEARCHES = ROOT / "searches.csv"
+BROWSE = ROOT / "browse.csv"  # أقسام بناخدها من نون كاملة وندوّر على كل منتج فيها في الباقي
 OUTPUT = ROOT / "products.json"
 PER_STORE = 8  # كام نتيجة من كل متجر لكل كلمة
 
@@ -69,8 +70,8 @@ def money(s):
 
 # ---------- نون ----------
 
-def search_noon(q):
-    page = fetch(STORES["noon"]["search"] + quote_plus(q))
+def search_noon(q, limit=PER_STORE, page_no=1):
+    page = fetch(STORES["noon"]["search"] + quote_plus(q) + (f"&page={page_no}" if page_no > 1 else ""))
     start = page.find("hits:")
     if start < 0:
         raise RuntimeError("شكل صفحة نون اتغير (ملقتش النتايج)")
@@ -101,7 +102,7 @@ def search_noon(q):
             "in_stock": buy not in ("!1", "false"),
             "key": "noon:" + sku,
         })
-        if len(out) >= PER_STORE:
+        if len(out) >= limit:
             break
     return out
 
@@ -453,6 +454,32 @@ def main():
         finally:
             time.sleep(random.uniform(3, 6))
 
+    def fill(refs, live):
+        """البحث الموجّه: كل منتج مرجعي ندوّر عليه بالاسم في المتاجر اللي ملقيناهوش فيها."""
+        jobs = {}  # لكل متجر: المنتجات اللي ناقصاه
+        for p in refs:
+            for store in live:
+                if not any(o["store"] == store for o in p["offers"]):
+                    jobs.setdefault(store, []).append(p)
+
+        def targeted(store):
+            return [(p, run(store, targeted_query(p)) or []) for p in jobs[store]]
+
+        with ThreadPoolExecutor(max(1, len(jobs))) as pool:
+            hits = list(pool.map(targeted, jobs))
+        for store, pairs in zip(jobs, hits):
+            for p, found in pairs:
+                best = max(found, key=lambda r: similar(p.get("brand", "") + " " + p["name"],
+                                                         r.get("brand", "") + " " + r["name"]), default=None)
+                if best and similar(p.get("brand", "") + " " + p["name"],
+                                    best.get("brand", "") + " " + best["name"]) >= 0.5 \
+                        and close_price([o["price"] for o in p["offers"]], best["price"]):
+                    p["offers"].append({k: best[k] for k in ("store", "price", "old_price", "url", "in_stock")})
+                    if best.get("image") and best["image"] not in p["images"]:
+                        p["images"].append(best["image"])
+                    print(f"  ↳ {store}: لقيت «{p['name'][:45]}» بـ {best['price']:,}")
+
+
     paused = {s: 0 for s in SEARCHERS}
     for row in rows:
         q, cat = row["search"].strip(), (row.get("category") or "أخرى").strip()
@@ -478,28 +505,7 @@ def main():
         # البحث الموجّه: أهم المنتجات ندوّر عليها بالاسم في المتاجر اللي ملقيناهاش فيها
         live = [s for s in SEARCHERS if fails[s] < MAX_FAILS]
         anchors = sorted(merged, key=lambda p: -len(p["offers"]))[:ANCHORS]
-        jobs = {}  # لكل متجر: المنتجات اللي ناقصاه
-        for p in anchors:
-            for store in live:
-                if not any(o["store"] == store for o in p["offers"]):
-                    jobs.setdefault(store, []).append(p)
-
-        def targeted(store):
-            return [(p, run(store, targeted_query(p)) or []) for p in jobs[store]]
-
-        with ThreadPoolExecutor(max(1, len(jobs))) as pool:
-            hits = list(pool.map(targeted, jobs))
-        for store, pairs in zip(jobs, hits):
-            for p, found in pairs:
-                best = max(found, key=lambda r: similar(p.get("brand", "") + " " + p["name"],
-                                                         r.get("brand", "") + " " + r["name"]), default=None)
-                if best and similar(p.get("brand", "") + " " + p["name"],
-                                    best.get("brand", "") + " " + best["name"]) >= 0.5 \
-                        and close_price([o["price"] for o in p["offers"]], best["price"]):
-                    p["offers"].append({k: best[k] for k in ("store", "price", "old_price", "url", "in_stock")})
-                    if best.get("image") and best["image"] not in p["images"]:
-                        p["images"].append(best["image"])
-                    print(f"  ↳ {store}: لقيت «{p['name'][:45]}» بـ {best['price']:,}")
+        fill(anchors, live)
 
         # متجر فشل؟ رجّع آخر أسعاره المعروفة لنفس الكلمة
         for p in old:
@@ -509,6 +515,34 @@ def main():
                 if o["store"] in dead and not any(m["id"] == p["id"] for m in merged):
                     merged.append({**p, "offers": [{**o, "stale": True}]})
 
+        for p in merged:
+            if p["id"] not in seen:
+                seen.add(p["id"])
+                products.append(p)
+
+    # الأقسام المرجعية: ناخد منتجات نون في القسم، وكل منتج ندوّر عليه في باقي المتاجر
+    browse = [r for r in csv.DictReader(BROWSE.open(encoding="utf-8-sig"))] if BROWSE.exists() else []
+    for row in browse:
+        q, cat = row["search"].strip(), row["category"].strip()
+        limit, pages = int(row.get("limit") or 40), int(row.get("pages") or 2)
+        refs = []
+        for pg in range(1, pages + 1):
+            try:
+                found = search_noon(q, limit=200, page_no=pg)
+                ok += 1
+            except Exception as e:  # noqa: BLE001
+                failed.append(f"{q} p{pg} / noon: {e}")
+                print(f"✗ {q} صفحة {pg} / noon: {e}", file=sys.stderr)
+                break
+            refs += [r for r in found if r["key"] not in {x["key"] for x in refs}]
+            time.sleep(random.uniform(3, 6))
+        refs = refs[:limit]
+        print(f"✓ قسم «{q}» من نون: {len(refs)} منتج مرجعي")
+        merged = merge(refs, cat, q)
+        fill(merged, [s for s in SEARCHERS if s != "noon" and fails[s] < MAX_FAILS])
+        if not refs:  # نون قفل؟ رجّع آخر نسخة من القسم
+            merged = [{**p, "offers": [{**o, "stale": True} for o in p["offers"]]}
+                      for p in old if p.get("search") == q]
         for p in merged:
             if p["id"] not in seen:
                 seen.add(p["id"])
