@@ -265,6 +265,9 @@ VARIANTS = set("pro max plus ultra mini edge lite fe slim digital disc air se ne
 BRANDS = set("sony apple samsung xiaomi redmi anker jbl logitech lenovo hp dell huawei oppo realme "
              "honor infinix tecno nokia havit baseus ugreen oraimo joyroom lg razer hyperx redragon "
              "corsair steelseries soundcore beats bose marshall amazfit garmin generic".split())
+# إكسسوار (جراب، اسكرينة، ستاند...) عمره ما يتدمج مع الجهاز نفسه
+ACCESSORY = set("case cases cover covers protector tempered glass skin skins sticker sleeve pouch holder "
+                "mount stand bumper film jacket backcover strap straps dock grip grips decal".split())
 GENERIC_NUM = {"ps5", "ps4", "5g", "4g", "usb", "3a", "2", "1"}
 
 
@@ -279,9 +282,24 @@ def keywords(name):
     return re.findall(r"[a-z0-9]+", n)
 
 
+def is_accessory(name):
+    return bool(set(keywords(name)) & ACCESSORY)
+
+
+def close_price(prices, price):
+    """السعر قريب من أسعار المنتج التانية؟ (جراب بـ 599 مش هو موبايل بـ 65 ألف)"""
+    prices = sorted(x for x in prices if x and x > 0)
+    if not prices or not price:
+        return True
+    mid = prices[len(prices) // 2]
+    return 0.4 <= price / mid <= 2.5
+
+
 def similar(a, b):
     wa, wb = keywords(a), keywords(b)
     ta, tb = set(wa), set(wb)
+    if bool(ta & ACCESSORY) != bool(tb & ACCESSORY):
+        return 0
     if ta & VARIANTS != tb & VARIANTS:  # iPhone 16 غير iPhone 16 Pro
         return 0
     ka = [w for w in wa if w not in STOP][:8]
@@ -321,7 +339,7 @@ def merge(results, category, query):
             if any(o["store"] == r["store"] for o in p["offers"]):
                 continue
             s = similar(p.get("brand", "") + " " + p["name"], r.get("brand", "") + " " + r["name"])
-            if s > score:
+            if s > score and close_price([o["price"] for o in p["offers"]], r["price"]):
                 best, score = p, s
         offer = {k: r[k] for k in ("store", "price", "old_price", "url", "in_stock")}
         if best and score >= 0.5:
@@ -355,6 +373,8 @@ def relevant(query, name):
     """النتيجة لازم يكون فيها أغلب كلمات البحث (المتاجر ساعات بترجع حاجات ملهاش علاقة)."""
     need = [w for w in re.findall(r"[a-z0-9]+", query.lower().replace("playstation 5", "ps5"))
             if len(w) >= 3 or any(c.isdigit() for c in w)]
+    if is_accessory(name) and not is_accessory(query):
+        return False  # بندوّر على الجهاز، مش على جرابه
     if not need:
         return True
     have = squash(name)
@@ -373,6 +393,9 @@ def global_merge(products):
         for k in kept:
             score = similar(k.get("brand", "") + " " + k["name"], p.get("brand", "") + " " + p["name"])
             overlap = stores & {o["store"] for o in k["offers"]}
+            if not close_price([o["price"] for o in k["offers"]],
+                               sorted(o["price"] for o in p["offers"])[len(p["offers"]) // 2]):
+                continue
             if score >= 0.85 or (score >= 0.5 and not overlap):
                 target = k
                 break
@@ -471,7 +494,8 @@ def main():
                 best = max(found, key=lambda r: similar(p.get("brand", "") + " " + p["name"],
                                                          r.get("brand", "") + " " + r["name"]), default=None)
                 if best and similar(p.get("brand", "") + " " + p["name"],
-                                    best.get("brand", "") + " " + best["name"]) >= 0.5:
+                                    best.get("brand", "") + " " + best["name"]) >= 0.5 \
+                        and close_price([o["price"] for o in p["offers"]], best["price"]):
                     p["offers"].append({k: best[k] for k in ("store", "price", "old_price", "url", "in_stock")})
                     if best.get("image") and best["image"] not in p["images"]:
                         p["images"].append(best["image"])
