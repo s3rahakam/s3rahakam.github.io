@@ -1,6 +1,6 @@
 {
   "demo": false,
-  "updated": "2026-11-13T18:29+00:00",
+  "updated": "2026-11-13T20:50+00:00",
   "stores": {
     "noon": {
       "name": "نون",
@@ -42,7 +42,6 @@
       "search": "DualSense controller",
       "images": [
         "https://f.nooncdn.com/p/pzsku/Z832D975B79C9FFA49422Z/45/_/1780466856/e83432b6-65f5-4ba1-a9d1-065762296200.jpg",
-        "https://m.media-amazon.com/images/I/51wXREHwPrL._AC_UL320_.jpg",
         "https://media.btech.com/catalogs/8/a/0/7/8a0755a9772ead37868f49d50722dceefa7ab64f_077aa84fe27c99e260f6768083ea37a443a66899e7013b6a6a1965da5e1dcc96.jpeg",
         "https://cdn.mafrservices.com/pim-content/EGY/media/product/1836147000737/1791279862/1836147000737_main.jpeg?im=Resize=(300,300)"
       ],
@@ -52,13 +51,6 @@
           "price": 4300,
           "old_price": 4300,
           "url": "https://www.noon.com/egypt-en/dualsense-wireless-ps5-controller-grey-camouflage/N53429223A/p/?o=c5fc8fbaf82d64cf",
-          "in_stock": true
-        },
-        {
-          "store": "amazon",
-          "price": 7299,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0BJ755LXC",
           "in_stock": true
         },
         {
@@ -78,6 +70,104 @@
       ]
     },
     {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMA566BZKWL007",
+      "name": "Samsung Galaxy A56 , 256 GB , 8 GB , 4G LTE , Dual-SIM - Graphite",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://media.btech.com/catalogs/b/c/e/f/bcef770407a2c11ba17df6260ce647aeb499b40c_a1733066eb0fb1629b619daec194bfb77ac8ec125ed623fcd7a68688fa88a9d9.jpeg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsung-galaxy-a56-1.jpg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/655782/1790854749/655782_main.jpg?im=Resize=(300,300)",
+        "https://media.btech.com/catalogs/3/2/d/a/32dae13ab22e232f12bc3f566055812e734823e9_3b6243db850a66bd0dfda63412030a734c6c725bd88e8450892f5d0755fc32fd.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 25999,
+          "old_price": 25999,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 25499,
+          "old_price": 35799,
+          "url": "https://2b.com.eg/en/samsung-galaxy-a56-8gb-ram-256gb-black.html",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 24999,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a56-8-256/p/655782?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "noon-N70098969V",
+      "name": "20000 mAh Power Bank 20,000 mAh, 87W Total Output with Built-in USB-C Cable & 1 USB-C and 1 USB-A Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank 20000mAh",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z9C5AE19788D203A31794Z/45/1759222920/8728e29c-cdc9-448b-ba08-bfe91f5b8906.jpg",
+        "https://media.btech.com/catalogs/2/e/7/8/2e782cdd286ed992798f86aa838e77f97b1f620d_1_anker_zolo_power_bank_10000mah_225w_built_in_usb_c_cabl_black_a110dh11_removebg_preview.png",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1800446000081/1734949800/1800446000081_main.jpeg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1799,
+          "old_price": 2099,
+          "url": "https://www.noon.com/egypt-en/20000-mah-power-bank-20-000-mah-87w-total-output-with-built-in-usb-c-cable-1-usb-c-and-1-usb-a-black/N70098969V/p/?o=f05640b78c0016ce",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2090,
+          "old_price": 2090,
+          "url": "https://btech.com/en/s?q=Anker+20000+mAh+Power+Bank+20",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 2399,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/chargers-cables-convertors/energizer-power-bank-20-000mah-fast-charging-dual-usb-a-22-5w-18w-9v-2a-/p/1800446000081?offer=offer_1007018004&sid=DEFAULT&sellerId=18004",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N71638633V",
+      "name": "PlayStation 5 Slim Console (Digital Edition) - 825 GB - 1Y Warranty",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z91502DE76A9AE3130C0DZ/45/_/1791291733/9f53d8bf-411e-433b-9edd-bf8f1af134a5.jpg",
+        "https://media.btech.com/catalogs/2/a/a/3/2aa37f6bc5507b25b926eacc4bf436ee548637ce_e851de0c_53b6_4ea4_8a6d_b7ca31645491__1_.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 45755,
+          "old_price": 45755,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-digital-edition-825-gb-1y-warranty/N71638633V/p/?o=c4e7f9e3e203275f",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 43500,
+          "old_price": 43500,
+          "url": "https://btech.com/en/p/ae4544fb-98e6-4a48-9936-81d93d9297d8",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "",
       "id": "2b-lenovo-legion-h500-pro-gaming-headset-ps4-ps-5-pc-mac-mobile-nintendo-switch-xbo",
       "name": "Lenovo Legion H500 Pro Gaming Headset PS4 - PS 5 - PC - Mac - Mobile - Nintendo Switch - Xbox - GXD0T69864 - Iron Gray",
@@ -85,8 +175,7 @@
       "search": "PS5 Pro",
       "images": [
         "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpb45.jpg",
-        "https://f.nooncdn.com/p/pzsku/Z42ACB4EF33B4E3FEA5EBZ/45/_/1780915110/f98334ff-0faa-41a7-8980-bb28d1afe163.jpg",
-        "https://m.media-amazon.com/images/I/61vkVObTLbL._AC_UL320_.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z42ACB4EF33B4E3FEA5EBZ/45/_/1780915110/f98334ff-0faa-41a7-8980-bb28d1afe163.jpg"
       ],
       "offers": [
         {
@@ -101,479 +190,6 @@
           "price": 5700,
           "old_price": 5700,
           "url": "https://www.noon.com/egypt-en/legion-h500-pro-gaming-headset/N38979973A/p/?o=d245aef83811984a",
-          "in_stock": true
-        },
-        {
-          "store": "amazon",
-          "price": 5700,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B07SCPBC1B",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "EA",
-      "id": "noon-N70197721V",
-      "name": "FC 26 - Standard Edition PS5 - UAE version - playstation_5_ps5",
-      "category": "بلايستيشن",
-      "search": "EA FC 26 PS5",
-      "images": [
-        "https://f.nooncdn.com/p/pzsku/Z25574D75AFA6C2D67A8EZ/45/_/1776073330/6ab19df2-4e44-45f0-91d4-ab4cfc595b95.jpg",
-        "https://m.media-amazon.com/images/I/81WQWMLOxLL._AC_UL320_.jpg",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000152/1790828644/2251257000152_main.jpeg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "noon",
-          "price": 1900,
-          "old_price": 1900,
-          "url": "https://www.noon.com/egypt-en/fc-26-standard-edition-ps5-uae-version-playstation-5-ps5/N70197721V/p/?o=f164be091e53cc9b",
-          "in_stock": true
-        },
-        {
-          "store": "amazon",
-          "price": 1888,
-          "old_price": 3485,
-          "url": "https://www.amazon.eg/dp/B0FGKC8PKQ",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 1999,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-consoles/fc-26-standard-edition-ps5-uae-version-playstation-5-ps5/p/2251257000152?offer=offer_1015222512&sid=DEFAULT&sellerId=22512",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Apple",
-      "id": "noon-N70211460V",
-      "name": "iPhone 17 Pro Max 512 GB (eSIM only) Silver 5G With FaceTime - International Version",
-      "category": "موبايلات",
-      "search": "iPhone 17 Pro Max",
-      "images": [
-        "https://f.nooncdn.com/p/pzsku/Z987DF3372F4EB842E472Z/45/_/1779094342/d425babc-c853-4d9a-9253-ff14c1ac0a0c.jpg",
-        "https://media.btech.com/catalogs/c/b/3/3/cb33ef0eb47440e5d2691cd944a11ba2d752c8aa_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/688907/1790068200/688907_main.jpg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "noon",
-          "price": 114999,
-          "old_price": 114999,
-          "url": "https://www.noon.com/egypt-en/iphone-17-pro-max-512-gb-esim-only-silver-5g-with-facetime-international-version/N70211460V/p/?o=a123c553bfe5af7b",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 113999,
-          "old_price": 113999,
-          "url": "https://btech.com/en/p/0b308766-8dee-43a7-829a-cb036f1b0584",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 114999,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/iphone-17-pro-max-512gb-silver/p/688907?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Apple",
-      "id": "btech-1BAPOMSMIP162Y00L042",
-      "name": "Apple iPhone 16 , 128 GB , 8 GB , 5G , Single SIM - Ultramarine",
-      "category": "موبايلات",
-      "search": "iPhone 16",
-      "images": [
-        "https://media.btech.com/catalogs/4/7/b/f/47bf073d72a6bcb100b0b79b5f5c62032c110dee_iPhone_16_Ultramarine_PDP_Image_Position_1__en_ME.jpg",
-        "https://m.media-amazon.com/images/I/713SsA7gftL._AC_UL320_.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/a/p/apple-iphone-16-ultramarine-1_1_1_mhtpp2u81ihmxkkj.jpg",
-        "https://media.btech.com/catalogs/5/3/c/0/53c04168b14e73444ce35bccdd9a45e7ebabefd7_iPhone_16_Black_PDP_Image_Position_1__en_ME.jpg",
-        "https://media.btech.com/catalogs/b/3/a/9/b3a9e2666d2d624a6cb372b72aa89b907bb8a34a_c9ffb17f533c200d7328b27749791017a28ee55d_a3dff4b3e6ebabd3623e22345afd72605c6ac5644e3b26557edf99.jpg",
-        "https://media.btech.com/catalogs/9/7/f/7/97f7e7e2fd0a474a4ca478c7994ddea90cdb1d0c_iPhone_16_Black_PDP_Image_Position_1__en_ME.jpg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 57999,
-          "old_price": 61999,
-          "url": "https://btech.com/en/s?q=iPhone+16",
-          "in_stock": true
-        },
-        {
-          "store": "amazon",
-          "price": 66690,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0DGJ7TGDR",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 73299,
-          "old_price": 101249,
-          "url": "https://2b.com.eg/en/apple-iphone-16-128gb-ultramarine-official-warranty.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-678328",
-      "name": "Samsung Galaxy S26 Ultra - 6.9-inch 512GB/12GB Dual SIM 5G Smartphone - Black",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy S25 Ultra",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/678328/1778661600/678328_main.jpg?im=Resize=(300,300)",
-        "https://m.media-amazon.com/images/I/31Mq1GKbaRL._AC_UL320_.jpg",
-        "https://media.btech.com/catalogs/7/a/9/6/7a96cfbb964ac317264e6e1c45fd44a8fbe60938_imgi_20_S26_ultra_black4_eg4s_qa.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 80660,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-s26-ultra5g-12-512gb-black/p/678328?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "amazon",
-          "price": 85399,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0GQCBR7QT",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 83800,
-          "old_price": 83800,
-          "url": "https://btech.com/en/s?q=Samsung+Galaxy+S26+Ultra",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-677912",
-      "name": "Samsung Galaxy S26 Ultra - 6.9-inch 256GB/12GB Dual SIM 5G Smartphone - Sky Blue",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy S25 Ultra",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677912/1777891200/677912_main.jpg?im=Resize=(300,300)",
-        "https://m.media-amazon.com/images/I/41oWAa8WZCL._AC_UL320_.jpg",
-        "https://media.btech.com/catalogs/9/3/5/d/935d58dac443f2514a3c4b6475bce0df7ea835a4_imgi_21_S26_ultra_cobaltviolet_4_jzdj_1c.jpg",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677911/1777891200/677911_main.jpg?im=Resize=(300,300)",
-        "https://m.media-amazon.com/images/I/61UnzIc+97L._AC_UL320_.jpg",
-        "https://media.btech.com/catalogs/9/e/a/3/9ea31f29d5a84afea04f004678779f3f34cb41a4_imgi_20_S26_ultra_black4_eg4s_qa.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 72400,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-s26-ultra5g12gb-256gb-blue/p/677912?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "amazon",
-          "price": 70750,
-          "old_price": 79300,
-          "url": "https://www.amazon.eg/dp/B0GQBNZCFM",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 73500,
-          "old_price": 73500,
-          "url": "https://btech.com/en/p/0e05b0ef-9b5a-4cb6-92f0-19416f079f3b",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-655782",
-      "name": "Samsung Galaxy A56 - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Graphite",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/655782/1790854749/655782_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/3/2/d/a/32dae13ab22e232f12bc3f566055812e734823e9_3b6243db850a66bd0dfda63412030a734c6c725bd88e8450892f5d0755fc32fd.jpeg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsung-galaxy-a56-1.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 24999,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a56-8-256/p/655782?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 26436,
-          "old_price": 26436,
-          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 25499,
-          "old_price": 35799,
-          "url": "https://2b.com.eg/en/samsung-galaxy-a56-8gb-ram-256gb-black.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-677917",
-      "name": "Samsung Galaxy A57 - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Navy",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677917/1777893000/677917_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/2/c/e/2/2ce203e84c10df5a8b3fbbca7ccbaab321dfe121_71AdvhH42vL._AC_SL1500_.jpeg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsunge-a57-violet.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 35060,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-8gb-256gb-navy/p/677917?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 31875,
-          "old_price": 31875,
-          "url": "https://btech.com/en/p/53bbfe31-3ca7-4719-b18d-14b868676207",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 33999,
-          "old_price": 46499,
-          "url": "https://2b.com.eg/en/samsung-galaxy-a57-5g-8gb-ram-256gb-violet.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-677916",
-      "name": "Samsung Galaxy A57 - 6.7-inch 256GB/12GB Dual SIM 5G Smartphone - Navy",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677916/1777893000/677916_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/f/f/8/a/ff8a5e85317da6dafc290af2bb07d66bd46523ea_711Tcnink2L._AC_SL1500_.jpeg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsunge-a57-gray.jpg",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677919/1777893000/677919_main.jpg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 35805,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-12gb-256gb-navy/p/677916?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 35925,
-          "old_price": 35925,
-          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A57",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 38999,
-          "old_price": 53299,
-          "url": "https://2b.com.eg/en/samsung-galaxy-a57-5g-12gb-ram-256gb-gray.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-689671",
-      "name": "Samsung Galaxy S26 FE - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Graphite",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689671/1790601000/689671_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/8/f/b/c/8fbc5a81cba4976bdd45577042e0304be4dc4bfd_Galaxy_S26FE_Graphite01.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/8/-/8-256gb_pistachio-1_1.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 42520,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-s26-fe-5g-8gb-256g-graphite/p/689671?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 42520,
-          "old_price": 42520,
-          "url": "https://btech.com/en/p/samsung-galaxy-s26-fe-256-gb-8-gb-5g-dual-sim-graphite",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 44999,
-          "old_price": 61499,
-          "url": "https://2b.com.eg/en/samsung-galaxy-s26-fe-8gb-ram-256gb-pistachio.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-689888",
-      "name": "Samsung Galaxy A08 - 6.7-inch 64GB/4GB Dual SIM 4G Smartphone - Blue",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689888/1790860202/689888_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/8/9/7/0/8970bf595203b0fb573a9e5f81d4615b27c9f8be_Samsung_Galaxy_A08_Dark_Blue.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/a/0/a08---blue.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 9400,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a08-4g-64gb-blue/p/689888?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 9250,
-          "old_price": 9250,
-          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A08",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 10379,
-          "old_price": 12999,
-          "url": "https://2b.com.eg/en/samsung-galaxy-a08-4gb-ram-64gb-dark-blue.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-677897",
-      "name": "Samsung Galaxy A37 - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Charcoal",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677897/1777898400/677897_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/e/1/a/f/e1af8c63f19a8642a60b81006b306ee3f043e0af_samsunge_a37_gray_1.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsunge-a37-dark-white_1.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 27340,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a37-5g-8gb-256gb-charcoal/p/677897?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 25029,
-          "old_price": 25029,
-          "url": "https://btech.com/en/p/b1373e9b-2c9f-461c-86cb-388b1a9bb653",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 30999,
-          "old_price": 42399,
-          "url": "https://2b.com.eg/en/samsung-galaxy-a37-5g-8gb-ram-256gb-white.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-691087",
-      "name": "JBL Tune 530BT Wireless On-Ear Headphones - Black - T530BT",
-      "category": "سماعات",
-      "search": "JBL Tune 520BT",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/691087/1792327207/691087_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/d/b/d/1/dbd1fe9f234cc018aa1b519c4374fedc61d747cf_imgi_1_01.LS_JBL_Tune_530BT_Product_Image_Hero_Black.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpg33.6.jpg",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/691086/1792327207/691086_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/f/1/5/e/f15e3b530fd7f5fd142ab5f3ce5d289741b254e8_imgi_2_01.LS_JBL_Tune_530BT_Product_Image_Hero_Beige.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpg33.18.jpg",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000071/1790774052/2251257000071_main.jpeg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 2600,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-530bt-wireless-on-ear-bluetooth-headphones-with-pure-bass-sound-76h-battery-life-dual-beamforming-mics-multi-point-bluetooth-6-0-foldable-lightweight-black-jblt530btblkeu-/p/2251257000071?offer=offer_1007822512&sid=DEFAULT&sellerId=22512",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 2350,
-          "old_price": 2350,
-          "url": "https://btech.com/en/p/acf492fe-5a5c-4e24-832f-950c55fa58bf",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 2499,
-          "old_price": 3999,
-          "url": "https://2b.com.eg/en/jbl-tune-530bt-wireless-on-ear-headphone-black.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-691088",
-      "name": "JBL Tune 530BT Wireless On-Ear Headphones - Blue - T530BT",
-      "category": "سماعات",
-      "search": "JBL Tune 520BT",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/691088/1792327207/691088_main.jpg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/9/5/1/a/951a68d73f3a1a0ed69a910778abae4123f2e41e_imgi_1_01.LS_JBL_Tune_530BT_Product_Image_Hero_Blue.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpg33.24.jpg"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 2699,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/pc-speakers/jbl-t530bt-wls-on-ear-hp-blue/p/691088?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 2699,
-          "old_price": 2699,
-          "url": "https://btech.com/en/p/b3726f84-8c39-4066-b086-aeb8a203d640",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 2499,
-          "old_price": 3999,
-          "url": "https://2b.com.eg/en/jbl-tune-530bt-wireless-on-ear-headphone-blue.html",
           "in_stock": true
         }
       ]
@@ -591,7 +207,7 @@
       "offers": [
         {
           "store": "noon",
-          "price": 3504,
+          "price": 3489,
           "old_price": 4565,
           "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-white/N40633049A/p/?o=ae1603b6a8de4f9e",
           "in_stock": true
@@ -660,6 +276,33 @@
       ]
     },
     {
+      "brand": "EA",
+      "id": "noon-N70197721V",
+      "name": "FC 26 - Standard Edition PS5 - UAE version - playstation_5_ps5",
+      "category": "بلايستيشن",
+      "search": "EA FC 26 PS5",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z25574D75AFA6C2D67A8EZ/45/_/1776073330/6ab19df2-4e44-45f0-91d4-ab4cfc595b95.jpg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000152/1790828644/2251257000152_main.jpeg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1900,
+          "old_price": 1900,
+          "url": "https://www.noon.com/egypt-en/fc-26-standard-edition-ps5-uae-version-playstation-5-ps5/N70197721V/p/?o=f164be091e53cc9b",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 1999,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-consoles/fc-26-standard-edition-ps5-uae-version-playstation-5-ps5/p/2251257000152?offer=offer_1015222512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "EA Sports",
       "id": "noon-N70197726V",
       "name": "FC 26 - Standard Edition PS5 Int Version - playstation_5_ps5",
@@ -688,79 +331,20 @@
     },
     {
       "brand": "Apple",
-      "id": "noon-N70211580V",
-      "name": "iPhone 17 Pro Max 256GB (Nano SIM + eSIM) Deep Blue 5G With FaceTime - International Version",
+      "id": "btech-1BAPOMSMIP17PMORL003",
+      "name": "Apple iPhone 17 Pro Max , 256 GB , 12 GB , 5G , Dual-SIM - Cosmic Orange",
       "category": "موبايلات",
       "search": "iPhone 17 Pro Max",
       "images": [
-        "https://f.nooncdn.com/p/pzsku/Z566E225E376EB8383F15Z/45/_/1779094069/f61f3d88-9f5a-425b-8ff1-71c8ca0bea01.jpg",
-        "https://media.btech.com/catalogs/c/9/9/4/c99475965bde02241458da2908491b3c0942787e_iPhone_17_Pro_Max_Deep_Blue_PDP_Image_Position_1__en_ME.jpg",
-        "https://f.nooncdn.com/p/pzsku/Z4AEC1BA6ECB4841878ECZ/45/_/1779094376/a09b4e3f-6baf-4adb-831b-07995a07bc61.jpg"
-      ],
-      "offers": [
-        {
-          "store": "noon",
-          "price": 96504,
-          "old_price": 96504,
-          "url": "https://www.noon.com/egypt-en/iphone-17-pro-max-256gb-nano-sim-esim-deep-blue-5g-with-facetime-international-version/N70211580V/p/?o=d19feb360e96748a",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 100999,
-          "old_price": 100999,
-          "url": "https://btech.com/en/p/ca6aacce-5b39-4a3e-91bf-fb4407dc1b19",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Apple",
-      "id": "noon-N70211464V",
-      "name": "iPhone 17 Pro Max 256 GB (eSIM only) Silver 5G With FaceTime - International Version",
-      "category": "موبايلات",
-      "search": "iPhone 17 Pro Max",
-      "images": [
-        "https://f.nooncdn.com/p/pzsku/Z70429BD50D391C2CB0C1Z/45/_/1779094672/2c253ab7-e018-4bb7-a1cd-8ce1571839f6.jpg",
-        "https://media.btech.com/catalogs/c/f/4/a/cf4a001b4dd2ffe12725aef9a3f1b6189623ddbe_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
-        "https://f.nooncdn.com/p/pzsku/ZFC571AA8D309058BD336Z/45/_/1779094448/7f4046ca-e346-46ca-b7c2-30ade97226b9.jpg",
-        "https://f.nooncdn.com/p/pzsku/Z7D5F7E1317DAACB7A61DZ/45/_/1779094559/a689c921-6b4c-411c-bb63-672a29e40b10.jpg",
-        "https://media.btech.com/catalogs/a/4/a/e/a4aefb89b27878b03d515ced905ba8ece0756152_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
-        "https://f.nooncdn.com/p/pzsku/Z4C9C7741BAB2EC64D3F7Z/45/_/1779095234/747f6105-3427-46c3-9636-fc776f031f11.jpg"
-      ],
-      "offers": [
-        {
-          "store": "noon",
-          "price": 98500,
-          "old_price": 98500,
-          "url": "https://www.noon.com/egypt-en/iphone-17-pro-max-256gb-nano-sim-esim-silver-5g-with-facetime-international-version/N70211578V/p/?o=b09205859c3fbd4c",
-          "in_stock": true
-        },
-        {
-          "store": "btech",
-          "price": 99909,
-          "old_price": 99909,
-          "url": "https://btech.com/en/p/c5d8c111-5661-427d-9ba1-97eb64892beb",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-666148",
-      "name": "Apple iPhone 17 Pro Max - 6.9-inch 256GB/12GB Dual SIM 5G Smartphone - Cosmic Orange",
-      "category": "موبايلات",
-      "search": "iPhone 17",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/666148/1762329604/666148_main.jpg?im=Resize=(300,300)",
+        "https://media.btech.com/catalogs/f/b/b/8/fbb879fe8919e0e29f3ab6d67ce10102fe812541_iPhone_17_Pro_Max_Cosmic_Orange_PDP_Image_Position_1__en_ME.jpg",
         "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/m/a/ma215_1_2_1_2.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 105000,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/apple-iphone-17-pro-max-256-orange/p/666148?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "btech",
+          "price": 94999,
+          "old_price": 99700,
+          "url": "https://btech.com/en/s?q=iPhone+17+Pro+Max",
           "in_stock": true
         },
         {
@@ -768,6 +352,179 @@
           "price": 99699,
           "old_price": 137549,
           "url": "https://2b.com.eg/en/apple-iphone-17-pro-max-256gb-cosmic-orange-official-warranty.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-827BF6A109CB38970F94",
+      "name": "Apple iPhone 17 Pro Max , 256 GB , 12 GB , 5G , eSIM - Silver",
+      "category": "موبايلات",
+      "search": "iPhone 17 Pro Max",
+      "images": [
+        "https://media.btech.com/catalogs/c/f/4/a/cf4a001b4dd2ffe12725aef9a3f1b6189623ddbe_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
+        "https://f.nooncdn.com/p/pzsku/ZFC571AA8D309058BD336Z/45/_/1779094448/7f4046ca-e346-46ca-b7c2-30ade97226b9.jpg",
+        "https://media.btech.com/catalogs/a/4/a/e/a4aefb89b27878b03d515ced905ba8ece0756152_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
+        "https://media.btech.com/catalogs/0/4/1/1/041194b19946a164362e2f9482df5464673fd795_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
+        "https://media.btech.com/catalogs/f/c/1/2/fc12ec74aa4c7e26ab73e80d4b228a0328dce862_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 99909,
+          "old_price": 99909,
+          "url": "https://btech.com/en/p/c5d8c111-5661-427d-9ba1-97eb64892beb",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 98500,
+          "old_price": 98500,
+          "url": "https://www.noon.com/egypt-en/iphone-17-pro-max-256gb-nano-sim-esim-silver-5g-with-facetime-international-version/N70211578V/p/?o=b09205859c3fbd4c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-0C8A9A4F50CF2E8CF1CA",
+      "name": "Apple iPhone 17 , 256 GB , 8 GB , 5G , eSIM - Lavender",
+      "category": "موبايلات",
+      "search": "iPhone 17",
+      "images": [
+        "https://media.btech.com/catalogs/0/8/7/5/0875fea6cf865bcb8a68d6b930ef1f2a4aae7edf_iPhone_17_Lavender_PDP_Image_Position_1__en_ME.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z47CDA33CB5F64484197DZ/45/_/1779094751/569f50fb-8332-4f5b-9bed-853383644147.jpg",
+        "https://media.btech.com/catalogs/3/3/1/f/331f3442f5eb88698c099d69b8fae92b7d949d98_iPhone_17_Black_PDP_Image_Position_1__en_ME.jpg",
+        "https://media.btech.com/catalogs/b/c/2/1/bc2149326ade66a029fb94a4cb6a9d51c6ba647e_iPhone_17_White_PDP_Image_Position_1__en_ME.jpg",
+        "https://media.btech.com/catalogs/2/d/5/6/2d56ef616d9b02a40b42b21779ef58f4dcad9c43_iPhone_17_Sage_PDP_Image_Position_1__en_ME.jpg",
+        "https://media.btech.com/catalogs/0/d/1/7/0d17e031163439a9523043946c8103c1a1477713_iPhone_17_White_PDP_Image_Position_1__en_ME.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 68988,
+          "old_price": 68988,
+          "url": "https://btech.com/en/p/9bb9d124-5259-4766-81ef-ff1c5f68645a",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 75555,
+          "old_price": 75555,
+          "url": "https://www.noon.com/egypt-en/iphone-17-256gb-nano-sim-esim-lavender-5g-with-facetime-international-version/N70211555V/p/?o=c88b91080946a58c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-1BAPOMSMIP162Y00L007",
+      "name": "Apple iPhone 16 , 128 GB , 8 GB , 5G , Dual-SIM - Black",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "images": [
+        "https://media.btech.com/catalogs/9/7/f/7/97f7e7e2fd0a474a4ca478c7994ddea90cdb1d0c_iPhone_16_Black_PDP_Image_Position_1__en_ME.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/a/p/apple-iphone-16-ultramarine-1_1_1_mhtpp2u81ihmxkkj.jpg",
+        "https://media.btech.com/catalogs/4/7/b/f/47bf073d72a6bcb100b0b79b5f5c62032c110dee_iPhone_16_Ultramarine_PDP_Image_Position_1__en_ME.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/a/p/apple-iphone-16-teal-1_1_vhjujy2fmwl5l5xt.jpg",
+        "https://media.btech.com/catalogs/5/3/c/0/53c04168b14e73444ce35bccdd9a45e7ebabefd7_iPhone_16_Black_PDP_Image_Position_1__en_ME.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/a/p/apple-iphone-16-black-1_2.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 57999,
+          "old_price": 61999,
+          "url": "https://btech.com/en/p/912fed84-22c5-4ec1-85ad-75149a656ca0",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 73299,
+          "old_price": 101249,
+          "url": "https://2b.com.eg/en/apple-iphone-16-128gb-ultramarine-official-warranty.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-1BAPOMSMIP162Y00L001",
+      "name": "Apple iPhone 16 , 128 GB , 6 GB , 5G , Single SIM - White",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "images": [
+        "https://media.btech.com/catalogs/d/e/6/3/de631afb263e4b5e265f77199d36da2a9a61f852_iPhone_16_White_PDP_Image_Position_1__en_ME.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/a/p/apple-iphone-16-white-2_2.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 57999,
+          "old_price": 61999,
+          "url": "https://btech.com/en/s?q=iPhone+16",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 73299,
+          "old_price": 101049,
+          "url": "https://2b.com.eg/en/apple-iphone-16-128gb-white-official-warranty.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMS25U1TB0L007",
+      "name": "Samsung Galaxy S25 Ultra , 1 TB , 12 GB , 4G LTE , Dual-SIM - Titanium Black",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/9/2/5/2/9252f6b9e1924786c2c79d02118e35401d91908f_imgi_2_3b325b9febf142c246dc5e917f97583b54603d65f0128a6970697ce550258366.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsung-galaxy-s25-ultra-black-1_1_2.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 78915,
+          "old_price": 78915,
+          "url": "https://btech.com/en/p/samsung-galaxy-s25-ultra-1tb-12gb-4g-titanium-black",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 84799,
+          "old_price": 111549,
+          "url": "https://2b.com.eg/en/samsung-galaxy-s25-ultra-12gb-ram-1tb-black.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMA57256GRL020",
+      "name": "Samsung Galaxy A57 , 256 GB , 12 GB , 5G , Dual-SIM - Gray",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://media.btech.com/catalogs/f/f/8/a/ff8a5e85317da6dafc290af2bb07d66bd46523ea_711Tcnink2L._AC_SL1500_.jpeg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677916/1777893000/677916_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 35925,
+          "old_price": 35925,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 35805,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-12gb-256gb-navy/p/677916?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
           "in_stock": true
         }
       ]
@@ -935,155 +692,461 @@
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-1827747000702",
-      "name": "Apple Airpods Pro 3 Wireless Earbuds, Bluetooth Headphones, Active Noise Cancellation, Hearing Test, Hearing Aid,Hearing Protection Features, High-Fidelity Sound, H2 Chip, USB-C Charging - White",
+      "brand": "Apple",
+      "id": "btech-691EFCA75B263EE0589D",
+      "name": "Apple AirPods Pro 3 Earbuds , with Active Noise Cancellation , White",
       "category": "سماعات",
       "search": "AirPods Pro 2",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000702/1793269451/1827747000702_main.jpeg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/6/c/1/5/6c15af654e32123edbdd7671306308d4b62e4a7d_imgi_254_faf3cba0_65d2_4a34_9200_47109547d5ac.jpg"
+        "https://media.btech.com/catalogs/6/c/1/5/6c15af654e32123edbdd7671306308d4b62e4a7d_imgi_254_faf3cba0_65d2_4a34_9200_47109547d5ac.jpg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000702/1793269451/1827747000702_main.jpeg?im=Resize=(300,300)"
       ],
       "offers": [
-        {
-          "store": "carrefour",
-          "price": 13000,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/apple-airpods-pro-3-wireless-earbuds-bluetooth-headphones-active-noise-cancellation-hearing-test-hearing-aid-hearing-protection-features-high-fidelity-sound-h2-chip-usb-c-charging-white/p/1827747000702?offer=offer_1024022512&sid=DEFAULT&sellerId=22512",
-          "in_stock": true
-        },
         {
           "store": "btech",
           "price": 12600,
           "old_price": 12600,
           "url": "https://btech.com/en/p/12755eca-af66-4d1f-ab5c-dc1b6e046855",
           "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 13000,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/apple-airpods-pro-3-wireless-earbuds-bluetooth-headphones-active-noise-cancellation-hearing-test-hearing-aid-hearing-protection-features-high-fidelity-sound-h2-chip-usb-c-charging-white/p/1827747000702?offer=offer_1024022512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-2251257000027",
-      "name": "CMF by Nothing Buds Pro 2 Bluetooth Earbuds, ChatGPT Integrated, TWS with Clear Voice Technology 2.0, 50 dB Smart ANC, Up to 11 hrs Battery, Spatial Audio Effect, IP55, Dark Grey, Middle East Version",
+      "brand": "Apple",
+      "id": "btech-1BAPASSBAPAP4000L001",
+      "name": "Apple AirPods 4 Earbuds , White",
       "category": "سماعات",
-      "search": "AirPods Pro 2",
+      "search": "AirPods 4",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000027/1790774051/2251257000027_main.jpeg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/7/c/3/8/7c3839ee3d3a0cd85c7d7e68ccb4d786cf35ba55_167eb3d15c4d268ae72b97c9603bbe15f4fa4c25c8219b1e0245a57738aea31b.jpeg"
+        "https://media.btech.com/catalogs/4/7/6/5/4765187c0ea5fa7776f379a90e6bdbf8269d1c97_AirPods_4_PDP_Image_Position_2__en_ME.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpb03-min.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 2599,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/cmf-by-nothing-buds-pro-2-bluetooth-earbuds-chatgpt-integrated-tws-with-clear-voice-technology-2-0-50-db-smart-anc-up-to-11-hrs-battery-spatial-audio-effect-ip55-dark-grey-middle-east-version/p/2251257000027?offer=offer_1003922512&sid=DEFAULT&sellerId=22512",
+          "store": "btech",
+          "price": 6899,
+          "old_price": 7499,
+          "url": "https://btech.com/en/p/apple-airpods-4-white",
           "in_stock": true
         },
         {
-          "store": "btech",
-          "price": 2750,
-          "old_price": 2750,
-          "url": "https://btech.com/en/p/nothing-buds-pro-2-earbuds-noise-cancellation-darkgrey-b172",
+          "store": "2b",
+          "price": 6549,
+          "old_price": 9999,
+          "url": "https://2b.com.eg/en/apple-airpods-4-white.html",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-1827747000346",
-      "name": "Samsung Galaxy Buds 3 Pro Silver",
+      "brand": "Apple",
+      "id": "btech-E2EFE30C4D0E1977A5AF",
+      "name": "Apple AirPods 4 Earbuds , with Active Noise Cancellation , White",
+      "category": "سماعات",
+      "search": "AirPods 4",
+      "images": [
+        "https://media.btech.com/catalogs/3/f/d/9/3fd93637287dfa0d8b8c45c05e38822add631205_AirPods_4_with_Active_Noise_Cancellation_PDP_Image_Position_2__en_ME.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpb04-min.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 9700,
+          "old_price": 9700,
+          "url": "https://btech.com/en/p/apple-airpods-4-with-active-noise-cancellation-white",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 11299,
+          "old_price": 14199,
+          "url": "https://2b.com.eg/en/apple-airpods-4-with-active-noise-cancellation-white.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "noon-N70213174V",
+      "name": "Galaxy Buds3 FE, Active Noise Cancellation Grey Grey",
       "category": "سماعات",
       "search": "Samsung Galaxy Buds3",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000346/1745329809/1827747000346_main.jpeg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/d/7/5/e/d75e6dff3efbe1203d266bd58836f5ffa936f7fc_f2d77945557b7b0202c8ce339f1c37a0faaf30d94a0c0c74104361bdcbbdbdbb.jpeg"
+        "https://f.nooncdn.com/p/pzsku/ZA11F18185C941B9CE48AZ/45/_/1772091101/7a3f4748-a2c3-47d9-b602-c8a355089498.jpg",
+        "https://media.btech.com/catalogs/f/6/9/2/f692794759f63d9b18836b7d86e11be8f5ee3de5_grey_removebg_preview.png"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 9100,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/samsung-galaxy-buds-3-pro-silver/p/1827747000346?offer=offer_1026622512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 4670,
+          "old_price": 4670,
+          "url": "https://www.noon.com/egypt-en/galaxy-buds3-fe-active-noise-cancellation-grey-grey/N70213174V/p/?o=f9921271936ebebb",
           "in_stock": true
         },
         {
           "store": "btech",
-          "price": 8999,
-          "old_price": 8999,
-          "url": "https://btech.com/en/p/samsung-galaxy-buds-3-pro-earbuds-silver-sm-r630",
+          "price": 4449,
+          "old_price": 4499,
+          "url": "https://btech.com/en/p/ad353d5c-801f-4d94-8540-ce4738d01a79",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-2251257000014",
-      "name": "JBL Tune 520BT Wireless On Ear Headphones with Mic, Pure Bass Sound, Upto 57 Hrs Playtime, Speedcharge, Customizable Bass with Headphones App, Lightweight, Bluetooth 5.3 (Black)",
+      "brand": "Samsung",
+      "id": "noon-N70213175V",
+      "name": "Galaxy Buds3 FE, Active Noise Cancellation Black Black",
+      "category": "سماعات",
+      "search": "Samsung Galaxy Buds3",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z578CED17C0C83E19750DZ/45/_/1772091355/7f6a0a2b-cf85-4f42-bb14-2a859450647f.jpg",
+        "https://media.btech.com/catalogs/a/4/0/7/a407f7765df077fd18db9e6034ce6107342523ab_ie_feature_galaxy_buds_548650922_removebg_preview.png"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 4670,
+          "old_price": 4670,
+          "url": "https://www.noon.com/egypt-en/galaxy-buds3-fe-active-noise-cancellation-black-black/N70213175V/p/?o=b54778023cceb93f",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 6099,
+          "old_price": 6999,
+          "url": "https://btech.com/en/p/9f5f09df-0023-475c-885f-614d329ec9d7",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "JBL",
+      "id": "noon-N53401779A",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable White",
       "category": "سماعات",
       "search": "JBL Tune 520BT",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000014/1790774052/2251257000014_main.jpeg?im=Resize=(300,300)",
-        "https://media.btech.com/catalogs/5/f/6/7/5f674673224a1bb1b507afa4224cdec7682c4549_5d3f77e4937d78c33560b47cbd04ab6686c2e9d8de8aa991ac7f47c8d2b18389.jpeg"
+        "https://f.nooncdn.com/p/pzsku/Z68F6EE12DB5C01644870Z/45/_/1779705821/4ad7d9b8-83d2-469c-8a33-ff0d64f54360.jpg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000296/1745329805/1827747000296_main.jpeg?im=Resize=(300,300)"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 2288,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-with-mic-pure-bass-sound-upto-57-hrs-playtime-speedcharge-customizable-bass-with-headphones-app-lightweight-bluetooth-5-3-black-/p/2251257000014?offer=offer_1002722512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 1949,
+          "old_price": 2295,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-white/N53401779A/p/?o=f77c64de17be7b2e",
           "in_stock": true
         },
         {
-          "store": "btech",
-          "price": 2100,
-          "old_price": 2100,
-          "url": "https://btech.com/en/p/jbl-tune-520bt-wireless-headphone-black",
+          "store": "carrefour",
+          "price": 2000,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-white/p/1827747000296?offer=offer_1024222512&sid=DEFAULT&sellerId=22512",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Logitech",
-      "id": "btech-6535B84ABC53B9FFD1ED",
-      "name": "Logitech HERO Gaming Mouse , Black - G502",
+      "brand": "JBL",
+      "id": "noon-N53401778A",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Blue",
+      "category": "سماعات",
+      "search": "JBL Tune 520BT",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z28A58B4B25CF6EB0AFA8Z/45/_/1779704739/e10b4ea7-9245-4144-b0f9-b7a61feb3a77.jpg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747001146/1793269452/1827747001146_main.jpeg?im=Resize=(300,300)",
+        "https://f.nooncdn.com/p/pzsku/ZC9AA07CD9353B8E152F0Z/45/_/1779705954/35f98eb2-b3c0-4195-9e27-23509fbd50a7.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2030,
+          "old_price": 2030,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-blue/N53401778A/p/?o=bbbb6b0a03df988a",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 2000,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-blue/p/1827747001146?offer=offer_1024322512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "JBL",
+      "id": "noon-N53412263A",
+      "name": "Tune 520Bt Wireless On-Ear Headphones, Pure Bass Sound, 57H Battery With Speed Charge, Hands-Free Call + Voice Aware, Multi-Point Connection, Lightweight And Foldable Purple",
+      "category": "سماعات",
+      "search": "JBL Tune 520BT",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZCCBE171B7AB4A106CD73Z/45/_/1779704435/f101567d-f2d9-4133-a11e-e52895f03c0c.jpg",
+        "https://media.btech.com/catalogs/b/7/b/1/b7b1c54e168a99af67260396e3c72f3740c73171_2b88352814e742cc3977a6fdac3696948c54583b5d3f4d19455d9f51e6433f44.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2849,
+          "old_price": 2849,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-with-speed-charge-hands-free-call-voice-aware-multi-point-connection-lightweight-and-foldable-purple/N53412263A/p/?o=f5fdf951272d9d4f",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2200,
+          "old_price": 2200,
+          "url": "https://btech.com/en/p/jbl-tune-520bt-wireless-headphones-purple",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N70403836V",
+      "name": "Anker 20000mAh Power Bank with Dual Built-in USB-C Cables, 45W Fast Charging, Pink",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank 20000mAh",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z8FCC287E89B4E62C11A1Z/45/_/1785938712/b2e7aec4-c1e9-4bcf-9c33-2fdb85560ffe.jpg",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/4713309812743/1792498440/4713309812743_main.jpeg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2390,
+          "old_price": 2390,
+          "url": "https://www.noon.com/egypt-en/anker-20000mah-power-bank-with-dual-built-in-usb-c-cables-45w-fast-charging-pink/N70403836V/p/?o=b5bcd20448768f2b",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 2449,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/power-banks/energizer-20000mah-power-bank-22-5w-fast-charging-usb-c-power-delivery-dual-usb-a-portable-charger-ue20011pq/p/4713309812743?offer=offer_1010518004&sid=DEFAULT&sellerId=18004",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N53371608A",
+      "name": "Logitech G502 X Wired Gaming Mouse - LIGHTFORCE hybrid optical-mechanical primary switches, HERO 25K gaming sensor, compatible with PC - macOS/Windows - Black I 910-006139",
       "category": "كمبيوتر",
       "search": "Logitech G502",
       "images": [
+        "https://f.nooncdn.com/p/pzsku/Z7E739818DE60478D407CZ/45/_/1779712590/d1694a23-8b0d-4cb5-a7b0-958ef2d0993d.jpg",
         "https://media.btech.com/catalogs/d/8/e/4/d8e4cffdc2ba64da6ee19afe6018138499b94d7d_logitech_hero_g502_black_gaming_mouse_copy.jpg",
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/m/o/mo835.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z6A5DE7643AF6371EB37EZ/45/_/1779704350/987c39cd-6231-407d-9e0d-b85fe0760369.jpg"
       ],
       "offers": [
+        {
+          "store": "noon",
+          "price": 3299,
+          "old_price": 3927,
+          "url": "https://www.noon.com/egypt-en/logitech-g502-x-wired-mouse-black/N53385405A/p/?o=f27dd0970b559fab",
+          "in_stock": true
+        },
         {
           "store": "btech",
           "price": 2145,
           "old_price": 2145,
           "url": "https://btech.com/en/p/6d3a9c41-cc88-49f6-84d7-10a3ad67ed52",
           "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N70026943V",
+      "name": "Logitech G502 X PLUS LIGHTSPEED Wireless RGB Gaming Mouse-Optical mouse with LIGHTFORCE hybrid switches,LIGHTSYNC RGB,HERO 25K gaming sensor,compatible with PC-macOS/Windows-Black",
+      "category": "كمبيوتر",
+      "search": "Logitech G502",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z8605F3EAB1EE56676B7AZ/45/_/1779705098/50670984-8215-4317-84df-9fbe4286203c.jpg",
+        "https://media.btech.com/catalogs/a/d/1/e/ad1ed87fab5fe245a8778afc87c719b1727237d5_Logitech_G502_X_Plus_Black_Wireless_Gaming_Mouse.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 7999,
+          "old_price": 8535,
+          "url": "https://www.noon.com/egypt-en/logitech-g502-x-plus-lightspeed-wireless-rgb-gaming-mouse-optical-mouse-with-lightforce-hybrid-switches-lightsync-rgb-hero-25k-gaming-sensor-compatible-with-pc-macos-windows-black/N70026943V/p/?o=ab7122e614435f4d",
+          "in_stock": true
         },
         {
-          "store": "2b",
-          "price": 1799,
-          "old_price": 3189,
-          "url": "https://2b.com.eg/en/logitech-g502-hero-high-performance-gaming-mouse-usb-ewr2-910-005471-black.html",
+          "store": "btech",
+          "price": 8622,
+          "old_price": 9198,
+          "url": "https://btech.com/en/p/285cd5b3-f551-41ba-b547-53cbbff8662c",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "2b-sony-playstation-5-standard-slim.html",
-      "name": "Sony Playstation 5 Standard Slim  (1 year warranty)",
-      "category": "بلايستيشن",
-      "search": "PS5 Slim",
+      "brand": "Generic",
+      "id": "noon-N53351026A",
+      "name": "Logitech G502 X Wired Gaming Mouse - LIGHTFORCE hybrid optical-mechanical primary switches, HERO 25K gaming sensor, compatible with PC - macOS/Windows - White",
+      "category": "كمبيوتر",
+      "search": "Logitech G502",
       "images": [
-        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/g/m/gm511-min_1_3.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z93D691588A428261D3BEZ/45/_/1779704700/3ebba926-8a58-4e42-b01e-844d23f9ca59.jpg",
+        "https://media.btech.com/catalogs/e/d/2/e/ed2eb2efe9acb0dab165ac8baa42eef33b4bf4ce_Logitech_G502_X_White_Wired_Gaming_Mouse.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z779F8A9071F2AC6F2DCFZ/45/_/1779712461/8ea1a82e-a7ef-4add-9753-a8335e6e5db0.jpg"
       ],
       "offers": [
         {
-          "store": "2b",
-          "price": 48999,
-          "old_price": 68999,
-          "url": "https://2b.com.eg/en/sony-playstation-5-standard-slim.html",
+          "store": "noon",
+          "price": 3499,
+          "old_price": 3699,
+          "url": "https://www.noon.com/egypt-en/logitech-g502-x-wired-gaming-mouse-lightforce-hybrid-optical-mechanical-primary-switches-hero-25k-gaming-sensor-compatible-with-pc-macos-windows-white/N53351026A/p/?o=fea7a986e4e711bc",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 4999,
+          "old_price": 4999,
+          "url": "https://btech.com/en/p/4279a571-9358-436e-9871-6ba61edc8b8e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70022609V",
+      "name": "PlayStation 5 Slim Console (International Version) Disc Version With Controller - New Model 2023",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZC16790565664993C16C6Z/45/_/1780467076/64f3c076-a87b-451e-8e59-6ac258f179cf.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 45449,
+          "old_price": 49000,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-disc-version-with-controller-new-model-2023/N70022609V/p/?o=fcdd1483ab51046f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70022612V",
+      "name": "PlayStation 5 Slim Console (International Version) Digital Edition With Controller",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZBD978A7CA7F6ADCFD83DZ/45/_/1784203569/cc82c090-636a-4d34-a7b7-b21352110432.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 49999,
+          "old_price": 49999,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-international-version-digital-edition-with-controller/N70022612V/p/?o=d375619d0282a45a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70022611V",
+      "name": "PlayStation 5 Disc Version Slim Console With Controller (UAE Version)",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZD18189D7AC45F5C2EE54Z/45/_/1780466819/7b46575e-f66a-4147-bcd7-0dc9bf21df1a.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 48654,
+          "old_price": 48654,
+          "url": "https://www.noon.com/egypt-en/playstation-5-disc-version-slim-console-with-controller-uae-version/N70022611V/p/?o=ddd3e59ae1702b1e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70116654V",
+      "name": "PlayStation 5 Slim Digital Console (KSA Version) With Extra Dualsense Wireless Controller - White",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z4F51913EBF46E4DD79AFZ/45/_/1780467219/47702b79-e3fe-40d8-9bfb-e8c0e61e9743.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 47600,
+          "old_price": 47600,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-digital-console-ksa-version-with-extra-dualsense-wireless-controller-white/N70116654V/p/?o=b9aa38cb588895ca",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70027875V",
+      "name": "PlayStation 5 Slim Console Disc Version With Extra Black Controller",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZEF22C6CE868071E22FA1Z/45/_/1780466826/02ea9415-6ed8-4ea7-9892-1fd4c81d15af.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 51500,
+          "old_price": 51500,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-console-disc-version-with-extra-black-controller/N70027875V/p/?o=fd1ebc3953a880fc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70030460V",
+      "name": "PlayStation 5 Slim Disc (2023) - International Version",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z775AE7E36EAA0FF85F48Z/45/_/1780466909/87615940-d004-481e-a04e-e1b29a86fa1f.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 46600,
+          "old_price": 46600,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-disc-2023-international-version/N70030460V/p/?o=ef6982b92e7d1a3e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sony",
+      "id": "noon-N70051818V",
+      "name": "PlayStation 5 Slim Disc Console With Extra Wireless Controller - Grey Camouflage",
+      "category": "بلايستيشن",
+      "search": "PS5 Slim",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z4E84F7B80005B9C67725Z/45/_/1780467171/3ad35496-f94b-4880-8e17-d0f911bc5813.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 51500,
+          "old_price": 51500,
+          "url": "https://www.noon.com/egypt-en/playstation-5-slim-disc-console-with-extra-wireless-controller-grey-camouflage/N70051818V/p/?o=a1005fd0ee3256ad",
           "in_stock": true
         }
       ]
@@ -1100,7 +1163,7 @@
       "offers": [
         {
           "store": "noon",
-          "price": 550,
+          "price": 551,
           "old_price": 582,
           "url": "https://www.noon.com/egypt-en/officially-licensed-twin-charging-station-for-dualsense-controller-ps5-wireless/N50649559A/p/?o=c6762626e6b4427c",
           "in_stock": true
@@ -1119,8 +1182,8 @@
       "offers": [
         {
           "store": "noon",
-          "price": 5200,
-          "old_price": 5200,
+          "price": 5208,
+          "old_price": 5208,
           "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-official-version-chroma-indigo/N70126153V/p/?o=c98e5d151309893f",
           "in_stock": true
         }
@@ -1157,8 +1220,8 @@
       "offers": [
         {
           "store": "noon",
-          "price": 4390,
-          "old_price": 4390,
+          "price": 4477,
+          "old_price": 4477,
           "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-galactic-purple/N52393150A/p/?o=a8388607d5ffd5cb",
           "in_stock": true
         }
@@ -1248,19 +1311,58 @@
     },
     {
       "brand": "Apple",
-      "id": "noon-N70386268V",
-      "name": "iPhone 17 Pro Max Silver 256 Gigabyte Nano + eSIM 5G  with FaceTime -Middle East Version",
+      "id": "btech-1BAPOMSMIP17PMDBL006",
+      "name": "Apple iPhone 17 Pro Max , 256 GB , 12 GB , 5G , Dual-SIM - Deep Blue",
       "category": "موبايلات",
       "search": "iPhone 17 Pro Max",
       "images": [
-        "https://f.nooncdn.com/p/pzsku/Z18D774E70B4865E599CBZ/45/_/1784038514/9981ef4d-0b17-44ce-a40f-78bc26b69c28.jpg"
+        "https://media.btech.com/catalogs/6/3/1/c/631cde4797e03545c0954706103f058afcab8860_iPhone_17_Pro_Max_Deep_Blue_PDP_Image_Position_1__en_ME.jpg"
       ],
       "offers": [
         {
-          "store": "noon",
-          "price": 98500,
-          "old_price": 98500,
-          "url": "https://www.noon.com/egypt-en/iphone-17-pro-max-silver-256-gigabyte-nano-esim-5g-with-facetime-middle-east-version/N70386268V/p/?o=f695a0054d666c2d",
+          "store": "btech",
+          "price": 95499,
+          "old_price": 99700,
+          "url": "https://btech.com/en/p/apple-iphone-17-pro-max-256gb-12gb-ram-5g-deep-blue",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-A4BB9984F721A3D2130D",
+      "name": "Apple iPhone 17 Pro Max , 512 GB , 12 GB , 5G , eSIM - Silver",
+      "category": "موبايلات",
+      "search": "iPhone 17 Pro Max",
+      "images": [
+        "https://media.btech.com/catalogs/c/b/3/3/cb33ef0eb47440e5d2691cd944a11ba2d752c8aa_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg",
+        "https://media.btech.com/catalogs/3/7/3/f/373fdbcfef36e34b38e84c4a888ddaaf5585f71f_iPhone_17_Pro_Max_Silver_PDP_Image_Position_1__en_ME.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 113999,
+          "old_price": 113999,
+          "url": "https://btech.com/en/p/0b308766-8dee-43a7-829a-cb036f1b0584",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-666148",
+      "name": "Apple iPhone 17 Pro Max - 6.9-inch 256GB/12GB Dual SIM 5G Smartphone - Cosmic Orange",
+      "category": "موبايلات",
+      "search": "iPhone 17 Pro Max",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/666148/1762329604/666148_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 105000,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/apple-iphone-17-pro-max-256-orange/p/666148?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
           "in_stock": true
         }
       ]
@@ -1270,7 +1372,7 @@
       "id": "carrefour-688907",
       "name": "Apple iPhone 17 Pro Max - 6.9-inch 512GB/12GB Dual SIM 5G Smartphone - Silver",
       "category": "موبايلات",
-      "search": "iPhone 17",
+      "search": "iPhone 17 Pro Max",
       "images": [
         "https://cdn.mafrservices.com/pim-content/EGY/media/product/688907/1790068200/688907_main.jpg?im=Resize=(300,300)"
       ],
@@ -1289,7 +1391,7 @@
       "id": "carrefour-688906",
       "name": "Apple iPhone 17 Pro Max - 6.9-inch 512GB/12GB Dual SIM 5G Smartphone - Deep Blue",
       "category": "موبايلات",
-      "search": "iPhone 17",
+      "search": "iPhone 17 Pro Max",
       "images": [
         "https://cdn.mafrservices.com/pim-content/EGY/media/product/688906/1790068200/688906_main.jpg?im=Resize=(300,300)"
       ],
@@ -1305,19 +1407,57 @@
     },
     {
       "brand": "Apple",
-      "id": "btech-1BAPOMSMIP162Y00L001",
-      "name": "Apple iPhone 16 , 128 GB , 6 GB , 5G , Single SIM - White",
+      "id": "btech-396480A82A09777D2B7D",
+      "name": "Apple iPhone 17 , 512 GB , 8 GB , 5G , Dual-SIM - Lavender",
       "category": "موبايلات",
-      "search": "iPhone 16",
+      "search": "iPhone 17",
       "images": [
-        "https://media.btech.com/catalogs/d/e/6/3/de631afb263e4b5e265f77199d36da2a9a61f852_iPhone_16_White_PDP_Image_Position_1__en_ME.jpg"
+        "https://media.btech.com/catalogs/2/1/0/0/210090919c8bc5f51645e177d5e8e501704a2dcd_iPhone_17_Lavender_PDP_Image_Position_1__en_ME.jpg"
       ],
       "offers": [
         {
           "store": "btech",
-          "price": 57999,
-          "old_price": 61999,
-          "url": "https://btech.com/en/s?q=iPhone+16",
+          "price": 77694,
+          "old_price": 77694,
+          "url": "https://btech.com/en/p/f39e5b80-ebf2-4e27-aaf7-2a1cc008ae53",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-E4E31EDA3640ADF71EEF",
+      "name": "Apple iPhone 16 , 128 GB , 8 GB , 5G , Single SIM - Pink",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "images": [
+        "https://media.btech.com/catalogs/4/2/f/4/42f4c5e1cf1105b9f105c737c6eb35ff85191946_iPhone_16_Pink_PDP_Image_Position_1__en_ME.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 63999,
+          "old_price": 63999,
+          "url": "https://btech.com/en/p/apple-iphone-16-128gb-5g-pink",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-A6851B961B894CD26D09",
+      "name": "Apple iPhone 16 , 128 GB , 8 GB , 5G , Single SIM - Blue",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "images": [
+        "https://media.btech.com/catalogs/b/3/a/9/b3a9e2666d2d624a6cb372b72aa89b907bb8a34a_c9ffb17f533c200d7328b27749791017a28ee55d_a3dff4b3e6ebabd3623e22345afd72605c6ac5644e3b26557edf99.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 70529,
+          "old_price": 70529,
+          "url": "https://btech.com/en/p/apple-iphone-16-128gb-5g-ultramarine",
           "in_stock": true
         }
       ]
@@ -1343,20 +1483,504 @@
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-F807005691801BF28ADA",
-      "name": "Apple iPhone 16 , 256 GB , 8 GB , 5G , Single SIM - Teal",
+      "brand": "",
+      "id": "2b-apple-iphone-16-plus-256gb-utramarine-official-warranty.html",
+      "name": "Apple iPhone 16 Plus - 256GB - Utramarine (Official Warranty )",
       "category": "موبايلات",
       "search": "iPhone 16",
       "images": [
-        "https://media.btech.com/catalogs/c/9/5/4/c9549288da55269dbeb50c9e44f5de208b20e477_iPhone_16_Teal_PDP_Image_Position_1__en_ME.jpg"
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/i/p/iphone-16-plus-ultramarine-1_1.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/m/a/ma104-1_2_mvcgv0yh6j5v6cna.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/m/a/ma100-1_2_1_1.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/m/a/ma102-1_1_1_exs3q0anebdtb4it.jpg"
+      ],
+      "offers": [
+        {
+          "store": "2b",
+          "price": 81999,
+          "old_price": 112949,
+          "url": "https://2b.com.eg/en/apple-iphone-16-plus-256gb-utramarine-official-warranty.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-2BC613DD3CFDDC4F9D77",
+      "name": "Samsung Galaxy S25 Ultra , 256 GB , 12 GB , 5G , Dual-SIM - Titanium Black",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/c/8/7/b/c87b57567d5dc193b7f9fc116bf08573865d84f9_3b325b9febf142c246dc5e917f97583b54603d65f0128a6970697ce550258366.jpeg"
       ],
       "offers": [
         {
           "store": "btech",
-          "price": 79999,
-          "old_price": 79999,
-          "url": "https://btech.com/en/s?q=iPhone+16",
+          "price": 65111,
+          "old_price": 65111,
+          "url": "https://btech.com/en/p/samsung-galaxy-s25-ultra-256gb-12gb-5g-dual-sim-titanium-black1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-A11F761F3BC75ACB8545",
+      "name": "Samsung Galaxy S25 Ultra , 256 GB , 12 GB , 5G , Dual-SIM - Titanium Grey",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/0/c/3/a/0c3ac9da5fe201f35197a03c3318465b7ff946ad_f818e6c606dcad6f55aa4b1c7686d14a7fb5dade79e0221cbc4f3475d9feb5d7.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 66849,
+          "old_price": 66849,
+          "url": "https://btech.com/en/p/samsung-galaxy-s25-ultra-256gb-12gb-5g-dual-sim-titanium-grey1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMGALS25U1L020",
+      "name": "Samsung Galaxy S25 Ultra , 512 GB , 12 GB , 5G , Dual-SIM - Titanium Grey",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/1/d/1/b/1d1bf3edc25034f1530bbff0d6d006776c30f93b_imgi_2_f818e6c606dcad6f55aa4b1c7686d14a7fb5dade79e0221cbc4f3475d9feb5d7_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 68360,
+          "old_price": 68360,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+S25+Ultra",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMGALS25U1L007",
+      "name": "Samsung Galaxy S25 Ultra , 512 GB , 12 GB , 5G , Dual-SIM - Titanium Black",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/2/9/e/0/29e0a3a151f84fb4daada5dd142f24c464cade53_9824edb022cd12cd19d16b5ba4d8fbc1f5ddcaa4b384697a93156aa8b8319f83.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 68360,
+          "old_price": 68360,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+S25+Ultra",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-59050F17A6CF51E77DC1",
+      "name": "Samsung Galaxy S25 Ultra , 512 GB , 12 GB , 5G , Dual-SIM - Titanium Silver Blue",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/6/0/a/8/60a821e9981946892593db62550845db072ce85a_b1a230151f43423094cd0ca5b2568ae61b35d55485b111178c3459653673c989__1_.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 76500,
+          "old_price": 76500,
+          "url": "https://btech.com/en/p/samsung-galaxy-s25-ultra-512gb-12gb-ram-5g-dual-sim-titanium-silverblue",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-4C3FE3AA622827AA3181",
+      "name": "Samsung Galaxy S25 Ultra , 256 GB , 12 GB , 5G , Dual-SIM - Titanium White Silver",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/8/6/b/6/86b6e41b61b2686a905f1c49263448b48d1aaa6c_2b380280e667b051c0d8e34329ae6bbe5e614e88153a26d18347186c5721a416.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 70100,
+          "old_price": 70100,
+          "url": "https://btech.com/en/p/samsung-galaxy-s25-ultra-256gb-12gb-5g-dual-sim-titanium-white-silver-warranty",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-65B2DE231E0E142ADF68",
+      "name": "Samsung Galaxy S25 Ultra , 512 GB , 12 GB , 5G , Dual-SIM - Titanium White Silver",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://media.btech.com/catalogs/8/8/f/2/88f2c9967d15f018a4d64d69b3f557f21651288e_imgi_2_2b380280e667b051c0d8e34329ae6bbe5e614e88153a26d18347186c5721a416_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 74360,
+          "old_price": 74360,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+S25+Ultra",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "2b-samsung-galaxy-s25-ultra-12gb-ram-1tb-silver.html",
+      "name": "Samsung Galaxy S25 Ultra - 12GB RAM - 1TB - Silver Blue",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsung-galaxy-s25-ultra-slver-1_1_1.jpg",
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/s/a/samsung-galaxy-s25-ultra-1_1_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "2b",
+          "price": 84799,
+          "old_price": 109099,
+          "url": "https://2b.com.eg/en/samsung-galaxy-s25-ultra-12gb-ram-1tb-silver.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-678328",
+      "name": "Samsung Galaxy S26 Ultra - 6.9-inch 512GB/12GB Dual SIM 5G Smartphone - Black",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/678328/1778661600/678328_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 80660,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-s26-ultra5g-12-512gb-black/p/678328?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-677912",
+      "name": "Samsung Galaxy S26 Ultra - 6.9-inch 256GB/12GB Dual SIM 5G Smartphone - Sky Blue",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy S25 Ultra",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677912/1777891200/677912_main.jpg?im=Resize=(300,300)",
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677911/1777891200/677911_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 72400,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-s26-ultra5g12gb-256gb-blue/p/677912?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-2CFF04D9BC7CE2281D45",
+      "name": "Samsung Galaxy A56 , 256 GB , 12 GB , 5G , Dual-SIM - Awesome Pink",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://media.btech.com/catalogs/3/9/c/a/39ca96e70ae9551687d2e306e7e82d46d7e87139_5313feacfb34c83ee7502ba878ff6b4f6afcc4a9519eec6b6cfabc4ecce4a3fd.jpeg",
+        "https://media.btech.com/catalogs/d/d/1/a/dd1a4c173505987f72e51e912d73d16049986151_ae08784c59679dc852da64015114a2c4c942fb56d581b2533dcf33eaf8d97cb0.jpg",
+        "https://media.btech.com/catalogs/2/f/d/6/2fd62ba060d1f7cbb204aaf310ef3f61c3df57aa_in_galaxy_a56_5g_sm_a566_sm_a566ezkhins_545211361.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 28999,
+          "old_price": 28999,
+          "url": "https://btech.com/en/p/samsung-galaxy-a56-256gb-12gb-ram-4g-dual-sim-graphite",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-11A48F53F2A717428A7F",
+      "name": "Samsung Galaxy A56 , 256 GB , 12 GB , 5G , Dual-SIM - Light Grey",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://media.btech.com/catalogs/7/8/1/e/781ed3fcbf2ceea86c9d198f45a502b525abf38e_92f69314b12eef290f438d425c1d5e6324413c47ec62ca05cf48cedc88419497_1.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 32444,
+          "old_price": 32444,
+          "url": "https://btech.com/en/p/samsung-galaxy-a56-256gb-12gb-ram-5g-dual-sim-lightgrey",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-36CE91290497EB5F0BD4",
+      "name": "Samsung Galaxy A56 , 128 GB , 8 GB , 5G , Dual-SIM - Awesome Pink",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://media.btech.com/catalogs/1/7/3/9/17396b86cae5bb749e5bbd5476744aeb92d7ad82_5313feacfb34c83ee7502ba878ff6b4f6afcc4a9519eec6b6cfabc4ecce4a3fd.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 25025,
+          "old_price": 25025,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-677917",
+      "name": "Samsung Galaxy A57 - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Navy",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677917/1777893000/677917_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 35060,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-8gb-256gb-navy/p/677917?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-689671",
+      "name": "Samsung Galaxy S26 FE - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Graphite",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689671/1790601000/689671_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 42520,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-s26-fe-5g-8gb-256g-graphite/p/689671?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-677919",
+      "name": "Samsung Galaxy A57 - 6.7-inch 256GB/12GB Dual SIM 5G Smartphone - Gray",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677919/1777893000/677919_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 35805,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-12gb-256gb-gray/p/677919?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-689888",
+      "name": "Samsung Galaxy A08 - 6.7-inch 64GB/4GB Dual SIM 4G Smartphone - Blue",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689888/1790860202/689888_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 9400,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a08-4g-64gb-blue/p/689888?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-677897",
+      "name": "Samsung Galaxy A37 - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Charcoal",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/677897/1777898400/677897_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 27340,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a37-5g-8gb-256gb-charcoal/p/677897?offer=offer_carrefour_&sid=DEFAULT&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-89D71240B82E0CD799FD",
+      "name": "Samsung Galaxy A36 , 256 GB , 8 GB , 4G , Dual-SIM - Awesome Lemon",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://media.btech.com/catalogs/7/7/1/3/7713aa923573df89c578f13bf83642cfb056251a_934ebbcd5c20defd53a952e75076e6477b98b833bcc57ba2386afdd637bec78e.jpeg",
+        "https://media.btech.com/catalogs/d/0/1/e/d01e0704f0d3084623b5b70ae26664c16c617f1e_c87b8da87fcd4eafc983b424a94bd64afae5b095cfe02396293e24be788e33ca_2.jpeg",
+        "https://media.btech.com/catalogs/3/d/5/0/3d5035db023b3e61fd083296289629a9529d7f2c_c87b8da87fcd4eafc983b424a94bd64afae5b095cfe02396293e24be788e33ca.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 23600,
+          "old_price": 23600,
+          "url": "https://btech.com/en/p/samsung-galaxy-a36-256gb-8gb-ram-4g-dual-sim-awesome-lemon",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMGA3628LIL005",
+      "name": "Samsung Galaxy A36 , 128 GB , 8 GB , 4G , Dual-SIM - Awesome Lime",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://media.btech.com/catalogs/1/7/1/5/17157713a2ac344d20d58c8eb44eaaf65902a901_imgi_2_3684f73ae7aeed3928c8823abcb022617164f27aceef2a90a9f286b834dcb5ab.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 20919,
+          "old_price": 20919,
+          "url": "https://btech.com/en/p/samsung-galaxy-a36-128gb-8gb-ram-4g-lte-dual-sim-lime",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-99AE413F5B4DC296FBEA",
+      "name": "Samsung Galaxy A16 , 128 GB , 4 GB , 4G LTE , Dual-SIM - Black",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://media.btech.com/catalogs/f/a/8/a/fa8aa2def7efbdebbd1197de42778d3382c4c287_996e7402bb88dc45163c1f0b668b7f655385bc4536ac4174dc70a14116280b59.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 12127,
+          "old_price": 12127,
+          "url": "https://btech.com/en/p/samsung-galaxy-a16-128gb-4gb-4g-lte-dual-sim-black-local",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMGA164GR0L020",
+      "name": "Samsung Galaxy A16 , 128 GB , 4 GB , 4G LTE , Dual-SIM - Grey",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://media.btech.com/catalogs/f/a/7/5/fa75cb05470a8e5ea7262717a502c60f7d00fdf6_39ffe0676d6222540d7be4198f0621d12ba6002a394b886a7e247fb355c7573f.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 12149,
+          "old_price": 12149,
+          "url": "https://btech.com/en/p/samsung-galaxy-a16-128gb-4gb-4g-lte-dual-sim-grey-local",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-09311F3F46B97211B60B",
+      "name": "Samsung Galaxy A35 , 128 GB , 8 GB , 5G , Dual-SIM - Iceblue",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://media.btech.com/catalogs/e/1/e/2/e1e26df07e60f3ad030a548c296b521929446b8b_db26403e9781a3676da41faeef8ae89fec9dd7ae253ec36b9cd74076861b811c.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 22361,
+          "old_price": 22361,
+          "url": "https://btech.com/en/p/samsung-galaxy-a35-128gb-8gb-5g-dual-sim-iceblue",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-4FF51DA2195313461314",
+      "name": "Samsung Galaxy A34 , 128 GB , 8 GB , 5G , Dual-SIM - Graphite",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://media.btech.com/catalogs/f/6/d/a/f6dac416160eaf937b9fda44dd194b30a4a5860a_c7a94a6350710420ededac9622afa40dee8d6bf285f6b30a8922986641bc39d6.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 21140,
+          "old_price": 21140,
+          "url": "https://btech.com/en/p/samsung-a34-128gb-8gb-dual-sim-5g-graphite",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-655782",
+      "name": "Samsung Galaxy A56 - 6.7-inch 256GB/8GB Dual SIM 5G Smartphone - Graphite",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A36",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/655782/1790854749/655782_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 24999,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a56-8-256/p/655782?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
           "in_stock": true
         }
       ]
@@ -1401,6 +2025,120 @@
     },
     {
       "brand": "",
+      "id": "2b-xiaomi-redmi-note-14-pro-plus-12gb-ram-256gb-black.html",
+      "name": "Xiaomi Redmi Note 14 Pro Plus - 12GB RAM - 256GB - Black",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14 Pro",
+      "images": [
+        "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/x/i/xiaomi-redmi-note-14-pro-plus-black-1_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "2b",
+          "price": 23999,
+          "old_price": 33149,
+          "url": "https://2b.com.eg/en/xiaomi-redmi-note-14-pro-plus-12gb-ram-256gb-black.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-208D8863322EBA2819A9",
+      "name": "Apple AirPods Pro 2nd Generation , White",
+      "category": "سماعات",
+      "search": "AirPods Pro 2",
+      "images": [
+        "https://media.btech.com/catalogs/e/1/e/9/e1e916e4ef89dc40ba2413f02e3edcb129b68c8e_AirPods_Pro_2_PDP_Image_Position_2__en_ME.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 13999,
+          "old_price": 13999,
+          "url": "https://btech.com/en/p/apple-airpods-pro-2nd-generation-white",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "btech-A2931A1FCEB2E8BF6399",
+      "name": "Generic AirPods Pro 3 Earbuds , with Active Noise Cancellation , White",
+      "category": "سماعات",
+      "search": "AirPods Pro 2",
+      "images": [
+        "https://media.btech.com/catalogs/f/3/2/d/f32dc1a73d3685bca00ec41740b56293c2393b5f_B7000005319T.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1250,
+          "old_price": 1250,
+          "url": "https://btech.com/en/p/0010da9d-5374-4887-bb7c-406630f7521e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Logitech",
+      "id": "btech-3F59871336CC8C8F6FF2",
+      "name": "Logitech Pro X Superlight 2 Wireless Gaming Mouse , White",
+      "category": "سماعات",
+      "search": "AirPods Pro 2",
+      "images": [
+        "https://media.btech.com/catalogs/7/f/d/f/7fdf87b41c93c6afe8fea7493df73fe59a252759__2y_12_qEXjPWxbyxavfdLTBS2T4ObzIAnWSCRClOsooNy7zoW0pHKPI0m2e_removebg_preview.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 9266,
+          "old_price": 9266,
+          "url": "https://btech.com/en/p/logitech-pro-x-superlight-2-wireless-gaming-mouse-white",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Logitech",
+      "id": "btech-1E5D57D1F9978561AC46",
+      "name": "Logitech PRO X 2 LightSpeed Wireless Gaming Headphones , Black",
+      "category": "سماعات",
+      "search": "AirPods Pro 2",
+      "images": [
+        "https://media.btech.com/catalogs/f/4/5/9/f45908ba418aae2f1e10612a0cc320d152dd2b3d_imgi_78_gallery_1_pro_x_2_lightspeed_gaming_headset_black.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 14400,
+          "old_price": 14400,
+          "url": "https://btech.com/en/p/1cc44813-a1be-4e38-a591-5d342c5e5850",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Sandisk",
+      "id": "btech-1BSAASITSNEXPR2TL030",
+      "name": "Sandisk Extreme PRO External SSD ,2 TB ,Black - SDSSDE81-2T00-G25",
+      "category": "سماعات",
+      "search": "AirPods Pro 2",
+      "images": [
+        "https://media.btech.com/catalogs/4/2/8/2/42820bd22381efe65065b8c337980bd02e27505c_extreme_pro_usb_3_1_ssd_right.png.wdthumb.1280.1280_removebg_preview.png"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 15899,
+          "old_price": 20526,
+          "url": "https://btech.com/en/p/b7d40e53-e3f9-4883-b6bf-be2f90ad1513",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
       "id": "carrefour-2251257000097",
       "name": "Generic Pro Air Pods Compatible With Android - iPhone White",
       "category": "سماعات",
@@ -1439,6 +2177,25 @@
     },
     {
       "brand": "",
+      "id": "carrefour-2251257000027",
+      "name": "CMF by Nothing Buds Pro 2 Bluetooth Earbuds, ChatGPT Integrated, TWS with Clear Voice Technology 2.0, 50 dB Smart ANC, Up to 11 hrs Battery, Spatial Audio Effect, IP55, Dark Grey, Middle East Version",
+      "category": "سماعات",
+      "search": "AirPods Pro 2",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000027/1790774051/2251257000027_main.jpeg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 2599,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/cmf-by-nothing-buds-pro-2-bluetooth-earbuds-chatgpt-integrated-tws-with-clear-voice-technology-2-0-50-db-smart-anc-up-to-11-hrs-battery-spatial-audio-effect-ip55-dark-grey-middle-east-version/p/2251257000027?offer=offer_1003922512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
       "id": "carrefour-670090",
       "name": "Zerotech Noise Cancellation Airpods - 4 Microphones - ZPCE-B01i-G",
       "category": "سماعات",
@@ -1457,192 +2214,326 @@
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-689674",
-      "name": "Samsung Galaxy Buds4 Pro Earbuds - Black",
+      "brand": "Generic",
+      "id": "noon-ZD408FBBD142AC2FB003EZ",
+      "name": "Eartips for Galaxy Buds3 Pro, Memory Foam Replacement Earbuds for Samsung Buds 3 Pro, Compatible with Samsung Galaxy Buds 3 Pro Accessories, XL/L/M (3 Pairs) (White)",
       "category": "سماعات",
       "search": "Samsung Galaxy Buds3",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689674/1790673000/689674_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/552179827a46576a97cad68dc7d6f678|pzsku/ZD408FBBD142AC2FB003EZ/45/1769017757/adbde6eb-6f41-467c-9e46-7c1ad70ce585.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 12180,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smart-watches-wearables/samsung-galaxy-buds4-pro-black/p/689674?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 241,
+          "old_price": 241,
+          "url": "https://www.noon.com/egypt-en/eartips-for-galaxy-buds3-pro-memory-foam-replacement-earbuds-for-samsung-buds-3-pro-compatible-with-samsung-galaxy-buds-3-pro-accessories-xl-l-m-3-pairs-white/ZD408FBBD142AC2FB003EZ/p/?o=ee8cc4849047093f",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-689675",
-      "name": "Samsung Galaxy Buds4 Pro Earbuds - White",
+      "brand": "Miruchertter",
+      "id": "noon-Z3E333D0795DCEB22528BZ",
+      "name": "Earbuds for Galaxy Buds3 Pro, Memory Foam Replacement Earbuds for Samsung Buds 3 Pro, Compatible with Samsung Galaxy Buds 3 Pro Accessories, XL/L/M (3 Pairs) (Black)",
       "category": "سماعات",
       "search": "Samsung Galaxy Buds3",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689675/1790673000/689675_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/c289748d560b585bb661063133fb8d53|pzsku/Z3E333D0795DCEB22528BZ/45/1770590396/da928181-2b4f-41ef-89bc-aba456e616c8.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 12180,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smart-watches-wearables/samsung-galaxy-buds4-pro-white/p/689675?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 880,
+          "old_price": 880,
+          "url": "https://www.noon.com/egypt-en/earbuds-for-galaxy-buds3-pro-memory-foam-replacement-earbuds-for-samsung-buds-3-pro-compatible-with-samsung-galaxy-buds-3-pro-accessories-xl-l-m-3-pairs-black/Z3E333D0795DCEB22528BZ/p/?o=c3e4fc29dd99b92e",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-2251857001515",
-      "name": "Samsung Galaxy SmartTag2 - Pack of 4 (2-Black, 2-White) - Black/White",
-      "category": "سماعات",
-      "search": "Samsung Galaxy Buds3",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251857001515/1789980249/2251857001515_main.jpeg?im=Resize=(300,300)",
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000649/1793269464/1827747000649_main.jpeg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 3900,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/samsung-accessories/samsung-galaxy-smarttag2-pack-of-4-2-black-2-white-black-white/p/1827747000649?offer=offer_1055518277&sid=DEFAULT&sellerId=18277",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-1827747001146",
-      "name": "JBL Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Blue",
+      "brand": "JBL",
+      "id": "noon-N70057698V",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable - Purple",
       "category": "سماعات",
       "search": "JBL Tune 520BT",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747001146/1793269452/1827747001146_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z9B0797A49269710C386FZ/45/_/1779704922/d1d962a2-b8a0-4cf8-a139-36b577372c31.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 2000,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-blue/p/1827747001146?offer=offer_1024322512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 4580,
+          "old_price": 4580,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-purple/N70057698V/p/?o=e36f34a6c66b04cb",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-1827747000296",
-      "name": "JBL Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable White",
+      "brand": "JBL",
+      "id": "noon-N53401777A",
+      "name": "Tune 520Bt Wireless On Ear Headphones Pure Bass Sound 57H Battery Hands Free Call Plus Voice Aware Multi Point Connection Lightweight And Foldable Black",
       "category": "سماعات",
       "search": "JBL Tune 520BT",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000296/1745329805/1827747000296_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z42F73A00888E893CFFD3Z/45/_/1779720520/e5239d62-80f7-4b68-8cc1-5c87c9268758.jpg",
+        "https://f.nooncdn.com/p/pzsku/ZE84C1D3FEF3B623E5BE2Z/45/_/1779714864/a7cf5d3a-de4d-4e9a-a1bc-14e7f20b5554.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 2000,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-white/p/1827747000296?offer=offer_1024222512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 2188,
+          "old_price": 2188,
+          "url": "https://www.noon.com/egypt-en/tune-520bt-wireless-on-ear-headphones-pure-bass-sound-57h-battery-hands-free-call-plus-voice-aware-multi-point-connection-lightweight-and-foldable-black/N53401777A/p/?o=da29943d6e69d5fb",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-691089",
-      "name": "JBL Tune 530BT Wireless On-Ear Headphones - Digital Lavender - T530BT",
-      "category": "سماعات",
-      "search": "JBL Tune 520BT",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/691089/1792327207/691089_main.jpg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 2699,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/pc-speakers/jbl-t530bt-wls-on-ear-hp-purple/p/691089?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-1827747000496",
-      "name": "Anker Power Bank Powercore 10000mah 22.5W Portable Charger With USB C Lanyard Cable",
+      "brand": "Anker",
+      "id": "noon-N70257504V",
+      "name": "10000 mAh Anker Zolo Power Bank, 10,000mAh 22.5W Max Portable Charger,USB-C In and Out Fast Charging Battery Pack, Slim Travel Essential Phone Power Bank, For iPhone 17/16/15 Series, iPad, MacBook Air, Galaxy, and More black",
       "category": "إكسسوارات موبايل",
       "search": "Anker power bank 20000mAh",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1827747000496/1793269462/1827747000496_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z7D7B8C0F265CFA7D74FAZ/45/_/1793791052/80430045-1242-4736-a8fa-923d06a6b619.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 1900,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/power-banks/anker-power-bank-powercore-10000mah-22-5w-portable-charger-with-usb-c-lanyard-cable/p/1827747000496?offer=offer_1025522512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 940,
+          "old_price": 1199,
+          "url": "https://www.noon.com/egypt-en/10000-mah-anker-zolo-power-bank-10-000mah-22-5w-max-portable-charger-usb-c-in-and-out-fast-charging-battery-pack-slim-travel-essential-phone-power-bank-for-iphone-17-16-15-series-ipad-macbook-air-galaxy-and-more-black/N70257504V/p/?o=b0aa76a07c22fb4b",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-2251257000186",
-      "name": "Zolo Power Bank, 20,000mAh 22.5W Max Portable Charger, USB-C In and Out Fast Charging Battery Pack, Slim Travel Essential Phone Power Bank, For iPhone 17/16/15 Series, Galaxy white",
+      "brand": "Anker",
+      "id": "noon-N70249570V",
+      "name": "20000 mAh Zolo Power Bank, 20,000mAh 22.5W Max Portable Charger, USB-C In and Out Fast Charging Battery Pack, Slim Travel Essential Phone Power Bank, For iPhone 17/16/15 Series, iPad, MacBook Air, Galaxy, and More black",
       "category": "إكسسوارات موبايل",
       "search": "Anker power bank 20000mAh",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/2251257000186/1790774054/2251257000186_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z8C7054D6ED281E92135EZ/45/_/1793791050/9a3d3442-c4fe-4317-a234-3f0c4c7a23ef.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 1488,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/power-banks/zolo-power-bank-20-000mah-22-5w-max-portable-charger-usb-c-in-and-out-fast-charging-battery-pack-slim-travel-essential-phone-power-bank-for-iphone-17-16-15-series-galaxy-white/p/2251257000186?offer=offer_1018422512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 1285,
+          "old_price": 1430,
+          "url": "https://www.noon.com/egypt-en/20000-mah-zolo-power-bank-20-000mah-22-5w-max-portable-charger-usb-c-in-and-out-fast-charging-battery-pack-slim-travel-essential-phone-power-bank-for-iphone-17-16-15-series-ipad-macbook-air-galaxy-and-more-black/N70249570V/p/?o=c2c1fbcba20ab58b",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-685263",
-      "name": "Anker Zolo Digital Wired Power Bank with Built-in USB-C Cable - 10000 mAh 22.5W - 3 Ports USB-C + USB-A - Black - MP816",
+      "brand": "Anker",
+      "id": "noon-N70204389V",
+      "name": "5000 mAh Anker Nano Power Bank, Ultra-Slim 5,000mAh Magnetic Battery Pack, Qi2 Certified 7.5W / 15W Wireless Charging, 20W USB-C Fast Charging, MagSafe-Compatible Portable Charger, for iPhone 17/16/15/14/13/12 Series - Black",
       "category": "إكسسوارات موبايل",
       "search": "Anker power bank 20000mAh",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/685263/1786007400/685263_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/ZAF4B93BE67C640C9DFC3Z/45/_/1793791056/ca210d16-5ba9-42c1-b3f1-6aed72fe15cd.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 1450,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/power-banks/anker-power-bank-10k-mah-mp816/p/685263?offer=offer_1025822512&sid=DEFAULT&sellerId=22512",
+          "store": "noon",
+          "price": 2199,
+          "old_price": 4599,
+          "url": "https://www.noon.com/egypt-en/5000-mah-anker-nano-power-bank-ultra-slim-5-000mah-magnetic-battery-pack-qi2-certified-7-5w-15w-wireless-charging-20w-usb-c-fast-charging-magsafe-compatible-portable-charger-for-iphone-17-16-15-14-13-12-series-black/N70204389V/p/?o=a150c641c22ae0fe",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-4713309812743",
-      "name": "Energizer 20000mAh Power Bank 22.5W Fast Charging USB-C Power Delivery Dual USB-A Portable Charger UE20011PQ",
+      "brand": "Anker",
+      "id": "noon-N70120304V",
+      "name": "10000 mAh Anker MagGo Power Bank, Ultra-Slim 10,000mAh Magnetic Portable Charger, Qi2 Certified 15W Ultra-Fast MagSafe-Compatible Battery Pack, PD 30W, Ergonomic Design, For iPhone17/16/15/14/13/12 Series (Black) Black",
       "category": "إكسسوارات موبايل",
       "search": "Anker power bank 20000mAh",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/4713309812743/1792498440/4713309812743_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z00CD5CACFE2032E54A41Z/45/_/1793791057/9a5c6218-421c-4f5a-a465-ec79b867e10d.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 2449,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/power-banks/energizer-20000mah-power-bank-22-5w-fast-charging-usb-c-power-delivery-dual-usb-a-portable-charger-ue20011pq/p/4713309812743?offer=offer_1010518004&sid=DEFAULT&sellerId=18004",
+          "store": "noon",
+          "price": 3159,
+          "old_price": 4207,
+          "url": "https://www.noon.com/egypt-en/10000-mah-anker-maggo-power-bank-ultra-slim-10-000mah-magnetic-portable-charger-qi2-certified-15w-ultra-fast-magsafe-compatible-battery-pack-pd-30w-ergonomic-design-for-iphone17-16-15-14-13-12-series-black-black/N70120304V/p/?o=f6939f337406c2bc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "noon-N70119646V",
+      "name": "25000 mAh Anker Power Bank, 25,000mAh 165W Ultra-Fast Portable Charger for Dual Laptops, Fast Charging Battery Pack with Built-In and Retractable Cables, For iPhone 17/17 & More Series, Samsung, and More (Black) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank 20000mAh",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z47BFA7D20DBBC578F76EZ/45/_/1793791055/1c40a28f-402b-4ef7-8842-6e39e877fa20.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3847,
+          "old_price": 3847,
+          "url": "https://www.noon.com/egypt-en/25000-mah-anker-power-bank-25-000mah-165w-ultra-fast-portable-charger-for-dual-laptops-fast-charging-battery-pack-with-built-in-and-retractable-cables-for-iphone-17-17-more-series-samsung-and-more-black-black/N70119646V/p/?o=b14f6228b4e61e1b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "noon-N70049421V",
+      "name": "10000 mAh Anker Nano Power Bank, 10,000mAh Portable Charger with Built-In USB-C Cable, 30W Recharging, 30W Max Output with USB-C&A, for iPhone 17/16 Series, MacBook, Galaxy, AirPods, and More (Black) Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank 20000mAh",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZE7605E0EFD8750C9A61AZ/45/_/1793791050/133b8871-a16d-43a8-a84b-29b3ead433ef.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1485,
+          "old_price": 1599,
+          "url": "https://www.noon.com/egypt-en/10000-mah-anker-nano-power-bank-10-000mah-portable-charger-with-built-in-usb-c-cable-30w-recharging-30w-max-output-with-usb-c-a-for-iphone-17-16-series-macbook-galaxy-airpods-and-more-black-black/N70049421V/p/?o=c79d4ff285727f3f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-FE19404B9C9B0A04EE15",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 25 Watt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/1/2/f/8/12f8c84de0ce060084fdcb17cbdbe92c1f27ddc3_1fec7b6b11c2d6b6cbd7218eb266ee8f3fba203959f7f99d299deef0ad6ea080.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 176,
+          "old_price": 186,
+          "url": "https://btech.com/en/p/samsung-super-fast-wall-charger-25-watt-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-A809443ADB7157116EB4",
+      "name": "Samsung Wall Charger Type C , 45 Watt Black - EP-TA895XBEGWW",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/c/1/c/b/c1cb6b698a7863a2eec2812dc243bd6b2081c5b3_samsung_wall_charge_usb_type_c_45w_ep_ta895xbegww_1.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 194,
+          "old_price": 194,
+          "url": "https://btech.com/en/p/samsung-wall-charge-usb-type-c-45w-ep-ta895xbegww-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-8B333511A8EFF70E5B99",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 45 Watt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/a/2/3/0/a230c1f4c53cd9a34367baa99cef353e3c4cead3_mp408_3.jpg",
+        "https://media.btech.com/catalogs/a/7/0/4/a704cf730688f9f6d8a6df5316e7a9c70f0ac117_0984e3b95d536237c038bf6b68475fc37279a982824df94c5bd26348938588e7_copy_3.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 194,
+          "old_price": 194,
+          "url": "https://btech.com/en/p/samsung-wall-charger-type-c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-D8542176A2D4A98EA7E2",
+      "name": "Samsung Wall Charger Type C , 45 Watt Black - EP-TA845XBEGAU",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/e/1/0/6/e1060d788d17263977481660ab199d94725e2649_samsung_wall_charger_with_type_c_cable_45_w_black_ep_ta845xbegau_ua_v326_157w.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 189,
+          "old_price": 189,
+          "url": "https://btech.com/en/p/samsung-wall-charger-with-type-c-cable-45-w-black-ep-ta845xbegau-ua-v326-157w",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSACHARPTU02200L000",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 45 Watt Black - EP-T4510XBEGEU",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/b/e/5/b/be5b30ae47a5d78cbe99c467321d704d3a89ea4f_c584b09f92b1c82e377b7c885a4ec522913cccd55fb571eb4325dc5f8df39db4.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 899,
+          "old_price": 899,
+          "url": "https://btech.com/en/p/samsung-wall-charger-45w-black-ep-t4510xbegeu",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAASMOTA800NBEL007",
+      "name": "Samsung Wall Charger , 25 Watt 5 Volt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/3/8/3/3/383312e1bed264dc5af53cc1cd299252cd31bf53_27253158104001.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 791,
+          "old_price": 791,
+          "url": "https://btech.com/en/p/samsung-wall-charger-black-ep-ta800",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAASMCNBEGWW00L007",
+      "name": "Samsung Wall Charger Multi Ports , 35 Watt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung 25W charger",
+      "images": [
+        "https://media.btech.com/catalogs/0/3/6/5/03650213b0c6a1fbc3b860e8c832629692bfc1e6_aa4250f755ecc44477cf6cd8cd868144fe94a4a312937d1aefa3bcb4bc9f9480.jpeg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 879,
+          "old_price": 999,
+          "url": "https://btech.com/en/p/samsung-wall-charger-35w-2-black-ep-ta220nbegww",
           "in_stock": true
         }
       ]
@@ -1686,117 +2577,174 @@
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-FA152FFBF1E49D84CCF4",
-      "name": "Apple Series 11 Smart Watch , 46 Millimeter Jet Black",
+      "brand": "Generic",
+      "id": "noon-N72487822V",
+      "name": "Apple Watch Series 12 GPS 46mm - Black black",
       "category": "ساعات ذكية",
       "search": "Apple Watch Series 11",
       "images": [
-        "https://media.btech.com/catalogs/4/8/e/e/48ee3d6a3b5bd661899783b488afd1ea4dc955ef_wt439_1_1_2.jpg",
-        "https://media.btech.com/catalogs/0/c/c/9/0cc9c842ce11de85950521c4d604cd4bf3411ecb_imgi_219_a30bea27_7d96_4bdc_83c0_0de83fdeda60.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z5070F45866D460A3536AZ/45/_/1792480365/228b694f-9c32-4114-bbda-82bca9681ed8.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 23500,
-          "old_price": 23500,
-          "url": "https://btech.com/en/p/6a1a5780-ad9e-4395-9628-d3689c659b75",
+          "store": "noon",
+          "price": 32555,
+          "old_price": 32555,
+          "url": "https://www.noon.com/egypt-en/apple-watch-series-12-gps-46mm-black-black/N72487822V/p/?o=cd289c6f389b1e4c",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-1BAPASSBAWSG1146L051",
-      "name": "Apple Series 11 Smart Watch , 46 Millimeter Space Grey",
+      "brand": "Generic",
+      "id": "noon-ZF3567AA06F0C3CC471B7Z",
+      "name": "حافظة مع شاشة متوافقة مع ساعة Apple Watch Series 11 مقاس 42 مم، مصنوعة من مادة البولي كربونات الصلبة باللون الأزرق",
       "category": "ساعات ذكية",
       "search": "Apple Watch Series 11",
       "images": [
-        "https://media.btech.com/catalogs/5/c/6/c/5c6cdae6a6ff8669eab59cd9dd2b38cabc0a23b8_71pbQCChI9L._AC_SL1500_.jpg"
+        "https://f.nooncdn.com/p/pzsku/ZF3567AA06F0C3CC471B7Z/45/1765047248/de18b65c-0a38-4d32-8fff-9c2409b107cf.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 21999,
-          "old_price": 24999,
-          "url": "https://btech.com/en/p/98c67927-4f79-4a8b-9103-ff8a9a09fb6b",
+          "store": "noon",
+          "price": 130,
+          "old_price": 130,
+          "url": "https://www.noon.com/egypt-en/apple-watch-series-11-42/ZF3567AA06F0C3CC471B7Z/p/?o=af7b45e5dffc28bf",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-E3AB89B3A34CD1C4951A",
-      "name": "Apple Series 11 Smart Watch , 42 Millimeter Light Blush",
+      "brand": "Generic",
+      "id": "noon-N52883777A",
+      "name": "Apple Watch Series 4 5  Electroplated Ultra Thin Hybrid Silicone Black",
       "category": "ساعات ذكية",
       "search": "Apple Watch Series 11",
       "images": [
-        "https://media.btech.com/catalogs/2/3/8/d/238d96df8ab12f8061a4cadb3665796cac7a1944_imgi_147_7430d237_5959_4813_ac8e_93735ba04725.jpg",
-        "https://media.btech.com/catalogs/9/7/4/9/97499f3997bfe1e1161be0e34370634ae3df58af_New_Project__12_.jpg"
+        "https://f.nooncdn.com/p/v1647157158/N52883777A_1.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 21500,
-          "old_price": 21500,
-          "url": "https://btech.com/en/p/f1b67ba3-100a-43e5-9263-1d9aa00068df",
+          "store": "noon",
+          "price": 62,
+          "old_price": 135,
+          "url": "https://www.noon.com/egypt-en/apple-watch-series-4-5-electroplated-ultra-thin-hybrid-silicone-black/N52883777A/p/?o=cae22e61716db23d",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-EE65E5EB9626DE96697B",
-      "name": "Apple Series 11 Smart Watch , 46 Millimeter Purple Fog",
+      "brand": "Samsung",
+      "id": "btech-1BSAASMOL500NZWAL001",
+      "name": "Samsung Galaxy Watch8 Classic Smart Watch , 46 Millimeter White",
       "category": "ساعات ذكية",
-      "search": "Apple Watch Series 11",
+      "search": "Samsung Galaxy Watch8",
       "images": [
-        "https://media.btech.com/catalogs/5/6/1/2/5612b2afd07d94ace626de5818167d5dce92fd1a_imgi_147_65c8e079_3be3_4e6d_94a5_e7978c3110ad__1_.jpg"
+        "https://media.btech.com/catalogs/3/8/1/c/381ca400374ed118b8c4657972f6b307082b4099_SM_L500NZW_ET_SLL50LW.jpg"
       ],
       "offers": [
         {
           "store": "btech",
-          "price": 22900,
-          "old_price": 22900,
-          "url": "https://btech.com/en/p/fcbc091a-3e82-448b-b5c9-d3e861451b95",
+          "price": 14299,
+          "old_price": 16499,
+          "url": "https://btech.com/en/p/26f3ebc6-07f8-4fb7-9212-cbf99869c115",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-396DA673FAB5A279A314",
-      "name": "Apple Series 11 Smart Watch , 46 Millimeter Light Blush",
+      "brand": "Samsung",
+      "id": "btech-F0414457276FC4B07823",
+      "name": "Samsung Galaxy Watch8 Classic Smart Watch , 46 Millimeter Black",
       "category": "ساعات ذكية",
-      "search": "Apple Watch Series 11",
+      "search": "Samsung Galaxy Watch8",
       "images": [
-        "https://media.btech.com/catalogs/3/9/6/0/39603458fb3257d78937c4dffcbec0282c1b5ab8_New_Project__12_.jpg"
+        "https://media.btech.com/catalogs/a/6/9/0/a690d898fc3f51d6f019d0a764a91920e86faaae_SM_L500NZK_ET_SLL50LB.jpg"
       ],
       "offers": [
         {
           "store": "btech",
-          "price": 23500,
-          "old_price": 23500,
-          "url": "https://btech.com/en/p/4174f51c-49d3-4d46-b66f-cfc2750ab78f",
+          "price": 19499,
+          "old_price": 19499,
+          "url": "https://btech.com/en/p/bdd2475c-042b-4e47-974f-677cbf6cafb1",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Apple",
-      "id": "btech-DBB0CB6D8DB4ED5DAAE0",
-      "name": "Apple Series 11 Smart Watch , 46 Millimeter Stone Grey",
+      "brand": "Samsung",
+      "id": "btech-C4402C11DDD6927C82B3",
+      "name": "Samsung Galaxy Watch8 Smart Watch , 40 Millimeter Silver",
       "category": "ساعات ذكية",
-      "search": "Apple Watch Series 11",
+      "search": "Samsung Galaxy Watch8",
       "images": [
-        "https://media.btech.com/catalogs/7/9/c/2/79c239000829ebe2013d20112721b3aed24e998f_imgi_147_722381a3_b6ca_49d4_b626_56bfe2ebb81b.jpg"
+        "https://media.btech.com/catalogs/b/8/d/e/b8de9af07b7d4e74e49c331583c341fa64cc379b_download__12_.jpg",
+        "https://media.btech.com/catalogs/e/4/b/4/e4b409ba32beb602e7581a80f0202a086af08e59_download.jpg"
       ],
       "offers": [
         {
           "store": "btech",
-          "price": 24420,
-          "old_price": 24420,
-          "url": "https://btech.com/en/s?q=Apple+Watch+Series+11",
+          "price": 15839,
+          "old_price": 15839,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+Watch8",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAASMOL330NZSAL008",
+      "name": "Samsung Galaxy Watch8 Smart Watch , 44 Millimeter Silver",
+      "category": "ساعات ذكية",
+      "search": "Samsung Galaxy Watch8",
+      "images": [
+        "https://media.btech.com/catalogs/2/d/5/0/2d50c271fbf71b42b1638085d3858458935671f5_download__12_.jpg",
+        "https://media.btech.com/catalogs/5/6/a/b/56ab71286dbc2758f1fa83d12acbfa8f381956f5_download.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 12618,
+          "old_price": 12618,
+          "url": "https://btech.com/en/p/d219c3b7-fdee-4e3d-9176-a25b8d782b8c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-9B9249AE8B1A6A8743E5",
+      "name": "Samsung Galaxy Watch Ultra Smart Watch , 1.8 Inch Titanium Blue",
+      "category": "ساعات ذكية",
+      "search": "Samsung Galaxy Watch8",
+      "images": [
+        "https://media.btech.com/catalogs/a/c/7/b/ac7beb5aba15f376a010e9213094d3445e54f976_6556c3a3_e71c_41cd_a294_9e581402156c.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 23999,
+          "old_price": 23999,
+          "url": "https://btech.com/en/p/727e3dd1-6cc2-4967-9b00-d8363e5cc77c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-FE822C417E6A21EED8A1",
+      "name": "Samsung Galaxy Watch Ultra Smart Watch , 1.8 Inch Titanium White",
+      "category": "ساعات ذكية",
+      "search": "Samsung Galaxy Watch8",
+      "images": [
+        "https://media.btech.com/catalogs/8/5/e/1/85e1ef15460b5315a0e5811399e6ca6159d7c3c5_b1b011b9_80d7_4cc1_a0d4_8175177fc462.jpg"
+      ],
+      "offers": [
+        {
+          "store": "btech",
+          "price": 17444,
+          "old_price": 17444,
+          "url": "https://btech.com/en/p/59963a72-25ca-4c2a-a323-4bbd8ecb4718",
           "in_stock": true
         }
       ]
@@ -1879,6 +2827,44 @@
     },
     {
       "brand": "",
+      "id": "carrefour-689674",
+      "name": "Samsung Galaxy Buds4 Pro Earbuds - Black",
+      "category": "ساعات ذكية",
+      "search": "Samsung Galaxy Watch8",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689674/1790673000/689674_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 12180,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smart-watches-wearables/samsung-galaxy-buds4-pro-black/p/689674?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-689675",
+      "name": "Samsung Galaxy Buds4 Pro Earbuds - White",
+      "category": "ساعات ذكية",
+      "search": "Samsung Galaxy Watch8",
+      "images": [
+        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689675/1790673000/689675_main.jpg?im=Resize=(300,300)"
+      ],
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 12180,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smart-watches-wearables/samsung-galaxy-buds4-pro-white/p/689675?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
       "id": "carrefour-2251257000149",
       "name": "Galaxy Watch 8 Classic 46mm (Middle East Version) GPS Smartwatch, Cushion Design, Rotating Bezel, Quick Button, 3nm Processor, Sleep Coaching, Running Coach White",
       "category": "ساعات ذكية",
@@ -1916,438 +2902,1055 @@
       ]
     },
     {
+      "brand": "HUAWEI",
+      "id": "noon-N70151076V",
+      "name": "Band 10 Smartwatch, Compatible with iOS Android, Emotional Wellbeing Assistant, Fast Charging And Robust Battery Life, Comfortable Wearing, Pro-Level Sleep Analysis, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi Smart Band",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZBB29B18737D3ACAD760EZ/45/_/1785747313/6fd6ccbb-2bdf-48dd-8cd9-110c80232704.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1750,
+          "old_price": 1750,
+          "url": "https://www.noon.com/egypt-en/band-10-smartwatch-compatible-with-ios-android-emotional-wellbeing-assistant-fast-charging-and-robust-battery-life-comfortable-wearing-pro-level-sleep-analysis-black/N70151076V/p/?o=fa3cad09a079433e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "HUAWEI",
+      "id": "noon-N70151075V",
+      "name": "Band 10 Smartwatch, Compatible with iOS Android, Emotional Wellbeing Assistant, Fast Charging And Robust Battery Life, Comfortable Wearing, Pro-Level Sleep Analysis, Pink",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi Smart Band",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZC5C5FA696A7204EF95ECZ/45/_/1785747680/121d7187-7777-4b86-b548-6690c78dfc1b.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1699,
+          "old_price": 1899,
+          "url": "https://www.noon.com/egypt-en/band-10-smartwatch-compatible-with-ios-android-emotional-wellbeing-assistant-fast-charging-and-robust-battery-life-comfortable-wearing-pro-level-sleep-analysis-pink/N70151075V/p/?o=e238a4fe7d85d2ed",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "HUAWEI",
+      "id": "noon-N70285078V",
+      "name": "Band 11 Pro Smart Watch, Enhanced Sleep Tracking, Health & GNSS Position Fitness Tracker, Up to 14-day Battery Life, Ultra-Slim & Comfort Wear, Compatible with iOS & Android, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi Smart Band",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z918342DFB2063A5E0A23Z/45/_/1780572409/aa1e9a0c-ea7b-43a4-aebf-2e6a5eff758b.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 3390,
+          "old_price": 3999,
+          "url": "https://www.noon.com/egypt-en/band-11-pro-smart-watch-enhanced-sleep-tracking-health-gnss-position-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-compatible-with-ios-android-black/N70285078V/p/?o=bbae925fdcd93def",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "HUAWEI",
+      "id": "noon-N70285075V",
+      "name": "Band 11 Smart Watch, Enhanced Sleep Tracking, Health & Fitness Tracker, Up to 14-day Battery Life, Ultra-Slim & Comfort Wear, iOS & Android Compatible, Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi Smart Band",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z708384AACF2A6A997F62Z/45/_/1780572176/a0d5a931-10b8-4bab-bcd3-a7bd5ce2daf2.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z4B0C4DB7AEC44971E628Z/45/_/1780572419/c38ac872-e827-49a9-9fe5-943caa5f0ae3.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2599,
+          "old_price": 2599,
+          "url": "https://www.noon.com/egypt-en/band-11-smart-watch-enhanced-sleep-tracking-health-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-ios-android-compatible-online-exclusive-black/N70285070V/p/?o=e9c3c6ee8b12b94a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "Xiaomi",
-      "id": "btech-1BSAASMOMIB6BK00L007",
-      "name": "Xiaomi Mi Smart Band 6 Fitness Tracker Band for Android 5 Or iOS 10 and above , Black - BHR4951GL",
+      "id": "noon-N70125808V",
+      "name": "Smart Band 9 Pro Obsidian Black",
       "category": "ساعات ذكية",
       "search": "Xiaomi Smart Band",
       "images": [
-        "https://media.btech.com/catalogs/e/6/a/6/e6a61c21832f350e6e96f0826462b9ecc354d1c3_xiaomi_mi_smart_band_6_bk_bhr4951gl_7.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z5BFC3AE13FC87C507B14Z/45/_/1780466798/d5731d90-3d87-43a5-ac14-96e8aa2ea88a.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 744,
-          "old_price": 744,
-          "url": "https://btech.com/en/p/xiaomi-mi-smart-band6-bhr4951gl",
+          "store": "noon",
+          "price": 5999,
+          "old_price": 5999,
+          "url": "https://www.noon.com/egypt-en/smart-band-9-pro-obsidian-black/N70125808V/p/?o=ef6cb951f9514a2b",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Huawei",
-      "id": "btech-1BSAASSBHUB11BLKL007",
-      "name": "Huawei Band 11 Smart Band , 1.62 Inch Black",
+      "brand": "HUAWEI",
+      "id": "noon-N70285077V",
+      "name": "Band 11 Pro Smart Watch, Enhanced Sleep Tracking, Health & GNSS Position Fitness Tracker, Up to 14-day Battery Life, Ultra-Slim & Comfort Wear, Compatible with iOS & Android, Blue",
       "category": "ساعات ذكية",
       "search": "Xiaomi Smart Band",
       "images": [
-        "https://media.btech.com/catalogs/2/3/4/e/234eb19f26075f5b1453cb59872cf9b24539d830_Huawei_Band_11_7430_1.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z12E355F64487C8D8E6BCZ/45/_/1780572419/64f88d8d-6825-4eb4-841f-3ceec9c3d41b.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 2399,
-          "old_price": 2399,
-          "url": "https://btech.com/en/p/7515e0a2-5366-450a-a43a-7675d4eaba67",
+          "store": "noon",
+          "price": 3399,
+          "old_price": 3999,
+          "url": "https://www.noon.com/egypt-en/band-11-pro-smart-watch-enhanced-sleep-tracking-health-gnss-position-fitness-tracker-up-to-14-day-battery-life-ultra-slim-comfort-wear-compatible-with-ios-android-blue/N70285077V/p/?o=e195f23bd460606b",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Huawei",
-      "id": "btech-1BSAASSBHU11PRBKL007",
-      "name": "Huawei Band 11 Pro Smart Band , 1.62 Inch Black",
+      "brand": "Xiaomi",
+      "id": "noon-N70125810V",
+      "name": "Smart Band 9 Pro Moonlight Silver",
       "category": "ساعات ذكية",
       "search": "Xiaomi Smart Band",
       "images": [
-        "https://media.btech.com/catalogs/3/f/3/e/3f3e2cc72668cd19c5ba55a42ef5e7fef9bd04bf_717glctSu8L._AC_SL1500_.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z5B8DBDB6C3B1594AC891Z/45/_/1780466554/3573ef0b-8e64-4ecf-b2f8-91c932e40d34.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 3449,
-          "old_price": 3449,
-          "url": "https://btech.com/en/p/9057a909-003d-4f5e-8478-5b280310b257",
+          "store": "noon",
+          "price": 5480,
+          "old_price": 5480,
+          "url": "https://www.noon.com/egypt-en/smart-band-9-pro-moonlight-silver/N70125810V/p/?o=e1e08848d9305eea",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Huawei",
-      "id": "btech-1BSAASSBHU11PGRNL005",
-      "name": "Huawei Band 11 Pro Smart Band , 1.62 Inch Silver Green",
-      "category": "ساعات ذكية",
-      "search": "Xiaomi Smart Band",
-      "images": [
-        "https://media.btech.com/catalogs/d/7/e/1/d7e133571e3f596cdca86f610da007b2c1d28242_1.jpg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 3449,
-          "old_price": 3449,
-          "url": "https://btech.com/en/p/f785464f-9176-4927-aeb5-7cd5fcaafff7",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Weofly",
-      "id": "btech-1BWEWEARAIRFIT00L007",
-      "name": "Weofly AirFit Smart Band Black",
-      "category": "ساعات ذكية",
-      "search": "Xiaomi Smart Band",
-      "images": [
-        "https://media.btech.com/catalogs/f/2/c/a/f2cad122b95117edaaf20042c10772377f4b7e44_Screenshot_2026_10_25_160346.jpg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 2499,
-          "old_price": 2499,
-          "url": "https://btech.com/en/p/weofly-airfit-smart-band-black",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Huawei",
-      "id": "btech-6A3E4A85BE526CC31683",
-      "name": "Huawei Band 10 Smart Watch , 1.47 Inch Black",
-      "category": "ساعات ذكية",
-      "search": "Xiaomi Smart Band",
-      "images": [
-        "https://media.btech.com/catalogs/8/7/6/c/876c33f9ca6ecc9bc5158a26a49d8ad902f9f5bd_1379155a72076cd2fcc53cb8de909c87541e115313ce725491b8b7afa244cf39.jpeg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 1840,
-          "old_price": 1840,
-          "url": "https://btech.com/en/p/huawei-band-10-smart-band-1-47-inch-black-case-black-strap",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Huawei",
-      "id": "btech-D1E0538F6C1EFBEC08B6",
-      "name": "Huawei Band 11 Smart Band , 1.62 Inch Purple",
-      "category": "ساعات ذكية",
-      "search": "Xiaomi Smart Band",
-      "images": [
-        "https://media.btech.com/catalogs/4/f/6/1/4f610e74cbf48dee25d21994518cb6cd293cc57b_7a06fed4.jpeg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 2600,
-          "old_price": 2600,
-          "url": "https://btech.com/en/p/6025841f-e273-4c37-9a63-979e3b460620",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Honor",
-      "id": "btech-C58974D02AA1E081F2C4",
-      "name": "Honor Band 10 Smart Band , 1.57 Inch Black",
-      "category": "ساعات ذكية",
-      "search": "Xiaomi Smart Band",
-      "images": [
-        "https://media.btech.com/catalogs/c/a/8/3/ca8333afbb7d4f69d088df29c8b5a27cd881e954_download.jpg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 1677,
-          "old_price": 1677,
-          "url": "https://btech.com/en/p/985a941e-fb7a-43ff-8c71-b671d2498936",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Logitech",
-      "id": "btech-07B8CF86584DFF8A998C",
-      "name": "Logitech G102 Wired Gaming Mouse , White",
+      "brand": "Generic",
+      "id": "noon-N28863701A",
+      "name": "Logitech G102 Light Sync Gaming Mouse with Customizable RGB Lighting, 6 Programmable Buttons Light Weight Black",
       "category": "كمبيوتر",
       "search": "Logitech G102",
       "images": [
-        "https://media.btech.com/catalogs/9/e/2/d/9e2dd1f3c5c4443b1b20e0cd1295dc517436025f_imgi_36_1_24_800x800.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z2534B95CA04C8ADB5A6BZ/45/_/1779704907/5119a76f-6c0b-47c8-accf-0c713043f892.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 949,
-          "old_price": 949,
-          "url": "https://btech.com/en/p/27e816f5-3f74-4b9e-8b45-4ec64ece91ea",
+          "store": "noon",
+          "price": 839,
+          "old_price": 1018,
+          "url": "https://www.noon.com/egypt-en/logitech-g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-light-weight-black/N28863701A/p/?o=fd3bc87290ac0eab",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Logitech",
-      "id": "btech-DCE3913E3C361C69E540",
-      "name": "Logitech G102 Wired Gaming Mouse , Black",
+      "brand": "Generic",
+      "id": "noon-N28548671A",
+      "name": "Logitech G102 Light Sync Gaming Mouse with Customizable RGB Lighting, 6 Programmable Buttons, Gaming Grade Sensor, 8 k dpi Tracking,16.8mn Color, Light Weight (White)",
       "category": "كمبيوتر",
       "search": "Logitech G102",
       "images": [
-        "https://media.btech.com/catalogs/9/2/d/8/92d8804cc954d3e17249a18bdb58595492681f72_imgi_2_0cc51f4febb3df4f3427dd68313e3fb206896cebe43c754870ff142b6f9839e0.jpg"
+        "https://f.nooncdn.com/p/pzsku/ZACF0AFD99ED749310A3AZ/45/_/1779704453/40f4e019-b872-49b9-a4f8-87fec23c586f.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 925,
-          "old_price": 925,
-          "url": "https://btech.com/en/p/778d8293-30ce-451b-a01a-8324d4e80e85",
+          "store": "noon",
+          "price": 799,
+          "old_price": 1099,
+          "url": "https://www.noon.com/egypt-en/logitech-g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-gaming-grade-sensor-8-k-dpi-tracking-16-8mn-color-light-weight-white/N28548671A/p/?o=dde616c72bd965ea",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Logitech",
-      "id": "btech-1BLOASSBLOGG5020L007",
-      "name": "Logitech G502 X Plus Wireless Gaming Mouse , Black - 910-006163",
+      "brand": "HOTLINE GAMES",
+      "id": "noon-Z7A40E5B2DE0434865D4EZ",
+      "name": "ICE Mouse Skates for Logitech G102 / G203 / G PRO – 100% PTFE Replacement Mouse Feet with Rounded Edges for Smooth & Precise Glide (White)",
       "category": "كمبيوتر",
-      "search": "Logitech G502",
+      "search": "Logitech G102",
       "images": [
-        "https://media.btech.com/catalogs/a/d/1/e/ad1ed87fab5fe245a8778afc87c719b1727237d5_Logitech_G502_X_Plus_Black_Wireless_Gaming_Mouse.jpg"
+        "https://f.nooncdn.com/p/pzsku/Z7A40E5B2DE0434865D4EZ/45/_/1785701667/56c814cc-a885-4e73-a6d9-e8e9504fa44c.jpg"
       ],
       "offers": [
         {
-          "store": "btech",
-          "price": 8622,
-          "old_price": 9198,
-          "url": "https://btech.com/en/p/285cd5b3-f551-41ba-b547-53cbbff8662c",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Logitech",
-      "id": "btech-C766EDC263B34187FE80",
-      "name": "Logitech G502 X Wired Gaming Mouse , White Grey",
-      "category": "كمبيوتر",
-      "search": "Logitech G502",
-      "images": [
-        "https://media.btech.com/catalogs/e/d/2/e/ed2eb2efe9acb0dab165ac8baa42eef33b4bf4ce_Logitech_G502_X_White_Wired_Gaming_Mouse.jpg"
-      ],
-      "offers": [
-        {
-          "store": "btech",
-          "price": 4999,
-          "old_price": 4999,
-          "url": "https://btech.com/en/p/4279a571-9358-436e-9871-6ba61edc8b8e",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-620013",
-      "name": "Plastic Car Toy for Children",
-      "category": "لعب أطفال",
-      "search": "kids toys",
-      "images": [
-        "https://cdn.mafrservices.com/sys-master-root/h25/h9a/62583842701342/620013_main.jpg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 139,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/playsets/plastic-car/p/620013?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-646131",
-      "name": "Dragon Plush Toy for Kids - 30 Cm",
-      "category": "لعب أطفال",
-      "search": "kids toys",
-      "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/646131/1735032604/646131_main.jpg?im=Resize=(300,300)"
-      ],
-      "offers": [
-        {
-          "store": "carrefour",
+          "store": "noon",
           "price": 299,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/baby-soft-plush-toys/hair-dragon-30cm/p/646131?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "old_price": 499,
+          "url": "https://www.noon.com/egypt-en/ice-mouse-skates-for-logitech-g102-g203-g-pro-100-ptfe-replacement-mouse-feet-with-rounded-edges-for-smooth-precise-glide-white/Z7A40E5B2DE0434865D4EZ/p/?o=d683af24c22b82bc",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-678583",
-      "name": "Eid Sheep Toy For Kids",
-      "category": "لعب أطفال",
-      "search": "kids toys",
+      "brand": "Generic",
+      "id": "noon-N53350973A",
+      "name": "Logitech G502 X PLUS LIGHTSPEED Wireless RGB Gaming Mouse - Optical mouse with LIGHTFORCE hybrid switches, LIGHTSYNC RGB, HERO 25K gaming sensor, compatible with PC - macOS/Windows- White I 910-006173",
+      "category": "كمبيوتر",
+      "search": "Logitech G502",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/678583/1778999400/678583_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z62CE26339BB5A165836DZ/45/_/1779704368/73cdf6a5-ff71-4879-b152-68fdae281ee3.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z8EB685EC06388A79D64AZ/45/_/1779704755/f3699bfa-06dd-44a3-9418-06feba75c43c.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 159,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/baby-soft-plush-toys/mini-soft-fleece-sheep/p/678583?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 7299,
+          "old_price": 8000,
+          "url": "https://www.noon.com/egypt-en/logitech-g502-x-plus-lightspeed-wireless-rgb-gaming-mouse-optical-mouse-with-lightforce-hybrid-switches-lightsync-rgb-hero-25k-gaming-sensor-compatible-with-pc-macos-windows-white-i-910-006173/N53350973A/p/?o=c1252c1c696d795c",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-670145",
-      "name": "UNO Card Game",
-      "category": "لعب أطفال",
-      "search": "kids toys",
+      "brand": "Generic",
+      "id": "noon-N70278531V",
+      "name": "Logitech G G502 X LIGHTSPEED Wireless Gaming Mouse - Optical mouse with LIGHTFORCE hybrid optical-mechanical switches, HERO 25K gaming sensor, compatible with PC - macOS/Windows - Black",
+      "category": "كمبيوتر",
+      "search": "Logitech G502",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/670145/1787230802/670145_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z5B8AA8D761C2DA679024Z/45/_/1779704683/de6c832c-97aa-4c8f-95f8-a8b11481d2f0.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 55,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/assorted-toys/uno-card-110pcs-ass/p/670145?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 7599,
+          "old_price": 7999,
+          "url": "https://www.noon.com/egypt-en/logitech-g-g502-x-lightspeed-wireless-gaming-mouse-optical-mouse-with-lightforce-hybrid-optical-mechanical-switches-hero-25k-gaming-sensor-compatible-with-pc-macos-windows-black/N70278531V/p/?o=f4f64976da52a13d",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-667337",
-      "name": "Flashlight Projector Toy for Kids",
+      "brand": "Generic",
+      "id": "noon-ZCF47495261FD55554D45Z",
+      "name": "Topcolor Educational Toy for Kids Listen and Learn Literacy Audible Flash Cards for Toddlers",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/667337/1773829202/667337_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/ZCF47495261FD55554D45Z/45/_/1720948069/df49f0bc-07f0-47cb-a536-360128ccdf3c.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 119,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/learning/projector-childrens-shapes/p/667337?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 177,
+          "old_price": 549,
+          "url": "https://www.noon.com/egypt-en/topcolor-educational-toy-for-kids-listen-and-learn-literacy-audible-flash-cards-for-toddlers/ZCF47495261FD55554D45Z/p/?o=zcf47495261fd55554d45z-1",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-681249",
-      "name": "Animal Set Toy",
+      "brand": "Generic",
+      "id": "noon-N51471912A",
+      "name": "Children Early Learning Educational Toy",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/681249/1783341600/681249_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/v1634726549/N51471912A_1.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 129,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/playsets/animal-board-game-can/p/681249?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 166,
+          "old_price": 195,
+          "url": "https://www.noon.com/egypt-en/children-early-learning-educational-toy/N51471912A/p/?o=b58e7be3c430df4d",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-586281",
-      "name": "Magic Plate Puzzle Toy for Kids - 180 Pieces",
+      "brand": "Generic",
+      "id": "noon-Z90C5F89188311C357998Z",
+      "name": "Kidology Kids Electric Stair Climbing Track Toy, Spinning Duck Toys with Flashing Lights and Music for Toddler Boys Girls (Track and 3 Ducks)",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/sys-master-root/hb6/h65/34030187708446/586281_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/pzsku/Z90C5F89188311C357998Z/45/1754992538/c6b952d6-fc05-4c71-85d8-311cb5d17e39.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 189,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/puzzles/drawing-by-colored-pieces/p/586281?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 195,
+          "old_price": 279,
+          "url": "https://www.noon.com/egypt-en/kidology-kids-electric-stair-climbing-track-toy-spinning-duck-toys-with-flashing-lights-and-music-for-toddler-boys-girls-track-and-3-ducks/Z90C5F89188311C357998Z/p/?o=eb577cc18e9ae77a",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-1780745000075",
-      "name": "Spaceshoop Creative Multi-Use Storage Bag, Clothes, Blanket, Quilt, Kids Toys",
+      "brand": "Generic",
+      "id": "noon-N47298231A",
+      "name": "Wooden Kids Educational Toys",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1780745000075/1789541057/1780745000075_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/v1620650855/N47298231A_1.jpg",
+        "https://f.nooncdn.com/p/621f64236b325028a87646ccb5b44cf3|pzsku/Z8CFE1EA57C85F78AE5E8Z/45/1770894943/b0214759-3e5c-4cc0-a92d-a38cba92b322.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 82,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/clothes-storage/spaceshoop-creative-multi-use-storage-bag-clothes-blanket-quilt-kids-toys/p/1780745000075?offer=offer_1033517807&sid=DEFAULT&sellerId=17807",
+          "store": "noon",
+          "price": 255,
+          "old_price": 300,
+          "url": "https://www.noon.com/egypt-en/wooden-kids-educational-toys/Z8CFE1EA57C85F78AE5E8Z/p/?o=ac922c37816b17ec",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-1780745000039",
-      "name": "Generic Fantastic-Kids-Toys Premium Ramadan Lighting Kit, LED Curtain With Crescent And Gold Stars, Wall Lighting For Home Decor, With Ramadan Kareem Sign Luminous 3m By Fantastic-Kids-Toys (Dh-560-5)",
+      "brand": "Generic",
+      "id": "noon-N52086086A",
+      "name": "Early Development Toys - 3 Pcs",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/1780745000039/1789541064/1780745000039_main.jpeg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/v1638708132/N52086086A_1.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 300,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/other-decoration-item/generic-fantastic-kids-toys-premium-ramadan-lighting-kit-led-curtain-with-crescent-and-gold-stars-wall-lighting-for-home-decor-with-ramadan-kareem-sign-luminous-3m-by-fantastic-kids-toys-dh-560-5-/p/1780745000039?offer=offer_1030317807&sid=DEFAULT&sellerId=17807",
+          "store": "noon",
+          "price": 330,
+          "old_price": 330,
+          "url": "https://www.noon.com/egypt-en/early-development-toys-3-pcs/N52086086A/p/?o=ae0ce352ee9f5c5e",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-689869",
-      "name": "Zuru Pets Alive Mommy and Baby Game",
+      "brand": "Generic",
+      "id": "noon-N52995570A",
+      "name": "Educational Computer Toy",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/689869/1792570200/689869_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/v1648458761/N52995570A_1.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 995,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/baby-soft-plush-toys/zuru-pets-alive-mommy-baby/p/689869?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 285,
+          "old_price": 335,
+          "url": "https://www.noon.com/egypt-en/educational-computer-toy/N52995570A/p/?o=f70528131d025e1c",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "",
-      "id": "carrefour-678582",
-      "name": "Medium Soft Fleece Sheep Toy",
+      "brand": "Generic",
+      "id": "noon-N52752000A",
+      "name": "Baby Phone Toy",
       "category": "لعب أطفال",
       "search": "kids toys",
       "images": [
-        "https://cdn.mafrservices.com/pim-content/EGY/media/product/678582/1781003400/678582_main.jpg?im=Resize=(300,300)"
+        "https://f.nooncdn.com/p/v1645692244/N52752000A_1.jpg"
       ],
       "offers": [
         {
-          "store": "carrefour",
-          "price": 279,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/baby-soft-plush-toys/medium-soft-fleece-sheep/p/678582?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "store": "noon",
+          "price": 285,
+          "old_price": 316,
+          "url": "https://www.noon.com/egypt-en/baby-phone-toy/N52752000A/p/?o=a051b47a5adfb25f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z4B6856D92EAB3BBB3EFAZ",
+      "name": "Early Learning Electronic Activity Toy",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z4B6856D92EAB3BBB3EFAZ/45/_/1771963736/d002c8ee-21a6-4b7c-8319-a04f23e48c2d.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 195,
+          "old_price": 225,
+          "url": "https://www.noon.com/egypt-en/early-learning-electronic-activity-toy/Z4B6856D92EAB3BBB3EFAZ/p/?o=bb8c8e2bb31f50cc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N52512092A",
+      "name": "Funny And Interesting Toy For Baby +12M",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1643625916/N52512092A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 214,
+          "old_price": 440,
+          "url": "https://www.noon.com/egypt-en/funny-and-interesting-toy-for-baby-12m/N52512092A/p/?o=bd312b43fe4d859e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N53079204A",
+      "name": "Electronic Telephone Toy",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pnsku/N53079204A/45/_/1767607801/54240ef4-db6b-4aa8-a552-e76d1a959a34.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 152,
+          "old_price": 245,
+          "url": "https://www.noon.com/egypt-en/electronic-telephone-toy/N53079204A/p/?o=bf1f116559a488df",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z041ABE14020C28530D02Z",
+      "name": "Hot Selling High Quality Kids Cartoon Plastic Dance Piano Toy Sound and Light Dance - Musical Toys For Children's Gift",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z041ABE14020C28530D02Z/45/_/1771409311/86cadc36-3f28-47b2-9a29-054be21aa900.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 382,
+          "old_price": 382,
+          "url": "https://www.noon.com/egypt-en/hot-selling-high-quality-kids-cartoon-plastic-dance-piano-toy-sound-and-light-dance-musical-toys-for-children-s-gift/Z041ABE14020C28530D02Z/p/?o=f87f4120404d79ae",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-ZD09CF0645998793EB3FCZ",
+      "name": "Talking Flash Cards Educational Toys For Toddlers 1-6 Years, Arabic And British English, 224 Words=112 Cards, Audio Learning Games, Preschool E-Learning Resource, Birthday Gifts For Kids",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZD09CF0645998793EB3FCZ/45/_/1740949633/02b87df7-ccea-407d-9539-e9f19d1df466.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 194,
+          "old_price": 330,
+          "url": "https://www.noon.com/egypt-en/talking-flash-cards-educational-toys-for-toddlers-1-6-years-arabic-and-british-english-224-words-112-cards-audio-learning-games-preschool-e-learning-resource-birthday-gifts-for-kids/ZD09CF0645998793EB3FCZ/p/?o=zd09cf0645998793eb3fcz-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z5D49BB683863C9027754Z",
+      "name": "Small Ducks Climbing Toys, Electric Llittle Duck Climbing Stairs Tracks Slide Toy Set, Small Duck Roller Coaster Track Toy with 3 Ducks LiED Lghts & Music, Duck Slide Toy for Toddlers and Kids (A)",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z5D49BB683863C9027754Z/45/_/1771965526/55fa9e2f-531b-4cae-b3a1-66b32eb17554.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 230,
+          "old_price": 250,
+          "url": "https://www.noon.com/egypt-en/small-ducks-climbing-toys-electric-llittle-duck-climbing-stairs-tracks-slide-toy-set-small-duck-roller-coaster-track-toy-with-3-ducks-lied-lghts-music-duck-slide-toy-for-toddlers-and-kids-a/Z5D49BB683863C9027754Z/p/?o=fe86d265a437962e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z353D6343D481EDE5AC7AZ",
+      "name": "3 Sides 24 Patterns Flash Light Torch for Kids Projection Torch Story Education Learning Night Light Before Going to Bed (multicolor).",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z353D6343D481EDE5AC7AZ/45/_/1732172196/24ac4931-b9fc-4193-bade-36609d898c99.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 110,
+          "old_price": 157,
+          "url": "https://www.noon.com/egypt-en/3-sides-24-patterns-flash-light-torch-for-kids-projection-torch-story-education-learning-night-light-before-going-to-bed-multicolor/Z353D6343D481EDE5AC7AZ/p/?o=z353d6343d481ede5ac7az-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-ZEEF67E50DABE4C127A0FZ",
+      "name": "Talking Baby Flash Cards Educational Toys for 2 3 4 Years Old, Learning Resource Electronic Interactive Toys for 2-4 Year Old Boys Girls Toddlers Kids Birthday Gifts Ages 2 3 4 5",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZEEF67E50DABE4C127A0FZ/45/_/1742931803/184fe517-25b9-412a-bcc5-3d92e203d557.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 298,
+          "old_price": 350,
+          "url": "https://www.noon.com/egypt-en/talking-baby-flash-cards-educational-toys-for-2-3-4-years-old-learning-resource-electronic-interactive-toys-for-2-4-year-old-boys-girls-toddlers-kids-birthday-gifts-ages-2-3-4-5/ZEEF67E50DABE4C127A0FZ/p/?o=zeef67e50dabe4c127a0fz-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z546D79BBFC56E51C45B4Z",
+      "name": "Children early learning educational toy and beat wooden square hammer box - multi color",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z546D79BBFC56E51C45B4Z/45/_/1742205371/c4ea2d7a-69ad-4d03-91c2-e3076c5d9cf7.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 117,
+          "old_price": 130,
+          "url": "https://www.noon.com/egypt-en/children-early-learning-educational-toy-and-beat-wooden-square-hammer-box-multi-color/Z546D79BBFC56E51C45B4Z/p/?o=z546d79bbfc56e51c45b4z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N52102524A",
+      "name": "Phone With Sound Toy",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1638967624/N52102524A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 184,
+          "old_price": 200,
+          "url": "https://www.noon.com/egypt-en/phone-with-sound-toy/N52102524A/p/?o=b0003b63ae51c4ba",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z61092B11F9D2F750FA7AZ",
+      "name": "Steering Wheel Toy, Infant Shining Simulation Steering Wheel, Musical Funny Interactive Electric Learning Wheel Toy, Early Education Driving Simulator Toy For Children",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z61092B11F9D2F750FA7AZ/45/1763988936/3a1aa480-9a86-4f38-a149-563758189942.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z790FEC640B2883D26ED3Z/45/_/1793565568/6bd3bd55-7585-46b6-a352-af1984475a7b.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z2F54A4E21CE32551FACCZ/45/_/1793565576/1c0b4dca-78aa-44c6-b59c-071ef94d8c4b.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z0D13590B2B42C805322FZ/45/1763988738/a78700cc-1bd4-4a00-b126-d27f6b088511.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z4E5337EA4069852ED9BCZ/45/_/1792089844/0f6e9b2c-5e8a-45fd-a797-3a1884732b4a.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 244,
+          "old_price": 295,
+          "url": "https://www.noon.com/egypt-en/steering-wheel-toy-infant-shining-simulation-steering-wheel-musical-funny-interactive-electric-learning-wheel-toy-early-education-driving-simulator-toy-for-children/Z61092B11F9D2F750FA7AZ/p/?o=b2a60d7a62ae65ca",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z8DDCE4B64859537F1DE9Z",
+      "name": "Educational Learing Laptop Toy for 1-3 Year Old Boys and Girls",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z8DDCE4B64859537F1DE9Z/45/_/1742931988/58a83aef-f117-48fa-997d-4fd944cb1482.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 361,
+          "old_price": 425,
+          "url": "https://www.noon.com/egypt-en/educational-learing-laptop-toy-for-1-3-year-old-boys-and-girls/Z8DDCE4B64859537F1DE9Z/p/?o=z8ddce4b64859537f1de9z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z3B0D40DDEC05D47C3975Z",
+      "name": "Dancing Drum Toy for Kids",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z3B0D40DDEC05D47C3975Z/45/_/1771410017/8ad73f5a-e4ea-416e-a80b-cd66f4618a01.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 450,
+          "old_price": 495,
+          "url": "https://www.noon.com/egypt-en/dancing-drum-toy-for-kids/Z3B0D40DDEC05D47C3975Z/p/?o=c17ead54bf2e932e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z937D334485A0F2CB77EBZ",
+      "name": "Kids interesting toys -Duck Whack Ver.2 -A-Mole Game, Educational Hammer Toy for Toddlers 3+ Years, Interactive Learning Game",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z937D334485A0F2CB77EBZ/45/_/1779725557/df4b418a-8e1c-4eb7-9735-a12390007d01.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 261,
+          "old_price": 290,
+          "url": "https://www.noon.com/egypt-en/kids-interesting-toys-duck-whack-ver-2-a-mole-game-educational-hammer-toy-for-toddlers-3-years-interactive-learning-game/Z937D334485A0F2CB77EBZ/p/?o=f945c9d0cb599ecd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z1425FA25ACE99A906FE3Z",
+      "name": "Multi-Function Interactive Educational Kids Toy",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z1425FA25ACE99A906FE3Z/45/_/1784669972/d820b24e-cdb0-4213-81cd-c95cae7bc77e.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 314,
+          "old_price": 349,
+          "url": "https://www.noon.com/egypt-en/multi-function-interactive-educational-kids-toy/Z1425FA25ACE99A906FE3Z/p/?o=b49a198c5b3219bf",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N39272929A",
+      "name": "Multi-Functional Music Phone Toy",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1594668151/N39272929A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 152,
+          "old_price": 165,
+          "url": "https://www.noon.com/egypt-en/multi-functional-music-phone-toy/N39272929A/p/?o=d5c1e61a3270ebae",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z40C64C4EBFAEDF629F29Z",
+      "name": "Mini Duck Climbing Toys, Electric Duck Chase Race Playset, Fun Roller Coaster with 9 Flashing LED Lights and Music Button, Fun Duck Stair Climbing Toy for Toddlers and Kids (A)",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z40C64C4EBFAEDF629F29Z/45/1746813715/bd96020a-1bab-464b-b655-1609884f1c22.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 225,
+          "old_price": 357,
+          "url": "https://www.noon.com/egypt-en/mini-duck-climbing-toys-electric-duck-chase-race-playset-fun-roller-coaster-with-9-flashing-led-lights-and-music-button-fun-duck-stair-climbing-toy-for-toddlers-and-kids-a/Z40C64C4EBFAEDF629F29Z/p/?o=z40c64c4ebfaedf629f29z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z7A1DB891A6065C019A3DZ",
+      "name": "Naughty Duck - Fun and colorful toys for kids! Sound and Light",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z7A1DB891A6065C019A3DZ/45/1745325572/f55c66eb-4aae-4feb-b8d3-2bce5d265335.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 304,
+          "old_price": 482,
+          "url": "https://www.noon.com/egypt-en/naughty-duck-fun-and-colorful-toys-for-kids-sound-and-light/Z7A1DB891A6065C019A3DZ/p/?o=z7a1db891a6065c019a3dz-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z67006DE56B7B3350D04FZ",
+      "name": "Toddler Talking Spelling Phonics Card Machine",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z67006DE56B7B3350D04FZ/45/_/1789568070/9d608451-faa4-44df-aa73-81fb9687ed58.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 191,
+          "old_price": 225,
+          "url": "https://www.noon.com/egypt-en/toddler-talking-spelling-phonics-card-machine/Z67006DE56B7B3350D04FZ/p/?o=b2f7e48346c94aee",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-ZA8638F9D6AA7034AD68EZ",
+      "name": "Kids Educational Musical Piano Toy - Multicolor",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZA8638F9D6AA7034AD68EZ/45/_/1784669958/a4cd170a-ceec-4b3e-bc02-547d6fdb1d3c.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 439,
+          "old_price": 439,
+          "url": "https://www.noon.com/egypt-en/kids-educational-musical-piano-toy-multicolor/ZA8638F9D6AA7034AD68EZ/p/?o=ccacbb178580bcdd",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N41246680A",
+      "name": "Arabic LearnIng E-Book For kids",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1610258011/N41246680A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 271,
+          "old_price": 379,
+          "url": "https://www.noon.com/egypt-en/arabic-learning-e-book-for-kids/N41246680A/p/?o=dc57f1e1c05322db",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z61980D086168C5994A5FZ",
+      "name": "Interactive Crab Toy - Attractive Crawling Crab with 3D Light and Music, Perfect for Toddlers to Explore and Learn Through Play, Enhance Their Developmental Skills on the Beach Multicolor",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z61980D086168C5994A5FZ/45/_/1775385945/9b7e90ac-2839-40aa-937a-d479a0f2b5a9.jpg",
+        "https://f.nooncdn.com/p/pzsku/Z5A3679F0C164801174E9Z/45/_/1775358309/ef6ba55e-81ef-496d-91f1-f0259a92d9a4.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 229,
+          "old_price": 249,
+          "url": "https://www.noon.com/egypt-en/interactive-crab-toy-attractive-crawling-crab-with-3d-light-and-music-perfect-for-toddlers-to-explore-and-learn-through-play-enhance-their-developmental-skills-on-the-beach-multicolor/Z61980D086168C5994A5FZ/p/?o=ce86606fd4f7760e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z2FDDFE67EE419F8BB4CEZ",
+      "name": "Rabbit-Shaped Musical Piano with Animal Sounds – Fun & Educational Toy for Kids (Multicolor)",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z2FDDFE67EE419F8BB4CEZ/45/_/1742932017/62428f22-2e32-4647-8ff0-80dbdbd86c35.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 298,
+          "old_price": 350,
+          "url": "https://www.noon.com/egypt-en/rabbit-shaped-musical-piano-with-animal-sounds-fun-educational-toy-for-kids-multicolor/Z2FDDFE67EE419F8BB4CEZ/p/?o=z2fddfe67ee419f8bb4cez-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z43848C3CFF6E5AD05D49Z",
+      "name": "Fun and entertaining toy for kids, suitable for 12 months and above",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z43848C3CFF6E5AD05D49Z/45/_/1734159512/16378d88-78b4-4e10-9c6b-0733e5ae28d5.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 281,
+          "old_price": 446,
+          "url": "https://www.noon.com/egypt-en/fun-and-entertaining-toy-for-kids-suitable-for-12-months-and-above/Z43848C3CFF6E5AD05D49Z/p/?o=z43848c3cff6e5ad05d49z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z0C217D7D1BBD6A4154D6Z",
+      "name": "Car Steering Toys Steering Wheel Toy Car Mainan Baby Steering Toys Kids Baby Toys Steering Wheel Kids",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z0C217D7D1BBD6A4154D6Z/45/1763989115/31985a5f-be59-4440-946d-2f93007eef0d.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 244,
+          "old_price": 295,
+          "url": "https://www.noon.com/egypt-en/car-steering-toys-steering-wheel-toy-car-mainan-baby-steering-toys-kids-baby-toys-steering-wheel-kids/Z0C217D7D1BBD6A4154D6Z/p/?o=e9b4a177a8b9fe0e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z3FB7D147D4344ACE6D30Z",
+      "name": "Toy Phone - Kids Phone, Music & Light (Carrot & Rabbit Shape)",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z3FB7D147D4344ACE6D30Z/45/1753462007/99adec18-a093-4b3d-a644-0a01c150d4a4.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 144,
+          "old_price": 144,
+          "url": "https://www.noon.com/egypt-en/toy-phone-kids-phone-music-light-carrot-rabbit-shape/Z3FB7D147D4344ACE6D30Z/p/?o=dbf4798e78a0339c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z29DA5F06223AA838B4F5Z",
+      "name": "Educational animal matching game, interactive memory board with button, colorful cards, for children aged 3 years and up",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/962daf991e855fe8993698be90a328a3|pzsku/Z29DA5F06223AA838B4F5Z/45/1770308174/9bed2bda-4c57-4754-825b-aebd251b633a.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 414,
+          "old_price": 713,
+          "url": "https://www.noon.com/egypt-en/educational-animal-matching-game-interactive-memory-board-with-button-colorful-cards-for-children-aged-3-years-and-up/Z29DA5F06223AA838B4F5Z/p/?o=cb4f6150d61fb3fb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N48796040A",
+      "name": "Colorful Wooden Mini Wire Maze Educational Toy",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1625574409/N48796040A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 98,
+          "old_price": 115,
+          "url": "https://www.noon.com/egypt-en/colorful-wooden-mini-wire-maze-educational-toy/N48796040A/p/?o=dc27e479a2e88dac",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z0594936B53C4E338B628Z",
+      "name": "Portable Electronic Racing Car Toy With Steering Wheel And Color Screen For Kids - Multi Color",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z0594936B53C4E338B628Z/45/_/1789301210/914e1639-e7a5-41ba-8d38-69c8b7e77307.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 1195,
+          "old_price": 1195,
+          "url": "https://www.noon.com/egypt-en/portable-electronic-racing-car-toy-with-steering-wheel-and-color-screen-for-kids-multi-color/Z0594936B53C4E338B628Z/p/?o=bcc2e9c3ee2fac4b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z6EF7E7F9DDE64E1D93DFZ",
+      "name": "Jumping Duck Game for Kids",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z6EF7E7F9DDE64E1D93DFZ/45/_/1779196021/637e4d8f-b2d4-436f-a13e-6bb81aa9d1cb.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 522,
+          "old_price": 750,
+          "url": "https://www.noon.com/egypt-en/jumping-duck-game-for-kids/Z6EF7E7F9DDE64E1D93DFZ/p/?o=b82a10bfea4545db",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z65F34ABA9961DC5FAC83Z",
+      "name": "Small Ducks Climbing Toys, Electric Ducks Chasing Race Track Game Set, Playful Roller Coaster Toy with 3 Duck LED Flashing Lights & Music Button, Fun Duck Stair Climbing Toy for Toddlers and Kids(A)",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z65F34ABA9961DC5FAC83Z/45/_/1772057014/1c78eaf1-b614-4ece-8cbc-2b5df4bf4b34.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 253,
+          "old_price": 275,
+          "url": "https://www.noon.com/egypt-en/small-ducks-climbing-toys-electric-ducks-chasing-race-track-game-set-playful-roller-coaster-toy-with-3-duck-led-flashing-lights-music-button-fun-duck-stair-climbing-toy-for-toddlers-and-kids-a/Z65F34ABA9961DC5FAC83Z/p/?o=z65f34aba9961dc5fac83z-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N39782100A",
+      "name": "Rotating Steering Wheel Toy With Music 0181",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1597413730/N39782100A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 271,
+          "old_price": 295,
+          "url": "https://www.noon.com/egypt-en/rotating-steering-wheel-toy-with-music-0181/N39782100A/p/?o=a70248add09ab76f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-Z78D43D55E5C3F51CF4E5Z",
+      "name": "Kids Interactive Toy Phone",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/Z78D43D55E5C3F51CF4E5Z/45/_/1784669984/a8b5d02d-8adc-4b5b-99ee-411f672647d7.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 263,
+          "old_price": 292,
+          "url": "https://www.noon.com/egypt-en/kids-interactive-toy-phone/Z78D43D55E5C3F51CF4E5Z/p/?o=e39e4aa8d7c5c75c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N48463907A",
+      "name": "Electric Dancing Cactus Plant Stuffed Toy With Music",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1624269428/N48463907A_1.jpg",
+        "https://f.nooncdn.com/p/v1624269431/N48463935A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 149,
+          "old_price": 175,
+          "url": "https://www.noon.com/egypt-en/electric-dancing-cactus-plant-stuffed-toy-with-music/N48463907A/p/?o=be4b80703bc5c8be",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-N41246701A",
+      "name": "Arabic-English learning machine",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/v1655111947/N41246701A_1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 334,
+          "old_price": 380,
+          "url": "https://www.noon.com/egypt-en/arabic-english-learning-machine/N41246701A/p/?o=f1b5351c73da47ed",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "noon-ZE0D0849E4EF54B7637CDZ",
+      "name": "\"Educational landline phone for children to develop skills, with sound, music, and lighting.\"",
+      "category": "لعب أطفال",
+      "search": "kids toys",
+      "images": [
+        "https://f.nooncdn.com/p/pzsku/ZE0D0849E4EF54B7637CDZ/45/_/1734001339/95ca9776-f037-4f1a-a1f0-915bb5608cc1.jpg"
+      ],
+      "offers": [
+        {
+          "store": "noon",
+          "price": 281,
+          "old_price": 446,
+          "url": "https://www.noon.com/egypt-en/educational-landline-phone-for-children-to-develop-skills-with-sound-music-and-lighting/ZE0D0849E4EF54B7637CDZ/p/?o=ze0d0849e4ef54b7637cdz-1",
           "in_stock": true
         }
       ]
