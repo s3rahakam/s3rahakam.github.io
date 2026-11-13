@@ -216,6 +216,12 @@ def search_2b(q):
 
 def search_carrefour(q):
     page = fetch("https://www.carrefouregypt.com/mafegy/en/search?keyword=" + quote_plus(q))
+    data = page.replace('\\"', '"')
+    # الصور وحالة المخزون موجودين في بيانات مخفية جوه الصفحة، مش في الـ HTML
+    images = {pid: url for pid, url in re.findall(
+        r'"productCompositeId":"(\d+)\|[^"]*","imageUrl":"(https://[^"]+)"', data)}
+    stock = {pid: st for st, pid in re.findall(
+        r'"stockLevelStatus":"(\w+)"\},"productCompositeId":"(\d+)\|', data)}
     out = []
     for m in re.finditer(r'<a[^>]+href="(/mafegy/en/[^"]+/p/(\d+)[^"]*)"[^>]*><span[^>]*>([^<]+)</span></a>'
                          r'<div[^>]*>(.{0,600}?)</div>', page):
@@ -223,15 +229,14 @@ def search_carrefour(q):
         if not prices:
             continue
         vals = [money(p) for p in prices if money(p)]
-        img = re.findall(r'<img[^>]+src="(https://cdn[^"]+/(?:pim|product)[^"]+)"', page[max(0, m.start() - 4000):m.start()])
         out.append({
             "store": "carrefour",
             "name": htmllib.unescape(m.group(3)),
             "price": min(vals),
             "old_price": max(vals) if len(vals) > 1 else None,
-            "image": img[-1] if img else "",
+            "image": images.get(m.group(2), ""),
             "url": "https://www.carrefouregypt.com" + htmllib.unescape(m.group(1)),
-            "in_stock": True,
+            "in_stock": stock.get(m.group(2), "inStock").lower() != "outofstock",
             "key": "carrefour:" + m.group(2),
         })
         if len(out) >= PER_STORE:
