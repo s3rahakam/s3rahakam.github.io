@@ -524,7 +524,7 @@ def main():
 
     # الأقسام المرجعية: ناخد منتجات متجر مرجعي (نون، ولو قافل: كارفور ثم B.TECH ثم 2B)،
     # وكل منتج ندوّر عليه بالاسم في باقي المتاجر
-    REF_ORDER = ["noon", "carrefour", "btech", "2b"]
+    REF_ORDER = ["noon"]
     browse = [r for r in csv.DictReader(BROWSE.open(encoding="utf-8-sig"))] if BROWSE.exists() else []
     noon_fails, noon_skipped = 0, 0
     for row in browse:
@@ -549,21 +549,31 @@ def main():
                     noon_fails += 1
                     failed.append(f"{q} / noon: {e}")
                     print(f"✗ {q} / noon: {e}", file=sys.stderr)
-            elif fails[store] < MAX_FAILS:
-                PER_STORE, saved = max(limit, 8), PER_STORE
-                try:
-                    refs = run(store, q) or []
-                finally:
-                    PER_STORE = saved
             if strict:  # شيل النتايج الدخيلة والإكسسوارات
                 refs = [r for r in refs if relevant(q, r["name"])]
             if refs:
                 ref_store = store
-                break
+            break
         refs = refs[:limit]
+        if not refs:
+            # نون قافل: المرجع هو نتايج كل المتاجر التانية مع بعض
+            # (ولو القسم واسع زي لعب الأطفال، ندوّر بالكلمات البديلة المحددة)
+            alts = [x.strip() for x in (row.get("fallback") or "").split("|") if x.strip()] or [q]
+            others = [s for s in SEARCHERS if s != "noon" and fails[s] < MAX_FAILS]
+            per = max(3, limit // len(alts)) if len(alts) > 1 else min(limit, 8)
+            PER_STORE, saved = per, PER_STORE
+            try:
+                for aq in alts:
+                    with ThreadPoolExecutor(max(1, len(others))) as pool:
+                        got = list(pool.map(lambda st: run(st, aq) or [], others))
+                    for found in got:
+                        refs += [r for r in found if (not strict and len(alts) == 1) or relevant(aq, r["name"])]
+            finally:
+                PER_STORE = saved
+            ref_store = "كل المتاجر" if refs else None
         print(f"✓ قسم «{q}»: {len(refs)} منتج مرجعي من {ref_store or '—'}")
         merged = merge(refs, cat, q)
-        fill(merged, [s for s in SEARCHERS if s != ref_store and fails[s] < MAX_FAILS
+        fill(sorted(merged, key=lambda p: -len(p["offers"]))[:max(limit, ANCHORS)], [s for s in SEARCHERS if s != ref_store and fails[s] < MAX_FAILS
                       and not (s == "noon" and noon_fails >= 3)])
         if not refs:  # كل المتاجر المرجعية قافلة؟ رجّع آخر نسخة من القسم
             merged = [{**p, "offers": [{**o, "stale": True} for o in p["offers"]]}
