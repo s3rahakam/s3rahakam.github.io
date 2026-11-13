@@ -1,6 +1,6 @@
 {
   "demo": false,
-  "updated": "2026-11-13T00:25+00:00",
+  "updated": "2026-11-13T01:54+00:00",
   "stores": {
     "noon": {
       "name": "نون",
@@ -116,6 +116,13 @@
           "old_price": 16999,
           "url": "https://www.noon.com/egypt-en/playstation-portal-remote-player-for-ps5-console/N70025611V/p/?o=b13134796c713b3c",
           "in_stock": true
+        },
+        {
+          "store": "amazon",
+          "price": 15499,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0CJT5DJ16",
+          "in_stock": true
         }
       ]
     },
@@ -166,6 +173,142 @@
           "price": 2255,
           "old_price": 2255,
           "url": "https://www.noon.com/egypt-en/lost-soul-aside-ps5/N70431701V/p/?o=a110a4c0e1a4c16b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0CWH9WCWT",
+      "name": "Sony PlayStation 5 Slim Console Disc, 1 TB Storage Capacity, White | 1 Year Warranty",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/51dR+MAtBjL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 48500,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0CWH9WCWT",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0FZDC5VQX",
+      "name": "PlayStation 5 Slim (PS5) Console Bundle with Disc Drive - Ghost of Yotei Edition -1TB SSD",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/613z9+n9BDL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 47999,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FZDC5VQX",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0DM8SFRJV",
+      "name": "Sony Playstation 5 Pro 2TB Digital",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/51qAZa9kCyL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 89999,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0DM8SFRJV",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0D1RBDDVH",
+      "name": "Sony DualSense Charging Station for PS5 Controllers - Charging Station - Black - 2 Controllers - USB - Fast Charging",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/41IOIUI-IOL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 834,
+          "old_price": 927,
+          "url": "https://www.amazon.eg/dp/B0D1RBDDVH",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B08LQZGF76",
+      "name": "Console Sony PlayStation 5 Édition Standard Blanche",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 48000,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B08LQZGF76",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0CM9VHGY7",
+      "name": "PlayStation 5 Standard (Slim)",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/61+gjRmdMfL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 47622,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0CM9VHGY7",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B09CYVMZY1",
+      "name": "PS5 Stand with Cooling Fan and Controller Charger, Dual Charging Dock for Playstation5 Controller with LED Indicators and 14 Games Slots, Vertical Stand With Cooling Fan for PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/71P-x5P49NL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1451,
+          "old_price": 1500,
+          "url": "https://www.amazon.eg/dp/B09CYVMZY1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0D17RGDSC",
+      "name": "fashion mania Horizontal Stand for PS5 Slim Console Only, Base Stand Accessories Compatible with Playstation 5 Slim Digital and Ultra-HD Edition Console",
+      "category": "بلايستيشن",
+      "search": "PS5 console",
+      "image": "https://m.media-amazon.com/images/I/51V3SNp+a1L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 599,
+          "old_price": 699,
+          "url": "https://www.amazon.eg/dp/B0D17RGDSC",
           "in_stock": true
         }
       ]
@@ -307,150 +450,6 @@
       ]
     },
     {
-      "brand": "",
-      "id": "amazon-B0CWH9WCWT",
-      "name": "Sony PlayStation 5 Slim Console Disc, 1 TB Storage Capacity, White | 1 Year Warranty",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/51dR+MAtBjL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 48500,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0CWH9WCWT",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0FZDC5VQX",
-      "name": "PlayStation 5 Slim (PS5) Console Bundle with Disc Drive - Ghost of Yotei Edition -1TB SSD",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/613z9+n9BDL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 47999,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0FZDC5VQX",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0DM8SFRJV",
-      "name": "Sony Playstation 5 Pro 2TB Digital",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/51qAZa9kCyL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 89999,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0DM8SFRJV",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0D1RBDDVH",
-      "name": "Sony DualSense Charging Station for PS5 Controllers - Charging Station - Black - 2 Controllers - USB - Fast Charging",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/41IOIUI-IOL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 834,
-          "old_price": 927,
-          "url": "https://www.amazon.eg/dp/B0D1RBDDVH",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B08LQZGF76",
-      "name": "Console Sony PlayStation 5 Édition Standard Blanche",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/51oJ4+CGr4L._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 48000,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B08LQZGF76",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0CM9VHGY7",
-      "name": "PlayStation 5 Standard (Slim)",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/61+gjRmdMfL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 47622,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0CM9VHGY7",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B09CYVMZY1",
-      "name": "PS5 Stand with Cooling Fan and Controller Charger, Dual Charging Dock for Playstation5 Controller with LED Indicators and 14 Games Slots, Vertical Stand With Cooling Fan for PS5",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/71P-x5P49NL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 1309,
-          "old_price": 1500,
-          "url": "https://www.amazon.eg/dp/B09CYVMZY1",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0D17RGDSC",
-      "name": "fashion mania Horizontal Stand for PS5 Slim Console Only, Base Stand Accessories Compatible with Playstation 5 Slim Digital and Ultra-HD Edition Console",
-      "category": "بلايستيشن",
-      "search": "PS5 console",
-      "image": "https://m.media-amazon.com/images/I/51V3SNp+a1L._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 599,
-          "old_price": 699,
-          "url": "https://www.amazon.eg/dp/B0D17RGDSC",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
       "brand": "Sony",
       "id": "noon-N40633049A",
       "name": "DualSense Wireless Controller For PlayStation 5 - White",
@@ -463,6 +462,13 @@
           "price": 3049,
           "old_price": 4565,
           "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-white/N40633049A/p/?o=ae1603b6a8de4f9e",
+          "in_stock": true
+        },
+        {
+          "store": "amazon",
+          "price": 4099,
+          "old_price": 4643,
+          "url": "https://www.amazon.eg/dp/B0CQKLS4RP",
           "in_stock": true
         },
         {
@@ -494,6 +500,13 @@
           "price": 3496,
           "old_price": 4461,
           "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-midnight-black/N47557169A/p/?o=fbdd30853e9f88ee",
+          "in_stock": true
+        },
+        {
+          "store": "amazon",
+          "price": 4577,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0FY6Y9WZT",
           "in_stock": true
         },
         {
@@ -529,9 +542,9 @@
         },
         {
           "store": "carrefour",
-          "price": 4200,
+          "price": 4313,
           "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/gaming-leasure/sony-dualsense-wireless-ps5-controller-official-version-grey-camouflage/p/1836147000737?offer=offer_1074918361&sid=DEFAULT&sellerId=18361",
+          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-access/sony-playstation-5-dualsense-wireless-controller-grey-camouflage-international-version-/p/1836147000740?offer=offer_1014718361&sid=DEFAULT&sellerId=18361",
           "in_stock": true
         }
       ]
@@ -622,6 +635,140 @@
       ]
     },
     {
+      "brand": "",
+      "id": "amazon-B09NLJCVGB",
+      "name": "PlayStation Sony 5 Dualsense Controller Galactic Purple",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/51uPppmAZXL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4000,
+          "old_price": 4500,
+          "url": "https://www.amazon.eg/dp/B09NLJCVGB",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 4200,
+          "old_price": 4200,
+          "url": "https://btech.com/en/p/8aaca763-8ba8-4cdc-8935-a805d473c58c",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 4399,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/gaming-leasure/sony-dualsense-wireless-ps5-controller-official-version-purple/p/1836147000747?offer=offer_1075118361&sid=DEFAULT&sellerId=18361",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 4390,
+          "old_price": 4390,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-galactic-purple/N52393150A/p/?o=a8388607d5ffd5cb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B08HKCM222",
+      "name": "Sony DualSense wireless controller for PS5 White | 1 Year Warranty",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61j9RyHsPCL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4599,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B08HKCM222",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0CSKR81S2",
+      "name": "Sony PlayStation 5 DualSense Wireless Controller - White",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61l1VOHokOL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 3999,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0CSKR81S2",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 3800,
+          "old_price": 3800,
+          "url": "https://btech.com/en/p/sony-dualsense-wireless-controller-ps5-wh",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 3999,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-access/sony-dualsense-wireless-controller-for-playstation-5-white/p/1836147000732?offer=offer_1014218361&sid=DEFAULT&sellerId=18361",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 3044,
+          "old_price": 4565,
+          "url": "https://www.noon.com/egypt-en/dualsense-wireless-controller-for-playstation-5-white/N40633049A/p/?o=dbc3132da97e8f9f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B094WL86N5",
+      "name": "PlayStation Sony Computer entertaiment CFI-ZCT1W Dual Sense Wireless Controller Black PS5",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61m0Fnpx4wL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4439,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B094WL86N5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0CJT9WCRD",
+      "name": "PlayStation DualSense Wireless Gaming Controller for PS5 - Volcanic Red",
+      "category": "بلايستيشن",
+      "search": "DualSense controller",
+      "image": "https://m.media-amazon.com/images/I/61yKb5y7U5L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 4400,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0CJT9WCRD",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 4619,
+          "old_price": 4619,
+          "url": "https://btech.com/en/p/sony-dual-wireless-controller-ps5-red",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "Sony",
       "id": "btech-5DC19F072394C4BF8B01",
       "name": "Sony DualSense Wireless Controller , Black",
@@ -634,13 +781,6 @@
           "price": 3980,
           "old_price": 3980,
           "url": "https://btech.com/en/p/7a0c9289-6b02-465c-901d-2fee333401ee",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 4199,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-access/sony-dualsense-wireless-controller-for-playstation-5/p/1836147000736?offer=offer_1013318361&sid=DEFAULT&sellerId=18361",
           "in_stock": true
         }
       ]
@@ -658,68 +798,6 @@
           "price": 4900,
           "old_price": 4900,
           "url": "https://btech.com/en/p/sony-dual-wireless-controller-ps5-black",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Sony",
-      "id": "btech-6A5974AD270EB5F398C9",
-      "name": "Sony DualSense Wireless Wireless Controller , White",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://media.btech.com/5/0/d/8/50d8dabc813619869cf366483fbf20cdfaad76be_71y_ugujl5l._sl1500__1__1_.jpeg",
-      "offers": [
-        {
-          "store": "btech",
-          "price": 3800,
-          "old_price": 3800,
-          "url": "https://btech.com/en/p/sony-dualsense-wireless-controller-ps5-wh",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 3999,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-access/sony-dualsense-wireless-controller-for-playstation-5-white/p/1836147000732?offer=offer_1014218361&sid=DEFAULT&sellerId=18361",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Sony",
-      "id": "btech-46BF46281BD53D90D7DD",
-      "name": "Sony DualSense Wireless Wireless Controller , Purple",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://media.btech.com/f/9/c/c/f9ccb1cb26b2d107982bbfa65c907a9b03c6e63e_8a7ac1b9a177f8582caa8ccf25df4e8ecb82acf48e0649c5876afd2431908117.jpeg",
-      "offers": [
-        {
-          "store": "btech",
-          "price": 4200,
-          "old_price": 4200,
-          "url": "https://btech.com/en/p/8aaca763-8ba8-4cdc-8935-a805d473c58c",
-          "in_stock": true
-        },
-        {
-          "store": "2b",
-          "price": 4599,
-          "old_price": 6099,
-          "url": "https://2b.com.eg/en/sony-original-game-pad-dualsense-playstation-5-purple.html",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 4399,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/gaming-leasure/sony-dualsense-wireless-ps5-controller-official-version-purple/p/1836147000747?offer=offer_1075118361&sid=DEFAULT&sellerId=18361",
-          "in_stock": true
-        },
-        {
-          "store": "noon",
-          "price": 4459,
-          "old_price": 4459,
-          "url": "https://www.noon.com/egypt-en/dualsense-wireless-ps5-controller-official-version-purple/N53410715A/p/?o=a20c01a9a53bbe5b",
           "in_stock": true
         }
       ]
@@ -749,18 +827,18 @@
       ]
     },
     {
-      "brand": "Sony",
-      "id": "btech-01C7A4429F3531E39641",
-      "name": "Sony DualSense Wireless Wireless Controller , Volcanic Red",
+      "brand": "",
+      "id": "2b-sony-original-game-pad-dualsense-playstation-5-purple.html",
+      "name": "Sony Original Game Pad DualSense PlayStation 5 - Purple",
       "category": "بلايستيشن",
       "search": "DualSense controller",
-      "image": "https://media.btech.com/0/9/c/5/09c5a0c7a92f9175f7811499f3721aaedec9b8db_red_6.jpeg",
+      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/g/m/gm109--44.jpg",
       "offers": [
         {
-          "store": "btech",
-          "price": 4619,
-          "old_price": 4619,
-          "url": "https://btech.com/en/p/sony-dual-wireless-controller-ps5-red",
+          "store": "2b",
+          "price": 4599,
+          "old_price": 6099,
+          "url": "https://2b.com.eg/en/sony-original-game-pad-dualsense-playstation-5-purple.html",
           "in_stock": true
         }
       ]
@@ -868,96 +946,6 @@
       ]
     },
     {
-      "brand": "",
-      "id": "amazon-B09NLJCVGB",
-      "name": "PlayStation Sony 5 Dualsense Controller Galactic Purple",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://m.media-amazon.com/images/I/51uPppmAZXL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 4000,
-          "old_price": 4500,
-          "url": "https://www.amazon.eg/dp/B09NLJCVGB",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B08HKCM222",
-      "name": "Sony DualSense wireless controller for PS5 White | 1 Year Warranty",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://m.media-amazon.com/images/I/61j9RyHsPCL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 4599,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B08HKCM222",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B094WL86N5",
-      "name": "PlayStation Sony Computer entertaiment CFI-ZCT1W Dual Sense Wireless Controller Black PS5",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://m.media-amazon.com/images/I/61m0Fnpx4wL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 4439,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B094WL86N5",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0CJT9WCRD",
-      "name": "PlayStation DualSense Wireless Gaming Controller for PS5 - Volcanic Red",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://m.media-amazon.com/images/I/61yKb5y7U5L._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 4400,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0CJT9WCRD",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0BKQLX36P",
-      "name": "PlayStation 5 DualSense Edge Wireless Controller",
-      "category": "بلايستيشن",
-      "search": "DualSense controller",
-      "image": "https://m.media-amazon.com/images/I/61a8L+k4XXL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 12550,
-          "old_price": 13810,
-          "url": "https://www.amazon.eg/dp/B0BKQLX36P",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
       "brand": "Rockstar",
       "id": "noon-N70371376V",
       "name": "Red Dead Redemption HD PS5 - playstation_5_ps5",
@@ -1008,8 +996,8 @@
       "offers": [
         {
           "store": "noon",
-          "price": 1985,
-          "old_price": 1985,
+          "price": 1947,
+          "old_price": 1947,
           "url": "https://www.noon.com/egypt-en/god-of-war-ragnarok-english-arabic-ps5-uae-version-action-shooter-playstation-5-ps5/N53339207A/p/?o=f28081048cb7904d",
           "in_stock": true
         }
@@ -1075,6 +1063,142 @@
     },
     {
       "brand": "",
+      "id": "amazon-B098418HB4",
+      "name": "Insomniac Marvels Spider Man Miles Morales Arabic PS5 Game",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71HCAvaOc2S._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1599,
+          "old_price": 1699,
+          "url": "https://www.amazon.eg/dp/B098418HB4",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0B6H242C4",
+      "name": "Gran Turismo 7 PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71XeaQDhrHL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2145,
+          "old_price": 4980,
+          "url": "https://www.amazon.eg/dp/B0B6H242C4",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0F1TFS4W5",
+      "name": "Split Fiction for PS5 - PlayStation 5 - New Original",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71Ydo1iYPLL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2755,
+          "old_price": 2991,
+          "url": "https://www.amazon.eg/dp/B0F1TFS4W5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B09RHJZ54T",
+      "name": "Uncharted Legacy of Thieves Collection PS5 Arabic",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71jpx5idrPL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1838,
+          "old_price": 2153,
+          "url": "https://www.amazon.eg/dp/B09RHJZ54T",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0DCPC2N86",
+      "name": "Mojang Studios Minecraft - PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/81MhO7hb8PL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1865,
+          "old_price": 1915,
+          "url": "https://www.amazon.eg/dp/B0DCPC2N86",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0GL2G8V6W",
+      "name": "WWE 2K26 Standard Edition PlayStation 5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/91+sGEa68rL._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2911,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0GL2G8V6W",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B09QT7CPYV",
+      "name": "Ghost of Tsushima Director's Cut PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71SzYRZG1xS._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 2999,
+          "old_price": 4999,
+          "url": "https://www.amazon.eg/dp/B09QT7CPYV",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "amazon-B0GYZFF1K5",
+      "name": "Grandi Theft Auto V - PS 5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "https://m.media-amazon.com/images/I/71vI2+6uB+L._AC_UL320_.jpg",
+      "offers": [
+        {
+          "store": "amazon",
+          "price": 1589,
+          "old_price": null,
+          "url": "https://www.amazon.eg/dp/B0GYZFF1K5",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
       "id": "2b-redragon-bluetooth-wireless-game-pad-3d-joystick-for-android-pc-ps3-ps4-ps5-xbox",
       "name": "Redragon Bluetooth Wireless Game Pad 3D Joystick For Android & PC & PS3 & PS4 & PS5 & Xbox G815 - Pink",
       "category": "بلايستيشن",
@@ -1109,23 +1233,6 @@
     },
     {
       "brand": "",
-      "id": "carrefour-1836147000684",
-      "name": "Sony Astro Bot - PlayStation_5_PS5",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 2700,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-astro-bot-playstation-5-ps5/p/1836147000684?offer=offer_1073918361&sid=DEFAULT&sellerId=18361",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
       "id": "carrefour-1836147000704",
       "name": "Sony Astro Bot - PlayStation_5_PS5",
       "category": "بلايستيشن",
@@ -1137,6 +1244,23 @@
           "price": 3163,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-astro-bot-playstation-5-ps5/p/1836147000704?offer=offer_1074218361&sid=DEFAULT&sellerId=18361",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-1836147000684",
+      "name": "Sony Astro Bot - PlayStation_5_PS5",
+      "category": "بلايستيشن",
+      "search": "PS5 games",
+      "image": "",
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 2700,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-astro-bot-playstation-5-ps5/p/1836147000684?offer=offer_1073918361&sid=DEFAULT&sellerId=18361",
           "in_stock": true
         }
       ]
@@ -1172,150 +1296,6 @@
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/wb-games-mortal-kombat-11-ultimate-edition-ps5-fighting-playstation-5-ps5/p/1836147000903?offer=offer_1026618361&sid=DEFAULT&sellerId=18361",
           "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B098418HB4",
-      "name": "Insomniac Marvels Spider Man Miles Morales Arabic PS5 Game",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/71HCAvaOc2S._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 1599,
-          "old_price": 1699,
-          "url": "https://www.amazon.eg/dp/B098418HB4",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0B6H242C4",
-      "name": "Gran Turismo 7 PS5",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/71XeaQDhrHL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 2145,
-          "old_price": 4980,
-          "url": "https://www.amazon.eg/dp/B0B6H242C4",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0F1TFS4W5",
-      "name": "Split Fiction for PS5 - PlayStation 5 - New Original",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/71Ydo1iYPLL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 2755,
-          "old_price": 2991,
-          "url": "https://www.amazon.eg/dp/B0F1TFS4W5",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B09RHJZ54T",
-      "name": "Uncharted Legacy of Thieves Collection PS5 Arabic",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/71jpx5idrPL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 1838,
-          "old_price": 2153,
-          "url": "https://www.amazon.eg/dp/B09RHJZ54T",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0DCPC2N86",
-      "name": "Mojang Studios Minecraft - PS5",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/81MhO7hb8PL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 1865,
-          "old_price": 1915,
-          "url": "https://www.amazon.eg/dp/B0DCPC2N86",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0GL2G8V6W",
-      "name": "WWE 2K26 Standard Edition PlayStation 5",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/91+sGEa68rL._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 2911,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0GL2G8V6W",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B09QT7CPYV",
-      "name": "Ghost of Tsushima Director's Cut PS5",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/71SzYRZG1xS._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 2999,
-          "old_price": 4999,
-          "url": "https://www.amazon.eg/dp/B09QT7CPYV",
-          "in_stock": true,
-          "stale": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "amazon-B0GYZFF1K5",
-      "name": "Grandi Theft Auto V - PS 5",
-      "category": "بلايستيشن",
-      "search": "PS5 games",
-      "image": "https://m.media-amazon.com/images/I/71vI2+6uB+L._AC_UL320_.jpg",
-      "offers": [
-        {
-          "store": "amazon",
-          "price": 1589,
-          "old_price": null,
-          "url": "https://www.amazon.eg/dp/B0GYZFF1K5",
-          "in_stock": true,
-          "stale": true
         }
       ]
     },
@@ -1388,6 +1368,23 @@
       ]
     },
     {
+      "brand": "Sony",
+      "id": "btech-481506319AF0D0A45BBE",
+      "name": "Sony Digital Card PSN ,Multi Color",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "https://media.btech.com/6/4/5/1/6451866e16137123926aa84f336453fb177749da_f5d57a860b7b96001ae83337091d14d221a6e390f94ecc94eb454dc6cf915274.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 5999,
+          "old_price": 5999,
+          "url": "https://btech.com/en/p/962651b6-0a53-437f-9c35-1fb7747e1b73",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "",
       "id": "carrefour-1836147000633",
       "name": "Sony Ap Gta V - Premium Edition - Adventure - PlayStation_4_PS4",
@@ -1400,23 +1397,6 @@
           "price": 1300,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-ap-gta-v-premium-edition-adventure-playstation-4-ps4/p/1836147000633?offer=offer_1071918361&sid=DEFAULT&sellerId=18361",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-1836147000652",
-      "name": "Sony God of War Ragnarok - (Intl Version) - Action & Shooter - PlayStation_5_PS5",
-      "category": "بلايستيشن",
-      "search": "PSN card",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 1939,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-god-of-war-ragnarok-intl-version-action-shooter-playstation-5-ps5/p/1836147000652?offer=offer_1072718361&sid=DEFAULT&sellerId=18361",
           "in_stock": true
         }
       ]
@@ -1457,6 +1437,40 @@
     },
     {
       "brand": "",
+      "id": "carrefour-1836147000652",
+      "name": "Sony God of War Ragnarok - (Intl Version) - Action & Shooter - PlayStation_5_PS5",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "",
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 1939,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-god-of-war-ragnarok-intl-version-action-shooter-playstation-5-ps5/p/1836147000652?offer=offer_1072718361&sid=DEFAULT&sellerId=18361",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-1836147000651",
+      "name": "Sony God of War Ragnarok - (English/Arabic) (PS5) (UAE Version) - Action & Shooter - PlayStation_5_PS5",
+      "category": "بلايستيشن",
+      "search": "PSN card",
+      "image": "",
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 1913,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-god-of-war-ragnarok-english-arabic-ps5-uae-version-action-shooter-playstation-5-ps5/p/1836147000651?offer=offer_1072518361&sid=DEFAULT&sellerId=18361",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
       "id": "carrefour-1836147000647",
       "name": "Sony Gran Turismo 7 Standard Edition (English/Arabic)- UAE Version - Racing - PlayStation_4_PS4",
       "category": "بلايستيشن",
@@ -1485,23 +1499,6 @@
           "price": 1898,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-god-of-war-ragnarok-intl-version-action-shooter-playstation-4-ps4/p/1836147000650?offer=offer_1072418361&sid=DEFAULT&sellerId=18361",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-1836147000651",
-      "name": "Sony God of War Ragnarok - (English/Arabic) (PS5) (UAE Version) - Action & Shooter - PlayStation_5_PS5",
-      "category": "بلايستيشن",
-      "search": "PSN card",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 1913,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/sony-playstation-games/sony-god-of-war-ragnarok-english-arabic-ps5-uae-version-action-shooter-playstation-5-ps5/p/1836147000651?offer=offer_1072518361&sid=DEFAULT&sellerId=18361",
           "in_stock": true
         }
       ]
@@ -1666,6 +1663,13 @@
           "in_stock": true
         },
         {
+          "store": "btech",
+          "price": 57999,
+          "old_price": 61999,
+          "url": "https://btech.com/en/p/912fed84-22c5-4ec1-85ad-75149a656ca0",
+          "in_stock": true
+        },
+        {
           "store": "2b",
           "price": 73299,
           "old_price": 101249,
@@ -1687,6 +1691,13 @@
           "price": 63000,
           "old_price": 73000,
           "url": "https://www.noon.com/egypt-en/iphone-16-128gb-ultramarine-5g-middle-east-version/N70105549V/p/?o=f4e4681258c36afc",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 57999,
+          "old_price": 61999,
+          "url": "https://btech.com/en/p/apple-iphone-16-128gb-5g-ultramarine-2y",
           "in_stock": true
         },
         {
@@ -1755,6 +1766,13 @@
           "in_stock": true
         },
         {
+          "store": "btech",
+          "price": 63999,
+          "old_price": 63999,
+          "url": "https://btech.com/en/p/apple-iphone-16-128gb-5g-pink",
+          "in_stock": true
+        },
+        {
           "store": "2b",
           "price": 73299,
           "old_price": 101249,
@@ -1776,6 +1794,13 @@
           "price": 63500,
           "old_price": 63500,
           "url": "https://www.noon.com/egypt-en/iphone-16-128gb-white-5g-with-facetime-international-version/N70106134V/p/?o=d51d4ee58a9e3a4a",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 57999,
+          "old_price": 61999,
+          "url": "https://btech.com/en/s?q=iPhone+16",
           "in_stock": true
         },
         {
@@ -1824,6 +1849,74 @@
           "price": 81999,
           "old_price": 112949,
           "url": "https://2b.com.eg/en/apple-iphone-16-plus-256gb-utramarine-official-warranty.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-A6851B961B894CD26D09",
+      "name": "Apple iPhone 16 , 128 GB , 8 GB , 5G , Single SIM - Blue",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://media.btech.com/b/3/a/9/b3a9e2666d2d624a6cb372b72aa89b907bb8a34a_c9ffb17f533c200d7328b27749791017a28ee55d_a3dff4b3e6ebabd3623e22345afd72605c6ac5644e3b26557edf99.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 70529,
+          "old_price": 70529,
+          "url": "https://btech.com/en/p/apple-iphone-16-128gb-5g-ultramarine",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-9505473003CE83258D62",
+      "name": "Apple iPhone 16 , 256 GB , 8 GB , 5G , Single SIM - Black",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://media.btech.com/1/e/2/e/1e2e61f26979e66e4e3f528f07801ee8a1b38943_iPhone_16_Black_PDP_Image_Position_1__en_ME.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 79999,
+          "old_price": 79999,
+          "url": "https://btech.com/en/s?q=iPhone+16",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-5D52B175E8C0ADE50720",
+      "name": "Apple iPhone 16 , 256 GB , 8 GB , 5G , Single SIM - Ultramarine",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://media.btech.com/3/c/6/c/3c6c624fcec4f66930cf561b080be0fb30fcebb3_iPhone_16_Ultramarine_PDP_Image_Position_1__en_ME.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 79999,
+          "old_price": 79999,
+          "url": "https://btech.com/en/s?q=iPhone+16",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-F807005691801BF28ADA",
+      "name": "Apple iPhone 16 , 256 GB , 8 GB , 5G , Single SIM - Teal",
+      "category": "موبايلات",
+      "search": "iPhone 16",
+      "image": "https://media.btech.com/c/9/5/4/c9549288da55269dbeb50c9e44f5de208b20e477_iPhone_16_Teal_PDP_Image_Position_1__en_ME.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 79999,
+          "old_price": 79999,
+          "url": "https://btech.com/en/s?q=iPhone+16",
           "in_stock": true
         }
       ]
@@ -2104,6 +2197,13 @@
           "in_stock": true
         },
         {
+          "store": "btech",
+          "price": 25999,
+          "old_price": 25999,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
+          "in_stock": true
+        },
+        {
           "store": "2b",
           "price": 25499,
           "old_price": 35799,
@@ -2135,6 +2235,13 @@
           "in_stock": true
         },
         {
+          "store": "btech",
+          "price": 26436,
+          "old_price": 26436,
+          "url": "https://btech.com/en/p/samsung-galaxy-a56-256gb-8gb-ram-5g-dual-sim-awesome-graphite",
+          "in_stock": true
+        },
+        {
           "store": "carrefour",
           "price": 24999,
           "old_price": null,
@@ -2156,6 +2263,13 @@
           "price": 25233,
           "old_price": 27000,
           "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-graphite-8gb-ram-256gb-international-version/N70165221V/p/?o=b63f144fb19db6fc",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 25025,
+          "old_price": 25025,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
           "in_stock": true
         },
         {
@@ -2181,13 +2295,6 @@
           "old_price": 27554,
           "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-olive-8gb-ram-256gb-middle-east-version/N70158929V/p/?o=dafb1764454d861d",
           "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 24999,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a56-8-256/p/655782?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
         }
       ]
     },
@@ -2204,6 +2311,13 @@
           "price": 29000,
           "old_price": 29000,
           "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-light-gray-8gb-ram-256gb-middle-east-version/N70158928V/p/?o=b07384938cba34fc",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 32444,
+          "old_price": 32444,
+          "url": "https://btech.com/en/p/samsung-galaxy-a56-256gb-12gb-ram-5g-dual-sim-lightgrey",
           "in_stock": true
         },
         {
@@ -2228,6 +2342,13 @@
           "price": 31400,
           "old_price": 31400,
           "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-pink-12gb-ram-256gb-international-version/N70161151V/p/?o=c594c0200c68ee0a",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 30000,
+          "old_price": 30000,
+          "url": "https://btech.com/en/p/9d9192ee-6e10-4712-b9c5-06f138172770",
           "in_stock": true
         }
       ]
@@ -2263,6 +2384,54 @@
           "old_price": 28918,
           "url": "https://www.noon.com/egypt-en/galaxy-a56-5g-dual-sim-awesome-graphite-12gb-ram-256gb-middle-east-version/N70160458V/p/?o=ba161204f9a5093a",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 28999,
+          "old_price": 28999,
+          "url": "https://btech.com/en/p/samsung-galaxy-a56-256gb-12gb-ram-4g-dual-sim-graphite",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-2CFF04D9BC7CE2281D45",
+      "name": "Samsung Galaxy A56 , 256 GB , 12 GB , 5G , Dual-SIM - Awesome Pink",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://media.btech.com/3/9/c/a/39ca96e70ae9551687d2e306e7e82d46d7e87139_5313feacfb34c83ee7502ba878ff6b4f6afcc4a9519eec6b6cfabc4ecce4a3fd.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 31999,
+          "old_price": 31999,
+          "url": "https://btech.com/en/p/samsung-galaxy-a56-256gb-12gb-ram-5g-dual-sim-pink",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAOMSMA57256GRL020",
+      "name": "Samsung Galaxy A57 , 256 GB , 12 GB , 5G , Dual-SIM - Gray",
+      "category": "موبايلات",
+      "search": "Samsung Galaxy A56",
+      "image": "https://media.btech.com/f/f/8/a/ff8a5e85317da6dafc290af2bb07d66bd46523ea_711Tcnink2L._AC_SL1500_.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 35925,
+          "old_price": 35925,
+          "url": "https://btech.com/en/s?q=Samsung+Galaxy+A56",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 35805,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-12gb-256gb-navy/p/677916?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
+          "in_stock": true
         }
       ]
     },
@@ -2279,23 +2448,6 @@
           "price": 35060,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-8gb-256gb-navy/p/677917?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-677916",
-      "name": "Samsung Galaxy A57 - 6.7-inch 256GB/12GB Dual SIM 5G Smartphone - Navy",
-      "category": "موبايلات",
-      "search": "Samsung Galaxy A56",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 35805,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/smartphones/samsung-a57-5g-12gb-256gb-navy/p/677916?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
           "in_stock": true
         }
       ]
@@ -2365,6 +2517,13 @@
           "old_price": 17746,
           "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-black-8gb-ram-256gb-4g-middle-east-version/N70286265V/p/?o=ca60eb36d534a9cf",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 17989,
+          "old_price": 17989,
+          "url": "https://btech.com/en/p/8437ea18-2717-4f73-bdcb-e81d9b874de9",
+          "in_stock": true
         }
       ]
     },
@@ -2382,6 +2541,13 @@
           "old_price": 17888,
           "url": "https://www.noon.com/egypt-en/redmi-note-15-4g-dual-sim-black-8gb-ram-256gb-global-version/N70275518V/p/?o=d729475dbe68f2be",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 17989,
+          "old_price": 17989,
+          "url": "https://btech.com/en/p/8437ea18-2717-4f73-bdcb-e81d9b874de9",
+          "in_stock": true
         }
       ]
     },
@@ -2398,6 +2564,13 @@
           "price": 17899,
           "old_price": 17899,
           "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-blue-8gb-ram-256gb-4g-middle-east-version/N70286269V/p/?o=e5ff7899e3e17e3c",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 17989,
+          "old_price": 17989,
+          "url": "https://btech.com/en/s?q=Xiaomi+Redmi+Note+15+Dual+SIM+Blue+8GB",
           "in_stock": true
         }
       ]
@@ -2432,6 +2605,13 @@
           "price": 19999,
           "old_price": 19999,
           "url": "https://www.noon.com/egypt-en/redmi-note-15-dual-sim-purple-8gb-ram-256gb-5g-middle-east-version/N70286284V/p/?o=e86e371a29d8223c",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 17990,
+          "old_price": 17990,
+          "url": "https://btech.com/en/p/e132ed10-a03a-4c1a-9d2a-6dfe09e5e4a0",
           "in_stock": true
         }
       ]
@@ -2488,6 +2668,115 @@
       ]
     },
     {
+      "brand": "Xiaomi",
+      "id": "btech-11EBF99370E57E069D5E",
+      "name": "Xiaomi Redmi Note 14 Pro Plus , 256 GB , 12 GB , 4G , Dual-SIM - Frost Blue",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://media.btech.com/3/8/1/0/3810d1c538acf1594ce27532411363c1d8a22dde_bf0ffb8df5c22a65b36abbb41800bf0a08f8ccf1557a0cd1d7f9c828bdaebee1.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 25499,
+          "old_price": 25499,
+          "url": "https://btech.com/en/p/xiaomi-redmi-note-14-pro-plus-256gb-12gb-4g-dual-sim-blue",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 23999,
+          "old_price": 33149,
+          "url": "https://2b.com.eg/en/xiaomi-redmi-note-14-pro-plus-12gb-ram-256gb-blue.html",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "id": "btech-B8837A7A02335235E6E1",
+      "name": "Xiaomi Redmi Note 14 Pro , 256 GB , 8 GB , 4G LTE , Dual-SIM - Aurora Purple",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://media.btech.com/e/d/6/f/ed6fd2e8761721ea19fed66a3d3ce44693cbee39_9ad983b5df7bf2c3a313341167b89e44fde3dcb3c68c9c668e7e93340f40de12.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 20252,
+          "old_price": 20252,
+          "url": "https://btech.com/en/p/xiaomi-redmi-note-14-pro-256gb-8gb-4g-lte-dual-sim-purple",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Armor",
+      "id": "btech-1BSAASMO14XIA000L000",
+      "name": "Armor Nano Glass Screen Protector forXiaomi Redmi Note 14 ,Transparent",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://media.btech.com/f/a/d/6/fad6c460bdfef48092dd33f5d669d6a6fa04f5b2_41.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 456,
+          "old_price": 456,
+          "url": "https://btech.com/en/p/73306e9e-5bf0-45e7-8b85-ef5870810185",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "id": "btech-1BXIOMSMNO174G8BL007",
+      "name": "Xiaomi Redmi Note 17 , 256 GB , 8 GB , 4G , Dual-SIM - Black",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://media.btech.com/3/f/a/d/3fad5e7ce8a0903817b7476c50adea9eb16bf512_3.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 16555,
+          "old_price": 17999,
+          "url": "https://btech.com/en/p/xiaomi-redmi-note-17-256-gb-8-gb-4g-dual-sim-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "id": "btech-1BXIOMSMNO174G6BL007",
+      "name": "Xiaomi Redmi Note 17 , 256 GB , 6 GB , 4G , Dual-SIM - Black",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://media.btech.com/7/6/2/c/762c78cae1d2b887832ffa839fe8bc7cbe45db1b_3.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 15435,
+          "old_price": 16799,
+          "url": "https://btech.com/en/p/xiaomi-redmi-note-17-256-gb-6-gb-4g-dual-sim-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Xiaomi",
+      "id": "btech-BUBMBMMOBILNO175GF1",
+      "name": "Xiaomi Redmi Note 17 , 256 GB , 6 GB , 4G , Dual-SIM - Black",
+      "category": "موبايلات",
+      "search": "Xiaomi Redmi Note 14",
+      "image": "https://media.btech.com/1/1/2/0/1120107d698ecce204e4679cb7d532b5d008e23a_redmi_phone_buds.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 16799,
+          "old_price": 16799,
+          "url": "https://btech.com/en/p/xiaomi-redmi-note-17-256-gb-6-gb-4g-dual-sim-black-86",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "",
       "id": "2b-xiaomi-redmi-note-14-pro-plus-12gb-ram-512gb-black.html",
       "name": "Xiaomi Redmi Note 14 Pro Plus - 12GB RAM - 512GB - Black",
@@ -2534,23 +2823,6 @@
           "price": 23999,
           "old_price": 33149,
           "url": "https://2b.com.eg/en/xiaomi-redmi-note-14-pro-plus-12gb-ram-256gb-black.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "2b-xiaomi-redmi-note-14-pro-plus-12gb-ram-256gb-blue.html",
-      "name": "Xiaomi Redmi Note 14 Pro Plus - 12GB RAM - 256GB - Blue",
-      "category": "موبايلات",
-      "search": "Xiaomi Redmi Note 14",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/x/i/xiaomi-redmi-note-14-pro-plus-blue-1_1.jpg",
-      "offers": [
-        {
-          "store": "2b",
-          "price": 23999,
-          "old_price": 33149,
-          "url": "https://2b.com.eg/en/xiaomi-redmi-note-14-pro-plus-12gb-ram-256gb-blue.html",
           "in_stock": true
         }
       ]
@@ -2650,40 +2922,9 @@
       "offers": [
         {
           "store": "noon",
-          "price": 1239,
+          "price": 1226,
           "old_price": 1499,
           "url": "https://www.noon.com/egypt-en/r50i-nc-by-anker-noise-cancelling-earbuds-strong-and-smart-noise-cancelling-powerful-bass-45h-playtime-2-in-1-case-and-phone-stand-ip54-wireless-earbuds-bluetooth-5-4-app-control-black/N70082559V/p/?o=a64477aaaf31781f",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 1288,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/r50i-nc-by-anker-noise-cancelling-earbuds-strong-and-smart-noise-cancelling-powerful-bass-45h-playtime-2-in-1-case-and-phone-stand-ip54-wireless-earbuds-bluetooth-5-4-app-control-black/p/2251257000112?offer=offer_1011722512&sid=DEFAULT&sellerId=22512",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "Soundcore",
-      "id": "noon-N70064900V",
-      "name": "Anker R50i True Wireless Earbuds 10mm Drivers With Big Bass, Bluetooth 5.3, 30H Playtime, IPX5-Water Resistant, AI Clear Calls With 2 Mics, 22 Preset EQs via App White",
-      "category": "سماعات",
-      "search": "AirPods",
-      "image": "https://f.nooncdn.com/p/pzsku/Z4A36F35CD56AAEECC0F5Z/45/_/1780467201/088fa6c8-8b6c-492a-bd7d-7ae4d6c7f7de.jpg",
-      "offers": [
-        {
-          "store": "noon",
-          "price": 499,
-          "old_price": 499,
-          "url": "https://www.noon.com/egypt-en/anker-r50i-true-wireless-earbuds-10mm-drivers-with-big-bass-bluetooth-5-3-30h-playtime-ipx5-water-resistant-ai-clear-calls-with-2-mics-22-preset-eqs-via-app-white/N70064900V/p/?o=f1a6044de3aff36f",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 1000,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/soundcore-anker-r50i-true-wireless-earbuds-10mm-drivers-with-big-bass-bluetooth-5-3-30h-playtime-ipx5-water-resistant-ai-clear-calls-with-2mics-22-preset-eqs-via-app-white/p/1827747000417?offer=offer_1027422512&sid=DEFAULT&sellerId=22512",
           "in_stock": true
         }
       ]
@@ -2701,13 +2942,6 @@
           "price": 1630,
           "old_price": 1630,
           "url": "https://www.noon.com/egypt-en/r50i-nc-by-anker-noise-cancelling-earbuds-strong-and-smart-noise-cancelling-powerful-bass-45h-playtime-2-in-1-case-and-phone-stand-ip54-wireless-earbuds-bluetooth-5-4-app-control-white/N70083252V/p/?o=f13f92d5f371603c",
-          "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 1288,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/anker-soundcore-by-r50i-nc-wireless-earphones-with-10-mm-drivers-with-bass-bass-bluetooth-5-3-45-hours-playtime-ip54-sweatguard-m-waterproof-clear-ai-calls-with-4-microphones-22/p/2251257000079?offer=offer_1008622512&sid=DEFAULT&sellerId=22512",
           "in_stock": true
         }
       ]
@@ -2748,6 +2982,47 @@
     },
     {
       "brand": "Generic",
+      "id": "noon-N52600818A",
+      "name": "Generic Pro Air Pods Compatible With Android - iPhone White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pnsku/N52600818A/45/_/1717492748/7ab506d6-3b2a-423a-a114-6378ae06af3b.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 390,
+          "old_price": 750,
+          "url": "https://www.noon.com/egypt-en/generic-pro-air-pods-compatible-with-android-iphone-white/N52600818A/p/?o=bad520e7e1b657cc",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 345,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/generic-pro-air-pods-compatible-with-android-iphone-white/p/2251257000097?offer=offer_1010322512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "noon-N70058104V",
+      "name": "Soundcore Liberty 4 NC",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://f.nooncdn.com/p/pzsku/Z96C72B853C79FCCBB5F1Z/45/1759222717/6c134cf5-d3a9-4aae-967a-0f2ace845a4d.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 2629,
+          "old_price": 2629,
+          "url": "https://www.noon.com/egypt-en/soundcore-liberty-4-nc/N70058104V/p/?o=bc82f5770bffe06c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
       "id": "noon-N53409767A",
       "name": "Soundcore By Anker R50i True Wireless Black",
       "category": "سماعات",
@@ -2756,55 +3031,28 @@
       "offers": [
         {
           "store": "noon",
-          "price": 897,
+          "price": 914,
           "old_price": 1332,
-          "url": "https://www.noon.com/egypt-en/soundcore-by-anker-r50i-true-wireless-black/N53409767A/p/?o=f78617a12c1d528e",
+          "url": "https://www.noon.com/egypt-en/soundcore-by-anker-r50i-true-wireless-black/N53409767A/p/?o=cafe7eddb4c58c4d",
           "in_stock": true
         }
       ]
     },
     {
-      "brand": "Soundcore",
-      "id": "noon-N70101845V",
-      "name": "R50i NC by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4, App Control Green Green",
+      "brand": "Apple",
+      "id": "btech-1BAPASSBAPAP4000L001",
+      "name": "Apple AirPods 4 Earbuds , White",
       "category": "سماعات",
       "search": "AirPods",
-      "image": "https://f.nooncdn.com/p/pzsku/ZEBCBF17EAC80245D399CZ/45/_/1780466857/f9a8beae-acd5-4329-bbcc-30f8ee2dda6b.jpg",
+      "image": "https://media.btech.com/4/7/6/5/4765187c0ea5fa7776f379a90e6bdbf8269d1c97_AirPods_4_PDP_Image_Position_2__en_ME.jpg",
       "offers": [
         {
-          "store": "noon",
-          "price": 1360,
-          "old_price": 1360,
-          "url": "https://www.noon.com/egypt-en/r50i-nc-by-anker-noise-cancelling-earbuds-strong-and-smart-noise-cancelling-powerful-bass-45h-playtime-2-in-1-case-and-phone-stand-ip54-wireless-earbuds-bluetooth-5-4-app-control-green-green/N70101845V/p/?o=bd81bae1e7661caf",
+          "store": "btech",
+          "price": 6899,
+          "old_price": 7499,
+          "url": "https://btech.com/en/p/apple-airpods-4-white",
           "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "2b-apple-airpods-5-white.html",
-      "name": "Apple AirPods 5 - White",
-      "category": "سماعات",
-      "search": "AirPods",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpw77.jpg",
-      "offers": [
-        {
-          "store": "2b",
-          "price": 11399,
-          "old_price": 17499,
-          "url": "https://2b.com.eg/en/apple-airpods-5-white.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "2b-apple-airpods-4-white.html",
-      "name": "Apple AirPods 4 - White",
-      "category": "سماعات",
-      "search": "AirPods",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpb03-min.jpg",
-      "offers": [
+        },
         {
           "store": "2b",
           "price": 6549,
@@ -2815,18 +3063,176 @@
       ]
     },
     {
-      "brand": "",
-      "id": "2b-apple-airpods-4-with-active-noise-cancellation-white.html",
-      "name": "Apple AirPods 4 with Active Noise Cancellation - White",
+      "brand": "Apple",
+      "id": "btech-1BAPWEARAAP50000L001",
+      "name": "Apple AirPods 5 Earbuds , White",
       "category": "سماعات",
       "search": "AirPods",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpb04-min.jpg",
+      "image": "https://media.btech.com/8/f/f/d/8ffd40e827ca37516bcc6f6922e50592dcb27eda_airpods_5_wcc_select_202609_FV1.jpg",
       "offers": [
+        {
+          "store": "btech",
+          "price": 9199,
+          "old_price": 10999,
+          "url": "https://btech.com/en/p/apple-airpods-5-earbuds-white-61",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 11399,
+          "old_price": 17499,
+          "url": "https://2b.com.eg/en/apple-airpods-5-white.html",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 8800,
+          "old_price": 9500,
+          "url": "https://www.noon.com/egypt-en/airpods-5-white/N70434494V/p/?o=e576bd55915f68cb",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 9000,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/airpods-5-white/p/1737043000748?offer=offer_1027022512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-691EFCA75B263EE0589D",
+      "name": "Apple AirPods Pro 3 Earbuds , with Active Noise Cancellation , White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://media.btech.com/6/c/1/5/6c15af654e32123edbdd7671306308d4b62e4a7d_imgi_254_faf3cba0_65d2_4a34_9200_47109547d5ac.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 12600,
+          "old_price": 12600,
+          "url": "https://btech.com/en/p/12755eca-af66-4d1f-ab5c-dc1b6e046855",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 13000,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/apple-airpods-pro-3-wireless-earbuds-bluetooth-headphones-active-noise-cancellation-hearing-test-hearing-aid-hearing-protection-features-high-fidelity-sound-h2-chip-usb-c-charging-white/p/1827747000702?offer=offer_1024022512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 13588,
+          "old_price": 13588,
+          "url": "https://www.noon.com/egypt-en/airpods-pro-3-wireless-earbuds-bluetooth-headphones-active-noise-cancellation-hearing-test-hearing-aid-hearing-protection-features-heart-rate-sensing-during-workouts-live-translation-high-fidelity-sound-h2-chip-usb-c-charging-white/N70212301V/p/?o=a5865fc086cd5e2b",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-208D8863322EBA2819A9",
+      "name": "Apple AirPods Pro 2nd Generation , White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://media.btech.com/e/1/e/9/e1e916e4ef89dc40ba2413f02e3edcb129b68c8e_AirPods_Pro_2_PDP_Image_Position_2__en_ME.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 13999,
+          "old_price": 13999,
+          "url": "https://btech.com/en/p/apple-airpods-pro-2nd-generation-white",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-E2EFE30C4D0E1977A5AF",
+      "name": "Apple AirPods 4 Earbuds , with Active Noise Cancellation , White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://media.btech.com/3/f/d/9/3fd93637287dfa0d8b8c45c05e38822add631205_AirPods_4_with_Active_Noise_Cancellation_PDP_Image_Position_2__en_ME.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 9700,
+          "old_price": 9700,
+          "url": "https://btech.com/en/p/apple-airpods-4-with-active-noise-cancellation-white",
+          "in_stock": true
+        },
         {
           "store": "2b",
           "price": 11299,
           "old_price": 14199,
           "url": "https://2b.com.eg/en/apple-airpods-4-with-active-noise-cancellation-white.html",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 8685,
+          "old_price": 10500,
+          "url": "https://www.noon.com/egypt-en/airpods-4-anc-wireless-earbuds-bluetooth-headphones-with-active-noise-cancellation-adaptive-audio-transparency-mode-personalized-spatial-audio-usb-c-charging-case-wireless-charging-h2-chip-white/N70108365V/p/?o=ad925b055c646a1d",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 9288,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/apple-airpods-4-anc-wireless-earbuds-bluetooth-headphones-with-active-noise-cancellation-adaptive-audio-transparency-mode-personalized-spatial-audio-usb-c-charging-case-wireless-charging/p/2251857001389?offer=offer_1021322512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "btech-A2931A1FCEB2E8BF6399",
+      "name": "Generic AirPods Pro 3 Earbuds , with Active Noise Cancellation , White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://media.btech.com/f/3/2/d/f32dc1a73d3685bca00ec41740b56293c2393b5f_B7000005319T.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1250,
+          "old_price": 1250,
+          "url": "https://btech.com/en/p/0010da9d-5374-4887-bb7c-406630f7521e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-1BAPWEARAP5WCH00L001",
+      "name": "Apple AirPods 5 Earbuds , with Wired and Wireless Charging Case , White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://media.btech.com/5/5/a/2/55a224de706b02f427d331d46e640d0fc8c926db_airpods_5_select_202609_FV1.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 12999,
+          "old_price": 14500,
+          "url": "https://btech.com/en/p/apple-airpods-5-earbuds-white",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-77B70F2ECD6398FDAF2A",
+      "name": "Apple AirPods Pro 2nd Generation , with MagSafe USB‑C Charging Case , White",
+      "category": "سماعات",
+      "search": "AirPods",
+      "image": "https://media.btech.com/5/e/b/d/5ebd179eb904931783f31c682aae22df132a107a_2986986982.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 13999,
+          "old_price": 13999,
+          "url": "https://btech.com/en/p/apple-airpods-pro-2nd-gen-wireless-airpods-magsafe-usbc-case-white",
           "in_stock": true
         }
       ]
@@ -2952,23 +3358,6 @@
     },
     {
       "brand": "",
-      "id": "carrefour-2251257000097",
-      "name": "Generic Pro Air Pods Compatible With Android - iPhone White",
-      "category": "سماعات",
-      "search": "AirPods",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 345,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/generic-pro-air-pods-compatible-with-android-iphone-white/p/2251257000097?offer=offer_1010322512&sid=DEFAULT&sellerId=22512",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
       "id": "carrefour-660376",
       "name": "Riversong Airfly L2 Wireless Stereo Earbuds - White",
       "category": "سماعات",
@@ -2980,23 +3369,6 @@
           "price": 599,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/riversong-airfly-l2-tws-white/p/660376?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-1827747000702",
-      "name": "Apple Airpods Pro 3 Wireless Earbuds, Bluetooth Headphones, Active Noise Cancellation, Hearing Test, Hearing Aid,Hearing Protection Features, High-Fidelity Sound, H2 Chip, USB-C Charging - White",
-      "category": "سماعات",
-      "search": "AirPods",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 13000,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-earbuds/apple-airpods-pro-3-wireless-earbuds-bluetooth-headphones-active-noise-cancellation-hearing-test-hearing-aid-hearing-protection-features-high-fidelity-sound-h2-chip-usb-c-charging-white/p/1827747000702?offer=offer_1024022512&sid=DEFAULT&sellerId=22512",
           "in_stock": true
         }
       ]
@@ -3212,6 +3584,13 @@
           "in_stock": true
         },
         {
+          "store": "btech",
+          "price": 2350,
+          "old_price": 2350,
+          "url": "https://btech.com/en/p/acf492fe-5a5c-4e24-832f-950c55fa58bf",
+          "in_stock": true
+        },
+        {
           "store": "2b",
           "price": 2499,
           "old_price": 3999,
@@ -3301,6 +3680,13 @@
           "in_stock": true
         },
         {
+          "store": "btech",
+          "price": 2699,
+          "old_price": 2699,
+          "url": "https://btech.com/en/p/b3726f84-8c39-4066-b086-aeb8a203d640",
+          "in_stock": true
+        },
+        {
           "store": "2b",
           "price": 2499,
           "old_price": 3999,
@@ -3354,6 +3740,13 @@
           "old_price": 3453,
           "url": "https://www.noon.com/egypt-en/jbl-tune-730bt-wireless-over-ear-bluetooth-headphones-with-pure-bass-sound-76h-battery-life-dual-beamforming-mics-multi-point-bluetooth-6-0-foldable-comfortable-blue/N70278474V/p/?o=ae55da865ff8954c",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2799,
+          "old_price": 2799,
+          "url": "https://btech.com/en/p/blue-98",
+          "in_stock": true
         }
       ]
     },
@@ -3375,13 +3768,95 @@
       ]
     },
     {
-      "brand": "",
-      "id": "2b-jbl-tune-530bt-wireless-on-ear-headphone-white.html",
-      "name": "JBL Tune 530BT Wireless On Ear Headphone - White",
+      "brand": "Jbl",
+      "id": "btech-338136091C3A1B773573",
+      "name": "Jbl Tune 520BT Wireless On Ear Headphones , Blue",
       "category": "سماعات",
       "search": "JBL headphones",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/h/p/hpg33.12.jpg",
+      "image": "https://media.btech.com/0/7/c/9/07c9a3d8ed83eba98e3a316aab32fdd9f44137bb_61xbpbxjkjl._ac_sx679_.jpeg",
       "offers": [
+        {
+          "store": "btech",
+          "price": 2039,
+          "old_price": 2039,
+          "url": "https://btech.com/en/p/jbl-tune-bluetooth-headphone-blue-520bt",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Jbl",
+      "id": "btech-E9D41FDADF97927D1FA0",
+      "name": "Jbl Tune 520BT Wireless On Ear Headphones , Black",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://media.btech.com/5/f/6/7/5f674673224a1bb1b507afa4224cdec7682c4549_5d3f77e4937d78c33560b47cbd04ab6686c2e9d8de8aa991ac7f47c8d2b18389.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2100,
+          "old_price": 2100,
+          "url": "https://btech.com/en/p/jbl-tune-520bt-wireless-headphone-black",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 2288,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-with-mic-pure-bass-sound-upto-57-hrs-playtime-speedcharge-customizable-bass-with-headphones-app-lightweight-bluetooth-5-3-black-/p/2251257000014?offer=offer_1002722512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Jbl",
+      "id": "btech-1BJLHEAD73000000L018",
+      "name": "Jbl Tune 730BT Wireless Over Ear Headphones , Beige",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://media.btech.com/1/c/c/7/1cc7b2e95bd96bd20c0c33798f52eff163725681_imgi_2_01.LS_JBL_Tune_730BT_Product_Image_Hero_Beige.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2799,
+          "old_price": 2799,
+          "url": "https://btech.com/en/p/bb11a47e-aa5d-4413-85fb-23e648a35fcc",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Jbl",
+      "id": "btech-99CE9B25E782BE0D6B61",
+      "name": "Jbl Tune 520BT Wireless On Ear Headphones , White",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://media.btech.com/0/2/d/5/02d5a795f011d00f86276c02f9c5c20b5dc65b2d_8cf82762e62ed3457110f1a093f69aa706b8c54e2343ffa5c6c32e7ada823223.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2100,
+          "old_price": 2100,
+          "url": "https://btech.com/en/p/jbl-tune-520bt-wireless-headphone-white",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Jbl",
+      "id": "btech-1BJLHEAD53000000L001",
+      "name": "Jbl Tune 530BT Wireless On Ear Headphones , White",
+      "category": "سماعات",
+      "search": "JBL headphones",
+      "image": "https://media.btech.com/5/d/a/0/5da0cabc2336fbe39462a1244782139c25941b8f_imgi_2_01.LS_JBL_Tune_530BT_Product_Image_Hero_White.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2299,
+          "old_price": 2299,
+          "url": "https://btech.com/en/p/314ee851-b35c-4384-a840-4a5a1b0d50c4",
+          "in_stock": true
+        },
         {
           "store": "2b",
           "price": 2499,
@@ -3418,23 +3893,6 @@
           "price": 2600,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-530bt-wireless-on-ear-bluetooth-headphones-with-pure-bass-sound-76h-battery-life-dual-beamforming-mics-multi-point-bluetooth-6-0-foldable-lightweight-black-jblt530btblkeu-/p/2251257000071?offer=offer_1007822512&sid=DEFAULT&sellerId=22512",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "carrefour-2251257000014",
-      "name": "JBL Tune 520BT Wireless On Ear Headphones with Mic, Pure Bass Sound, Upto 57 Hrs Playtime, Speedcharge, Customizable Bass with Headphones App, Lightweight, Bluetooth 5.3 (Black)",
-      "category": "سماعات",
-      "search": "JBL headphones",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 2288,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/wireless-headphone/jbl-tune-520bt-wireless-on-ear-headphones-with-mic-pure-bass-sound-upto-57-hrs-playtime-speedcharge-customizable-bass-with-headphones-app-lightweight-bluetooth-5-3-black-/p/2251257000014?offer=offer_1002722512&sid=DEFAULT&sellerId=22512",
           "in_stock": true
         }
       ]
@@ -3628,7 +4086,7 @@
         {
           "store": "noon",
           "price": 1285,
-          "old_price": 1430,
+          "old_price": 1435,
           "url": "https://www.noon.com/egypt-en/20000-mah-zolo-power-bank-20-000mah-22-5w-max-portable-charger-usb-c-in-and-out-fast-charging-battery-pack-slim-travel-essential-phone-power-bank-for-iphone-17-16-15-series-ipad-macbook-air-galaxy-and-more-black/N70249570V/p/?o=c2c1fbcba20ab58b",
           "in_stock": true
         }
@@ -3681,6 +4139,20 @@
           "price": 1799,
           "old_price": 2099,
           "url": "https://www.noon.com/egypt-en/20000-mah-power-bank-20-000-mah-87w-total-output-with-built-in-usb-c-cable-1-usb-c-and-1-usb-a-black/N70098969V/p/?o=f05640b78c0016ce",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2090,
+          "old_price": 2090,
+          "url": "https://btech.com/en/s?q=Anker+power+bank",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 2399,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/chargers-cables-convertors/energizer-power-bank-20-000mah-fast-charging-dual-usb-a-22-5w-18w-9v-2a-/p/1800446000081?offer=offer_1007018004&sid=DEFAULT&sellerId=18004",
           "in_stock": true
         }
       ]
@@ -3737,6 +4209,139 @@
       ]
     },
     {
+      "brand": "Anker",
+      "id": "btech-139E3A283E7E6ABBC764",
+      "name": "Anker Zolo Wired Power Bank , Black - A110E",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/1/b/5/8/1b58ae16c1489b797ff3d86489676b28349c100e_0cd02ea7_9ff5_4ec5_8e11_3c8a83a86a1a.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2190,
+          "old_price": 2190,
+          "url": "https://btech.com/en/p/621ec79a-2d1d-42f5-8e76-084ac890df1f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "btech-55F0B003240641640AB6",
+      "name": "Anker MagGo 622 Magnetic Wireless Power Bank , 5000 mAh 1 Ports , Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/4/5/e/7/45e784cd107dea40618984c6ad84b5fac4100135_1_anker_power_bank_622_magnetic_battery_maggo_5000mah_black_a1614h13_removebg_preview.png",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2150,
+          "old_price": 2150,
+          "url": "https://btech.com/en/p/92345975-1c0a-4728-bfa0-74183983f362",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "btech-1BSAASSBA110DH11L007",
+      "name": "Anker Zolo Wired Power Bank with Built-in Cable , 10000 mAh 2 Ports , Black , A110DH11",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/5/1/d/a/51da154dc0e344c0a0f30759f79541d5b9384d9e_1_anker_zolo_power_bank_10000mah_225w_built_in_usb_c_cabl_black_a110dh11_removebg_preview.png",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1299,
+          "old_price": 1299,
+          "url": "https://btech.com/en/p/8cabca87-1122-4f44-a48f-abe6119e0d58",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 1879,
+          "old_price": 2449,
+          "url": "https://2b.com.eg/en/anker-power-bank-10000mah-30w-builtin-usbc-cable-a1688h11-black.html",
+          "in_stock": true
+        },
+        {
+          "store": "carrefour",
+          "price": 1900,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/power-banks/anker-power-bank-powercore-10000mah-22-5w-portable-charger-with-usb-c-lanyard-cable/p/1827747000496?offer=offer_1025522512&sid=DEFAULT&sellerId=22512",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "btech-C37D3C74EE235EE1EE24",
+      "name": "Anker Wired Power Bank , 25000 mAh 3 Ports , Space Black , A1695",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/c/3/1/2/c31232e8f92906e32ff5399f80d5691ee2425343_Black_01_1_1600x__1_.png",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 4399,
+          "old_price": 4399,
+          "url": "https://btech.com/en/p/c3741080-35a4-411c-ac11-ce4d699fff40",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "btech-B27C16BF2D4F2ED22791",
+      "name": "Anker Prime Wired Power Bank , 20000 mAh 3 Ports , Black Silver , A1336011",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/a/8/3/3/a8337c33ee85bd59750bfa5f4a9266a0fb5626a9_999015c032375326a680a6880ac853e20f32e0c64ba00179ee24a844f59d1153.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 5745,
+          "old_price": 5745,
+          "url": "https://btech.com/en/p/dc3edb49-c051-44a9-b718-d4c726dc1bc3",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "btech-E056FA93CDCC18BE1E27",
+      "name": "Anker Zolo Wired Power Bank , 25000 mAh 2 Ports , Silver , A1695H11",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/b/f/2/1/bf21e30e3dc84bdfa09aa709f6564fbf0b323c42_A1695H41_TD01_V1_removebg_preview.png",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 5201,
+          "old_price": 5201,
+          "url": "https://btech.com/en/p/aa27ed62-fe30-4a9c-90db-ee40ac604a1a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Anker",
+      "id": "btech-2F313D24DF9E3AAB7D22",
+      "name": "Anker Nano Wired Power Bank , 10000 mAh 2 Ports , Black , A1638",
+      "category": "إكسسوارات موبايل",
+      "search": "Anker power bank",
+      "image": "https://media.btech.com/b/1/3/a/b13ab2485f085974fa2fe535df71c89d31700457_imgi_238_4fde5b5f_015c_4c1a_8231_66d3d1bb5871.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2950,
+          "old_price": 2950,
+          "url": "https://btech.com/en/p/3d8d3b17-b195-4bd1-b6c1-afda07750f00",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "",
       "id": "2b-anker-power-bank-20000mah-30w-a1384h11-black.html",
       "name": "Anker Power Bank 20000mAh 30W A1384H11 - Black",
@@ -3766,23 +4371,6 @@
           "price": 3299,
           "old_price": 3999,
           "url": "https://2b.com.eg/en/anker-533-power-bank-10-000mah-25w-a1249h11-black.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "2b-anker-power-bank-10000mah-30w-builtin-usbc-cable-a1688h11-black.html",
-      "name": "Anker Power Bank 10000mAh 30W BuiltIn USBC Cable A1688H11 - Black",
-      "category": "إكسسوارات موبايل",
-      "search": "Anker power bank",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/m/p/mp662-min.jpg",
-      "offers": [
-        {
-          "store": "2b",
-          "price": 1879,
-          "old_price": 2449,
-          "url": "https://2b.com.eg/en/anker-power-bank-10000mah-30w-builtin-usbc-cable-a1688h11-black.html",
           "in_stock": true
         }
       ]
@@ -3848,6 +4436,13 @@
           "price": 1200,
           "old_price": 1300,
           "url": "https://www.noon.com/egypt-en/zolo-power-bank-10000mah-22-5w-fast-charging-power-bank-with-built-in-usb-c-cable-ccc-certified/N70249569V/p/?o=e072a1ccf38b0bfc",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 1299,
+          "old_price": 1299,
+          "url": "https://btech.com/en/p/8cabca87-1122-4f44-a48f-abe6119e0d58",
           "in_stock": true
         }
       ]
@@ -4218,13 +4813,6 @@
           "old_price": 261,
           "url": "https://www.noon.com/egypt-en/25w-pd-usb-c-super-fast-charging-travel-adapter-eu-plug-black/N51193933A/p/?o=b65d357b8ff557ae",
           "in_stock": true
-        },
-        {
-          "store": "carrefour",
-          "price": 325,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/chargers-cables-convertors/smart-gate-charger-25w-gan-c-pd-b/p/691074?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
         }
       ]
     },
@@ -4299,6 +4887,142 @@
           "price": 440,
           "old_price": 440,
           "url": "https://www.noon.com/egypt-en/25w-usb-c-adapter-super-fast-charging-wall-adapter-white-white/N70161975V/p/?o=e05658baf5474f1f",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-FE19404B9C9B0A04EE15",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 25 Watt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/1/2/f/8/12f8c84de0ce060084fdcb17cbdbe92c1f27ddc3_1fec7b6b11c2d6b6cbd7218eb266ee8f3fba203959f7f99d299deef0ad6ea080.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 176,
+          "old_price": 186,
+          "url": "https://btech.com/en/p/samsung-super-fast-wall-charger-25-watt-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-A809443ADB7157116EB4",
+      "name": "Samsung Wall Charger Type C , 45 Watt Black - EP-TA895XBEGWW",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/c/1/c/b/c1cb6b698a7863a2eec2812dc243bd6b2081c5b3_samsung_wall_charge_usb_type_c_45w_ep_ta895xbegww_1.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 194,
+          "old_price": 194,
+          "url": "https://btech.com/en/p/samsung-wall-charge-usb-type-c-45w-ep-ta895xbegww-1",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-8B333511A8EFF70E5B99",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 45 Watt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/a/2/3/0/a230c1f4c53cd9a34367baa99cef353e3c4cead3_mp408_3.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 194,
+          "old_price": 194,
+          "url": "https://btech.com/en/p/samsung-wall-charger-type-c",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-62F46DEE138BEEAAE1C0",
+      "name": "Samsung Wall Charger Type C , 45 Watt 240 Volt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/4/b/d/0/4bd0fc9195b3c6b6dfedc1c6e4bab3d4c0d4501b_a839dc447e00b77c8e19fbcfae699332eb2745ce7b36d59e07d3e9710a914064.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1633,
+          "old_price": 1633,
+          "url": "https://btech.com/en/p/samsung-charging-kit-45-watt-1-usbc-port-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-D8542176A2D4A98EA7E2",
+      "name": "Samsung Wall Charger Type C , 45 Watt Black - EP-TA845XBEGAU",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/e/1/0/6/e1060d788d17263977481660ab199d94725e2649_samsung_wall_charger_with_type_c_cable_45_w_black_ep_ta845xbegau_ua_v326_157w.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 189,
+          "old_price": 189,
+          "url": "https://btech.com/en/p/samsung-wall-charger-with-type-c-cable-45-w-black-ep-ta845xbegau-ua-v326-157w",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSACHARPTU02200L000",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 45 Watt Black - EP-T4510XBEGEU",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/b/e/5/b/be5b30ae47a5d78cbe99c467321d704d3a89ea4f_c584b09f92b1c82e377b7c885a4ec522913cccd55fb571eb4325dc5f8df39db4.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 899,
+          "old_price": 899,
+          "url": "https://btech.com/en/p/samsung-wall-charger-45w-black-ep-t4510xbegeu",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-4A15A85B9DB9D8EA9212",
+      "name": "Samsung Wall Charger , 1 Ports Type C , 45 Watt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/a/7/0/4/a704cf730688f9f6d8a6df5316e7a9c70f0ac117_0984e3b95d536237c038bf6b68475fc37279a982824df94c5bd26348938588e7_copy_3.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 194,
+          "old_price": 194,
+          "url": "https://btech.com/en/p/f28ef578-afa8-49fe-a865-ac7cf3e29a80",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "id": "btech-1BSAASMOTA800NBEL007",
+      "name": "Samsung Wall Charger , 25 Watt 5 Volt Black",
+      "category": "إكسسوارات موبايل",
+      "search": "Samsung charger 25W",
+      "image": "https://media.btech.com/3/8/3/3/383312e1bed264dc5af53cc1cd299252cd31bf53_27253158104001.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 791,
+          "old_price": 791,
+          "url": "https://btech.com/en/p/samsung-wall-charger-black-ep-ta800",
           "in_stock": true
         }
       ]
@@ -4558,9 +5282,9 @@
       "offers": [
         {
           "store": "noon",
-          "price": 29999,
-          "old_price": 29999,
-          "url": "https://www.noon.com/egypt-en/watch-series-12-gps-46mm-international-version-black-aluminium-case-with-black-sport-band-m-l/N70437063V/p/?o=d998c04e30ea68fb",
+          "price": 29747,
+          "old_price": 29747,
+          "url": "https://www.noon.com/egypt-en/watch-series-12-gps-46mm-international-version-black-aluminium-case-with-black-sport-band-m-l/N70437063V/p/?o=d48684a001ddf4ee",
           "in_stock": true
         },
         {
@@ -4608,6 +5332,23 @@
     },
     {
       "brand": "Apple",
+      "id": "noon-N70213963V",
+      "name": "Watch Series 11 GPS 46mm (Middle East Version) Space Grey Aluminium Case With Black Sport Band SG Case - M/L",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://f.nooncdn.com/p/pzsku/ZA42E46A366E21FAA32FBZ/45/_/1779094947/cb0b2846-aced-46d8-b1b4-8b8dd62c21ba.jpg",
+      "offers": [
+        {
+          "store": "noon",
+          "price": 23499,
+          "old_price": 23499,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-middle-east-version-space-grey-aluminium-case-with-black-sport-band-sg-case-m-l/N70213963V/p/?o=aa81ec74927b017d",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
       "id": "noon-N70223204V",
       "name": "Watch Series 11 GPS 42mm (International Version) Space Grey Aluminium Case With Black Sport Band - M/L",
       "category": "ساعات ذكية",
@@ -4624,35 +5365,35 @@
       ]
     },
     {
-      "brand": "Apple",
-      "id": "noon-N70223287V",
-      "name": "Watch SE 3 GPS 40mm (International Version) Midnight Aluminium Case With Midnight Sport Band - S/M",
+      "brand": "Generic",
+      "id": "noon-N70223229V",
+      "name": "Apple Watch Series 11 GPS 46mm (International Version) Rose Gold Aluminium Case With Light Blush Sport Band - M/L",
       "category": "ساعات ذكية",
       "search": "Apple Watch",
-      "image": "https://f.nooncdn.com/p/pzsku/Z3A6F342A5F38C9557DE9Z/45/_/1779095161/2aba4a12-1324-4ace-8dcf-29f9ce402be1.jpg",
+      "image": "https://f.nooncdn.com/p/pzsku/Z14E389397407F5A9555AZ/45/_/1779094511/f4891ddb-af60-47a1-8525-931dfdd68665.jpg",
       "offers": [
         {
           "store": "noon",
-          "price": 14899,
-          "old_price": 14899,
-          "url": "https://www.noon.com/egypt-en/watch-se-3-gps-40mm-international-version-midnight-aluminium-case-with-midnight-sport-band-s-m/N70223287V/p/?o=eb48300bbafa9f1e",
+          "price": 21999,
+          "old_price": 21999,
+          "url": "https://www.noon.com/egypt-en/apple-watch-series-11-gps-46mm-international-version-rose-gold-aluminium-case-with-light-blush-sport-band-m-l/N70223229V/p/?o=bef2d2fa23bdbd2e",
           "in_stock": true
         }
       ]
     },
     {
       "brand": "Apple",
-      "id": "noon-N70213963V",
-      "name": "Watch Series 11 GPS 46mm (Middle East Version) Space Grey Aluminium Case With Black Sport Band SG Case - M/L",
+      "id": "noon-N70213871V",
+      "name": "Watch Series 11 GPS 46mm (Middle East Version) Silver Aluminium Case With Purple Fog Sport Band - M/L",
       "category": "ساعات ذكية",
       "search": "Apple Watch",
-      "image": "https://f.nooncdn.com/p/pzsku/ZA42E46A366E21FAA32FBZ/45/_/1779094947/cb0b2846-aced-46d8-b1b4-8b8dd62c21ba.jpg",
+      "image": "https://f.nooncdn.com/p/pzsku/Z68BFB5EAF8EFE49FC0C5Z/45/_/1779094659/a2493112-0a03-4827-99cc-4407a4e95d08.jpg",
       "offers": [
         {
           "store": "noon",
-          "price": 23499,
-          "old_price": 23499,
-          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-middle-east-version-space-grey-aluminium-case-with-black-sport-band-sg-case-m-l/N70213963V/p/?o=aa81ec74927b017d",
+          "price": 22400,
+          "old_price": 26000,
+          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-middle-east-version-silver-aluminium-case-with-purple-fog-sport-band-m-l/N70213871V/p/?o=d8d8140d4a43396f",
           "in_stock": true
         }
       ]
@@ -4676,17 +5417,136 @@
     },
     {
       "brand": "Apple",
-      "id": "noon-N70223300V",
-      "name": "Watch Series 11 GPS 46mm (International Version) Silver Aluminium Case With Purple Fog Sport Band - M/L",
+      "id": "btech-716F845F48E34227478D",
+      "name": "Apple Watch Series 10 Smart Watch , 42 Millimeter Black",
       "category": "ساعات ذكية",
       "search": "Apple Watch",
-      "image": "https://f.nooncdn.com/p/pzsku/Z29D80C3B759147E64981Z/45/_/1779094652/8c77a44c-06a5-448f-8e71-db33c4f4a71b.jpg",
+      "image": "https://media.btech.com/3/0/4/7/3047337fde68988ef710c39bc694189f5eec4eda_12d2799e9525166279c8265e165a344ab04bec288bd0bb8bcb43f8be463aa517.jpeg",
       "offers": [
         {
-          "store": "noon",
-          "price": 22700,
-          "old_price": 22700,
-          "url": "https://www.noon.com/egypt-en/watch-series-11-gps-46mm-international-version-silver-aluminium-case-with-purple-fog-sport-band-m-l/N70223300V/p/?o=ff0cddace208ca5e",
+          "store": "btech",
+          "price": 24999,
+          "old_price": 24999,
+          "url": "https://btech.com/en/p/apple-watch-series-10-42mm-black-case-with-black-strap",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-B69839A9EDA9369A8F70",
+      "name": "Apple Watch Series 10 Smart Watch , 46 Millimeter Black",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/6/4/1/8/6418b8c2402ca9f23e8613a57e7b917532e83be5_Apple_Watch_Series_10_46mm_GPS_Jet_Black_Aluminum_Sport_Band_Black_PDP_Image_Position_2__en_ME.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 26999,
+          "old_price": 26999,
+          "url": "https://btech.com/en/p/apple-watch-series-10-jet-black-case-strap",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-1BAPWEARAW1246BKL007",
+      "name": "Apple Watch Series 12 Smart Watch , 46 Millimeter Aluminum Black",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/0/5/3/c/053c005557b1909b525e4597ef5cd6fd7ef4cc9a_s12_case_select_202609_aluminum_black__2_44.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 29899,
+          "old_price": 32999,
+          "url": "https://btech.com/en/p/apple-watch-series-12-smart-watch-46-millimeter-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-FD4D75FD328EB31F288E",
+      "name": "Apple Watch Series 12 Smart Watch , 42 Millimeter Aluminum Black",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/5/d/d/e/5dde66e6734ee4be78b39074d66a6d02857017cc_s12_case_select_202609_aluminum_black__2_44.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 26500,
+          "old_price": 26500,
+          "url": "https://btech.com/en/p/apple-watch-series-12-smart-watch-42-millimeter-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-E8619C0E7ECE2A986EAA",
+      "name": "Apple Watch Series 10 Smart Watch , 46 Millimeter Multi Color",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/6/a/3/9/6a3979b6e496268ee4a0a0888f29fafd7b959eaf_w8d46qw5d1q6w5d46q.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 24999,
+          "old_price": 24999,
+          "url": "https://btech.com/en/p/apple-watch-series-10-46mm-m-l-silver-case-denim-sport-strap",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-26785B69C76E1993018E",
+      "name": "Apple Watch Ultra 4 Smart Watch , 49 Millimeter Natural Titanium",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/5/9/e/1/59e144f66552d8c697007532067f8e79db9d2ab5_natural1.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 52999,
+          "old_price": 52999,
+          "url": "https://btech.com/en/p/apple-watch-ultra-4-smart-watch-49-millimeter-natural-blue",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-734E9C6CFEBBE6BD1352",
+      "name": "Apple Watch Series 10 Smart Watch , 46 Millimeter Rose Gold",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/0/1/c/a/01ca5801c51f0304ba9685378f07340e63a6df73_Apple_Watch_Series_10_46mm_GPS_Rose_Gold_Aluminum_Sport_Band_Light_Blush_PDP_Image_Position_1__.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 21499,
+          "old_price": 21499,
+          "url": "https://btech.com/en/p/apple-watch-series-10-rose-gold-case-and-strap",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Apple",
+      "id": "btech-C983FFA87D941DCA2B19",
+      "name": "Apple Watch Series 10 Smart Watch , 42 Millimeter Black Plum",
+      "category": "ساعات ذكية",
+      "search": "Apple Watch",
+      "image": "https://media.btech.com/4/c/4/3/4c43b13c2e498f242d55803e0b8fa821e72980c8_e6221da1bfcad93d17079c8611701fffb879ac2b3ddfbba8e40396148f3b63e34c5_1.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 25999,
+          "old_price": 25999,
+          "url": "https://btech.com/en/p/3fe61f08-1ab6-41a6-b807-4988dd188d0a",
           "in_stock": true
         }
       ]
@@ -5141,6 +6001,142 @@
       ]
     },
     {
+      "brand": "Xiaomi",
+      "id": "btech-1BSAASMOMIB6BK00L007",
+      "name": "Xiaomi Mi Smart Band 6 Fitness Tracker Band for Android 5 Or iOS 10 and above , Black - BHR4951GL",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/e/6/a/6/e6a61c21832f350e6e96f0826462b9ecc354d1c3_xiaomi_mi_smart_band_6_bk_bhr4951gl_7.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 744,
+          "old_price": 744,
+          "url": "https://btech.com/en/p/xiaomi-mi-smart-band6-bhr4951gl",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
+      "id": "btech-1BSAASSBHUB11BLKL007",
+      "name": "Huawei Band 11 Smart Band , 1.62 Inch Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/2/3/4/e/234eb19f26075f5b1453cb59872cf9b24539d830_Huawei_Band_11_7430_1.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2399,
+          "old_price": 2399,
+          "url": "https://btech.com/en/p/7515e0a2-5366-450a-a43a-7675d4eaba67",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
+      "id": "btech-1BSAASSBHU11PRBKL007",
+      "name": "Huawei Band 11 Pro Smart Band , 1.62 Inch Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/3/f/3/e/3f3e2cc72668cd19c5ba55a42ef5e7fef9bd04bf_717glctSu8L._AC_SL1500_.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 3449,
+          "old_price": 3449,
+          "url": "https://btech.com/en/p/9057a909-003d-4f5e-8478-5b280310b257",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
+      "id": "btech-1BSAASSBHU11PGRNL005",
+      "name": "Huawei Band 11 Pro Smart Band , 1.62 Inch Silver Green",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/d/7/e/1/d7e133571e3f596cdca86f610da007b2c1d28242_1.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 3449,
+          "old_price": 3449,
+          "url": "https://btech.com/en/p/f785464f-9176-4927-aeb5-7cd5fcaafff7",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Weofly",
+      "id": "btech-1BWEWEARAIRFIT00L007",
+      "name": "Weofly AirFit Smart Band Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/f/2/c/a/f2cad122b95117edaaf20042c10772377f4b7e44_Screenshot_2026_10_25_160346.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2499,
+          "old_price": 2499,
+          "url": "https://btech.com/en/p/weofly-airfit-smart-band-black",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
+      "id": "btech-1BSAASMO55020EESL007",
+      "name": "Huawei Band 10 Smart Watch , 1.47 Inch Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/8/7/6/c/876c33f9ca6ecc9bc5158a26a49d8ad902f9f5bd_1379155a72076cd2fcc53cb8de909c87541e115313ce725491b8b7afa244cf39.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1599,
+          "old_price": 2105,
+          "url": "https://btech.com/en/p/huawei-band-10-smart-band-1-47-inch-black-case-black-strap",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Honor",
+      "id": "btech-1A7E8E0F7EC47276719A",
+      "name": "Honor Band 10 Smart Band , 1.57 Inch Black",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/c/a/8/3/ca8333afbb7d4f69d088df29c8b5a27cd881e954_download.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1676,
+          "old_price": 1676,
+          "url": "https://btech.com/en/p/985a941e-fb7a-43ff-8c71-b671d2498936",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Huawei",
+      "id": "btech-D1E0538F6C1EFBEC08B6",
+      "name": "Huawei Band 11 Smart Band , 1.62 Inch Purple",
+      "category": "ساعات ذكية",
+      "search": "Xiaomi smart band",
+      "image": "https://media.btech.com/4/f/6/1/4f610e74cbf48dee25d21994518cb6cd293cc57b_7a06fed4.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2600,
+          "old_price": 2600,
+          "url": "https://btech.com/en/p/6025841f-e273-4c37-9a63-979e3b460620",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "",
       "id": "2b-xiaomi-watch-s5-46mm-silver.html",
       "name": "Xiaomi Watch S5 46mm - Silver",
@@ -5307,6 +6303,13 @@
           "old_price": 3300,
           "url": "https://www.noon.com/egypt-en/g502-hero-high-performance-wired-gaming-mouse-hero-25k-sensor-25-600-dpi-rgb-adjustable-weights-11-programmable-buttons-on-board-memory-pc-and-mac/N21961435A/p/?o=fd7a42d52d48209a",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2145,
+          "old_price": 2145,
+          "url": "https://btech.com/en/p/6d3a9c41-cc88-49f6-84d7-10a3ad67ed52",
+          "in_stock": true
         }
       ]
     },
@@ -5323,6 +6326,13 @@
           "price": 839,
           "old_price": 1018,
           "url": "https://www.noon.com/egypt-en/logitech-g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-light-weight-black/N28863701A/p/?o=fd3bc87290ac0eab",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 925,
+          "old_price": 925,
+          "url": "https://btech.com/en/p/778d8293-30ce-451b-a01a-8324d4e80e85",
           "in_stock": true
         }
       ]
@@ -5341,6 +6351,13 @@
           "old_price": 4500,
           "url": "https://www.noon.com/egypt-en/g309-lightspeed-wireless-bluetooth-gaming-mouse-lightweight-lightforce-hybrid-switches-hero-25k-sensor-86g-300-hr-battery-life-with-aa-battery-6-programmable-buttons-pc-mac-black/N70178176V/p/?o=e17c1f24ebfcb4bd",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2950,
+          "old_price": 2950,
+          "url": "https://btech.com/en/p/3734aeb3-a91a-4ae3-ac80-15f6123ef27d",
+          "in_stock": true
         }
       ]
     },
@@ -5358,6 +6375,13 @@
           "old_price": 1099,
           "url": "https://www.noon.com/egypt-en/logitech-g102-light-sync-gaming-mouse-with-customizable-rgb-lighting-6-programmable-buttons-gaming-grade-sensor-8-k-dpi-tracking-16-8mn-color-light-weight-white/N28548671A/p/?o=dde616c72bd965ea",
           "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 949,
+          "old_price": 949,
+          "url": "https://btech.com/en/p/27e816f5-3f74-4b9e-8b45-4ec64ece91ea",
+          "in_stock": true
         }
       ]
     },
@@ -5374,6 +6398,13 @@
           "price": 1849,
           "old_price": 2299,
           "url": "https://www.noon.com/egypt-en/logitech-g305-lightspeed-wireless-gaming-mouse-hero-sensor-12-000-dpi-lightweight-6-programmable-buttons-250h-battery-life-on-board-memory-compatible-with-pc-mac-black/N16549206A/p/?o=eb7d3255ae0aa50a",
+          "in_stock": true
+        },
+        {
+          "store": "btech",
+          "price": 2143,
+          "old_price": 2143,
+          "url": "https://btech.com/en/p/e8b84a1a-55cb-4bcd-afba-7b8a96cfc3ed",
           "in_stock": true
         },
         {
@@ -5432,6 +6463,57 @@
           "price": 1849,
           "old_price": 2199,
           "url": "https://www.noon.com/egypt-en/logitech-g305-lightspeed-wireless-gaming-mouse-hero-sensor-12-000-dpi-lightweight-6-programmable-buttons-250h-battery-life-on-board-memory-compatible-with-pc-mac-white-i-910-005292/N16549207A/p/?o=feadf87de7bf350a",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Logitech",
+      "id": "btech-B98F63F14549CD8111E6",
+      "name": "Logitech G300s Optical Gaming Mouse , Black",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://media.btech.com/5/d/7/f/5d7fca0e88732a65e76d19aee4b5dcbfc7d1ce7f_71x1tdge27l._ac_sl1500_.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2288,
+          "old_price": 2288,
+          "url": "https://btech.com/en/p/cedd541d-36be-4318-bbe3-2f62881bb6c8",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Logitech",
+      "id": "btech-3F59871336CC8C8F6FF2",
+      "name": "Logitech Pro X Superlight 2 Wireless Gaming Mouse , White",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://media.btech.com/7/f/d/f/7fdf87b41c93c6afe8fea7493df73fe59a252759__2y_12_qEXjPWxbyxavfdLTBS2T4ObzIAnWSCRClOsooNy7zoW0pHKPI0m2e_removebg_preview.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 9266,
+          "old_price": 9266,
+          "url": "https://btech.com/en/p/logitech-pro-x-superlight-2-wireless-gaming-mouse-white",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Logitech",
+      "id": "btech-3A8A1A5F4A30BAFD62BB",
+      "name": "Logitech G309 Lightspeed Wireless Gaming Mouse , White - 910-007208",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "https://media.btech.com/6/d/c/f/6dcf6d551a5fdcdbecada87656a2a4b1fdc4f35c_Logitech_G309_Lightspeed_Wireless_Gaming_Mouse___White_500x.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2999,
+          "old_price": 2999,
+          "url": "https://btech.com/en/p/60117d7b-2458-49e6-9887-8d4504a7f41f",
           "in_stock": true
         }
       ]
@@ -5574,23 +6656,6 @@
     },
     {
       "brand": "",
-      "id": "carrefour-691268",
-      "name": "Zerotech Wired Gaming Mouse - Black - ZM-W2",
-      "category": "كمبيوتر",
-      "search": "Logitech gaming mouse",
-      "image": "",
-      "offers": [
-        {
-          "store": "carrefour",
-          "price": 319,
-          "old_price": null,
-          "url": "https://www.carrefouregypt.com/mafegy/en/keyboards/zerotech-keyboard-abs-zk-w2/p/691268?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
       "id": "carrefour-1800446000018",
       "name": "Meetion GM19 2023 RGB Backlight Wired Gaming Mouse",
       "category": "كمبيوتر",
@@ -5602,6 +6667,23 @@
           "price": 1099,
           "old_price": null,
           "url": "https://www.carrefouregypt.com/mafegy/en/mouse/meetion-gm19-2023-rgb-backlight-wired-gaming-mouse/p/1800446000018?offer=offer_1005018004&sid=DEFAULT&sellerId=18004",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "",
+      "id": "carrefour-691268",
+      "name": "Zerotech Wired Gaming Mouse - Black - ZM-W2",
+      "category": "كمبيوتر",
+      "search": "Logitech gaming mouse",
+      "image": "",
+      "offers": [
+        {
+          "store": "carrefour",
+          "price": 319,
+          "old_price": null,
+          "url": "https://www.carrefouregypt.com/mafegy/en/keyboards/zerotech-keyboard-abs-zk-w2/p/691268?offer=offer_carrefour_&sid=SLOTTED&sellerId=0000",
           "in_stock": true
         }
       ]
@@ -5896,6 +6978,156 @@
       ]
     },
     {
+      "brand": "Logitech",
+      "id": "btech-CCAAEE14A95908493412",
+      "name": "Logitech G213 Gaming , Black",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/2/d/3/f/2d3f64a788583bde7302111b9eabb6a7bdc8e9d3_2b3d4fef4c7af5e1508fef86154a0bb971e9735204cabb7073561324b9fa11dc.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 2849,
+          "old_price": 2849,
+          "url": "https://btech.com/en/p/385eb974-4ea0-412f-98e5-ed19d4107deb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Logitech",
+      "id": "btech-F485E6B57EBE898FCC4E",
+      "name": "Logitech G515 TKL Wired Gaming , Black - 920-012872",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/9/8/7/5/9875543cca5c40d61e69e975d3ee98c47126024a_imgi_2_Logitech_G515_TKL.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 6299,
+          "old_price": 6299,
+          "url": "https://btech.com/en/p/4bce977c-5ca0-4800-ad08-122ef16bbeb9",
+          "in_stock": true
+        },
+        {
+          "store": "2b",
+          "price": 6349,
+          "old_price": 8439,
+          "url": "https://2b.com.eg/en/logitech-g515-gaming-keyboard-tkl-920-012872-black.html",
+          "in_stock": true
+        },
+        {
+          "store": "noon",
+          "price": 5890,
+          "old_price": 7000,
+          "url": "https://www.noon.com/egypt-en/g515-tkl-wired-gaming-keyboard/N70177325V/p/?o=eb763389af5b37af",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Hp",
+      "id": "btech-C221A9D6649F73322594",
+      "name": "Hp Omen Encoder Wired (USB) Gaming , Black - 6YW76AA",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/c/b/1/7/cb17402d8fecc9026cadddce39558adc008b6ade_hp_omen_encoder_keyboard_6yw76aa_1.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 3333,
+          "old_price": 3333,
+          "url": "https://btech.com/en/p/2db68ca5-b1b2-479a-89b2-328f30ac8d15",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Lenovo",
+      "id": "btech-9E8B38F24BB417C8FDAB",
+      "name": "Lenovo K310 Wired (USB-A) Gaming , Black",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/3/a/b/8/3ab879f933dcfa79ba5a7ca40470cab0805eb02a_61peKYcMY0L._AC_SX679_.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 3390,
+          "old_price": 3390,
+          "url": "https://btech.com/en/p/be1f719a-821a-4edf-96c4-bf2b30a92cbb",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Redragon",
+      "id": "btech-4224598D974140CB1F8E",
+      "name": "Redragon Gaming , Black - K608",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/d/0/7/e/d07e0b2b6a0bfca5553b8d0c7ee37ae17acc8dd5_04bbfdbe279135eb4f2ccfb43db858301107c0573d3175e38927dc33d4deed80.jpeg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1990,
+          "old_price": 1990,
+          "url": "https://btech.com/en/p/redragon-mechanical-wired-gaming-keyboard-k608",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Generic",
+      "id": "btech-E47D02187EE41401A9C4",
+      "name": "Generic Wired Gaming , Black - K900GX",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/d/8/1/5/d8153d8c84842c9a284b68b5cdc3d4079338e25b_New_Project__2_.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1322,
+          "old_price": 1322,
+          "url": "https://btech.com/en/p/hood-1-5-m-usb-cable-gaming-black-k900gx",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Hood",
+      "id": "btech-C10BEDC95F38258734A1",
+      "name": "Hood Wired Gaming , Black - K800GX",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/c/4/1/1/c411423c7451b3424d19d60dc0fd3a79b5cd70cd_New_Project__3_.jpg",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 804,
+          "old_price": 804,
+          "url": "https://btech.com/en/p/hood-1-2-m-usb-cable-gaming-black-k800gx",
+          "in_stock": true
+        }
+      ]
+    },
+    {
+      "brand": "Redragon",
+      "id": "btech-833358109339C259E9F3",
+      "name": "Redragon KUMARA USB Gaming , Black - K552",
+      "category": "كمبيوتر",
+      "search": "gaming keyboard",
+      "image": "https://media.btech.com/9/e/8/1/9e81679bc14f9e6d4d288826fdcc0c602ba97bba_imgi_44_image_removebg_preview.png",
+      "offers": [
+        {
+          "store": "btech",
+          "price": 1880,
+          "old_price": 1880,
+          "url": "https://btech.com/en/p/f35fb061-f583-46c7-8c65-d94e2537064e",
+          "in_stock": true
+        }
+      ]
+    },
+    {
       "brand": "",
       "id": "2b-hyperx-eve1800-gaming-keyboard-wired-b7je0aa-a2n-black.html",
       "name": "HyperX EVE1800 Gaming keyboard Wired - B7JE0AA#A2N - Black",
@@ -5942,23 +7174,6 @@
           "price": 4499,
           "old_price": 6999,
           "url": "https://2b.com.eg/en/lenovo-legion-k510-gaming-mechanical-keyboard-mini-pro-arabic-english-gy41p80867-black.html",
-          "in_stock": true
-        }
-      ]
-    },
-    {
-      "brand": "",
-      "id": "2b-logitech-g515-gaming-keyboard-tkl-920-012872-black.html",
-      "name": "Logitech G515 Gaming Keyboard TKL - 920-012872 - Black",
-      "category": "كمبيوتر",
-      "search": "gaming keyboard",
-      "image": "https://2b.com.eg/media/catalog/product/cache/45bcba66b667d1ca52af48b101a5f0cb/k/b/kb600_1.jpg",
-      "offers": [
-        {
-          "store": "2b",
-          "price": 6349,
-          "old_price": 8439,
-          "url": "https://2b.com.eg/en/logitech-g515-gaming-keyboard-tkl-920-012872-black.html",
           "in_stock": true
         }
       ]
