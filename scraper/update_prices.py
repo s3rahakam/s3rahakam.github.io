@@ -177,9 +177,9 @@ def search_btech(q):
         })
         if len(out) >= PER_STORE:
             break
-    if not out and "is_in_stock" not in data:
-        raise RuntimeError("شكل صفحة B.TECH اتغير")
-    return out
+    if not out and re.search(r"captcha|Just a moment", page[:5000], re.I):
+        raise RuntimeError("B.TECH طلب تحقق (اتقفل)")
+    return out  # لو مفيش نتايج، ده معناه إن المنتج مش عندهم
 
 
 # ---------- 2B ----------
@@ -336,7 +336,7 @@ def merge(results, category, query):
 # ---------- التشغيل ----------
 
 ANCHORS = 5          # كام منتج من كل كلمة ندوّر عليه بالاسم في باقي المتاجر
-MAX_FAILS = 4        # متجر فشل كذا مرة في التشغيل ده؟ نوقفه لحد التشغيل الجاي
+MAX_FAILS = 4        # متجر فشل كذا مرة ورا بعض؟ نوقفه لحد التشغيل الجاي
 
 
 def targeted_query(p):
@@ -368,6 +368,7 @@ def main():
         try:
             found = SEARCHERS[store](query)
             ok += 1
+            fails[store] = 0  # بنعدّ الفشل المتتالي بس
             return found
         except Exception as e:  # noqa: BLE001
             fails[store] += 1
