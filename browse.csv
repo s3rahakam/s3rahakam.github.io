@@ -1,2 +1,25 @@
-search,category,pages,limit
-kids toys,لعب أطفال,2,50
+search,category,pages,limit,filter
+PS5 Slim,بلايستيشن,1,8,yes
+PS5 Pro,بلايستيشن,1,8,yes
+DualSense controller,بلايستيشن,1,8,yes
+PlayStation Portal,بلايستيشن,1,8,yes
+EA FC 26 PS5,بلايستيشن,1,8,yes
+iPhone 17 Pro Max,موبايلات,1,8,yes
+iPhone 17,موبايلات,1,8,yes
+iPhone 16,موبايلات,1,8,yes
+Samsung Galaxy S25 Ultra,موبايلات,1,8,yes
+Samsung Galaxy A56,موبايلات,1,8,yes
+Samsung Galaxy A36,موبايلات,1,8,yes
+Xiaomi Redmi Note 14 Pro,موبايلات,1,8,yes
+AirPods Pro 2,سماعات,1,8,yes
+AirPods 4,سماعات,1,8,yes
+Samsung Galaxy Buds3,سماعات,1,8,yes
+JBL Tune 520BT,سماعات,1,8,yes
+Anker power bank 20000mAh,إكسسوارات موبايل,1,8,yes
+Samsung 25W charger,إكسسوارات موبايل,1,8,yes
+Apple Watch Series 11,ساعات ذكية,1,8,yes
+Samsung Galaxy Watch8,ساعات ذكية,1,8,yes
+Xiaomi Smart Band,ساعات ذكية,1,8,yes
+Logitech G102,كمبيوتر,1,8,yes
+Logitech G502,كمبيوتر,1,8,yes
+kids toys,لعب أطفال,2,50,no

@@ -433,7 +433,8 @@ def main():
     except (OSError, ValueError):
         old = []
 
-    rows = [r for r in csv.DictReader(SEARCHES.open(encoding="utf-8-sig")) if (r.get("search") or "").strip()]
+    rows = [r for r in csv.DictReader(SEARCHES.open(encoding="utf-8-sig")) if (r.get("search") or "").strip()] \
+        if SEARCHES.exists() else []
     products, seen, ok, failed = [], set(), 0, []
     fails = {s: 0 for s in SEARCHERS}
 
@@ -525,7 +526,7 @@ def main():
     for row in browse:
         q, cat = row["search"].strip(), row["category"].strip()
         limit, pages = int(row.get("limit") or 40), int(row.get("pages") or 2)
-        refs = []
+        refs, noon_down = [], False
         for pg in range(1, pages + 1):
             try:
                 found = search_noon(q, limit=200, page_no=pg)
@@ -533,14 +534,17 @@ def main():
             except Exception as e:  # noqa: BLE001
                 failed.append(f"{q} p{pg} / noon: {e}")
                 print(f"✗ {q} صفحة {pg} / noon: {e}", file=sys.stderr)
+                noon_down = pg == 1
                 break
             refs += [r for r in found if r["key"] not in {x["key"] for x in refs}]
             time.sleep(random.uniform(3, 6))
+        if (row.get("filter") or "yes").strip().lower() != "no":  # شيل النتايج الدخيلة والإكسسوارات
+            refs = [r for r in refs if relevant(q, r["name"])]
         refs = refs[:limit]
         print(f"✓ قسم «{q}» من نون: {len(refs)} منتج مرجعي")
         merged = merge(refs, cat, q)
         fill(merged, [s for s in SEARCHERS if s != "noon" and fails[s] < MAX_FAILS])
-        if not refs:  # نون قفل؟ رجّع آخر نسخة من القسم
+        if noon_down:  # نون قفل؟ رجّع آخر نسخة من القسم
             merged = [{**p, "offers": [{**o, "stale": True} for o in p["offers"]]}
                       for p in old if p.get("search") == q]
         for p in merged:
