@@ -49,7 +49,9 @@ main{padding-block:20px 40px}
 .cat{font-size:12px;color:var(--muted);letter-spacing:.02em}
 .card h2{font-family:var(--display);font-size:15.5px;margin:2px 0 0;line-height:1.45;text-wrap:balance;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .head{display:flex;gap:12px;align-items:flex-start}.ht{min-width:0;flex:1}
-.thumb{width:76px;height:76px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid var(--line);flex:none}
+.thumb{width:76px;height:76px;object-fit:contain;border-radius:10px;background:#fff;border:1px solid var(--line);flex:none;display:block}
+.tw{flex:none}
+.thumb.ph{display:grid;place-items:center;background:var(--accent-soft);color:var(--accent);font-family:var(--display);font-size:28px;font-weight:700;border-color:transparent}
 .was{color:var(--muted);font-size:12px;margin-inline-end:6px}
 .more{font-size:13px;color:var(--muted)}.more a{color:var(--accent)}
 .save{font-size:13px;color:var(--good)}
@@ -123,6 +125,14 @@ function chips(){
     b.onclick=()=>{cat=c;persist();chips();render()};$("chips").appendChild(b)});
 }
 const avail=o=>o.price>0&&o.in_stock!==false;
+function thumb(p){const imgs=(p.images||(p.image?[p.image]:[])).filter(Boolean);
+  const letter=esc(((p.brand&&p.brand!=="Generic"?p.brand:p.name)||"?").trim().charAt(0).toUpperCase());
+  const ph=`<div class="thumb ph" aria-hidden="true">${letter}</div>`;
+  if(!imgs.length)return ph;
+  return `<span class="tw" data-imgs="${esc(JSON.stringify(imgs))}" data-i="0"><img class="thumb" src="${esc(imgs[0])}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`}
+document.addEventListener("error",e=>{const im=e.target;if(im.tagName!=="IMG"||!im.classList.contains("thumb"))return;
+  const w=im.parentElement;if(!w||!w.dataset.imgs)return;const list=JSON.parse(w.dataset.imgs),i=+w.dataset.i+1;
+  if(i<list.length){w.dataset.i=i;im.src=list[i]}else{w.outerHTML=`<div class="thumb ph" aria-hidden="true">•</div>`}},true);
 function live(p){return p.offers.filter(o=>o.price>0)}
 function stats(p){const v=(p.offers.filter(avail).length?p.offers.filter(avail):live(p)).map(o=>o.price);return v.length?{min:Math.min(...v),max:Math.max(...v)}:{min:Infinity,max:Infinity}}
 function render(){
@@ -137,7 +147,7 @@ function render(){
     const {min,max}=stats(p);
     const offers=live(p).sort((a,b)=>(avail(b)-avail(a))||(a.price-b.price));
     const card=document.createElement("article");card.className="card";
-    card.innerHTML=`<div class="head">${p.image?`<img class="thumb" src="${esc(p.image)}" alt="" loading="lazy" referrerpolicy="no-referrer">`:""}<div class="ht"><div class="cat">${esc(p.category)}</div><h2>${esc(p.name)}</h2>
+    card.innerHTML=`<div class="head">${thumb(p)}<div class="ht"><div class="cat">${esc(p.category)}</div><h2>${esc(p.name)}</h2>
       ${max>min?`<div class="save">توفّر لحد ${fmt(max-min)} لو اشتريت من الأرخص</div>`:""}</div></div>
       <ul class="offers">${offers.map(o=>{const s=DATA.stores[o.store]||{name:o.store};const out=!avail(o);const best=!out&&o.price===min;
         return `<li class="offer${best?" best":""}${out?" out":""}"><span class="store">${esc(s.name)}

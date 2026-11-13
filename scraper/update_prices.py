@@ -170,7 +170,7 @@ def search_btech(q):
             "name": name.group(1),
             "price": money(price.group(1)),
             "old_price": money(base.group(1)) if base else None,
-            "image": "https://media.btech.com/" + thumb.group(1) if thumb else "",
+            "image": "https://media.btech.com/catalogs/" + thumb.group(1) if thumb else "",
             "url": f"https://btech.com/en/p/{slug.group(1)}" if slug else "https://btech.com/en/s?q=" + quote_plus(q),
             "in_stock": not stock or stock.group(1) == "true",
             "key": "btech:" + sku.group(1),
@@ -319,7 +319,8 @@ def merge(results, category, query):
         offer = {k: r[k] for k in ("store", "price", "old_price", "url", "in_stock")}
         if best and score >= 0.5:
             best["offers"].append(offer)
-            best["image"] = best["image"] or r["image"]
+            if r["image"] and r["image"] not in best["images"]:
+                best["images"].append(r["image"])
         else:
             products.append({
                 "brand": r.get("brand", ""),
@@ -327,7 +328,7 @@ def merge(results, category, query):
                 "name": r["name"],
                 "category": category,
                 "search": query,
-                "image": r["image"],
+                "images": [r["image"]] if r["image"] else [],
                 "offers": [offer],
             })
     return products
@@ -406,7 +407,8 @@ def main():
                 if best and similar(p.get("brand", "") + " " + p["name"],
                                     best.get("brand", "") + " " + best["name"]) >= 0.5:
                     p["offers"].append({k: best[k] for k in ("store", "price", "old_price", "url", "in_stock")})
-                    p["image"] = p.get("image") or best.get("image", "")
+                    if best.get("image") and best["image"] not in p["images"]:
+                        p["images"].append(best["image"])
                     print(f"  ↳ {store}: لقيت «{p['name'][:45]}» بـ {best['price']:,}")
 
         # متجر فشل؟ رجّع آخر أسعاره المعروفة لنفس الكلمة
