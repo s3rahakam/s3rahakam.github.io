@@ -39,7 +39,7 @@ jobs:
             echo "مفيش تغيير"
           else
             git commit -m "تحديث الأسعار"
-            git pull --rebase origin main
+            git pull --rebase -X theirs origin main
             git push
           fi
 
