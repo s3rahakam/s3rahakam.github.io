@@ -430,8 +430,14 @@ def main():
         finally:
             time.sleep(random.uniform(3, 6))
 
+    paused = {s: 0 for s in SEARCHERS}
     for row in rows:
         q, cat = row["search"].strip(), (row.get("category") or "أخرى").strip()
+        for st in SEARCHERS:  # متجر وقفناه؟ نديله فرصة تانية كل 3 كلمات
+            if fails[st] >= MAX_FAILS:
+                paused[st] += 1
+                if paused[st] > 3:
+                    paused[st], fails[st] = 0, MAX_FAILS - 1
         results, dead = [], []
         with ThreadPoolExecutor(len(SEARCHERS)) as pool:  # كل متجر في خيط لوحده
             base = dict(zip(SEARCHERS, pool.map(lambda st: run(st, q), SEARCHERS)))
