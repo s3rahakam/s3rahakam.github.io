@@ -265,6 +265,7 @@ GENERIC_NUM = {"ps5", "ps4", "5g", "4g", "usb", "3a", "2", "1"}
 def keywords(name):
     """الكلمات المهمة بالترتيب (أول الاسم هو اللي فيه الموديل عادةً)."""
     n = name.lower()
+    n = re.sub(r"(?<=\b[a-z])-(?=[a-z]{3,})", "", n)  # E-train = Etrain
     n = re.sub(r"play\s*station\s*5|\bps\s*5\b", " ps5 ", n)
     n = re.sub(r"(\d+)\s+(gb|tb|mah|w|mm|inch|hz|k)\b", r"\1\2", n)
     n = re.sub(r"\bdual\s+sense\b", "dualsense", n)
@@ -336,8 +337,52 @@ def merge(results, category, query):
 
 # ---------- التشغيل ----------
 
-ANCHORS = 5          # كام منتج من كل كلمة ندوّر عليه بالاسم في باقي المتاجر
+ANCHORS = 6          # كام منتج من كل كلمة ندوّر عليه بالاسم في باقي المتاجر
 MAX_FAILS = 4        # متجر فشل كذا مرة ورا بعض؟ نوقفه لحد التشغيل الجاي
+
+
+def squash(text):
+    return re.sub(r"[^a-z0-9]", "", text.lower().replace("playstation 5", "ps5"))
+
+
+def relevant(query, name):
+    """النتيجة لازم يكون فيها أغلب كلمات البحث (المتاجر ساعات بترجع حاجات ملهاش علاقة)."""
+    need = [w for w in re.findall(r"[a-z0-9]+", query.lower().replace("playstation 5", "ps5"))
+            if len(w) >= 3 or any(c.isdigit() for c in w)]
+    if not need:
+        return True
+    have = squash(name)
+    hits = sum(1 for w in need if w in have)
+    return hits >= max(1, -(-len(need) * 6 // 10))  # 60% على الأقل
+
+
+def global_merge(products):
+    """يدمج نفس المنتج لو اتجاب من متاجر مختلفة أو تحت كلمات بحث مختلفة.
+    لو نفس المتجر عنده المنتج أكتر من مرة (بايعين مختلفين)، بنسيب الأرخص."""
+    products.sort(key=lambda p: -len(p["offers"]))
+    kept = []
+    for p in products:
+        stores = {o["store"] for o in p["offers"]}
+        target = None
+        for k in kept:
+            score = similar(k.get("brand", "") + " " + k["name"], p.get("brand", "") + " " + p["name"])
+            overlap = stores & {o["store"] for o in k["offers"]}
+            if score >= 0.85 or (score >= 0.5 and not overlap):
+                target = k
+                break
+        if not target:
+            kept.append(p)
+            continue
+        for o in p["offers"]:
+            same = next((x for x in target["offers"] if x["store"] == o["store"]), None)
+            if not same:
+                target["offers"].append(o)
+            elif (o.get("in_stock") is not False, -o["price"]) > (same.get("in_stock") is not False, -same["price"]):
+                target["offers"][target["offers"].index(same)] = o
+        for img in p.get("images", []):
+            if img not in target.setdefault("images", []):
+                target["images"].append(img)
+    return kept
 
 
 def targeted_query(p):
@@ -387,8 +432,9 @@ def main():
             if found is None:
                 dead.append(store)
             else:
-                results += found
-                print(f"✓ {q} / {store}: {len(found)} منتج")
+                good = [r for r in found if relevant(q, r["name"])]
+                results += good
+                print(f"✓ {q} / {store}: {len(good)} منتج" + (f" (شلت {len(found) - len(good)} ملهمش علاقة)" if len(good) < len(found) else ""))
 
         merged = merge(results, cat, q)
 
@@ -423,6 +469,10 @@ def main():
             if p["id"] not in seen:
                 seen.add(p["id"])
                 products.append(p)
+
+    before = len(products)
+    products = global_merge(products)
+    print(f"الدمج العام: {before - len(products)} منتج اتدمج مع نسخته في متجر تاني")
 
     data = {
         "demo": False,
